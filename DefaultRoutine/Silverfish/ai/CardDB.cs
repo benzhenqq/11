@@ -929,6 +929,20 @@ namespace HREngine.Bots
 
                 switch (this.name)
                 {
+                    case CardDB.cardName.libramofwisdom:
+					    retval = retval + offset - p.libram;
+						break;
+                    case CardDB.cardName.explorershat:
+                        retval = retval + offset - p.libram;
+                        break;
+                    case CardDB.cardName.libramofjustice:
+					    retval = retval + offset - p.libram;
+						break;
+					case CardDB.cardName.libramofhope:
+					    retval = retval + offset - p.libram;
+						break;
+
+
                     case CardDB.cardName.happyghoul:
                         if (p.ownHero.anzGotHealed > 0) retval = offset;
                         break;
@@ -1127,6 +1141,19 @@ namespace HREngine.Bots
 
                 switch (this.name)
                 {
+                    case CardDB.cardName.libramofwisdom:
+					    retval = retval + offset - p.libram;
+						break;
+                    case CardDB.cardName.explorershat:
+                        retval = retval + offset - p.libram;
+                        break;
+                    case CardDB.cardName.libramofjustice:
+					    retval = retval + offset - p.libram;
+						break;
+					case CardDB.cardName.libramofhope:
+					    retval = retval + offset - p.libram;
+						break;
+                        
                     case CardDB.cardName.volcaniclumberer:
                         retval = retval + offset - p.ownMinionsDiedTurn - p.enemyMinionsDiedTurn;
                         break;
