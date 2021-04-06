@@ -16,13 +16,14 @@
 
 #### 当前支持卡组
 
-1.  奥秘法
+#####  奥秘法
 AAEBAf0ECMAB67oC2bsCv6QDkOEDleEDwfAD558EC7sC7AX3Dde2Aoe9AsHBAo/TAr6kA92pA/SrA5HhAwA=
 
 来源：https://www.iyingdi.com/web/tools/hearthstone/userdecks/deckdetail/6144457?btypes=home
 
 包含的需要替换的核心卡： 法术反制
-2.  封印骑
+
+#####  封印骑
 AAEBAZ8FBKcF3QqOmgPj6wMNjAGIDuoPnRX40gLZ/gLKwQOD3gOR5AP36APO6wOanwTJoAQA
 
 来源：https://hsreplay.net/decks/3qZldXDg3OuWN3WBPO58Pb/
@@ -30,6 +31,7 @@ AAEBAZ8FBKcF3QqOmgPj6wMNjAGIDuoPnRX40gLZ/gLKwQOD3gOR5AP36APO6wOanwTJoAQA
 包含的需要替换的核心卡： 正义保护者、王者祝福
 
 可以替换的卡牌：复仇、责难
-3.  偶数萨（未测试）
+
+#####  偶数萨（未测试）
 
 
