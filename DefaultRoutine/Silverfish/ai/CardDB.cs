@@ -406,6 +406,7 @@ namespace HREngine.Bots
                             bool wrathofairtotem = false;
                             bool stoneclawtotem = false;
                             bool healingtotem = false;
+                            // FIXME 新图腾
                             foreach (Minion m in (own ? p.ownMinions : p.enemyMinions))
                             {
                                 if (m.name == CardDB.cardName.healingtotem)

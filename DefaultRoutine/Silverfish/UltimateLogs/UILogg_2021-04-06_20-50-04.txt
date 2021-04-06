@@ -1,0 +1,1663 @@
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:50:20 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 1/0
+mana 1/1
+emana 1
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 26 0 26 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 neversurrender 1 entity 16 DAL_570 0 0 0
+pos 2 shieldedminibot 2 entity 17 GVG_058 0 0 0
+pos 3 calltoarms 4 entity 19 LOOT_093 0 0 0
+pos 4 blessingofwisdom 1 entity 14 EX1_363 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,2;BOT_909,2;BAR_074,2;FP1_017,2;GVG_058,1;YOP_031,2;BAR_875,2;BT_292,2;EX1_349,1;AT_074,2;LOOT_093,1;CS2_092,2;
+recalc-check###########
+mana changed 1 -100 1 10 1 10
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -6
+play id 16 pos 1
+
+missing dmg to lethal 30
+calculated 0.0680047
+no lethal, do something random######
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -6
+play id 16 pos 1
+
+calculated 0.0760041
+play id 16 pos 1
+
+使用: 永不屈服 (16) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:50:23 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 1/1
+mana 0/1
+emana 1
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: DAL_570 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 26 0 26 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 shieldedminibot 2 entity 17 GVG_058 0 0 0
+pos 2 calltoarms 4 entity 19 LOOT_093 0 0 0
+pos 3 blessingofwisdom 1 entity 14 EX1_363 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,2;BOT_909,2;BAR_074,2;FP1_017,2;GVG_058,1;YOP_031,2;BAR_875,2;BT_292,2;EX1_349,1;AT_074,2;LOOT_093,1;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:50:38 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 3/0
+mana 2/2
+emana 2
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: DAL_570 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 25 0 25 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 shieldedminibot 2 entity 17 GVG_058 0 0 0
+pos 2 calltoarms 4 entity 19 LOOT_093 0 0 0
+pos 3 blessingofwisdom 1 entity 14 EX1_363 0 0 0
+pos 4 handofadal 2 entity 30 BT_292 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,2;BOT_909,2;BAR_074,2;FP1_017,2;GVG_058,1;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,1;CS2_092,2;
+recalc-check###########
+mana changed 2 -100 2 1 2 1
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -12
+useability 
+
+missing dmg to lethal 30
+calculated 0.0820025
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 17
+play id 17 pos 1
+
+calculated 0.0590052
+play id 17 pos 1
+
+使用: 护盾机器人 (17) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:50:41 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 3/1
+mana 0/2
+emana 2
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: DAL_570 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 25 0 25 0
+OwnMinions:
+shieldedminibot GVG_058 zp:1 e:17 A:2 H:2 mH:2 rdy:False natt:0 ex divshield ptt
+EnemyMinions:
+Own Handcards: 
+pos 1 calltoarms 4 entity 19 LOOT_093 0 0 0
+pos 2 blessingofwisdom 1 entity 14 EX1_363 0 0 0
+pos 3 handofadal 2 entity 30 BT_292 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,2;BOT_909,2;BAR_074,2;FP1_017,2;GVG_058,1;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,1;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:51:18 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 5/0
+mana 3/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 22 0 22 0
+OwnMinions:
+shieldedminibot GVG_058 zp:1 e:17 A:2 H:3 mH:4 rdy:True natt:0
+EnemyMinions:
+Own Handcards: 
+pos 1 calltoarms 4 entity 19 LOOT_093 0 0 0
+pos 2 blessingofwisdom 1 entity 14 EX1_363 0 0 0
+pos 3 handofadal 2 entity 30 BT_292 0 0 0
+pos 4 farwatchpost 2 entity 29 BAR_074 0 0 0
+pos 5 crabrider 2 entity 4 YOP_031 0 0 0
+pos 6 blessingofkings 4 entity 33 CS2_092 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: DAL_570,1;
+eg: EX1_277,1;UNG_941,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,2;BOT_909,2;BAR_074,1;FP1_017,2;GVG_058,1;YOP_031,1;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,1;CS2_092,1;
+recalc-check###########
+mana changed 3 -100 3 2 3 2
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 1
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 97.5
+attacker: 17 enemy: 66
+
+missing dmg to lethal 28
+calculated 0.1340109
+no lethal, do something random######
+ailoop
+deep 0 len 6 dones 0
+cut to len 6
+ailoop
+deep 1 len 21 dones 0
+cut to len 18
+ailoop
+deep 2 len 29 dones 0
+cut to len 18
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 61
+play id 30 target 17 pos 1
+
+play id 14 target 17 pos 1
+
+attacker: 17 enemy: 66
+
+calculated 0.2100114
+play id 30 target 17 pos 1
+
+使用: 阿达尔之手 (30) 瞄准: 护盾机器人 (17) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:51:22 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 5/1
+mana 1/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 21 0 22 0
+OwnMinions:
+shieldedminibot GVG_058 zp:1 e:17 A:4 H:5 mH:6 rdy:True natt:0
+EnemyMinions:
+Own Handcards: 
+pos 1 calltoarms 4 entity 19 LOOT_093 0 0 0
+pos 2 blessingofwisdom 1 entity 14 EX1_363 0 0 0
+pos 3 farwatchpost 2 entity 29 BAR_074 0 0 0
+pos 4 crabrider 2 entity 4 YOP_031 0 0 0
+pos 5 blessingofkings 4 entity 33 CS2_092 0 0 0
+pos 6 handofadal 2 entity 7 BT_292 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: BT_292,30;
+etg: 
+og: DAL_570,1;BT_292,1;
+eg: EX1_277,1;UNG_941,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,2;BOT_909,2;BAR_074,1;FP1_017,2;GVG_058,1;YOP_031,1;BAR_875,2;EX1_349,1;AT_074,2;LOOT_093,1;CS2_092,1;
+recalc-check###########
+handcard changed: handofadal
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 106.5
+attacker: 17 enemy: 66
+
+missing dmg to lethal 26
+calculated 0.0760053
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 2
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 46
+play id 14 target 17 pos 1
+
+attacker: 17 enemy: 66
+
+calculated 0.099519
+play id 14 target 17 pos 1
+
+使用: 智慧祝福 (14) 瞄准: 护盾机器人 (17) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:51:25 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 5/2
+mana 0/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 2 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 21 0 22 0
+OwnMinions:
+shieldedminibot GVG_058 zp:1 e:17 A:4 H:5 mH:6 rdy:True natt:0
+EnemyMinions:
+Own Handcards: 
+pos 1 calltoarms 4 entity 19 LOOT_093 0 0 0
+pos 2 farwatchpost 2 entity 29 BAR_074 0 0 0
+pos 3 crabrider 2 entity 4 YOP_031 0 0 0
+pos 4 blessingofkings 4 entity 33 CS2_092 0 0 0
+pos 5 handofadal 2 entity 7 BT_292 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: EX1_363,14;BT_292,30;
+etg: 
+og: EX1_363,1;DAL_570,1;BT_292,1;
+eg: EX1_277,1;UNG_941,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,2;BOT_909,2;BAR_074,1;FP1_017,2;GVG_058,1;YOP_031,1;BAR_875,2;EX1_349,1;AT_074,2;LOOT_093,1;CS2_092,1;
+recalc-check###########
+ownminions changed
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 103.5
+attacker: 17 enemy: 66
+
+missing dmg to lethal 26
+calculated 0.0605069
+no lethal, do something random######
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 28
+attacker: 17 enemy: 66
+
+calculated 0.0550052
+attacker: 17 enemy: 66
+
+随从攻击: 护盾机器人 目标为: 吉安娜·普罗德摩尔
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:51:30 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 5/3
+mana 0/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 2 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 20 0 22 0
+OwnMinions:
+shieldedminibot GVG_058 zp:1 e:17 A:4 H:5 mH:6 rdy:False natt:1 ex
+EnemyMinions:
+Own Handcards: 
+pos 1 calltoarms 4 entity 19 LOOT_093 0 0 0
+pos 2 farwatchpost 2 entity 29 BAR_074 0 0 0
+pos 3 crabrider 2 entity 4 YOP_031 0 0 0
+pos 4 blessingofkings 4 entity 33 CS2_092 0 0 0
+pos 5 handofadal 2 entity 7 BT_292 0 0 0
+pos 6 righteousprotector 1 entity 10 ICC_038 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: EX1_363,14;BT_292,30;
+etg: 
+og: EX1_363,1;DAL_570,1;BT_292,1;
+eg: EX1_277,1;UNG_941,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,1;BOT_909,2;BAR_074,1;FP1_017,2;GVG_058,1;YOP_031,1;BAR_875,2;EX1_349,1;AT_074,2;LOOT_093,1;CS2_092,1;
+recalc-check###########
+deck/fatigue changed 20 21 22 22 0 0 0 0
+minions count or hand changed
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 106.5
+missing dmg to lethal 26
+calculated 0.0580086
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 31
+calculated 0.0290026
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:51:52 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 7/0
+mana 4/4
+emana 4
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 19 0 21 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 calltoarms 4 entity 19 LOOT_093 0 0 0
+pos 2 farwatchpost 2 entity 29 BAR_074 0 0 0
+pos 3 crabrider 2 entity 4 YOP_031 0 0 0
+pos 4 blessingofkings 4 entity 33 CS2_092 0 0 0
+pos 5 handofadal 2 entity 7 BT_292 0 0 0
+pos 6 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 7 crystology 1 entity 23 BOT_909 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: EX1_363,1;DAL_570,1;GVG_058,1;BT_292,1;
+eg: CS2_024,1;DAL_577,1;EX1_277,1;UNG_941,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,1;BOT_909,1;BAR_074,1;FP1_017,2;GVG_058,1;YOP_031,1;BAR_875,2;EX1_349,1;AT_074,2;LOOT_093,1;CS2_092,1;
+recalc-check###########
+mana changed 4 -100 4 3 4 3
+Leathal-check###########
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 2 dones 0
+cut to len 2
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 207.5
+play id 19 pos 1
+
+missing dmg to lethal 26
+calculated 0.1400012
+no lethal, do something random######
+ailoop
+deep 0 len 6 dones 0
+cut to len 6
+ailoop
+deep 1 len 24 dones 0
+cut to len 21
+ailoop
+deep 2 len 19 dones 0
+cut to len 9
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 196
+play id 19 pos 1
+
+calculated 0.2000146
+play id 19 pos 1
+
+使用: 战斗号角 (19) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:51:56 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 7/1
+mana 0/4
+emana 4
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 16 0 21 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:6 A:1 H:4 mH:4 rdy:False natt:0 ex ptt
+shieldedminibot GVG_058 zp:2 e:21 A:2 H:2 mH:2 rdy:False natt:0 ex divshield ptt
+nerubarweblord FP1_017 zp:3 e:9 A:1 H:4 mH:4 rdy:False natt:0 ex ptt
+EnemyMinions:
+Own Handcards: 
+pos 1 farwatchpost 2 entity 29 BAR_074 0 0 0
+pos 2 crabrider 2 entity 4 YOP_031 0 0 0
+pos 3 blessingofkings 4 entity 33 CS2_092 0 0 0
+pos 4 handofadal 2 entity 7 BT_292 0 0 0
+pos 5 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 6 crystology 1 entity 23 BOT_909 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: LOOT_093,19;
+etg: 
+og: EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BT_292,1;
+eg: CS2_024,1;DAL_577,1;EX1_277,1;UNG_941,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,1;BOT_909,1;BAR_074,1;YOP_031,1;BAR_875,2;EX1_349,1;AT_074,2;LOOT_093,1;CS2_092,1;
+recalc-check###########
+deck/fatigue changed 16 19 21 21 0 0 0 0
+minions count or hand changed
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 65
+missing dmg to lethal 26
+calculated 0.0490182
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 38
+calculated 0.0300027
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:52:27 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 9/0
+mana 5/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 15 0 20 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:6 A:1 H:4 mH:4 rdy:True natt:0
+shieldedminibot GVG_058 zp:2 e:21 A:2 H:2 mH:2 rdy:True natt:0 divshield
+EnemyMinions:
+Own Handcards: 
+pos 1 farwatchpost 2 entity 29 BAR_074 0 0 0
+pos 2 crabrider 2 entity 4 YOP_031 0 0 0
+pos 3 blessingofkings 4 entity 33 CS2_092 0 0 0
+pos 4 handofadal 2 entity 7 BT_292 0 0 0
+pos 5 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 6 crystology 1 entity 23 BOT_909 0 0 0
+pos 7 sealofchampions 3 entity 8 AT_074 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BT_292,1;
+eg: CS2_024,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,1;BOT_909,1;BAR_074,1;YOP_031,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;CS2_092,1;
+recalc-check###########
+mana changed 5 -100 5 4 5 4
+Leathal-check###########
+ailoop
+deep 0 len 8 dones 0
+cut to len 8
+ailoop
+deep 1 len 36 dones 0
+cut to len 21
+ailoop
+deep 2 len 52 dones 0
+cut to len 22
+ailoop
+deep 3 len 24 dones 0
+cut to len 8
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 91
+play id 33 target 21 pos 1
+
+play id 23 pos 1
+
+attacker: 21 enemy: 66
+
+missing dmg to lethal 20
+calculated 0.2810252
+no lethal, do something random######
+ailoop
+deep 0 len 13 dones 0
+cut to len 13
+ailoop
+deep 1 len 131 dones 0
+cut to len 105
+ailoop
+deep 2 len 610 dones 0
+cut to len 297
+ailoop
+deep 3 len 908 dones 0
+cut to len 329
+ailoop
+deep 4 len 431 dones 0
+cut to len 122
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 128
+play id 4 pos 2
+
+play id 29 pos 1
+
+play id 23 pos 1
+
+attacker: 21 enemy: 66
+
+attacker: 6 enemy: 66
+
+calculated 0.3800294
+play id 4 pos 2
+
+使用: 螃蟹骑士 (4) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:52:31 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 9/1
+mana 3/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 15 0 20 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:6 A:1 H:4 mH:4 rdy:True natt:0
+crabrider YOP_031 zp:2 e:4 A:1 H:4 mH:4 rdy:True natt:0 ptt wndfr
+shieldedminibot GVG_058 zp:3 e:21 A:2 H:2 mH:2 rdy:True natt:0 divshield
+EnemyMinions:
+Own Handcards: 
+pos 1 farwatchpost 2 entity 29 BAR_074 0 0 0
+pos 2 blessingofkings 4 entity 33 CS2_092 0 0 0
+pos 3 handofadal 2 entity 7 BT_292 0 0 0
+pos 4 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 5 crystology 1 entity 23 BOT_909 0 0 0
+pos 6 sealofchampions 3 entity 8 AT_074 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BT_292,1;
+eg: CS2_024,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,1;BOT_909,1;BAR_074,1;YOP_031,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;CS2_092,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 29 pos 1
+
+使用: 前沿哨所 (29) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:52:35 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 9/2
+mana 1/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+2 2 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 15 0 20 0
+OwnMinions:
+farwatchpost BAR_074 zp:1 e:29 A:2 H:4 mH:4 rdy:False natt:0 ex ptt
+nerubarweblord FP1_017 zp:2 e:6 A:1 H:4 mH:4 rdy:True natt:0
+crabrider YOP_031 zp:3 e:4 A:1 H:4 mH:4 rdy:True natt:0 ptt wndfr
+shieldedminibot GVG_058 zp:4 e:21 A:2 H:2 mH:2 rdy:True natt:0 divshield
+EnemyMinions:
+Own Handcards: 
+pos 1 blessingofkings 4 entity 33 CS2_092 0 0 0
+pos 2 handofadal 2 entity 7 BT_292 0 0 0
+pos 3 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 4 crystology 1 entity 23 BOT_909 0 0 0
+pos 5 sealofchampions 3 entity 8 AT_074 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BT_292,1;
+eg: CS2_024,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;ICC_038,1;BOT_909,1;BAR_074,1;YOP_031,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;CS2_092,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 23 pos 1
+
+使用: 水晶学 (23) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:52:39 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 9/3
+mana 0/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+2 3 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 13 0 20 0
+OwnMinions:
+farwatchpost BAR_074 zp:1 e:29 A:2 H:4 mH:4 rdy:False natt:0 ex ptt
+nerubarweblord FP1_017 zp:2 e:6 A:1 H:4 mH:4 rdy:True natt:0
+crabrider YOP_031 zp:3 e:4 A:1 H:4 mH:4 rdy:True natt:0 ptt wndfr
+shieldedminibot GVG_058 zp:4 e:21 A:2 H:2 mH:2 rdy:True natt:0 divshield
+EnemyMinions:
+Own Handcards: 
+pos 1 blessingofkings 4 entity 33 CS2_092 0 0 0
+pos 2 handofadal 2 entity 7 BT_292 0 0 0
+pos 3 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 4 sealofchampions 3 entity 8 AT_074 0 0 0
+pos 5 crabrider 2 entity 11 YOP_031 0 0 0
+pos 6 righteousprotector 1 entity 15 ICC_038 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: BOT_909,23;
+etg: 
+og: FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BOT_909,1;BT_292,1;
+eg: CS2_024,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;BOT_909,1;BAR_074,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;CS2_092,1;
+recalc-check###########
+handcard changed: crabrider
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 1
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 57
+attacker: 21 enemy: 66
+
+attacker: 6 enemy: 66
+
+missing dmg to lethal 23
+calculated 0.0750064
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 1
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 35
+attacker: 21 enemy: 66
+
+attacker: 6 enemy: 66
+
+calculated 0.0720061
+attacker: 21 enemy: 66
+
+随从攻击: 护盾机器人 目标为: 吉安娜·普罗德摩尔
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:52:41 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 9/4
+mana 0/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+2 3 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 24 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 13 0 20 0
+OwnMinions:
+farwatchpost BAR_074 zp:1 e:29 A:2 H:4 mH:4 rdy:False natt:0 ex ptt
+nerubarweblord FP1_017 zp:2 e:6 A:1 H:4 mH:4 rdy:True natt:0
+crabrider YOP_031 zp:3 e:4 A:1 H:4 mH:4 rdy:True natt:0 ptt wndfr
+shieldedminibot GVG_058 zp:4 e:21 A:2 H:2 mH:2 rdy:False natt:1 ex divshield
+EnemyMinions:
+Own Handcards: 
+pos 1 blessingofkings 4 entity 33 CS2_092 0 0 0
+pos 2 handofadal 2 entity 7 BT_292 0 0 0
+pos 3 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 4 sealofchampions 3 entity 8 AT_074 0 0 0
+pos 5 crabrider 2 entity 11 YOP_031 0 0 0
+pos 6 righteousprotector 1 entity 15 ICC_038 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: BOT_909,23;
+etg: 
+og: FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BOT_909,1;BT_292,1;
+eg: CS2_024,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;BOT_909,1;BAR_074,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;CS2_092,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 6 enemy: 66
+
+随从攻击: 尼鲁巴蛛网领主 目标为: 吉安娜·普罗德摩尔
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:52:45 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 9/5
+mana 0/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+2 3 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 23 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 13 0 20 0
+OwnMinions:
+farwatchpost BAR_074 zp:1 e:29 A:2 H:4 mH:4 rdy:False natt:0 ex ptt
+nerubarweblord FP1_017 zp:2 e:6 A:1 H:4 mH:4 rdy:False natt:1 ex
+crabrider YOP_031 zp:3 e:4 A:1 H:4 mH:4 rdy:True natt:0 ptt wndfr
+shieldedminibot GVG_058 zp:4 e:21 A:2 H:2 mH:2 rdy:False natt:1 ex divshield
+EnemyMinions:
+Own Handcards: 
+pos 1 blessingofkings 4 entity 33 CS2_092 0 0 0
+pos 2 handofadal 2 entity 7 BT_292 0 0 0
+pos 3 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 4 sealofchampions 3 entity 8 AT_074 0 0 0
+pos 5 crabrider 2 entity 11 YOP_031 0 0 0
+pos 6 righteousprotector 1 entity 15 ICC_038 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: BOT_909,23;
+etg: 
+og: FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BOT_909,1;BT_292,1;
+eg: CS2_024,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;BOT_909,1;BAR_074,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;CS2_092,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:53:15 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/0
+mana 6/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 23 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 12 0 19 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:6 A:1 H:4 mH:4 rdy:True natt:0
+crabrider YOP_031 zp:2 e:4 A:1 H:4 mH:4 rdy:True natt:0 wndfr
+shieldedminibot GVG_058 zp:3 e:21 A:2 H:2 mH:2 rdy:True natt:0
+EnemyMinions:
+flameelemental UNG_809t1 zp:1 e:105 A:1 H:2 mH:2 rdy:False ex
+Own Handcards: 
+pos 1 blessingofkings 4 entity 33 CS2_092 0 0 0
+pos 2 handofadal 2 entity 7 BT_292 0 0 0
+pos 3 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 4 sealofchampions 3 entity 8 AT_074 0 0 0
+pos 5 crabrider 2 entity 11 YOP_031 0 0 0
+pos 6 righteousprotector 1 entity 15 ICC_038 0 0 0
+pos 7 blessingofkings 4 entity 18 CS2_092 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BOT_909,1;BAR_074,1;BT_292,1;
+eg: CS2_024,1;CS2_031,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;BOT_909,1;BAR_074,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;
+recalc-check###########
+mana changed 6 -100 6 5 6 5
+Leathal-check###########
+ailoop
+deep 0 len 10 dones 0
+cut to len 10
+ailoop
+deep 1 len 57 dones 0
+cut to len 31
+ailoop
+deep 2 len 124 dones 0
+cut to len 51
+ailoop
+deep 3 len 147 dones 0
+cut to len 52
+ailoop
+deep 4 len 100 dones 0
+cut to len 31
+ailoop
+deep 5 len 30 dones 0
+cut to len 8
+ailoop
+deep 6 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 5084
+play id 33 target 4 pos 1
+
+useability 
+
+attacker: 4 enemy: 66
+
+attacker: 4 enemy: 66
+
+attacker: 21 enemy: 66
+
+attacker: 6 enemy: 66
+
+missing dmg to lethal 10
+calculated 0.4500343
+no lethal, do something random######
+ailoop
+deep 0 len 18 dones 0
+cut to len 18
+ailoop
+deep 1 len 275 dones 0
+cut to len 182
+ailoop
+deep 2 len 2108 dones 0
+cut to len 945
+ailoop
+deep 3 len 7867 dones 0
+cut to len 1817
+ailoop
+deep 4 len 9078 dones 0
+cut to len 1802
+ailoop
+deep 5 len 6077 dones 0
+cut to len 1567
+ailoop
+deep 6 len 2953 dones 0
+cut to len 796
+ailoop
+deep 7 len 797 dones 0
+cut to len 238
+ailoop
+deep 8 len 184 dones 0
+cut to len 49
+ailoop
+deep 9 len 27 dones 0
+cut to len 6
+ailoop
+deep 10 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 240
+play id 33 target 4 pos 1
+
+play id 7 target 4 pos 1
+
+attacker: 4 enemy: 66
+
+attacker: 4 enemy: 66
+
+attacker: 21 enemy: 66
+
+attacker: 6 enemy: 66
+
+calculated 3.4802676
+play id 33 target 4 pos 1
+
+使用: 王者祝福 (33) 瞄准: 螃蟹骑士 (4) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:53:23 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/1
+mana 2/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 23 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 12 0 19 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:6 A:1 H:4 mH:4 rdy:True natt:0
+crabrider YOP_031 zp:2 e:4 A:5 H:8 mH:8 rdy:True natt:0 wndfr
+shieldedminibot GVG_058 zp:3 e:21 A:2 H:2 mH:2 rdy:True natt:0
+EnemyMinions:
+flameelemental UNG_809t1 zp:1 e:105 A:1 H:2 mH:2 rdy:False ex
+Own Handcards: 
+pos 1 handofadal 2 entity 7 BT_292 0 0 0
+pos 2 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 3 sealofchampions 3 entity 8 AT_074 0 0 0
+pos 4 crabrider 2 entity 11 YOP_031 0 0 0
+pos 5 righteousprotector 1 entity 15 ICC_038 0 0 0
+pos 6 blessingofkings 4 entity 18 CS2_092 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: CS2_092,33;
+etg: 
+og: FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BOT_909,1;BAR_074,1;BT_292,1;CS2_092,1;
+eg: CS2_024,1;CS2_031,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,2;BOT_909,1;BAR_074,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 7 target 4 pos 1
+
+使用: 阿达尔之手 (7) 瞄准: 螃蟹骑士 (4) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:53:27 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/2
+mana 0/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 2 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 23 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 11 0 19 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:6 A:1 H:4 mH:4 rdy:True natt:0
+crabrider YOP_031 zp:2 e:4 A:7 H:10 mH:10 rdy:True natt:0 wndfr
+shieldedminibot GVG_058 zp:3 e:21 A:2 H:2 mH:2 rdy:True natt:0
+EnemyMinions:
+flameelemental UNG_809t1 zp:1 e:105 A:1 H:2 mH:2 rdy:False ex
+Own Handcards: 
+pos 1 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 2 sealofchampions 3 entity 8 AT_074 0 0 0
+pos 3 crabrider 2 entity 11 YOP_031 0 0 0
+pos 4 righteousprotector 1 entity 15 ICC_038 0 0 0
+pos 5 blessingofkings 4 entity 18 CS2_092 0 0 0
+pos 6 redemption 1 entity 22 EX1_136 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: BT_292,7;CS2_092,33;
+etg: 
+og: BT_292,2;FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BOT_909,1;BAR_074,1;CS2_092,1;
+eg: CS2_024,1;CS2_031,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,1;BOT_909,1;BAR_074,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;
+recalc-check###########
+handcard changed: redemption
+Leathal-check###########
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 7 dones 0
+cut to len 4
+ailoop
+deep 2 len 7 dones 0
+cut to len 3
+ailoop
+deep 3 len 3 dones 0
+cut to len 1
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 5030
+attacker: 4 enemy: 66
+
+attacker: 4 enemy: 66
+
+attacker: 21 enemy: 66
+
+attacker: 6 enemy: 66
+
+missing dmg to lethal 6
+calculated 0.1840151
+no lethal, do something random######
+ailoop
+deep 0 len 6 dones 0
+cut to len 6
+ailoop
+deep 1 len 23 dones 0
+cut to len 13
+ailoop
+deep 2 len 32 dones 0
+cut to len 13
+ailoop
+deep 3 len 18 dones 0
+cut to len 6
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 60
+attacker: 21 enemy: 66
+
+attacker: 6 enemy: 66
+
+attacker: 4 enemy: 66
+
+attacker: 4 enemy: 66
+
+calculated 0.1590115
+attacker: 21 enemy: 66
+
+随从攻击: 护盾机器人 目标为: 吉安娜·普罗德摩尔
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:53:30 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/3
+mana 0/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 2 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 21 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 11 0 19 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:6 A:1 H:4 mH:4 rdy:True natt:0
+crabrider YOP_031 zp:2 e:4 A:7 H:10 mH:10 rdy:True natt:0 wndfr
+shieldedminibot GVG_058 zp:3 e:21 A:2 H:2 mH:2 rdy:False natt:1 ex
+EnemyMinions:
+flameelemental UNG_809t1 zp:1 e:105 A:1 H:2 mH:2 rdy:False ex
+Own Handcards: 
+pos 1 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 2 sealofchampions 3 entity 8 AT_074 0 0 0
+pos 3 crabrider 2 entity 11 YOP_031 0 0 0
+pos 4 righteousprotector 1 entity 15 ICC_038 0 0 0
+pos 5 blessingofkings 4 entity 18 CS2_092 0 0 0
+pos 6 redemption 1 entity 22 EX1_136 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: BT_292,7;CS2_092,33;
+etg: 
+og: BT_292,2;FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BOT_909,1;BAR_074,1;CS2_092,1;
+eg: CS2_024,1;CS2_031,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,1;BOT_909,1;BAR_074,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 6 enemy: 66
+
+随从攻击: 尼鲁巴蛛网领主 目标为: 吉安娜·普罗德摩尔
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:53:33 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/4
+mana 0/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 2 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 20 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 11 0 19 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:6 A:1 H:4 mH:4 rdy:False natt:1 ex
+crabrider YOP_031 zp:2 e:4 A:7 H:10 mH:10 rdy:True natt:0 wndfr
+shieldedminibot GVG_058 zp:3 e:21 A:2 H:2 mH:2 rdy:False natt:1 ex
+EnemyMinions:
+flameelemental UNG_809t1 zp:1 e:105 A:1 H:2 mH:2 rdy:False ex
+Own Handcards: 
+pos 1 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 2 sealofchampions 3 entity 8 AT_074 0 0 0
+pos 3 crabrider 2 entity 11 YOP_031 0 0 0
+pos 4 righteousprotector 1 entity 15 ICC_038 0 0 0
+pos 5 blessingofkings 4 entity 18 CS2_092 0 0 0
+pos 6 redemption 1 entity 22 EX1_136 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: BT_292,7;CS2_092,33;
+etg: 
+og: BT_292,2;FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BOT_909,1;BAR_074,1;CS2_092,1;
+eg: CS2_024,1;CS2_031,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,1;BOT_909,1;BAR_074,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 4 enemy: 66
+
+随从攻击: 螃蟹骑士 目标为: 吉安娜·普罗德摩尔
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:53:35 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/5
+mana 0/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 2 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 13 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 11 0 19 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:6 A:1 H:4 mH:4 rdy:False natt:1 ex
+crabrider YOP_031 zp:2 e:4 A:7 H:10 mH:10 rdy:True natt:1 wndfr
+shieldedminibot GVG_058 zp:3 e:21 A:2 H:2 mH:2 rdy:False natt:1 ex
+EnemyMinions:
+flameelemental UNG_809t1 zp:1 e:105 A:1 H:2 mH:2 rdy:False ex
+Own Handcards: 
+pos 1 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 2 sealofchampions 3 entity 8 AT_074 0 0 0
+pos 3 crabrider 2 entity 11 YOP_031 0 0 0
+pos 4 righteousprotector 1 entity 15 ICC_038 0 0 0
+pos 5 blessingofkings 4 entity 18 CS2_092 0 0 0
+pos 6 redemption 1 entity 22 EX1_136 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: BT_292,7;CS2_092,33;
+etg: 
+og: BT_292,2;FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BOT_909,1;BAR_074,1;CS2_092,1;
+eg: CS2_024,1;CS2_031,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,1;BOT_909,1;BAR_074,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 4 enemy: 66
+
+随从攻击: 螃蟹骑士 目标为: 吉安娜·普罗德摩尔
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:53:39 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/6
+mana 0/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 2 0 0 1
+ownhero:
+pala 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 6 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 11 0 19 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:6 A:1 H:4 mH:4 rdy:False natt:1 ex
+crabrider YOP_031 zp:2 e:4 A:7 H:10 mH:10 rdy:False natt:2 ex wndfr
+shieldedminibot GVG_058 zp:3 e:21 A:2 H:2 mH:2 rdy:False natt:1 ex
+EnemyMinions:
+flameelemental UNG_809t1 zp:1 e:105 A:1 H:2 mH:2 rdy:False ex
+Own Handcards: 
+pos 1 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 2 sealofchampions 3 entity 8 AT_074 0 0 0
+pos 3 crabrider 2 entity 11 YOP_031 0 0 0
+pos 4 righteousprotector 1 entity 15 ICC_038 0 0 0
+pos 5 blessingofkings 4 entity 18 CS2_092 0 0 0
+pos 6 redemption 1 entity 22 EX1_136 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: BT_292,7;CS2_092,33;
+etg: 
+og: BT_292,2;FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BOT_909,1;BAR_074,1;CS2_092,1;
+eg: CS2_024,1;CS2_031,1;DAL_577,1;EX1_277,1;UNG_941,1;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,1;BOT_909,1;BAR_074,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:54:13 V117.178 封印骑 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 13/0
+mana 7/7
+emana 7
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 27 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 6 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 10 0 18 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:6 A:1 H:4 mH:4 rdy:True natt:0
+crabrider YOP_031 zp:2 e:4 A:7 H:10 mH:10 rdy:False natt:0 frz wndfr
+shieldedminibot GVG_058 zp:3 e:21 A:2 H:2 mH:2 rdy:True natt:0
+EnemyMinions:
+flameelemental UNG_809t1 zp:1 e:105 A:1 H:2 mH:2 rdy:False ex
+Own Handcards: 
+pos 1 righteousprotector 1 entity 10 ICC_038 0 0 0
+pos 2 sealofchampions 3 entity 8 AT_074 0 0 0
+pos 3 crabrider 2 entity 11 YOP_031 0 0 0
+pos 4 righteousprotector 1 entity 15 ICC_038 0 0 0
+pos 5 blessingofkings 4 entity 18 CS2_092 0 0 0
+pos 6 redemption 1 entity 22 EX1_136 0 0 0
+pos 7 farwatchpost 2 entity 5 BAR_074 0 0 0
+Enemy cards: 4
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BT_292,2;FP1_017,1;EX1_363,1;DAL_570,1;GVG_058,1;LOOT_093,1;BOT_909,1;BAR_074,1;CS2_092,1;
+eg: CS2_024,1;CS2_031,2;DAL_577,1;EX1_277,1;UNG_941,2;BAR_541,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,1;BOT_909,1;BAR_875,2;EX1_349,1;AT_074,1;LOOT_093,1;
+recalc-check###########
+mana changed 7 -100 7 6 7 6
+Leathal-check###########
+ailoop
+deep 0 len 8 dones 0
+cut to len 8
+ailoop
+deep 1 len 48 dones 0
+cut to len 25
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 10000
+play id 18 target 21 pos 1
+
+attacker: 21 enemy: 66
+
+missing dmg to lethal 0
+calculated 0.2250211
+play id 18 target 21 pos 1
+
+使用: 王者祝福 (18) 瞄准: 护盾机器人 (21) 抉择: 0

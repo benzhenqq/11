@@ -8,7 +8,13 @@ namespace HREngine.Bots
 	{
 		//<b>Deathrattle:</b> Summon a 1/1 Tinyfin.
 		//<b>亡语：</b>召唤一个1/1的鱼人宝宝。
-		
+		CardDB.Card kid = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.LOEA10_3);
+
+		public override void onDeathrattle(Playfield p, Minion m)
+		{
+			int pos = (m.own) ? p.ownMinions.Count : p.enemyMinions.Count;
+            p.callKid(kid, pos, m.own, false);
+		}
 		
 	}
 }

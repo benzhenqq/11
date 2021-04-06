@@ -2537,6 +2537,14 @@
                     break;
                 // 逝者之剑
                 case CardDB.cardName.swordofthefallen:
+                    // 开局第二回合优先上随从
+                    if(p.ownMaxMana <=2 ){
+                        foreach(Handmanager.Handcard hc in p.owncards)
+                        {
+                            CardDB.Card m = hc.card;
+                            if(m.cost == 2) return 0;
+                        }
+                    }
                     // 已经装备一把了就别挂了
                     if(p.ownWeapon.Durability > 0){
                         return 20;
@@ -2618,7 +2626,12 @@
                     return 10;
                 // 古神在上
                 case CardDB.cardName.ohmyyogg:
-                    return -5;
+                    // 前期一律不出留着
+                    if( p.enemyMaxMana < 4 ) return 100;
+                    // 随从少/对手没牌不用防
+                    if(p.ownMinions.Count < 2 || p.tempanzEnemyCards < 4) return 10;
+                    // 随从越多越需要优先打出
+                    return -20 * (p.ownMinions.Count - 2) - (p.tempanzEnemyCards - 2) * 10;
                 // 尼鲁巴蛛
                 case CardDB.cardName.nerubarweblord:
                     if(counterPriest) return 20;
@@ -2751,7 +2764,7 @@
                 // 援军
                 case CardDB.cardName.reinforce:
                     if(counterPriest) return 20;
-                    return -2;
+                    return 0;
                 // 强化援军/白银之手
                 case CardDB.cardName.thesilverhand:
                     return -5;                

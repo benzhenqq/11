@@ -23,6 +23,7 @@ namespace HREngine.Bots
             {
                 switch (m.name)
                 {
+                    // FIXME 新图腾
                     case CardDB.cardName.searingtotem: otherTotems++; continue;
                     case CardDB.cardName.stoneclawtotem: otherTotems++; continue;
                     case CardDB.cardName.healingtotem: otherTotems++; continue;

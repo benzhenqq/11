@@ -12,10 +12,13 @@ namespace HREngine.Bots
         {
             if (!turnStartOfOwner && triggerEffectMinion.own == turnStartOfOwner)
             {
-                if(p.enemyMaxMana >= 5){
-                    p.minionGetBuffed(triggerEffectMinion, 2, 2);
-                }else {
-                    p.minionGetBuffed(triggerEffectMinion, 1, 0);
+                // 对战奇数骑
+                if( p.enemyHeroAblility.card.name == CardDB.cardName.silverhand ){
+                    if(p.enemyMaxMana >= 5){
+                        p.minionGetBuffed(triggerEffectMinion, 2, 2);
+                    }else {
+                        p.minionGetBuffed(triggerEffectMinion, 1, 0);
+                    }
                 }
             }
         }
