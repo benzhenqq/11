@@ -30,7 +30,6 @@ AAEBAZ8FBKcF3QqOmgPj6wMNjAGIDuoPnRX40gLZ/gLKwQOD3gOR5AP36APO6wOanwTJoAQA
 包含的需要替换的核心卡： 正义保护者、王者祝福
 
 可以替换的卡牌：复仇、责难
-
 3.  偶数萨（未测试）
 
 
