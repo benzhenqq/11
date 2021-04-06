@@ -32,6 +32,8 @@ AAEBAZ8FBKcF3QqOmgPj6wMNjAGIDuoPnRX40gLZ/gLKwQOD3gOR5AP36APO6wOanwTJoAQA
 
 可以替换的卡牌：复仇、责难
 
+策略请选择 “怼脸模式”
+
 #####  偶数萨（未测试）
 
 
