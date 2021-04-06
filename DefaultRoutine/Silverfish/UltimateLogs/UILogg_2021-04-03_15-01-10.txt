@@ -1,0 +1,58 @@
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 15:01:28 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 1/0
+mana 1/1
+emana 1
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 2
+ownhero:
+mage 30 30 0 False False 66 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 30 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 26 0 26 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 netherwindportal 3 entity 44 BT_003 0 0 0
+pos 2 saygeseerofdarkmoon 6 entity 38 DMF_109 0 0 0
+pos 3 fireball 4 entity 56 CS2_029 0 0 0
+pos 4 kabalcrystalrunner 6 entity 43 CFM_760 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: CFM_066,2;ULD_240,2;FP1_004,2;UNG_020,2;ULD_726,2;KAR_092,2;EX1_295,1;EX1_287,2;ULD_239,1;LOOT_101,2;EX1_612,1;DMF_107,1;CS2_029,1;DMF_106,2;ULD_293,2;CFM_760,1;
+recalc-check###########
+mana changed 1 -100 1 6 1 6
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -12
+missing dmg to lethal 30
+calculated 0.031
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -12
+calculated 0.016

@@ -1,0 +1,2488 @@
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:10:58 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 1/0
+mana 1/1
+emana 1
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 26 0 26 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 cloudprince 5 entity 25 ULD_293 0 0 0
+pos 3 arcanologist 2 entity 7 UNG_020 0 0 0
+pos 4 counterspell 3 entity 31 EX1_287 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_295,1;EX1_287,1;ULD_239,1;LOOT_101,2;EX1_612,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,2;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+enemy secrets changed 
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -12
+missing dmg to lethal 30
+calculated 0.0440195
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -12
+calculated 0.0339954
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:11:13 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 3/0
+mana 2/2
+emana 2
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 25 0 25 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 cloudprince 5 entity 25 ULD_293 0 0 0
+pos 3 arcanologist 2 entity 7 UNG_020 0 0 0
+pos 4 counterspell 3 entity 31 EX1_287 0 0 0
+pos 5 explosiverunes 3 entity 6 LOOT_101 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_295,1;EX1_287,1;ULD_239,1;LOOT_101,1;EX1_612,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,2;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+enemy secrets changed 
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -1
+useability 
+on enemy: 66
+
+missing dmg to lethal 29
+calculated 0.0959937
+no lethal, do something random######
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 23
+play id 7 pos 1
+
+calculated 0.088648
+play id 7 pos 1
+
+使用: 秘法学家 (7) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:11:18 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 3/1
+mana 0/2
+emana 2
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 24 0 25 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:False natt:0 ex ptt
+EnemyMinions:
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 cloudprince 5 entity 25 ULD_293 0 0 0
+pos 3 counterspell 3 entity 31 EX1_287 0 0 0
+pos 4 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 5 flameward 3 entity 21 ULD_239 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_295,1;EX1_287,1;LOOT_101,1;EX1_612,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,2;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+handcard changed: flameward
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 26
+missing dmg to lethal 30
+calculated 0.0519995
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 19
+calculated 0.0430031
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:11:34 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 5/0
+mana 3/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 23 0 24 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:True natt:0
+EnemyMinions:
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 cloudprince 5 entity 25 ULD_293 0 0 0
+pos 3 counterspell 3 entity 31 EX1_287 0 0 0
+pos 4 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 5 flameward 3 entity 21 ULD_239 0 0 0
+pos 6 occultconjurer 4 entity 10 DMF_106 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: EX1_339,1;
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_295,1;EX1_287,1;LOOT_101,1;EX1_612,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+mana changed 3 -100 3 2 3 2
+Leathal-check###########
+ailoop
+deep 0 len 5 dones 0
+cut to len 5
+ailoop
+deep 1 len 8 dones 0
+cut to len 4
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 39.5
+play id 31 pos 1
+
+attacker: 7 enemy: 66
+
+missing dmg to lethal 28
+calculated 0.1450287
+no lethal, do something random######
+ailoop
+deep 0 len 8 dones 0
+cut to len 8
+ailoop
+deep 1 len 14 dones 0
+cut to len 8
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 36
+play id 31 pos 1
+
+attacker: 7 enemy: 66
+
+calculated 0.1510087
+play id 31 pos 1
+
+使用: 法术反制 (31) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:11:38 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 5/1
+mana 0/3
+emana 3
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: EX1_287 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 23 0 24 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:True natt:0
+EnemyMinions:
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 cloudprince 5 entity 25 ULD_293 0 0 0
+pos 3 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 4 flameward 3 entity 21 ULD_239 0 0 0
+pos 5 occultconjurer 4 entity 10 DMF_106 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: EX1_339,1;
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_295,1;EX1_287,1;LOOT_101,1;EX1_612,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 7 enemy: 66
+
+随从攻击: 秘法学家 目标为: 泰兰德·语风
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:11:42 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 5/2
+mana 0/3
+emana 3
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: EX1_287 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 28 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 23 0 24 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:False natt:1 ex
+EnemyMinions:
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 cloudprince 5 entity 25 ULD_293 0 0 0
+pos 3 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 4 flameward 3 entity 21 ULD_239 0 0 0
+pos 5 occultconjurer 4 entity 10 DMF_106 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: EX1_339,1;
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_295,1;EX1_287,1;LOOT_101,1;EX1_612,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:12:01 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 7/0
+mana 4/4
+emana 4
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 28 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 22 0 23 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:True natt:0
+EnemyMinions:
+kirintormage EX1_612 zp:1 e:80 A:4 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 cloudprince 5 entity 25 ULD_293 0 0 0
+pos 3 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 4 flameward 3 entity 21 ULD_239 0 0 0
+pos 5 occultconjurer 4 entity 10 DMF_106 0 0 0
+pos 6 kirintormage 3 entity 17 EX1_612 0 0 0
+Enemy cards: 7
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: EX1_287,1;
+eg: EX1_339,1;
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_295,1;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+mana changed 4 -100 4 3 4 3
+Leathal-check###########
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 4 dones 0
+cut to len 2
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 20
+useability 
+on enemy: 66
+
+missing dmg to lethal 27
+calculated 0.1615335
+no lethal, do something random######
+ailoop
+deep 0 len 10 dones 0
+cut to len 10
+ailoop
+deep 1 len 42 dones 0
+cut to len 33
+ailoop
+deep 2 len 56 dones 0
+cut to len 22
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 49
+play id 17 pos 2
+
+play id 21 pos 1
+
+attacker: 7 enemy: 66
+
+calculated 0.2312333
+play id 17 pos 2
+
+使用: 肯瑞托法师 (17) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:12:06 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 7/1
+mana 1/4
+emana 4
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 28 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 22 0 23 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:True natt:0
+kirintormage EX1_612 zp:2 e:17 A:4 H:3 mH:3 rdy:False natt:0 ex ptt
+EnemyMinions:
+kirintormage EX1_612 zp:1 e:80 A:4 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 cloudprince 5 entity 25 ULD_293 0 0 0
+pos 3 explosiverunes 0 entity 6 LOOT_101 0 0 0
+pos 4 flameward 0 entity 21 ULD_239 0 0 0
+pos 5 occultconjurer 4 entity 10 DMF_106 0 0 0
+Enemy cards: 7
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: EX1_287,1;
+eg: EX1_339,1;
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_295,1;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 21 pos 1
+
+使用: 火焰结界 (21) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:12:09 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 7/2
+mana 1/4
+emana 4
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 2 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 28 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 22 0 23 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:True natt:0
+kirintormage EX1_612 zp:2 e:17 A:4 H:3 mH:3 rdy:False natt:0 ex ptt
+EnemyMinions:
+kirintormage EX1_612 zp:1 e:80 A:4 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 cloudprince 5 entity 25 ULD_293 0 0 0
+pos 3 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 4 occultconjurer 4 entity 10 DMF_106 0 0 0
+Enemy cards: 7
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: EX1_287,1;
+eg: EX1_339,1;
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_295,1;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 7 enemy: 66
+
+随从攻击: 秘法学家 目标为: 泰兰德·语风
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:12:13 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 7/3
+mana 1/4
+emana 4
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 2 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 22 0 23 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:False natt:1 ex
+kirintormage EX1_612 zp:2 e:17 A:4 H:3 mH:3 rdy:False natt:0 ex ptt
+EnemyMinions:
+kirintormage EX1_612 zp:1 e:80 A:4 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 cloudprince 5 entity 25 ULD_293 0 0 0
+pos 3 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 4 occultconjurer 4 entity 10 DMF_106 0 0 0
+Enemy cards: 7
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: EX1_287,1;
+eg: EX1_339,1;
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_295,1;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:12:30 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 9/0
+mana 5/5
+emana 5
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 21 0 22 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:True natt:0
+EnemyMinions:
+unknown None zp:1 e:46 A:3 H:4 mH:4 rdy:False ex
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 cloudprince 5 entity 25 ULD_293 0 0 0
+pos 3 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 4 occultconjurer 4 entity 10 DMF_106 0 0 0
+pos 5 iceblock 3 entity 22 EX1_295 0 0 0
+Enemy cards: 7
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: EX1_612,1;EX1_287,1;
+eg: EX1_339,1;
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+mana changed 5 -100 5 4 5 4
+Leathal-check###########
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 10 dones 0
+cut to len 5
+ailoop
+deep 2 len 6 dones 0
+cut to len 2
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 32
+useability 
+on enemy: 66
+
+play id 22 pos 1
+
+missing dmg to lethal 25
+calculated 0.2130147
+no lethal, do something random######
+ailoop
+deep 0 len 14 dones 0
+cut to len 14
+ailoop
+deep 1 len 72 dones 0
+cut to len 53
+ailoop
+deep 2 len 110 dones 0
+cut to len 42
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 24
+attacker: 7 enemy: 66
+
+play id 25 target 46 pos 2
+
+calculated 0.2395181
+attacker: 7 enemy: 66
+
+随从攻击: 秘法学家 目标为: 泰兰德·语风
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:12:34 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 9/1
+mana 5/5
+emana 5
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 24 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 21 0 22 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:False natt:1 ex
+EnemyMinions:
+unknown None zp:1 e:46 A:3 H:4 mH:4 rdy:False ex
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 cloudprince 5 entity 25 ULD_293 0 0 0
+pos 3 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 4 occultconjurer 4 entity 10 DMF_106 0 0 0
+pos 5 iceblock 3 entity 22 EX1_295 0 0 0
+Enemy cards: 7
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: EX1_612,1;EX1_287,1;
+eg: EX1_339,1;
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 25 target 46 pos 2
+
+使用: 云雾王子 (25) 瞄准: 曼科里克 (46) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:12:41 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 9/2
+mana 0/5
+emana 5
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 24 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 21 0 22 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:False natt:1 ex
+cloudprince ULD_293 zp:2 e:25 A:4 H:4 mH:4 rdy:False natt:0 ex ptt
+EnemyMinions:
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 3 occultconjurer 4 entity 10 DMF_106 0 0 0
+pos 4 iceblock 3 entity 22 EX1_295 0 0 0
+Enemy cards: 7
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: None,46;
+og: EX1_612,1;EX1_287,1;
+eg: None,1;EX1_339,1;
+od: CFM_066,2;ULD_240,2;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:13:00 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 11/0
+mana 6/6
+emana 6
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 20 0 21 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:True natt:0
+cloudprince ULD_293 zp:2 e:25 A:4 H:4 mH:4 rdy:True natt:0
+EnemyMinions:
+razathechained CFM_020 zp:1 e:48 A:5 H:5 mH:5 rdy:False ex
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 3 occultconjurer 4 entity 10 DMF_106 0 0 0
+pos 4 iceblock 3 entity 22 EX1_295 0 0 0
+pos 5 arcaneflakmage 2 entity 30 ULD_240 0 0 0
+Enemy cards: 7
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: EX1_612,1;EX1_287,1;
+eg: None,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+mana changed 6 -100 6 5 6 5
+Leathal-check###########
+ailoop
+deep 0 len 5 dones 0
+cut to len 5
+ailoop
+deep 1 len 20 dones 0
+cut to len 10
+ailoop
+deep 2 len 27 dones 0
+cut to len 9
+ailoop
+deep 3 len 12 dones 0
+cut to len 3
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 32
+useability 
+on enemy: 66
+
+attacker: 25 enemy: 66
+
+play id 22 pos 1
+
+missing dmg to lethal 21
+calculated 0.4430317
+no lethal, do something random######
+ailoop
+deep 0 len 14 dones 0
+cut to len 14
+ailoop
+deep 1 len 151 dones 0
+cut to len 107
+ailoop
+deep 2 len 714 dones 0
+cut to len 296
+ailoop
+deep 3 len 970 dones 0
+cut to len 282
+ailoop
+deep 4 len 227 dones 0
+cut to len 54
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 40
+attacker: 25 enemy: 48
+
+play id 30 pos 2
+
+play id 10 pos 2
+
+attacker: 7 enemy: 48
+
+calculated 0.5540385
+attacker: 25 enemy: 48
+
+随从攻击: 云雾王子 目标为: 缚链者拉兹
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:13:05 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 11/1
+mana 6/6
+emana 6
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 20 0 21 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:True natt:0
+EnemyMinions:
+razathechained CFM_020 zp:1 e:48 A:5 H:1 mH:5 rdy:False ex
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 3 occultconjurer 4 entity 10 DMF_106 0 0 0
+pos 4 iceblock 3 entity 22 EX1_295 0 0 0
+pos 5 arcaneflakmage 2 entity 30 ULD_240 0 0 0
+Enemy cards: 7
+ownDiedMinions: ULD_293,25;
+enemyDiedMinions: 
+otg: ULD_293,25;
+etg: 
+og: EX1_612,1;ULD_293,1;EX1_287,1;
+eg: None,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 30 pos 2
+
+使用: 对空奥术法师 (30) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:13:09 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 11/2
+mana 4/6
+emana 6
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 20 0 21 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:True natt:0
+arcaneflakmage ULD_240 zp:2 e:30 A:3 H:2 mH:2 rdy:False natt:0 ex ptt
+EnemyMinions:
+razathechained CFM_020 zp:1 e:48 A:5 H:1 mH:5 rdy:False ex
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 3 occultconjurer 4 entity 10 DMF_106 0 0 0
+pos 4 iceblock 3 entity 22 EX1_295 0 0 0
+Enemy cards: 7
+ownDiedMinions: ULD_293,25;
+enemyDiedMinions: 
+otg: ULD_293,25;
+etg: 
+og: EX1_612,1;ULD_293,1;EX1_287,1;
+eg: None,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 10 pos 2
+
+使用: 隐秘咒术师 (10) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:13:14 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 11/3
+mana 0/6
+emana 6
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+2 2 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 20 0 21 0
+OwnMinions:
+arcanologist UNG_020 zp:1 e:7 A:2 H:3 mH:3 rdy:True natt:0
+occultconjurer DMF_106 zp:2 e:10 A:4 H:4 mH:4 rdy:False natt:0 ex ptt
+occultconjurer DMF_106 zp:3 e:95 A:4 H:4 mH:4 rdy:False natt:0 ex ptt
+arcaneflakmage ULD_240 zp:4 e:30 A:3 H:2 mH:2 rdy:False natt:0 ex ptt
+EnemyMinions:
+razathechained CFM_020 zp:1 e:48 A:5 H:1 mH:5 rdy:False ex
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 3 iceblock 3 entity 22 EX1_295 0 0 0
+Enemy cards: 7
+ownDiedMinions: ULD_293,25;
+enemyDiedMinions: 
+otg: ULD_293,25;
+etg: 
+og: EX1_612,1;ULD_293,1;EX1_287,1;
+eg: None,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+minions count or hand changed
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 49
+missing dmg to lethal 26
+calculated 0.0890062
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 34
+attacker: 7 enemy: 48
+
+calculated 0.0830296
+attacker: 7 enemy: 48
+
+随从攻击: 秘法学家 目标为: 缚链者拉兹
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:13:18 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 11/4
+mana 0/6
+emana 6
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+2 2 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 20 0 21 0
+OwnMinions:
+occultconjurer DMF_106 zp:1 e:10 A:4 H:4 mH:4 rdy:False natt:0 ex ptt
+occultconjurer DMF_106 zp:2 e:95 A:4 H:4 mH:4 rdy:False natt:0 ex ptt
+arcaneflakmage ULD_240 zp:3 e:30 A:3 H:2 mH:2 rdy:False natt:0 ex ptt
+EnemyMinions:
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 3 iceblock 3 entity 22 EX1_295 0 0 0
+Enemy cards: 7
+ownDiedMinions: UNG_020,7;ULD_293,25;
+enemyDiedMinions: CFM_020,48;
+otg: UNG_020,7;ULD_293,25;
+etg: CFM_020,48;
+og: UNG_020,1;EX1_612,1;ULD_293,1;EX1_287,1;
+eg: None,1;CFM_020,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;FP1_004,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:13:51 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 13/0
+mana 7/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 28 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 19 0 20 0
+OwnMinions:
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:50 A:4 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 3 iceblock 3 entity 22 EX1_295 0 0 0
+pos 4 madscientist 2 entity 27 FP1_004 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: UNG_020,1;DMF_106,1;EX1_612,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;CFM_020,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+mana changed 7 -100 7 6 7 6
+Leathal-check###########
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 6 dones 0
+cut to len 3
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -46
+useability 
+on enemy: 66
+
+play id 22 pos 1
+
+missing dmg to lethal 27
+calculated 0.164535
+no lethal, do something random######
+ailoop
+deep 0 len 6 dones 0
+cut to len 6
+ailoop
+deep 1 len 26 dones 0
+cut to len 19
+ailoop
+deep 2 len 54 dones 0
+cut to len 27
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -13
+useability 
+on enemy: 50
+
+play id 20 pos 1
+
+play id 27 pos 2
+
+calculated 0.2130285
+useability 
+on enemy: 50
+
+使用英雄技能: 火焰冲击 目标为 厄运信天翁
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:13:57 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 13/1
+mana 5/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 28 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 19 0 20 0
+OwnMinions:
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:50 A:4 H:2 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 madscientist 2 entity 20 FP1_004 0 0 0
+pos 2 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 3 iceblock 3 entity 22 EX1_295 0 0 0
+pos 4 madscientist 2 entity 27 FP1_004 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: UNG_020,1;DMF_106,1;EX1_612,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;CFM_020,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 20 pos 1
+
+使用: 疯狂的科学家 (20) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:14:00 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 13/2
+mana 3/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 28 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 19 0 20 0
+OwnMinions:
+madscientist FP1_004 zp:1 e:20 A:2 H:2 mH:2 rdy:False natt:0 ex ptt
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:50 A:4 H:2 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 2 iceblock 3 entity 22 EX1_295 0 0 0
+pos 3 madscientist 2 entity 27 FP1_004 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: UNG_020,1;DMF_106,1;EX1_612,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;CFM_020,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 27 pos 2
+
+使用: 疯狂的科学家 (27) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:14:04 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 13/3
+mana 1/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+2 2 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_08bp
+osecrets: ULD_239 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 28 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 19 0 20 0
+OwnMinions:
+madscientist FP1_004 zp:1 e:20 A:2 H:2 mH:2 rdy:False natt:0 ex ptt
+madscientist FP1_004 zp:2 e:27 A:2 H:2 mH:2 rdy:False natt:0 ex ptt
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:50 A:4 H:2 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 2 iceblock 3 entity 22 EX1_295 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: UNG_020,1;DMF_106,1;EX1_612,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;CFM_020,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,2;KAR_092,2;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:14:43 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 15/0
+mana 8/8
+emana 8
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 26 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 28 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 18 0 18 0
+OwnMinions:
+madscientist FP1_004 zp:1 e:20 A:2 H:2 mH:2 rdy:True natt:0
+madscientist FP1_004 zp:2 e:27 A:2 H:2 mH:2 rdy:True natt:0
+EnemyMinions:
+kazakus CFM_621 zp:1 e:55 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 2 iceblock 3 entity 22 EX1_295 0 0 0
+pos 3 medivhsvalet 2 entity 23 KAR_092 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: UNG_020,1;DMF_106,1;EX1_612,1;ULD_239,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,2;KAR_092,1;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+mana changed 8 -100 8 7 8 7
+Leathal-check###########
+ailoop
+deep 0 len 8 dones 0
+cut to len 8
+ailoop
+deep 1 len 45 dones 0
+cut to len 39
+ailoop
+deep 2 len 150 dones 0
+cut to len 83
+ailoop
+deep 3 len 187 dones 0
+cut to len 73
+ailoop
+deep 4 len 106 dones 0
+cut to len 37
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 43
+useability 
+on enemy: 66
+
+play id 22 pos 1
+
+play id 23 target 66 pos 3
+
+attacker: 20 enemy: 66
+
+missing dmg to lethal 22
+calculated 0.4425589
+no lethal, do something random######
+ailoop
+deep 0 len 13 dones 0
+cut to len 13
+ailoop
+deep 1 len 121 dones 0
+cut to len 95
+ailoop
+deep 2 len 645 dones 0
+cut to len 352
+ailoop
+deep 3 len 1432 dones 0
+cut to len 563
+ailoop
+deep 4 len 1252 dones 0
+cut to len 401
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 19
+play id 22 pos 1
+
+play id 23 target 55 pos 2
+
+attacker: 20 enemy: 66
+
+attacker: 27 enemy: 66
+
+useability 
+on enemy: 66
+
+calculated 0.5340421
+play id 22 pos 1
+
+使用: 寒冰屏障 (22) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:14:48 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 15/1
+mana 5/8
+emana 8
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+mage 26 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: EX1_295 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 28 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 18 0 18 0
+OwnMinions:
+madscientist FP1_004 zp:1 e:20 A:2 H:2 mH:2 rdy:True natt:0
+madscientist FP1_004 zp:2 e:27 A:2 H:2 mH:2 rdy:True natt:0
+EnemyMinions:
+kazakus CFM_621 zp:1 e:55 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 2 medivhsvalet 2 entity 23 KAR_092 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: UNG_020,1;DMF_106,1;EX1_612,1;ULD_239,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,2;KAR_092,1;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 23 target 55 pos 2
+
+使用: 麦迪文的男仆 (23) 瞄准: 卡扎库斯 (55) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:14:54 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 15/2
+mana 3/8
+emana 8
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 2 0 0 1
+ownhero:
+mage 26 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: EX1_295 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 28 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 18 0 18 0
+OwnMinions:
+madscientist FP1_004 zp:1 e:20 A:2 H:2 mH:2 rdy:True natt:0
+medivhsvalet KAR_092 zp:2 e:23 A:2 H:3 mH:3 rdy:False natt:0 ex ptt
+madscientist FP1_004 zp:3 e:27 A:2 H:2 mH:2 rdy:True natt:0
+EnemyMinions:
+Own Handcards: 
+pos 1 explosiverunes 3 entity 6 LOOT_101 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: CFM_621,55;
+otg: 
+etg: CFM_621,55;
+og: UNG_020,1;DMF_106,1;EX1_612,1;ULD_239,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;CFM_621,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,2;KAR_092,1;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 20 enemy: 66
+
+随从攻击: 疯狂的科学家 目标为: 泰兰德·语风
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:14:58 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 15/3
+mana 3/8
+emana 8
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 2 0 0 1
+ownhero:
+mage 26 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: EX1_295 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 18 0 18 0
+OwnMinions:
+madscientist FP1_004 zp:1 e:20 A:2 H:2 mH:2 rdy:False natt:1 ex
+medivhsvalet KAR_092 zp:2 e:23 A:2 H:3 mH:3 rdy:False natt:0 ex ptt
+madscientist FP1_004 zp:3 e:27 A:2 H:2 mH:2 rdy:True natt:0
+EnemyMinions:
+Own Handcards: 
+pos 1 explosiverunes 3 entity 6 LOOT_101 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: CFM_621,55;
+otg: 
+etg: CFM_621,55;
+og: UNG_020,1;DMF_106,1;EX1_612,1;ULD_239,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;CFM_621,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,2;KAR_092,1;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 27 enemy: 66
+
+随从攻击: 疯狂的科学家 目标为: 泰兰德·语风
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:15:02 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 15/4
+mana 3/8
+emana 8
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 2 0 0 1
+ownhero:
+mage 26 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: EX1_295 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 24 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 18 0 18 0
+OwnMinions:
+madscientist FP1_004 zp:1 e:20 A:2 H:2 mH:2 rdy:False natt:1 ex
+medivhsvalet KAR_092 zp:2 e:23 A:2 H:3 mH:3 rdy:False natt:0 ex ptt
+madscientist FP1_004 zp:3 e:27 A:2 H:2 mH:2 rdy:False natt:1 ex
+EnemyMinions:
+Own Handcards: 
+pos 1 explosiverunes 3 entity 6 LOOT_101 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: CFM_621,55;
+otg: 
+etg: CFM_621,55;
+og: UNG_020,1;DMF_106,1;EX1_612,1;ULD_239,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;CFM_621,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,2;KAR_092,1;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+useability 
+on enemy: 66
+
+使用英雄技能: 火焰冲击 目标为 泰兰德·语风
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:15:06 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 15/5
+mana 1/8
+emana 8
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 2 0 0 1
+ownhero:
+mage 26 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_08bp
+osecrets: EX1_295 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 23 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 18 0 18 0
+OwnMinions:
+madscientist FP1_004 zp:1 e:20 A:2 H:2 mH:2 rdy:False natt:1 ex
+medivhsvalet KAR_092 zp:2 e:23 A:2 H:3 mH:3 rdy:False natt:0 ex ptt
+madscientist FP1_004 zp:3 e:27 A:2 H:2 mH:2 rdy:False natt:1 ex
+EnemyMinions:
+Own Handcards: 
+pos 1 explosiverunes 3 entity 6 LOOT_101 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: CFM_621,55;
+otg: 
+etg: CFM_621,55;
+og: UNG_020,1;DMF_106,1;EX1_612,1;ULD_239,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;CFM_621,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,2;KAR_092,1;EX1_287,1;LOOT_101,1;BT_003,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:15:37 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 17/0
+mana 9/9
+emana 9
+own secretsCount: 3
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 26 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: EX1_287 EX1_295 BT_003 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 25 30 7 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 15 0 17 0
+OwnMinions:
+medivhsvalet KAR_092 zp:1 e:23 A:2 H:1 mH:3 rdy:True natt:0
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:118 A:4 H:3 mH:3 rdy:False ex
+kazakus CFM_621 zp:2 e:119 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 2 ancientmysteries 2 entity 32 ULD_726 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: UNG_020,1;DMF_106,1;EX1_612,1;FP1_004,2;ULD_239,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;CFM_621,1;DRG_307,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,1;KAR_092,1;LOOT_101,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+mana changed 9 -100 9 8 9 8
+Leathal-check###########
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 12 dones 0
+cut to len 6
+ailoop
+deep 2 len 12 dones 0
+cut to len 4
+ailoop
+deep 3 len 4 dones 0
+cut to len 1
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 12
+useability 
+on enemy: 66
+
+play id 6 pos 1
+
+play id 32 pos 1
+
+missing dmg to lethal 31
+calculated 0.4489581
+no lethal, do something random######
+ailoop
+deep 0 len 10 dones 0
+cut to len 10
+ailoop
+deep 1 len 59 dones 0
+cut to len 29
+ailoop
+deep 2 len 98 dones 0
+cut to len 32
+ailoop
+deep 3 len 49 dones 0
+cut to len 12
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -58
+attacker: 23 enemy: 66
+
+play id 6 pos 1
+
+play id 32 pos 1
+
+useability 
+on enemy: 66
+
+calculated 0.3280284
+attacker: 23 enemy: 66
+
+随从攻击: 麦迪文的男仆 目标为: 泰兰德·语风
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:15:41 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 17/1
+mana 9/9
+emana 9
+own secretsCount: 3
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 26 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: EX1_287 EX1_295 BT_003 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 25 30 5 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 15 0 17 0
+OwnMinions:
+medivhsvalet KAR_092 zp:1 e:23 A:2 H:1 mH:3 rdy:False natt:1 ex
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:118 A:4 H:3 mH:3 rdy:False ex
+kazakus CFM_621 zp:2 e:119 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 explosiverunes 3 entity 6 LOOT_101 0 0 0
+pos 2 ancientmysteries 2 entity 32 ULD_726 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: UNG_020,1;DMF_106,1;EX1_612,1;FP1_004,2;ULD_239,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;CFM_621,1;DRG_307,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,1;KAR_092,1;LOOT_101,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 6 pos 1
+
+使用: 爆炸符文 (6) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:15:45 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 17/2
+mana 6/9
+emana 9
+own secretsCount: 4
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+mage 26 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: LOOT_101 EX1_287 EX1_295 BT_003 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 25 30 5 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 15 0 17 0
+OwnMinions:
+medivhsvalet KAR_092 zp:1 e:23 A:2 H:1 mH:3 rdy:False natt:1 ex
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:118 A:4 H:3 mH:3 rdy:False ex
+kazakus CFM_621 zp:2 e:119 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 ancientmysteries 2 entity 32 ULD_726 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: UNG_020,1;DMF_106,1;EX1_612,1;FP1_004,2;ULD_239,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;CFM_621,1;DRG_307,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,1;KAR_092,1;LOOT_101,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+secrets changed
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 1
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -63
+useability 
+on enemy: 66
+
+play id 32 pos 1
+
+missing dmg to lethal 29
+calculated 0.1450121
+no lethal, do something random######
+ailoop
+deep 0 len 6 dones 0
+cut to len 6
+ailoop
+deep 1 len 10 dones 0
+cut to len 5
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -63
+useability 
+on enemy: 66
+
+play id 32 pos 1
+
+calculated 0.1470087
+useability 
+on enemy: 66
+
+使用英雄技能: 火焰冲击 目标为 泰兰德·语风
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:15:49 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 17/3
+mana 4/9
+emana 9
+own secretsCount: 4
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+mage 26 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_08bp
+osecrets: LOOT_101 EX1_287 EX1_295 BT_003 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 25 30 4 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 15 0 17 0
+OwnMinions:
+medivhsvalet KAR_092 zp:1 e:23 A:2 H:1 mH:3 rdy:False natt:1 ex
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:118 A:4 H:3 mH:3 rdy:False ex
+kazakus CFM_621 zp:2 e:119 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 ancientmysteries 2 entity 32 ULD_726 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: UNG_020,1;DMF_106,1;EX1_612,1;FP1_004,2;ULD_239,1;ULD_293,1;ULD_240,1;EX1_287,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;CFM_621,1;DRG_307,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,1;KAR_092,1;LOOT_101,1;DMF_107,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 32 pos 1
+
+使用: 远古谜团 (32) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:15:53 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 17/4
+mana 2/9
+emana 9
+own secretsCount: 4
+enemy secretsCount: 0 ;
+player:
+0 2 0 0 1
+ownhero:
+mage 26 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_08bp
+osecrets: LOOT_101 EX1_287 EX1_295 BT_003 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 25 30 4 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 14 0 17 0
+OwnMinions:
+medivhsvalet KAR_092 zp:1 e:23 A:2 H:1 mH:3 rdy:False natt:1 ex
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:118 A:4 H:3 mH:3 rdy:False ex
+kazakus CFM_621 zp:2 e:119 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 riggedfairegame 0 entity 9 DMF_107 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: ULD_726,32;
+etg: 
+og: UNG_020,1;DMF_106,1;EX1_612,1;FP1_004,2;ULD_239,1;ULD_293,1;ULD_240,1;EX1_287,1;ULD_726,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;CFM_621,1;DRG_307,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,1;KAR_092,1;LOOT_101,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+deck/fatigue changed 14 15 17 17 0 0 0 0
+minions count or hand changed
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -53
+play id 9 pos 1
+
+missing dmg to lethal 29
+calculated 0.0890093
+no lethal, do something random######
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -53
+play id 9 pos 1
+
+calculated 0.0859917
+play id 9 pos 1
+
+使用: 非公平游戏 (9) 抉择: 0
+play id 9 pos 1
+
+使用: 非公平游戏 (9) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:16:01 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 17/6
+mana 2/9
+emana 9
+own secretsCount: 5
+enemy secretsCount: 0 ;
+player:
+0 3 0 0 1
+ownhero:
+mage 26 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_08bp
+osecrets: LOOT_101 DMF_107 EX1_287 EX1_295 BT_003 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 25 30 4 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 14 0 17 0
+OwnMinions:
+medivhsvalet KAR_092 zp:1 e:23 A:2 H:1 mH:3 rdy:False natt:1 ex
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:118 A:4 H:3 mH:3 rdy:False ex
+kazakus CFM_621 zp:2 e:119 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: ULD_726,32;
+etg: 
+og: UNG_020,1;DMF_106,1;EX1_612,1;FP1_004,2;ULD_239,1;ULD_293,1;ULD_240,1;EX1_287,1;ULD_726,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;CFM_621,1;DRG_307,1;EX1_339,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,1;KAR_092,1;LOOT_101,1;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+secrets changed
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -69
+missing dmg to lethal 29
+calculated 0.0400031
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -69
+calculated 0.0469786
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:17:14 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 19/0
+mana 10/10
+emana 10
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 19 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 27 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 13 0 15 0
+OwnMinions:
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:118 A:4 H:3 mH:3 rdy:False ex
+kazakus CFM_621 zp:2 e:119 A:3 H:1 mH:3 rdy:False ex
+unknown None zp:3 e:126 A:3 H:10 mH:10 rdy:False ex
+cobaltspellkin DRG_075 zp:4 e:47 A:3 H:5 mH:5 rdy:False ex
+Own Handcards: 
+pos 1 fireball 4 entity 8 CS2_029 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: LOOT_101,1;UNG_020,1;DMF_107,1;DMF_106,1;EX1_612,1;EX1_287,2;FP1_004,2;ULD_239,1;EX1_295,1;KAR_092,1;ULD_293,1;BT_003,1;ULD_240,1;ULD_726,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;CFM_621,1;DRG_307,1;EX1_339,1;ULD_003,1;DMF_COIN1,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,1;KAR_092,1;LOOT_101,1;CS2_029,1;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+mana changed 10 -100 10 9 10 9
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 1
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -89
+useability 
+on enemy: 66
+
+play id 8 target 66 pos 1
+
+missing dmg to lethal 20
+calculated 0.1395425
+no lethal, do something random######
+ailoop
+deep 0 len 12 dones 0
+cut to len 12
+ailoop
+deep 1 len 66 dones 0
+cut to len 31
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -77
+useability 
+on enemy: 119
+
+play id 8 target 47 pos 1
+
+calculated 0.1530219
+useability 
+on enemy: 119
+
+使用英雄技能: 火焰冲击 目标为 卡扎库斯
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:17:19 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 19/1
+mana 8/10
+emana 10
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 19 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 27 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 13 0 15 0
+OwnMinions:
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:118 A:4 H:3 mH:3 rdy:False ex
+unknown None zp:2 e:126 A:3 H:10 mH:10 rdy:False ex
+cobaltspellkin DRG_075 zp:3 e:47 A:3 H:5 mH:5 rdy:False ex
+Own Handcards: 
+pos 1 fireball 4 entity 8 CS2_029 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: LOOT_101,1;UNG_020,1;DMF_107,1;DMF_106,1;EX1_612,1;EX1_287,2;FP1_004,2;ULD_239,1;EX1_295,1;KAR_092,1;ULD_293,1;BT_003,1;ULD_240,1;ULD_726,1;
+eg: None,2;EX1_007,1;CFM_020,1;DRG_071,1;CFM_621,1;DRG_307,1;EX1_339,1;ULD_003,1;DMF_COIN1,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,1;KAR_092,1;LOOT_101,1;CS2_029,1;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 8 target 47 pos 1
+
+使用: 火球术 (8) 瞄准: 深蓝系咒师 (47) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:17:22 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 19/2
+mana 4/10
+emana 10
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+mage 19 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 27 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 13 0 15 0
+OwnMinions:
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:118 A:4 H:3 mH:3 rdy:False ex
+unknown None zp:2 e:126 A:3 H:10 mH:10 rdy:False ex
+Own Handcards: 
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: DRG_075,47;
+otg: CS2_029,8;
+etg: DRG_075,47;
+og: LOOT_101,1;UNG_020,1;CS2_029,1;DMF_107,1;DMF_106,1;EX1_612,1;EX1_287,2;FP1_004,2;ULD_239,1;EX1_295,1;KAR_092,1;ULD_293,1;BT_003,1;ULD_240,1;ULD_726,1;
+eg: None,2;EX1_007,1;DRG_075,1;CFM_020,1;DRG_071,1;CFM_621,1;DRG_307,1;EX1_339,1;ULD_003,1;DMF_COIN1,1;
+od: CFM_066,2;ULD_240,1;UNG_020,1;ULD_726,1;KAR_092,1;LOOT_101,1;CS2_029,1;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:18:17 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 21/0
+mana 10/10
+emana 10
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 12 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 12 0 13 0
+OwnMinions:
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:118 A:4 H:3 mH:3 rdy:False ex
+unknown None zp:2 e:126 A:3 H:24 mH:24 rdy:False ex
+Own Handcards: 
+pos 1 arcaneflakmage 2 entity 11 ULD_240 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: LOOT_101,1;UNG_020,1;CS2_029,1;DMF_107,1;DMF_106,1;EX1_612,1;EX1_287,2;FP1_004,2;ULD_239,1;EX1_295,1;KAR_092,1;ULD_293,1;BT_003,1;ULD_240,1;ULD_726,1;
+eg: DMF_187,1;UNG_029,1;None,2;EX1_007,1;DRG_075,1;CFM_020,1;DRG_071,1;CFM_621,1;DRG_307,1;EX1_339,1;ULD_003,1;DMF_COIN1,1;
+od: CFM_066,2;UNG_020,1;ULD_726,1;KAR_092,1;LOOT_101,1;CS2_029,1;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+mana changed 10 -100 10 10 10 10
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -82
+useability 
+on enemy: 66
+
+missing dmg to lethal 29
+calculated 0.0980091
+no lethal, do something random######
+ailoop
+deep 0 len 5 dones 0
+cut to len 5
+ailoop
+deep 1 len 9 dones 0
+cut to len 9
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -82
+useability 
+on enemy: 66
+
+calculated 0.1360092
+useability 
+on enemy: 66
+
+使用英雄技能: 火焰冲击 目标为 泰兰德·语风
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:18:21 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 21/1
+mana 8/10
+emana 10
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 12 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 29 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 12 0 13 0
+OwnMinions:
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:118 A:4 H:3 mH:3 rdy:False ex
+unknown None zp:2 e:126 A:3 H:24 mH:24 rdy:False ex
+Own Handcards: 
+pos 1 arcaneflakmage 2 entity 11 ULD_240 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: LOOT_101,1;UNG_020,1;CS2_029,1;DMF_107,1;DMF_106,1;EX1_612,1;EX1_287,2;FP1_004,2;ULD_239,1;EX1_295,1;KAR_092,1;ULD_293,1;BT_003,1;ULD_240,1;ULD_726,1;
+eg: DMF_187,1;UNG_029,1;None,2;EX1_007,1;DRG_075,1;CFM_020,1;DRG_071,1;CFM_621,1;DRG_307,1;EX1_339,1;ULD_003,1;DMF_COIN1,1;
+od: CFM_066,2;UNG_020,1;ULD_726,1;KAR_092,1;LOOT_101,1;CS2_029,1;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 11:18:41 V117.178 怼脸模式 3000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 23/0
+mana 10/10
+emana 10
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 5 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+priest 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True CS1h_001_H1
+fatigue: 11 0 12 0
+OwnMinions:
+EnemyMinions:
+badluckalbatross DRG_071 zp:1 e:118 A:4 H:3 mH:3 rdy:False ex
+unknown None zp:2 e:126 A:3 H:24 mH:24 rdy:False ex
+Own Handcards: 
+pos 1 arcaneflakmage 2 entity 11 ULD_240 0 0 0
+pos 2 kabalcrystalrunner 0 entity 12 CFM_760 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: LOOT_101,1;UNG_020,1;CS2_029,1;DMF_107,1;DMF_106,1;EX1_612,1;EX1_287,2;FP1_004,2;ULD_239,1;EX1_295,1;KAR_092,1;ULD_293,1;BT_003,1;ULD_240,1;ULD_726,1;
+eg: DMF_187,1;UNG_029,1;None,2;EX1_007,1;DRG_075,1;CFM_020,1;DRG_071,1;CFM_621,1;DRG_307,1;EX1_339,1;ULD_003,1;DMF_COIN1,1;
+od: CFM_066,2;UNG_020,1;ULD_726,1;KAR_092,1;LOOT_101,1;CS2_029,1;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,1;
+recalc-check###########
+mana changed 10 -100 10 10 10 10
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -10000
+useability 
+on enemy: 66
+
+missing dmg to lethal 29
+calculated 0.1005591
+no lethal, do something random######
+ailoop
+deep 0 len 6 dones 0
+cut to len 6
+ailoop
+deep 1 len 20 dones 0
+cut to len 19
+ailoop
+deep 2 len 24 dones 0
+cut to len 11
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -10000
+useability 
+on enemy: 66
+
+calculated 0.2086086
+投降... 败局已定###############################################

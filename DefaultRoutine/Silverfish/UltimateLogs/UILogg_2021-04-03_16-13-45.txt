@@ -1,0 +1,86 @@
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 16:14:15 V117.178 奥秘法 7000 face 27 berserk:1 ets 200 secret iC 1 aA 0
+#######################################################################
+turn 2/0
+mana 1/1
+emana 1
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+mage 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+firemagejaina 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 25 0 26 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 kaballackey 1 entity 31 CFM_066 0 0 0
+pos 2 fireball 4 entity 17 CS2_029 0 0 0
+pos 3 riggedfairegame 3 entity 30 DMF_107 0 0 0
+pos 4 ancientmysteries 2 entity 18 ULD_726 0 0 0
+pos 5 thecoin 0 entity 68 GAME_005 0 0 0
+pos 6 medivhsvalet 2 entity 11 KAR_092 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: DAL_608,1;
+od: ULD_240,2;FP1_004,2;UNG_020,2;ULD_726,1;KAR_092,1;CFM_620,1;EX1_295,1;ULD_239,1;LOOT_101,2;BAR_812,1;EX1_612,2;DMF_107,1;CS2_029,1;DMF_106,1;ULD_293,2;DMF_109,1;CFM_760,2;
+recalc-check###########
+mana changed 1 -100 1 0 1 0
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 3 dones 0
+cut to len 3
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 14.5
+play id 68 pos 1
+
+play id 11 target 66 pos 1
+
+missing dmg to lethal 30
+calculated 0.243889
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 6 dones 0
+cut to len 6
+ailoop
+deep 2 len 3 dones 0
+cut to len 1
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 63
+play id 31 pos 1
+
+play id 30 pos 1
+
+calculated 0.1370106
+play id 31 pos 1
+
+使用: 暗金教侍从 (31) 抉择: 0

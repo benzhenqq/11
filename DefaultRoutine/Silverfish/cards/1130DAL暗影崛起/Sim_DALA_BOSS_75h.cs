@@ -1,0 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace HREngine.Bots
+{
+	class Sim_DALA_BOSS_75h : SimTemplate //* 指挥官博兰 Commander Bolan
+	{
+		//<i>Be careful, he's got an enormous exclamation point_over_his_head.</i>
+		//<i>当心，他头顶有个巨大的感叹号。</i>
+		
+		
+	}
+}

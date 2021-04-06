@@ -1,0 +1,1964 @@
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:28:32 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 1/0
+mana 1/1
+emana 1
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 26 0 26 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 farwatchpost 2 entity 4 BAR_074 0 0 0
+pos 2 nerubarweblord 2 entity 20 FP1_017 0 0 0
+pos 3 handofadal 2 entity 24 BT_292 0 0 0
+pos 4 redemption 1 entity 18 EX1_136 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: DMF_236,2;BAR_880,1;EX1_136,1;EX1_363,1;ICC_038,2;BOT_909,2;DAL_570,1;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+mana changed 1 -100 1 3 1 3
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -6
+play id 18 pos 1
+
+missing dmg to lethal 30
+calculated 0.1200066
+no lethal, do something random######
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -6
+play id 18 pos 1
+
+calculated 0.0850059
+play id 18 pos 1
+
+使用: 救赎 (18) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:28:36 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 1/1
+mana 0/1
+emana 1
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: EX1_136 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 26 0 26 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 farwatchpost 2 entity 4 BAR_074 0 0 0
+pos 2 nerubarweblord 2 entity 20 FP1_017 0 0 0
+pos 3 handofadal 2 entity 24 BT_292 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: DMF_236,2;BAR_880,1;EX1_136,1;EX1_363,1;ICC_038,2;BOT_909,2;DAL_570,1;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:28:58 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 3/0
+mana 2/2
+emana 2
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: EX1_136 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 25 0 22 0
+OwnMinions:
+EnemyMinions:
+expiredmerchant ULD_163 zp:1 e:58 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 farwatchpost 2 entity 4 BAR_074 0 0 0
+pos 2 nerubarweblord 2 entity 20 FP1_017 0 0 0
+pos 3 handofadal 2 entity 24 BT_292 0 0 0
+pos 4 righteousprotector 1 entity 8 ICC_038 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: BT_300,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,1;EX1_363,1;ICC_038,1;BOT_909,2;DAL_570,1;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+mana changed 2 -100 2 1 2 1
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 6.5
+useability 
+
+missing dmg to lethal 30
+calculated 0.1470105
+no lethal, do something random######
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 110
+play id 4 pos 1
+
+calculated 0.0880065
+play id 4 pos 1
+
+使用: 前沿哨所 (4) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:29:03 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 3/1
+mana 0/2
+emana 2
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: EX1_136 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 25 0 22 0
+OwnMinions:
+farwatchpost BAR_074 zp:1 e:4 A:2 H:4 mH:4 rdy:False natt:0 ex ptt
+EnemyMinions:
+expiredmerchant ULD_163 zp:1 e:58 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 nerubarweblord 2 entity 20 FP1_017 0 0 0
+pos 2 handofadal 2 entity 24 BT_292 0 0 0
+pos 3 righteousprotector 1 entity 8 ICC_038 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: BT_300,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,1;EX1_363,1;ICC_038,1;BOT_909,2;DAL_570,1;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:29:31 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 5/0
+mana 3/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 24 0 20 0
+OwnMinions:
+EnemyMinions:
+expiredmerchant ULD_163 zp:1 e:58 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 nerubarweblord 2 entity 20 FP1_017 0 0 0
+pos 2 handofadal 2 entity 24 BT_292 0 0 0
+pos 3 righteousprotector 1 entity 8 ICC_038 0 0 0
+pos 4 righteousprotector 1 entity 26 ICC_038 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;EX1_136,1;
+eg: BT_300,1;EX1_302,1;BOT_222,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,1;EX1_363,1;BOT_909,2;DAL_570,1;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+mana changed 3 -100 3 2 3 2
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -9
+useability 
+
+missing dmg to lethal 26
+calculated 0.1210115
+no lethal, do something random######
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 6 dones 0
+cut to len 5
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 36
+play id 8 pos 1
+
+play id 24 target 8 pos 1
+
+calculated 0.1570094
+play id 8 pos 1
+
+使用: 正义保护者 (8) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:29:36 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 5/1
+mana 2/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 24 0 20 0
+OwnMinions:
+righteousprotector ICC_038 zp:1 e:8 A:1 H:1 mH:1 rdy:False natt:0 ex tnt divshield ptt
+EnemyMinions:
+expiredmerchant ULD_163 zp:1 e:58 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 nerubarweblord 2 entity 20 FP1_017 0 0 0
+pos 2 handofadal 2 entity 24 BT_292 0 0 0
+pos 3 righteousprotector 1 entity 26 ICC_038 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;EX1_136,1;
+eg: BT_300,1;EX1_302,1;BOT_222,1;GAME_005,1;
+od: DMF_236,2;BAR_880,1;EX1_136,1;EX1_363,1;BOT_909,2;DAL_570,1;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 24 target 8 pos 1
+
+使用: 阿达尔之手 (24) 瞄准: 正义保护者 (8) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:29:41 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 5/2
+mana 0/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 2 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 26 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 23 0 20 0
+OwnMinions:
+righteousprotector ICC_038 zp:1 e:8 A:3 H:3 mH:3 rdy:False natt:0 ex tnt divshield ptt
+EnemyMinions:
+expiredmerchant ULD_163 zp:1 e:58 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 nerubarweblord 2 entity 20 FP1_017 0 0 0
+pos 2 righteousprotector 1 entity 26 ICC_038 0 0 0
+pos 3 ohmyyogg 1 entity 21 DMF_236 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: BT_292,24;
+etg: 
+og: BAR_074,1;EX1_136,1;BT_292,1;
+eg: BT_300,1;EX1_302,1;BOT_222,1;GAME_005,1;
+od: DMF_236,1;BAR_880,1;EX1_136,1;EX1_363,1;BOT_909,2;DAL_570,1;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+handcard changed: ohmyyogg
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 21
+missing dmg to lethal 26
+calculated 0.0924826
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 16
+calculated 0.0350018
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:30:22 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 7/0
+mana 4/4
+emana 4
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 17 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 22 0 18 0
+OwnMinions:
+EnemyMinions:
+darkglare BT_307 zp:1 e:59 A:2 H:3 mH:3 rdy:False ex
+koboldlibrarian LOOT_014 zp:2 e:39 A:2 H:1 mH:1 rdy:False ex
+expiredmerchant ULD_163 zp:3 e:97 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 nerubarweblord 2 entity 20 FP1_017 0 0 0
+pos 2 righteousprotector 1 entity 26 ICC_038 0 0 0
+pos 3 ohmyyogg 1 entity 21 DMF_236 0 0 0
+pos 4 convictionrank1 1 entity 32 BAR_880 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;ICC_038,1;EX1_136,1;BT_292,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;EX1_302,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: DMF_236,1;EX1_136,1;EX1_363,1;BOT_909,2;DAL_570,1;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+mana changed 4 -100 4 3 4 3
+Leathal-check###########
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 6 dones 0
+cut to len 4
+ailoop
+deep 2 len 4 dones 0
+cut to len 2
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -2
+useability 
+
+play id 21 pos 1
+
+play id 32 pos 1
+
+missing dmg to lethal 17
+calculated 0.2590197
+no lethal, do something random######
+ailoop
+deep 0 len 5 dones 0
+cut to len 5
+ailoop
+deep 1 len 20 dones 0
+cut to len 17
+ailoop
+deep 2 len 35 dones 0
+cut to len 19
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 34
+play id 21 pos 1
+
+play id 26 pos 1
+
+play id 20 pos 2
+
+calculated 0.2890338
+play id 21 pos 1
+
+使用: 古神在上 (21) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:30:27 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 7/1
+mana 3/4
+emana 4
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 17 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 22 0 18 0
+OwnMinions:
+EnemyMinions:
+darkglare BT_307 zp:1 e:59 A:2 H:3 mH:3 rdy:False ex
+koboldlibrarian LOOT_014 zp:2 e:39 A:2 H:1 mH:1 rdy:False ex
+expiredmerchant ULD_163 zp:3 e:97 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 nerubarweblord 2 entity 20 FP1_017 0 0 0
+pos 2 righteousprotector 1 entity 26 ICC_038 0 0 0
+pos 3 convictionrank1 1 entity 32 BAR_880 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;ICC_038,1;EX1_136,1;BT_292,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;EX1_302,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: DMF_236,1;EX1_136,1;EX1_363,1;BOT_909,2;DAL_570,1;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 26 pos 1
+
+使用: 正义保护者 (26) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:30:32 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 7/2
+mana 2/4
+emana 4
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 2 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 17 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 22 0 18 0
+OwnMinions:
+righteousprotector ICC_038 zp:1 e:26 A:1 H:1 mH:1 rdy:False natt:0 ex tnt divshield ptt
+EnemyMinions:
+darkglare BT_307 zp:1 e:59 A:2 H:3 mH:3 rdy:False ex
+koboldlibrarian LOOT_014 zp:2 e:39 A:2 H:1 mH:1 rdy:False ex
+expiredmerchant ULD_163 zp:3 e:97 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 nerubarweblord 2 entity 20 FP1_017 0 0 0
+pos 2 convictionrank1 1 entity 32 BAR_880 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;ICC_038,1;EX1_136,1;BT_292,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;EX1_302,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: DMF_236,1;EX1_136,1;EX1_363,1;BOT_909,2;DAL_570,1;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 20 pos 2
+
+使用: 尼鲁巴蛛网领主 (20) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:30:36 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 7/3
+mana 0/4
+emana 4
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+2 3 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 17 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 22 0 18 0
+OwnMinions:
+righteousprotector ICC_038 zp:1 e:26 A:1 H:1 mH:1 rdy:False natt:0 ex tnt divshield ptt
+nerubarweblord FP1_017 zp:2 e:20 A:1 H:4 mH:4 rdy:False natt:0 ex ptt
+EnemyMinions:
+darkglare BT_307 zp:1 e:59 A:2 H:3 mH:3 rdy:False ex
+koboldlibrarian LOOT_014 zp:2 e:39 A:2 H:1 mH:1 rdy:False ex
+expiredmerchant ULD_163 zp:3 e:97 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank1 1 entity 32 BAR_880 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;ICC_038,1;EX1_136,1;BT_292,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;EX1_302,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: DMF_236,1;EX1_136,1;EX1_363,1;BOT_909,2;DAL_570,1;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:31:01 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 9/0
+mana 5/5
+emana 5
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 17 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 21 0 17 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:20 A:1 H:2 mH:4 rdy:True natt:0
+EnemyMinions:
+fleshgiant SCH_140 zp:1 e:42 A:8 H:8 mH:8 rdy:False ex
+darkglare BT_307 zp:2 e:59 A:2 H:2 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 neversurrender 1 entity 10 DAL_570 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;ICC_038,2;EX1_136,1;BT_292,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: DMF_236,1;BAR_880,1;EX1_136,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+mana changed 5 -100 5 4 5 4
+Leathal-check###########
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 12 dones 0
+cut to len 8
+ailoop
+deep 2 len 16 dones 0
+cut to len 9
+ailoop
+deep 3 len 9 dones 0
+cut to len 4
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 42
+useability 
+
+play id 32 pos 1
+
+play id 10 pos 1
+
+missing dmg to lethal 17
+calculated 0.3690508
+no lethal, do something random######
+ailoop
+deep 0 len 6 dones 0
+cut to len 6
+ailoop
+deep 1 len 24 dones 0
+cut to len 15
+ailoop
+deep 2 len 38 dones 0
+cut to len 20
+ailoop
+deep 3 len 24 dones 0
+cut to len 10
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -32
+attacker: 20 enemy: 66
+
+play id 10 pos 1
+
+useability 
+
+calculated 0.4080331
+attacker: 20 enemy: 66
+
+随从攻击: 尼鲁巴蛛网领主 目标为: 恩佐斯
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:31:06 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 9/1
+mana 5/5
+emana 5
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 16 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 21 0 17 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:20 A:1 H:2 mH:4 rdy:False natt:1 ex
+EnemyMinions:
+fleshgiant SCH_140 zp:1 e:42 A:8 H:8 mH:8 rdy:False ex
+darkglare BT_307 zp:2 e:59 A:2 H:2 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 neversurrender 1 entity 10 DAL_570 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;ICC_038,2;EX1_136,1;BT_292,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: DMF_236,1;BAR_880,1;EX1_136,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 10 pos 1
+
+使用: 永不屈服 (10) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:31:11 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 9/2
+mana 4/5
+emana 5
+own secretsCount: 2
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: DAL_570 DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 16 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 21 0 17 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:20 A:1 H:2 mH:4 rdy:False natt:1 ex
+EnemyMinions:
+fleshgiant SCH_140 zp:1 e:42 A:8 H:8 mH:8 rdy:False ex
+darkglare BT_307 zp:2 e:59 A:2 H:2 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;ICC_038,2;EX1_136,1;BT_292,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: DMF_236,1;BAR_880,1;EX1_136,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+secrets changed
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 2
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -42
+useability 
+
+missing dmg to lethal 16
+calculated 0.1440116
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 2
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -42
+useability 
+
+calculated 0.1430125
+useability 
+
+使用英雄技能: 援军 暂时没有目标
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:31:17 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 9/3
+mana 2/5
+emana 5
+own secretsCount: 2
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_04bp
+osecrets: DAL_570 DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 16 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 21 0 17 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:20 A:1 H:2 mH:4 rdy:False natt:1 ex
+silverhandrecruit CS2_101t zp:2 e:109 A:1 H:1 mH:1 rdy:False natt:0 ex ptt
+EnemyMinions:
+fleshgiant SCH_140 zp:1 e:42 A:8 H:8 mH:8 rdy:False ex
+darkglare BT_307 zp:2 e:59 A:2 H:2 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;ICC_038,2;EX1_136,1;BT_292,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: DMF_236,1;BAR_880,1;EX1_136,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;EX1_349,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+entityupdate! 1000 to 109
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:32:04 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/0
+mana 6/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 14 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 20 0 15 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:20 A:1 H:4 mH:6 rdy:True natt:0
+EnemyMinions:
+dragonhatcher LOOT_540 zp:1 e:42 A:2 H:4 mH:4 rdy:False
+darkglare BT_307 zp:2 e:59 A:2 H:1 mH:3 rdy:False ex
+fleshgiant SCH_140 zp:3 e:53 A:8 H:8 mH:8 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 divinefavor 3 entity 27 EX1_349 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,1;DMF_236,1;BT_292,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: DMF_236,1;BAR_880,1;EX1_136,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,2;YOP_031,2;BAR_875,2;BT_292,1;AT_074,2;LOOT_093,2;CS2_092,2;
+recalc-check###########
+mana changed 6 -100 6 5 6 5
+Leathal-check###########
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 12 dones 0
+cut to len 10
+ailoop
+deep 2 len 20 dones 0
+cut to len 15
+ailoop
+deep 3 len 15 dones 0
+cut to len 10
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -5
+play id 27 pos 1
+
+useability 
+
+play id 32 pos 1
+
+attacker: 20 enemy: 66
+
+missing dmg to lethal 10
+calculated 0.4020682
+no lethal, do something random######
+ailoop
+deep 0 len 7 dones 0
+cut to len 7
+ailoop
+deep 1 len 30 dones 0
+cut to len 20
+ailoop
+deep 2 len 58 dones 0
+cut to len 37
+ailoop
+deep 3 len 52 dones 0
+cut to len 30
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 25
+play id 27 pos 1
+
+useability 
+
+play id 32 pos 1
+
+attacker: 20 enemy: 42
+
+calculated 0.4430475
+play id 27 pos 1
+
+使用: 神恩术 (27) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:32:10 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/1
+mana 3/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 14 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 14 0 15 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:20 A:1 H:4 mH:6 rdy:True natt:0
+EnemyMinions:
+dragonhatcher LOOT_540 zp:1 e:42 A:2 H:4 mH:4 rdy:False
+darkglare BT_307 zp:2 e:59 A:2 H:1 mH:3 rdy:False ex
+fleshgiant SCH_140 zp:3 e:53 A:8 H:8 mH:8 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 crabrider 2 entity 30 YOP_031 0 0 0
+pos 4 crabrider 2 entity 16 YOP_031 0 0 0
+pos 5 handofadal 2 entity 29 BT_292 0 0 0
+pos 6 swordofthefallen 2 entity 5 BAR_875 0 0 0
+pos 7 ohmyyogg 1 entity 13 DMF_236 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: EX1_349,27;
+etg: 
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,1;DMF_236,1;BT_292,1;EX1_349,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: BAR_880,1;EX1_136,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,2;BAR_875,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+deck/fatigue changed 14 18 15 15 0 0 0 0
+minions count or hand changed
+Leathal-check###########
+ailoop
+deep 0 len 6 dones 0
+cut to len 6
+ailoop
+deep 1 len 19 dones 0
+cut to len 12
+ailoop
+deep 2 len 19 dones 0
+cut to len 10
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 53
+play id 5 pos 1
+
+play id 13 pos 1
+
+attacker: 20 enemy: 66
+
+missing dmg to lethal 13
+calculated 0.3150251
+no lethal, do something random######
+ailoop
+deep 0 len 11 dones 0
+cut to len 11
+ailoop
+deep 1 len 75 dones 0
+cut to len 53
+ailoop
+deep 2 len 194 dones 0
+cut to len 92
+ailoop
+deep 3 len 170 dones 0
+cut to len 63
+ailoop
+deep 4 len 127 dones 0
+cut to len 43
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 53
+play id 13 pos 1
+
+attacker: 20 enemy: 66
+
+play id 5 pos 1
+
+calculated 0.6175851
+play id 13 pos 1
+
+使用: 古神在上 (13) 抉择: 0
+play id 13 pos 1
+
+使用: 古神在上 (13) 抉择: 0
+play id 13 pos 1
+
+使用: 古神在上 (13) 抉择: 0
+play id 13 pos 1
+
+使用: 古神在上 (13) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:32:27 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/5
+mana 2/6
+emana 6
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 2 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 14 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 14 0 15 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:20 A:1 H:4 mH:6 rdy:True natt:0
+EnemyMinions:
+dragonhatcher LOOT_540 zp:1 e:42 A:2 H:4 mH:4 rdy:False
+darkglare BT_307 zp:2 e:59 A:2 H:1 mH:3 rdy:False ex
+fleshgiant SCH_140 zp:3 e:53 A:8 H:8 mH:8 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 crabrider 2 entity 30 YOP_031 0 0 0
+pos 4 crabrider 2 entity 16 YOP_031 0 0 0
+pos 5 handofadal 2 entity 29 BT_292 0 0 0
+pos 6 swordofthefallen 2 entity 5 BAR_875 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: EX1_349,27;
+etg: 
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,1;DMF_236,1;BT_292,1;EX1_349,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: BAR_880,1;EX1_136,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,2;BAR_875,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 20 enemy: 66
+
+随从攻击: 尼鲁巴蛛网领主 目标为: 恩佐斯
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:32:32 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/6
+mana 2/6
+emana 6
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 2 0 0 1
+ownhero:
+pala 28 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 13 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 14 0 15 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:20 A:1 H:4 mH:6 rdy:False natt:1 ex
+EnemyMinions:
+dragonhatcher LOOT_540 zp:1 e:42 A:2 H:4 mH:4 rdy:False
+darkglare BT_307 zp:2 e:59 A:2 H:1 mH:3 rdy:False ex
+fleshgiant SCH_140 zp:3 e:53 A:8 H:8 mH:8 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 crabrider 2 entity 30 YOP_031 0 0 0
+pos 4 crabrider 2 entity 16 YOP_031 0 0 0
+pos 5 handofadal 2 entity 29 BT_292 0 0 0
+pos 6 swordofthefallen 2 entity 5 BAR_875 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: EX1_349,27;
+etg: 
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,1;DMF_236,1;BT_292,1;EX1_349,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: BAR_880,1;EX1_136,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,2;BAR_875,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 5 pos 1
+
+使用: 逝者之剑 (5) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:32:37 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/7
+mana 0/6
+emana 6
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 3 0 0 1
+ownhero:
+pala 28 30 0 False False 64 True 0 False 1 0 False
+weapon: 1 3 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 13 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 14 0 15 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:20 A:1 H:4 mH:6 rdy:False natt:1 ex
+EnemyMinions:
+dragonhatcher LOOT_540 zp:1 e:42 A:2 H:4 mH:4 rdy:False
+darkglare BT_307 zp:2 e:59 A:2 H:1 mH:3 rdy:False ex
+fleshgiant SCH_140 zp:3 e:53 A:8 H:8 mH:8 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 crabrider 2 entity 30 YOP_031 0 0 0
+pos 4 crabrider 2 entity 16 YOP_031 0 0 0
+pos 5 handofadal 2 entity 29 BT_292 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: EX1_349,27;
+etg: 
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,1;DMF_236,1;BT_292,1;EX1_349,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;BOT_222,2;ULD_163,1;GAME_005,1;
+od: BAR_880,1;EX1_136,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,2;BAR_875,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+ownhero changed 28 28 1 0 0 0 False False False False False False
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -2.5
+attack with hero, enemy: 66
+
+missing dmg to lethal 12
+calculated 0.1590118
+no lethal, do something random######
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 10
+attack with hero, enemy: 59
+
+calculated 0.0826727
+attack with hero, enemy: 59
+
+英雄攻击: 乌瑟尔·光明使者 目标为: 黑眼
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:32:44 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 11/8
+mana 0/6
+emana 6
+own secretsCount: 2
+enemy secretsCount: 0 ;
+player:
+0 3 0 0 1
+ownhero:
+pala 26 30 0 False False 64 False 1 False 1 0 False
+weapon: 1 2 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 EX1_136 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 13 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 13 0 15 0
+OwnMinions:
+nerubarweblord FP1_017 zp:1 e:20 A:1 H:4 mH:6 rdy:False natt:1 ex
+EnemyMinions:
+dragonhatcher LOOT_540 zp:1 e:42 A:2 H:4 mH:4 rdy:False
+fleshgiant SCH_140 zp:2 e:53 A:8 H:8 mH:8 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 crabrider 2 entity 30 YOP_031 0 0 0
+pos 4 crabrider 2 entity 16 YOP_031 0 0 0
+pos 5 handofadal 2 entity 29 BT_292 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: BT_307,59;
+otg: EX1_349,27;
+etg: BT_307,59;
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,1;DMF_236,1;BT_292,1;EX1_349,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;BOT_222,2;ULD_163,1;BT_307,1;GAME_005,1;
+od: BAR_880,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,2;BAR_875,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+deck/fatigue changed 13 14 15 15 0 0 0 0
+secretsCount changed
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -18.5
+missing dmg to lethal 13
+calculated 0.0569633
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -29
+calculated 0.0370072
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:33:25 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 13/0
+mana 7/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 26 30 0 False False 64 True 0 False 1 0 False
+weapon: 1 2 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 11 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 12 0 10 0
+OwnMinions:
+EnemyMinions:
+dragonhatcher LOOT_540 zp:1 e:42 A:2 H:3 mH:4 rdy:False ex
+fleshgiant SCH_140 zp:2 e:53 A:8 H:7 mH:8 rdy:False ex
+tourguide SCH_312 zp:3 e:46 A:1 H:1 mH:1 rdy:False ex
+moltengiant EX1_620 zp:4 e:105 A:8 H:8 mH:8 rdy:False ex
+moltengiant EX1_620 zp:5 e:104 A:8 H:8 mH:8 rdy:False ex
+expiredmerchant ULD_163 zp:6 e:47 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 crabrider 2 entity 30 YOP_031 0 0 0
+pos 4 crabrider 2 entity 16 YOP_031 0 0 0
+pos 5 handofadal 2 entity 29 BT_292 0 0 0
+pos 6 shieldedminibot 2 entity 7 GVG_058 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,2;FP1_017,1;DMF_236,1;BT_292,1;EX1_349,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;BOT_222,2;ULD_163,1;BT_307,1;GAME_005,1;
+od: BAR_880,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,1;BAR_875,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+mana changed 7 -100 7 6 7 6
+Leathal-check###########
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 6 dones 0
+cut to len 4
+ailoop
+deep 2 len 4 dones 0
+cut to len 2
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -10000
+useability 
+
+attack with hero, enemy: 66
+
+missing dmg to lethal 10
+calculated 0.2870535
+no lethal, do something random######
+ailoop
+deep 0 len 10 dones 0
+cut to len 10
+ailoop
+deep 1 len 72 dones 0
+cut to len 59
+ailoop
+deep 2 len 546 dones 0
+cut to len 281
+ailoop
+deep 3 len 2764 dones 0
+cut to len 1148
+ailoop
+deep 4 len 9950 dones 0
+cut to len 1853
+ailoop
+deep 5 len 12808 dones 0
+cut to len 1795
+ailoop
+deep 6 len 8252 dones 0
+cut to len 1925
+ailoop
+deep 7 len 5442 dones 0
+cut to len 2163
+ailoop
+deep 8 len 2829 dones 0
+cut to len 908
+ailoop
+deep 9 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 77
+play id 30 pos 1
+
+attacker: 30 enemy: 42
+
+attacker: 30 enemy: 42
+
+play id 16 pos 1
+
+attack with hero, enemy: 46
+
+attacker: 16 enemy: 42
+
+play id 29 target 16 pos 1
+
+attacker: 16 enemy: 47
+
+calculated 4.2695682
+play id 30 pos 1
+
+使用: 螃蟹骑士 (30) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:33:34 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 13/1
+mana 5/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+pala 26 30 0 False False 64 True 0 False 1 0 False
+weapon: 1 2 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 11 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 12 0 10 0
+OwnMinions:
+crabrider YOP_031 zp:1 e:30 A:1 H:4 mH:4 rdy:True natt:0 ptt wndfr
+EnemyMinions:
+dragonhatcher LOOT_540 zp:1 e:42 A:2 H:3 mH:4 rdy:False ex
+fleshgiant SCH_140 zp:2 e:53 A:8 H:7 mH:8 rdy:False ex
+tourguide SCH_312 zp:3 e:46 A:1 H:1 mH:1 rdy:False ex
+moltengiant EX1_620 zp:4 e:105 A:8 H:8 mH:8 rdy:False ex
+moltengiant EX1_620 zp:5 e:104 A:8 H:8 mH:8 rdy:False ex
+expiredmerchant ULD_163 zp:6 e:47 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 crabrider 2 entity 16 YOP_031 0 0 0
+pos 4 handofadal 2 entity 29 BT_292 0 0 0
+pos 5 shieldedminibot 2 entity 7 GVG_058 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,2;FP1_017,1;DMF_236,1;BT_292,1;EX1_349,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;BOT_222,2;ULD_163,1;BT_307,1;GAME_005,1;
+od: BAR_880,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,1;BAR_875,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 30 enemy: 42
+
+随从攻击: 螃蟹骑士 目标为: 驯龙师
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:33:39 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 13/2
+mana 5/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+pala 26 30 0 False False 64 True 0 False 1 0 False
+weapon: 1 2 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 11 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 12 0 10 0
+OwnMinions:
+crabrider YOP_031 zp:1 e:30 A:1 H:2 mH:4 rdy:True natt:1 ptt wndfr
+EnemyMinions:
+dragonhatcher LOOT_540 zp:1 e:42 A:2 H:2 mH:4 rdy:False ex
+fleshgiant SCH_140 zp:2 e:53 A:8 H:7 mH:8 rdy:False ex
+tourguide SCH_312 zp:3 e:46 A:1 H:1 mH:1 rdy:False ex
+moltengiant EX1_620 zp:4 e:105 A:8 H:8 mH:8 rdy:False ex
+moltengiant EX1_620 zp:5 e:104 A:8 H:8 mH:8 rdy:False ex
+expiredmerchant ULD_163 zp:6 e:47 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 crabrider 2 entity 16 YOP_031 0 0 0
+pos 4 handofadal 2 entity 29 BT_292 0 0 0
+pos 5 shieldedminibot 2 entity 7 GVG_058 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,2;FP1_017,1;DMF_236,1;BT_292,1;EX1_349,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;BOT_222,2;ULD_163,1;BT_307,1;GAME_005,1;
+od: BAR_880,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,1;BAR_875,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 30 enemy: 42
+
+随从攻击: 螃蟹骑士 目标为: 驯龙师
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:33:44 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 13/3
+mana 5/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+pala 26 30 0 False False 64 True 0 False 1 0 False
+weapon: 1 2 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 11 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 12 0 10 0
+OwnMinions:
+EnemyMinions:
+dragonhatcher LOOT_540 zp:1 e:42 A:2 H:1 mH:4 rdy:False ex
+fleshgiant SCH_140 zp:2 e:53 A:8 H:7 mH:8 rdy:False ex
+tourguide SCH_312 zp:3 e:46 A:1 H:1 mH:1 rdy:False ex
+moltengiant EX1_620 zp:4 e:105 A:8 H:8 mH:8 rdy:False ex
+moltengiant EX1_620 zp:5 e:104 A:8 H:8 mH:8 rdy:False ex
+expiredmerchant ULD_163 zp:6 e:47 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 crabrider 2 entity 16 YOP_031 0 0 0
+pos 4 handofadal 2 entity 29 BT_292 0 0 0
+pos 5 shieldedminibot 2 entity 7 GVG_058 0 0 0
+Enemy cards: 6
+ownDiedMinions: YOP_031,30;
+enemyDiedMinions: 
+otg: YOP_031,30;
+etg: 
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,2;FP1_017,1;DMF_236,1;BT_292,1;EX1_349,1;YOP_031,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;BOT_222,2;ULD_163,1;BT_307,1;GAME_005,1;
+od: BAR_880,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,1;BAR_875,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 16 pos 1
+
+使用: 螃蟹骑士 (16) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:33:49 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 13/4
+mana 3/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+2 2 0 0 1
+ownhero:
+pala 26 30 0 False False 64 True 0 False 1 0 False
+weapon: 1 2 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 11 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 12 0 10 0
+OwnMinions:
+crabrider YOP_031 zp:1 e:16 A:1 H:4 mH:4 rdy:True natt:0 ptt wndfr
+EnemyMinions:
+dragonhatcher LOOT_540 zp:1 e:42 A:2 H:1 mH:4 rdy:False ex
+fleshgiant SCH_140 zp:2 e:53 A:8 H:7 mH:8 rdy:False ex
+tourguide SCH_312 zp:3 e:46 A:1 H:1 mH:1 rdy:False ex
+moltengiant EX1_620 zp:4 e:105 A:8 H:8 mH:8 rdy:False ex
+moltengiant EX1_620 zp:5 e:104 A:8 H:8 mH:8 rdy:False ex
+expiredmerchant ULD_163 zp:6 e:47 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 handofadal 2 entity 29 BT_292 0 0 0
+pos 4 shieldedminibot 2 entity 7 GVG_058 0 0 0
+Enemy cards: 6
+ownDiedMinions: YOP_031,30;
+enemyDiedMinions: 
+otg: YOP_031,30;
+etg: 
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,2;FP1_017,1;DMF_236,1;BT_292,1;EX1_349,1;YOP_031,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;BOT_222,2;ULD_163,1;BT_307,1;GAME_005,1;
+od: BAR_880,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,1;BAR_875,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attack with hero, enemy: 46
+
+英雄攻击: 乌瑟尔·光明使者 目标为: 巡游向导
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:33:55 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 13/5
+mana 3/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+2 2 0 0 1
+ownhero:
+pala 25 30 0 False False 64 False 1 False 1 0 False
+weapon: 1 1 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 11 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 12 0 10 0
+OwnMinions:
+crabrider YOP_031 zp:1 e:16 A:1 H:4 mH:4 rdy:True natt:0 ptt wndfr
+EnemyMinions:
+dragonhatcher LOOT_540 zp:1 e:42 A:2 H:1 mH:4 rdy:False ex
+fleshgiant SCH_140 zp:2 e:53 A:8 H:7 mH:8 rdy:False ex
+moltengiant EX1_620 zp:3 e:105 A:8 H:8 mH:8 rdy:False ex
+moltengiant EX1_620 zp:4 e:104 A:8 H:8 mH:8 rdy:False ex
+expiredmerchant ULD_163 zp:5 e:47 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 handofadal 2 entity 29 BT_292 0 0 0
+pos 4 shieldedminibot 2 entity 7 GVG_058 0 0 0
+Enemy cards: 6
+ownDiedMinions: YOP_031,30;
+enemyDiedMinions: SCH_312,46;
+otg: YOP_031,30;
+etg: SCH_312,46;
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,2;FP1_017,1;DMF_236,1;BT_292,1;EX1_349,1;YOP_031,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;BOT_222,2;SCH_312,1;ULD_163,1;BT_307,1;GAME_005,1;
+od: BAR_880,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,1;BAR_875,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 16 enemy: 42
+
+随从攻击: 螃蟹骑士 目标为: 驯龙师
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:33:59 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 13/6
+mana 3/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+2 2 0 0 1
+ownhero:
+pala 25 30 0 False False 64 False 1 False 1 0 False
+weapon: 1 1 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 11 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 12 0 10 0
+OwnMinions:
+crabrider YOP_031 zp:1 e:16 A:1 H:2 mH:4 rdy:True natt:1 ptt wndfr
+EnemyMinions:
+fleshgiant SCH_140 zp:1 e:53 A:8 H:7 mH:8 rdy:False ex
+moltengiant EX1_620 zp:2 e:105 A:8 H:8 mH:8 rdy:False ex
+moltengiant EX1_620 zp:3 e:104 A:8 H:8 mH:8 rdy:False ex
+expiredmerchant ULD_163 zp:4 e:47 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 handofadal 2 entity 29 BT_292 0 0 0
+pos 4 shieldedminibot 2 entity 7 GVG_058 0 0 0
+Enemy cards: 6
+ownDiedMinions: YOP_031,30;
+enemyDiedMinions: LOOT_540,42;SCH_312,46;
+otg: YOP_031,30;
+etg: LOOT_540,42;SCH_312,46;
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,2;FP1_017,1;DMF_236,1;BT_292,1;EX1_349,1;YOP_031,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;LOOT_540,1;BOT_222,2;SCH_312,1;ULD_163,1;BT_307,1;GAME_005,1;
+od: BAR_880,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,1;BAR_875,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 29 target 16 pos 1
+
+使用: 阿达尔之手 (29) 瞄准: 螃蟹骑士 (16) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:34:04 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 13/7
+mana 1/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+2 3 0 0 1
+ownhero:
+pala 25 30 0 False False 64 False 1 False 1 0 False
+weapon: 1 1 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 11 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 11 0 10 0
+OwnMinions:
+crabrider YOP_031 zp:1 e:16 A:3 H:4 mH:6 rdy:True natt:1 ptt wndfr
+EnemyMinions:
+fleshgiant SCH_140 zp:1 e:53 A:8 H:7 mH:8 rdy:False ex
+moltengiant EX1_620 zp:2 e:105 A:8 H:8 mH:8 rdy:False ex
+moltengiant EX1_620 zp:3 e:104 A:8 H:8 mH:8 rdy:False ex
+expiredmerchant ULD_163 zp:4 e:47 A:2 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 shieldedminibot 2 entity 7 GVG_058 0 0 0
+pos 4 swordofthefallen 2 entity 33 BAR_875 0 0 0
+Enemy cards: 6
+ownDiedMinions: YOP_031,30;
+enemyDiedMinions: LOOT_540,42;SCH_312,46;
+otg: BT_292,29;YOP_031,30;
+etg: LOOT_540,42;SCH_312,46;
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,2;FP1_017,1;DMF_236,1;BT_292,2;EX1_349,1;YOP_031,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;LOOT_540,1;BOT_222,2;SCH_312,1;ULD_163,1;BT_307,1;GAME_005,1;
+od: BAR_880,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+handcard changed: swordofthefallen
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 17
+missing dmg to lethal 11
+calculated 0.0921154
+no lethal, do something random######
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 6 dones 0
+cut to len 3
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -74
+attacker: 16 enemy: 47
+
+calculated 0.1880147
+attacker: 16 enemy: 47
+
+随从攻击: 螃蟹骑士 目标为: 过期货物专卖商
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 03:34:11 V117.178 怼脸模式 5000 face 27 berserk:1 ets 200 iC 1 aA 0
+#######################################################################
+turn 13/8
+mana 1/7
+emana 7
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+2 3 0 0 1
+ownhero:
+pala 25 30 0 False False 64 False 1 False 1 0 False
+weapon: 1 1 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+nzoth 11 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_07dbp
+fatigue: 11 0 10 0
+OwnMinions:
+crabrider YOP_031 zp:1 e:16 A:3 H:2 mH:6 rdy:False natt:2 ex ptt wndfr
+EnemyMinions:
+fleshgiant SCH_140 zp:1 e:53 A:8 H:7 mH:8 rdy:False ex
+moltengiant EX1_620 zp:2 e:105 A:8 H:8 mH:8 rdy:False ex
+moltengiant EX1_620 zp:3 e:104 A:8 H:8 mH:8 rdy:False ex
+Own Handcards: 
+pos 1 convictionrank2 1 entity 32 BAR_880t 0 0 0
+pos 2 sealofchampions 3 entity 23 AT_074 0 0 0
+pos 3 shieldedminibot 2 entity 7 GVG_058 0 0 0
+pos 4 swordofthefallen 2 entity 33 BAR_875 0 0 0
+Enemy cards: 6
+ownDiedMinions: YOP_031,30;
+enemyDiedMinions: LOOT_540,42;SCH_312,46;ULD_163,47;
+otg: BT_292,29;YOP_031,30;
+etg: LOOT_540,42;SCH_312,46;ULD_163,47;
+og: BAR_074,1;ICC_038,2;DAL_570,1;EX1_136,2;FP1_017,1;DMF_236,1;BT_292,2;EX1_349,1;YOP_031,1;
+eg: EX1_620,1;SCH_514,1;BT_300,1;LOOT_014,1;EX1_302,1;LOOT_504,1;LOOT_540,1;BOT_222,2;SCH_312,1;ULD_163,2;BT_307,1;GAME_005,1;
+od: BAR_880,1;EX1_363,1;BOT_909,2;BAR_074,1;FP1_017,1;GVG_058,1;AT_074,1;LOOT_093,2;CS2_092,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
