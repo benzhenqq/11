@@ -26,7 +26,7 @@ nextTurnTotalBoards = 200;//maximum boards calculated in second turn simulation
 berserkIfCanFinishNextTour = 1; // 0 - off(default), 1 - if there is any chance to kill the enemy through the round, all attacks will be in the face
 
 alpha = 50; // weight of the second turn in calculation (0<= alpha <= 100)
-useSecretsPlayAround = false; // playing arround enemys secrets
+useSecretsPlayAround = true; // playing arround enemys secrets
 placement = 0;  // 0 - minions are interleaved by value (..low value - hi value..), 1 - hi val minions along the edges, low val in the center
 
 ImprovedCalculations = 1;   // 0 - disabled(for old PCs), 1 - enabled

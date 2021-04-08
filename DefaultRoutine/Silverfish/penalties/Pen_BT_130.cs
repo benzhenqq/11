@@ -12,7 +12,7 @@ namespace HREngine.Bots
 		{
 			if(p.ownMaxMana <= 4) return -60;
 			else if(p.ownMaxMana <= 6) return -10;
-			return 0;
+			return 5;
 		}
 
 	}
