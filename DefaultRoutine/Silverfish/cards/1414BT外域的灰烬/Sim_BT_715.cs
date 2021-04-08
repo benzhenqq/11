@@ -8,7 +8,10 @@ namespace HREngine.Bots
 	{
 		//[x]<b>Taunt</b>Whenever this minion takes_damage, gain +2 Attack.
 		//<b>嘲讽</b>每当该随从受到伤害，便获得+2攻击力。
-		
+		public override void onEnrageStart(Playfield p, Minion m)
+		{
+			m.Angr += 2;
+		}
 		
 	}
 }

@@ -20,7 +20,7 @@ namespace HREngine.Bots
                     maxCost = deckSpell.cost;                    
                 }
 			}
-            return -5 * (maxCost - 3);
+			return -10 * maxCost;
         }
 
 	}

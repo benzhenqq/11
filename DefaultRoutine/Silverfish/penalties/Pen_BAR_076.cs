@@ -10,7 +10,7 @@ namespace HREngine.Bots
 //    spott/
         public override int getPlayPenalty(Playfield p, Minion m, Minion target, int choice, bool isLethal)
         {
-            if(p.ownMaxMana <= 2) return -20;
+            if(p.ownMaxMana <= 2) return -40;
 			return 0;
         }
 
