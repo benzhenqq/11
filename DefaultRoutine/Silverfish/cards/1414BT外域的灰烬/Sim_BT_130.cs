@@ -8,7 +8,34 @@ namespace HREngine.Bots
 	{
 		//Gain two empty Mana_Crystals.
 		//获得两个空的法力水晶。
-		
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            if (ownplay)
+            {
+                if (p.ownMaxMana < 10)
+                {
+                    p.ownMaxMana+=2;
+					if(p.ownMaxMana > 10 ) p.ownMaxMana = 10;
+                }
+                else
+                {
+                    p.drawACard(CardDB.cardName.excessmana, true, true);
+                }
+
+            }
+            else
+            {
+                if (p.enemyMaxMana < 10)
+                {
+                    p.enemyMaxMana+=2;
+					if(p.enemyMaxMana > 10 ) p.enemyMaxMana = 10;
+                }
+                else
+                {
+                    p.drawACard(CardDB.cardName.excessmana, false, true);
+                }
+            }
+		}
 		
 	}
 }

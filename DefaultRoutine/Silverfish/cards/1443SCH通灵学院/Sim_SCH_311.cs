@@ -8,7 +8,13 @@ namespace HREngine.Bots
 	{
 		//<b>Rush</b><b>Battlecry:</b> Give your other minions <b>Rush</b>.
 		//<b>突袭，战吼：</b>使你的其他随从获得<b>突袭</b>。
-		
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+			foreach (Minion m in p.ownMinions)
+			{
+				m.rush = 1;
+			}
+		}
 		
 	}
 }

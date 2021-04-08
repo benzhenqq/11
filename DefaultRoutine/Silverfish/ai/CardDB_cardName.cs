@@ -63330,7 +63330,254 @@ namespace HREngine.Bots
             /// <para>每次只能受到1点伤害。</para>
             /// </summary>
             moonfang,
-
+/// <summary>
+/// <para>随从 法师 费用：5 攻击力：5 生命值：5</para>
+/// <para>Aegwynn, the Guardian</para>
+/// <para>守护者艾格文</para>
+/// <para><b>Spell Damage +2</b><b>Deathrattle:</b> The next minion_you draw inherits these powers.</para>
+/// <para><b>法术伤害+2</b>，<b>亡语：</b>你抽到的下一张随从牌会继承这些能力。</para>
+/// </summary>
+aegwynntheguardian,
+/// <summary>
+/// <para>随从 术士 费用：5 攻击力：5 生命值：5</para>
+/// <para>Demonic Tyrant</para>
+/// <para>恶魔暴君</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+demonictyrant,
+/// <summary>
+/// <para>随从 术士 费用：5 攻击力：4 生命值：6</para>
+/// <para>Felsoul Jailer</para>
+/// <para>邪魂狱卒</para>
+/// <para>[x]<b>Battlecry:</b> Your opponentdiscards a minion.<b>Deathrattle:</b> Return it.</para>
+/// <para><b>战吼：</b>使你的对手弃掉一张随从牌。<b>亡语：</b>移回弃掉的牌。</para>
+/// </summary>
+felsouljailer,
+/// <summary>
+/// <para>随从 牧师 费用：2 攻击力：2 生命值：3</para>
+/// <para>Vanessa VanCleef</para>
+/// <para>梵妮莎·范克里夫</para>
+/// <para><b>Combo:</b> Add a copy of the last card your opponent played to your hand.</para>
+/// <para><b>连击：</b>将你对手使用的上一张牌的一张复制置入你的手牌。</para>
+/// </summary>
+vanessavancleef,
+/// <summary>
+/// <para>随从 萨满祭司 费用：1 攻击力：3 生命值：2</para>
+/// <para>Novice Zapper</para>
+/// <para>电击学徒</para>
+/// <para><b>Spell Damage +1</b> <b>Overload:</b> (1)</para>
+/// <para><b>法术伤害+1</b><b>过载：</b>（1）</para>
+/// </summary>
+novicezapper,
+/// <summary>
+/// <para>随从 战士 费用：1 攻击力：2 生命值：1</para>
+/// <para>Bloodsail Deckhand</para>
+/// <para>血帆桨手</para>
+/// <para>[x]<b>Battlecry:</b> The nextweapon you play costs(1) less.</para>
+/// <para><b>战吼：</b>你的下一张武器牌的法力值消耗减少（1）点。</para>
+/// </summary>
+bloodsaildeckhand,
+/// <summary>
+/// <para>法术 战士 费用：3</para>
+/// <para>War Cache</para>
+/// <para>战争储备箱</para>
+/// <para>Add a random Warrior minion, spell, and weapon to your hand.</para>
+/// <para>随机将一张战士随从牌，法术牌和武器牌分别置入你的手牌。</para>
+/// </summary>
+warcache,
+/// <summary>
+/// <para>随从 德鲁伊 费用：4 攻击力：3 生命值：5</para>
+/// <para>Nordrassil Druid</para>
+/// <para>诺达希尔德鲁伊</para>
+/// <para><b>Battlecry:</b> The next spell you cast this turn costs_(3)_less.</para>
+/// <para><b>战吼：</b>在本回合中，你施放的下一个法术的法力值消耗减少（3）点。</para>
+/// </summary>
+nordrassildruid,
+/// <summary>
+/// <para>随从 潜行者 费用：3 攻击力：4 生命值：3</para>
+/// <para>Shadowed Spirit</para>
+/// <para>暗影之灵</para>
+/// <para>[x]<b>Deathrattle:</b> Deal 3damage to theenemy hero.</para>
+/// <para><b>亡语：</b>对敌方英雄造成3点伤害。</para>
+/// </summary>
+shadowedspirit,
+/// <summary>
+/// <para>随从 潜行者 费用：1 攻击力：1 生命值：3</para>
+/// <para>Crimson Clergy</para>
+/// <para>赤红教士</para>
+/// <para>After a friendly character is healed, gain +1 Attack.</para>
+/// <para>在一个友方角色获得治疗后，获得+1攻击力。</para>
+/// </summary>
+crimsonclergy,
+/// <summary>
+/// <para>随从 猎人 费用：2 攻击力：1 生命值：1</para>
+/// <para>Selective Breeder</para>
+/// <para>选种饲养员</para>
+/// <para><b>Battlecry:</b> <b>Discover</b> a copy of a Beast in your deck.</para>
+/// <para><b>战吼：</b>从你的牌库中<b>发现</b>一张野兽牌的复制。</para>
+/// </summary>
+selectivebreeder,
+/// <summary>
+/// <para>法术 圣骑士 费用：1</para>
+/// <para>Reckoning</para>
+/// <para>清算</para>
+/// <para><b>Secret:</b> After an enemy minion deals 3 or more damage, destroy it.</para>
+/// <para><b>奥秘：</b>在一个敌方随从造成3点或以上伤害后，将其消灭。</para>
+/// </summary>
+reckoning,
+/// <summary>
+/// <para>随从 恶魔猎手 费用：3 攻击力：3 生命值：2</para>
+/// <para>Gan'arg Glaivesmith</para>
+/// <para>甘尔葛战刃铸造师</para>
+/// <para><b>Outcast:</b> Give your hero +3_Attack this turn.</para>
+/// <para><b>流放：</b>在本回合中，使你的英雄获得+3攻击力。</para>
+/// </summary>
+ganargglaivesmith,
+/// <summary>
+/// <para>随从 恶魔猎手 费用：2 攻击力：2 生命值：2</para>
+/// <para>Kor'vas Bloodthorn</para>
+/// <para>考瓦斯·血棘</para>
+/// <para>[x]<b>Charge</b>, <b>Lifesteal</b>After you play a card with<b>Outcast</b>, return this toyour hand.</para>
+/// <para><b>冲锋</b>，<b>吸血</b>在你使用一张<b>流放</b>牌后，将该随从移回你的手牌。</para>
+/// </summary>
+korvasbloodthorn,
+/// <summary>
+/// <para>随从 恶魔猎手 费用：8 攻击力：8 生命值：8</para>
+/// <para>Illidari Inquisitor</para>
+/// <para>伊利达雷审判官</para>
+/// <para><b>Rush</b>. After your hero attacks an enemy, this attacks it too.</para>
+/// <para><b>突袭</b>在你的英雄攻击一个敌人后，该随从也会攻击。</para>
+/// </summary>
+illidariinquisitor,
+/// <summary>
+/// <para>随从 术士 费用：7 攻击力：4 生命值：10</para>
+/// <para>Enslaved Fel Lord</para>
+/// <para>被奴役的邪能领主</para>
+/// <para><b>Taunt</b>. Also damages the minions next to whomever this attacks.</para>
+/// <para><b>嘲讽</b>同时对其攻击目标相邻的随从造成伤害。</para>
+/// </summary>
+enslavedfellord,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：2</para>
+/// <para>Fogsail Freebooter</para>
+/// <para>雾帆劫掠者</para>
+/// <para><b>Battlecry:</b> If you have a weapon equipped, deal_2_damage.</para>
+/// <para><b>战吼：</b>如果你装备着武器，造成2点伤害。</para>
+/// </summary>
+fogsailfreebooter,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：3 生命值：3</para>
+/// <para>Taelan Fordring</para>
+/// <para>泰兰·弗丁</para>
+/// <para>[x]<b><b>Taunt</b>, Divine Shield</b><b>Deathrattle:</b> Draw yourhighest Cost minion.</para>
+/// <para><b>嘲讽</b>，<b>圣盾</b><b>亡语：</b>抽取你的法力值消耗最高的随从牌。</para>
+/// </summary>
+taelanfordring,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：3 生命值：6</para>
+/// <para>Overlord Runthak</para>
+/// <para>伦萨克大王</para>
+/// <para>[x]<b>Rush</b>. Whenever thisattacks, give +1/+1 to allminions in your hand.</para>
+/// <para><b>突袭</b>每当该随从攻击时，使你手牌中的所有随从牌获得+1/+1。</para>
+/// </summary>
+overlordrunthak,
+/// <summary>
+/// <para>法术 潜行者 费用：1</para>
+/// <para>Focused Will</para>
+/// <para>专注意志</para>
+/// <para><b>Silence</b> a minion, then give it +3 Health.</para>
+/// <para><b>沉默</b>一个随从，然后使其获得+3生命值。</para>
+/// </summary>
+focusedwill,
+/// <summary>
+/// <para>法术 潜行者 费用：2</para>
+/// <para>Thrive in the Shadows</para>
+/// <para>暗中生长</para>
+/// <para><b>Discover</b> a spell from your deck.</para>
+/// <para>从你的牌库中<b>发现</b>一张法术牌。</para>
+/// </summary>
+thriveintheshadows,
+/// <summary>
+/// <para>法术 圣骑士 费用：2</para>
+/// <para>Pursuit of Justice</para>
+/// <para>正义追击</para>
+/// <para>Give +1 Attack to Silver Hand Recruits you summon this game.</para>
+/// <para>使你本局对战中召唤的白银之手新兵获得+1攻击力。</para>
+/// </summary>
+pursuitofjustice,
+/// <summary>
+/// <para>随从 战士 费用：4 攻击力：5 生命值：4</para>
+/// <para>Warsong Outrider</para>
+/// <para>战歌侦察骑兵</para>
+/// <para><b>Rush</b></para>
+/// <para><b>突袭</b></para>
+/// </summary>
+warsongoutrider,
+/// <summary>
+/// <para>随从 中立 费用：9 攻击力：8 生命值：8</para>
+/// <para>Alexstrasza the Life-Binder</para>
+/// <para>生命的缚誓者阿莱克丝塔萨</para>
+/// <para>[x]<b>Battlecry</b>: Choose acharacter. If it's friendly,restore 8 Health. If it's an___enemy, deal 8 damage.</para>
+/// <para><b>战吼：</b>选择一个角色。如果是友方角色，为其恢复8点生命值；如果是敌方角色，对其造成8点伤害。</para>
+/// </summary>
+alexstraszathelifebinder,
+/// <summary>
+/// <para>随从 中立 费用：9 攻击力：8 生命值：8</para>
+/// <para>Onyxia the Broodmother</para>
+/// <para>龙巢之母奥妮克希亚</para>
+/// <para>At the end of each turn, fill_your board with 1/1_Whelps.</para>
+/// <para>在每个回合结束时，召唤数条1/1的雏龙，直到你的随从数量达到上限。</para>
+/// </summary>
+onyxiathebroodmother,
+/// <summary>
+/// <para>随从 中立 费用：9 攻击力：4 生命值：12</para>
+/// <para>Ysera the Dreamer</para>
+/// <para>沉睡者伊瑟拉</para>
+/// <para><b>Battlecry:</b> Add one of each Dream card to your hand.</para>
+/// <para><b>战吼：</b>将每种梦境牌各一张置入你的手牌。</para>
+/// </summary>
+yserathedreamer,
+/// <summary>
+/// <para>随从 中立 费用：9 攻击力：4 生命值：12</para>
+/// <para>Malygos the Spellweaver</para>
+/// <para>织法者玛里苟斯</para>
+/// <para><b>Battlecry:</b> Draw spells until your hand is full.</para>
+/// <para><b>战吼：</b>抽取法术牌直到达到你的手牌上限。</para>
+/// </summary>
+malygosthespellweaver,
+/// <summary>
+/// <para>随从 中立 费用：7 攻击力：8 生命值：8</para>
+/// <para>Nozdormu the Eternal</para>
+/// <para>永恒者诺兹多姆</para>
+/// <para>[x]<b>Start of Game:</b> If this is inBOTH players' decks, turns_are only 15 seconds long.</para>
+/// <para><b>对战开始时：</b>如果双方玩家的牌库中都有该随从，则每个回合只有15秒。</para>
+/// </summary>
+nozdormutheeternal,
+/// <summary>
+/// <para>随从 中立 费用：10 攻击力：12 生命值：12</para>
+/// <para>Deathwing the Destroyer</para>
+/// <para>灭世者死亡之翼</para>
+/// <para><b>Battlecry:</b> Destroy all other minions. Discard a card for each destroyed.</para>
+/// <para><b>战吼：</b>消灭所有其他随从。每消灭一个随从，便弃一张牌。</para>
+/// </summary>
+deathwingthedestroyer,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Emerald Skytalon</para>
+/// <para>翡翠天爪枭</para>
+/// <para><b>Rush</b></para>
+/// <para><b>突袭</b></para>
+/// </summary>
+emeraldskytalon,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：3 生命值：1</para>
+/// <para>Redgill Razorjaw</para>
+/// <para>红鳃锋颚战士</para>
+/// <para><b>Rush</b></para>
+/// <para><b>突袭</b></para>
+/// </summary>
+redgillrazorjaw,
 
 
 

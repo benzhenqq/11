@@ -10,7 +10,9 @@ namespace HREngine.Bots
 //    erhaltet einen leeren manakristall.
 		public override int getPlayPenalty(Playfield p, Minion m, Minion target, int choice, bool isLethal)
 		{
-		return 0;
+			if(p.ownMaxMana <= 3) return -40;
+			else if(p.ownMaxMana <= 5) return -10;
+			return 0;
 		}
 
 	}

@@ -81542,6 +81542,1646 @@ namespace HREngine.Bots
             /// <para>每次只能受到1点伤害。</para>
             /// </summary>
             YOP_035 = 61973,
+/// <summary>
+/// <para>随从 法师 费用：2 攻击力：3 生命值：2</para>
+/// <para>Fallen Hero</para>
+/// <para>英雄之魂</para>
+/// <para>Your Hero Power deals 1_extra damage.</para>
+/// <para>你的英雄技能会额外造成1点伤害。</para>
+/// </summary>
+CORE_AT_003 = 69696,
+/// <summary>
+/// <para>随从 法师 费用：6 攻击力：6 生命值：7</para>
+/// <para>Coldarra Drake</para>
+/// <para>考达拉幼龙</para>
+/// <para>You can use your Hero Power any number of times.</para>
+/// <para>你可以使用任意次数的英雄技能。</para>
+/// </summary>
+CORE_AT_008 = 69697,
+/// <summary>
+/// <para>随从 术士 费用：2 攻击力：3 生命值：2</para>
+/// <para>Tiny Knight of Evil</para>
+/// <para>小鬼骑士</para>
+/// <para>Whenever you discard a card, gain +1/+1.</para>
+/// <para>每当你弃掉一张牌时，便获得+1/+1。</para>
+/// </summary>
+CORE_AT_021 = 69729,
+/// <summary>
+/// <para>随从 萨满祭司 费用：4 攻击力：4 生命值：5</para>
+/// <para>Draenei Totemcarver</para>
+/// <para>德莱尼图腾师</para>
+/// <para><b>Battlecry:</b> Gain +1/+1 for each friendly Totem.</para>
+/// <para><b>战吼：</b>每有一个友方图腾，便获得+1/+1。</para>
+/// </summary>
+CORE_AT_047 = 69732,
+/// <summary>
+/// <para>法术 潜行者 费用：1</para>
+/// <para>Flash Heal</para>
+/// <para>快速治疗</para>
+/// <para>Restore #5 Health.</para>
+/// <para>恢复#5点生命值。</para>
+/// </summary>
+CORE_AT_055 = 69707,
+/// <summary>
+/// <para>法术 猎人 费用：1</para>
+/// <para>Lock and Load</para>
+/// <para>子弹上膛</para>
+/// <para>Each time you cast a spell this turn, add a random Hunter card to your hand.</para>
+/// <para>在本回合中，每当你施放一个法术，随机将一张猎人卡牌置入你的手牌。</para>
+/// </summary>
+CORE_AT_061 = 69690,
+/// <summary>
+/// <para>随从 圣骑士 费用：3 攻击力：3 生命值：4</para>
+/// <para>Warhorse Trainer</para>
+/// <para>战马训练师</para>
+/// <para>Your Silver Hand Recruits have +1 Attack.</para>
+/// <para>你的白银之手新兵获得+1攻击力。</para>
+/// </summary>
+CORE_AT_075 = 69703,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：5 生命值：2</para>
+/// <para>Ice Rager</para>
+/// <para>冰霜暴怒者</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+CORE_AT_092 = 69710,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：2</para>
+/// <para>Toxicologist</para>
+/// <para>毒物学家</para>
+/// <para><b>Battlecry:</b> Give your weapon +1 Attack.</para>
+/// <para><b>战吼：</b>使你的武器获得+1攻击力。</para>
+/// </summary>
+CORE_BOT_083 = 69711,
+/// <summary>
+/// <para>法术 德鲁伊 费用：3</para>
+/// <para>Landscaping</para>
+/// <para>植树造林</para>
+/// <para>Summon two 2/2 Treants.</para>
+/// <para>召唤两个2/2的树人。</para>
+/// </summary>
+CORE_BOT_420 = 69685,
+/// <summary>
+/// <para>法术 法师 费用：1</para>
+/// <para>Shooting Star</para>
+/// <para>迸射流星</para>
+/// <para>Deal $1 damage to a minion and the minions next to it.</para>
+/// <para>对一个随从及其相邻的随从造成$1点伤害。</para>
+/// </summary>
+CORE_BOT_453 = 69698,
+/// <summary>
+/// <para>随从 萨满祭司 费用：2 攻击力：2 生命值：2</para>
+/// <para>Menacing Nimbus</para>
+/// <para>凶恶的雨云</para>
+/// <para><b>Battlecry:</b> Add a random Elemental to your hand.</para>
+/// <para><b>战吼：</b>随机将一张元素牌置入你的手牌。</para>
+/// </summary>
+CORE_BOT_533 = 69731,
+/// <summary>
+/// <para>法术 猎人 费用：2</para>
+/// <para>Quick Shot</para>
+/// <para>快速射击</para>
+/// <para>Deal $3 damage.If your hand is empty, draw a card.</para>
+/// <para>造成$3点伤害。如果你没有其他手牌，则抽一张牌。</para>
+/// </summary>
+CORE_BRM_013 = 69691,
+/// <summary>
+/// <para>法术 恶魔猎手 费用：2</para>
+/// <para>Chaos Strike</para>
+/// <para>混乱打击</para>
+/// <para>Give your hero +2_Attack this turn. Draw a card.</para>
+/// <para>在本回合中，使你的英雄获得+2攻击力。抽一张牌。</para>
+/// </summary>
+CORE_BT_035 = 69558,
+/// <summary>
+/// <para>法术 恶魔猎手 费用：3</para>
+/// <para>Coordinated Strike</para>
+/// <para>协同打击</para>
+/// <para>Summon three 1/1_Illidari with <b>Rush</b>.</para>
+/// <para>召唤三个1/1并具有<b>突袭</b>的伊利达雷。</para>
+/// </summary>
+CORE_BT_036 = 69504,
+/// <summary>
+/// <para>法术 恶魔猎手 费用：5</para>
+/// <para>Chaos Nova</para>
+/// <para>混乱新星</para>
+/// <para>Deal $4 damage to all_minions.</para>
+/// <para>对所有随从造成$4点伤害。</para>
+/// </summary>
+CORE_BT_235 = 69505,
+/// <summary>
+/// <para>随从 恶魔猎手 费用：2 攻击力：3 生命值：2</para>
+/// <para>Sightless Watcher</para>
+/// <para>盲眼监视者</para>
+/// <para><b>Battlecry:</b> Look at 3 cards in your deck. Choose one to put on top.</para>
+/// <para><b>战吼：</b>检视你牌库中的三张牌。选择一张置于牌库顶。</para>
+/// </summary>
+CORE_BT_323 = 69506,
+/// <summary>
+/// <para>随从 恶魔猎手 费用：1 攻击力：1 生命值：2</para>
+/// <para>Battlefiend</para>
+/// <para>战斗邪犬</para>
+/// <para>After your hero attacks, gain +1 Attack.</para>
+/// <para>在你的英雄攻击后，获得+1攻击力。</para>
+/// </summary>
+CORE_BT_351 = 69586,
+/// <summary>
+/// <para>随从 恶魔猎手 费用：4 攻击力：4 生命值：4</para>
+/// <para>Raging Felscreamer</para>
+/// <para>暴怒邪吼者</para>
+/// <para><b>Battlecry:</b> The next Demon you play costs (2) less.</para>
+/// <para><b>战吼：</b>你的下一张恶魔牌的法力值消耗减少（2）点。</para>
+/// </summary>
+CORE_BT_416 = 69588,
+/// <summary>
+/// <para>随从 恶魔猎手 费用：4 攻击力：3 生命值：5</para>
+/// <para>Ashtongue Battlelord</para>
+/// <para>灰舌将领</para>
+/// <para><b>Taunt</b><b>Lifesteal</b></para>
+/// <para><b>嘲讽，吸血</b></para>
+/// </summary>
+CORE_BT_423 = 69681,
+/// <summary>
+/// <para>法术 恶魔猎手 费用：2</para>
+/// <para>Feast of Souls</para>
+/// <para>灵魂盛宴</para>
+/// <para>Draw a card for each friendly minion that died this turn.</para>
+/// <para>在本回合中每有一个友方随从死亡，抽一张牌。</para>
+/// </summary>
+CORE_BT_427 = 69590,
+/// <summary>
+/// <para>武器 恶魔猎手 费用：5 攻击力：3 耐久度：3</para>
+/// <para>Warglaives of Azzinoth</para>
+/// <para>埃辛诺斯战刃</para>
+/// <para>After attacking a minion, your hero may attack again.</para>
+/// <para>在攻击一个随从后，你的英雄可以再次攻击。</para>
+/// </summary>
+CORE_BT_430 = 69682,
+/// <summary>
+/// <para>随从 恶魔猎手 费用：1 攻击力：1 生命值：1</para>
+/// <para>Crimson Sigil Runner</para>
+/// <para>火色魔印奔行者</para>
+/// <para><b>Outcast:</b> Draw a card.</para>
+/// <para><b>流放：</b>抽一张牌。</para>
+/// </summary>
+CORE_BT_480 = 69683,
+/// <summary>
+/// <para>法术 恶魔猎手 费用：2</para>
+/// <para>Spectral Sight</para>
+/// <para>幽灵视觉</para>
+/// <para>[x]Draw a card.<b>Outcast:</b> Draw another.</para>
+/// <para>抽一张牌。<b>流放：</b>再抽一张。</para>
+/// </summary>
+CORE_BT_491 = 69684,
+/// <summary>
+/// <para>法术 恶魔猎手 费用：3</para>
+/// <para>Eye Beam</para>
+/// <para>眼棱</para>
+/// <para><b>Lifesteal</b>. Deal $3 damage to a minion.<b>Outcast:</b> This costs (1).</para>
+/// <para><b>吸血</b>。对一个随从造成$3点伤害。<b>流放：</b>法力值消耗为（1）点。</para>
+/// </summary>
+CORE_BT_801 = 69740,
+/// <summary>
+/// <para>武器 恶魔猎手 费用：3 攻击力：2 耐久度：2</para>
+/// <para>Aldrachi Warblades</para>
+/// <para>奥达奇战刃</para>
+/// <para><b>Lifesteal</b></para>
+/// <para><b>吸血</b></para>
+/// </summary>
+CORE_BT_921 = 69507,
+/// <summary>
+/// <para>法术 潜行者 费用：4</para>
+/// <para>Holy Nova</para>
+/// <para>神圣新星</para>
+/// <para>Deal $2 damage to all enemy minions. Restore #2 Health to all friendly characters.</para>
+/// <para>对所有敌方随从造成$2点伤害，为所有友方角色恢复#2点生命值。</para>
+/// </summary>
+CORE_CS1_112 = 69508,
+/// <summary>
+/// <para>法术 潜行者 费用：1</para>
+/// <para>Holy Smite</para>
+/// <para>神圣惩击</para>
+/// <para>Deal $3 damageto a minion.</para>
+/// <para>对一个随从造成$3点伤害。</para>
+/// </summary>
+CORE_CS1_130 = 69509,
+/// <summary>
+/// <para>法术 德鲁伊 费用：2</para>
+/// <para>Mark of the Wild</para>
+/// <para>野性印记</para>
+/// <para>Give a minion <b>Taunt</b> and +2/+3.<i>(+2 Attack/+3 Health)</i></para>
+/// <para>使一个随从获得<b>嘲讽</b>和+2/+3。<i>（+2攻击力/+3生命值）</i></para>
+/// </summary>
+CORE_CS2_009 = 69511,
+/// <summary>
+/// <para>法术 德鲁伊 费用：3</para>
+/// <para>Wild Growth</para>
+/// <para>野性成长</para>
+/// <para>Gain an empty Mana Crystal.</para>
+/// <para>获得一个空的法力水晶。</para>
+/// </summary>
+CORE_CS2_013 = 69513,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Arcane Intellect</para>
+/// <para>奥术智慧</para>
+/// <para>Draw 2 cards.</para>
+/// <para>抽两张牌。</para>
+/// </summary>
+CORE_CS2_023 = 69500,
+/// <summary>
+/// <para>法术 法师 费用：4</para>
+/// <para>Fireball</para>
+/// <para>火球术</para>
+/// <para>Deal $6 damage.</para>
+/// <para>造成$6点伤害。</para>
+/// </summary>
+CORE_CS2_029 = 69501,
+/// <summary>
+/// <para>法术 法师 费用：7</para>
+/// <para>Flamestrike</para>
+/// <para>烈焰风暴</para>
+/// <para>Deal $5 damage to all enemy minions.</para>
+/// <para>对所有敌方随从造成$5点伤害。</para>
+/// </summary>
+CORE_CS2_032 = 69502,
+/// <summary>
+/// <para>随从 法师 费用：4 攻击力：3 生命值：6</para>
+/// <para>Water Elemental</para>
+/// <para>水元素</para>
+/// <para><b>Freeze</b> any character damaged by this minion.</para>
+/// <para><b>冻结</b>任何受到该随从伤害的角色。</para>
+/// </summary>
+CORE_CS2_033 = 69503,
+/// <summary>
+/// <para>法术 萨满祭司 费用：2</para>
+/// <para>Windfury</para>
+/// <para>风怒</para>
+/// <para>Give a minion <b>Windfury</b>.</para>
+/// <para>使一个随从获得<b>风怒</b>。</para>
+/// </summary>
+CORE_CS2_039 = 69515,
+/// <summary>
+/// <para>随从 萨满祭司 费用：6 攻击力：6 生命值：5</para>
+/// <para>Fire Elemental</para>
+/// <para>火元素</para>
+/// <para><b>Battlecry:</b> Deal 4 damage.</para>
+/// <para><b>战吼：</b>造成4点伤害。</para>
+/// </summary>
+CORE_CS2_042 = 69516,
+/// <summary>
+/// <para>法术 萨满祭司 费用：2</para>
+/// <para>Rockbiter Weapon</para>
+/// <para>石化武器</para>
+/// <para>Give a friendly character +3 Attack this turn.</para>
+/// <para>在本回合中，使一个友方角色获得+3攻击力。</para>
+/// </summary>
+CORE_CS2_045 = 69517,
+/// <summary>
+/// <para>法术 术士 费用：4</para>
+/// <para>Hellfire</para>
+/// <para>地狱烈焰</para>
+/// <para>Deal $3 damage to ALL_characters.</para>
+/// <para>对所有角色造成$3点伤害。</para>
+/// </summary>
+CORE_CS2_062 = 69519,
+/// <summary>
+/// <para>随从 术士 费用：6 攻击力：6 生命值：6</para>
+/// <para>Dread Infernal</para>
+/// <para>恐惧地狱火</para>
+/// <para><b>Battlecry:</b> Deal 1 damage to ALL other characters.</para>
+/// <para><b>战吼：</b>对所有其他角色造成1点伤害。</para>
+/// </summary>
+CORE_CS2_064 = 69520,
+/// <summary>
+/// <para>法术 牧师 费用：0</para>
+/// <para>Backstab</para>
+/// <para>背刺</para>
+/// <para>Deal $2 damage to an undamaged minion.</para>
+/// <para>对一个未受伤的随从造成$2点伤害。</para>
+/// </summary>
+CORE_CS2_072 = 69521,
+/// <summary>
+/// <para>法术 牧师 费用：2</para>
+/// <para>Cold Blood</para>
+/// <para>冷血</para>
+/// <para>Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead.</para>
+/// <para>使一个随从获得+2攻击力；<b>连击：</b>改为获得+4攻击力。</para>
+/// </summary>
+CORE_CS2_073 = 69620,
+/// <summary>
+/// <para>法术 牧师 费用：1</para>
+/// <para>Deadly Poison</para>
+/// <para>致命药膏</para>
+/// <para>Give your weapon +2_Attack.</para>
+/// <para>使你的武器获得+2攻击力。</para>
+/// </summary>
+CORE_CS2_074 = 69522,
+/// <summary>
+/// <para>法术 牧师 费用：1</para>
+/// <para>Sinister Strike</para>
+/// <para>影袭</para>
+/// <para>Deal $3 damage to the_enemy hero.</para>
+/// <para>对敌方英雄造成$3点伤害。</para>
+/// </summary>
+CORE_CS2_075 = 69524,
+/// <summary>
+/// <para>法术 牧师 费用：4</para>
+/// <para>Assassinate</para>
+/// <para>刺杀</para>
+/// <para>Destroy an enemy minion.</para>
+/// <para>消灭一个敌方随从。</para>
+/// </summary>
+CORE_CS2_076 = 69525,
+/// <summary>
+/// <para>法术 牧师 费用：6</para>
+/// <para>Sprint</para>
+/// <para>疾跑</para>
+/// <para>Draw 4 cards.</para>
+/// <para>抽四张牌。</para>
+/// </summary>
+CORE_CS2_077 = 69526,
+/// <summary>
+/// <para>武器 牧师 费用：4 攻击力：2 耐久度：5</para>
+/// <para>Assassin's Blade</para>
+/// <para>刺客之刃</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+CORE_CS2_080 = 69527,
+/// <summary>
+/// <para>随从 圣骑士 费用：7 攻击力：5 生命值：7</para>
+/// <para>Guardian of Kings</para>
+/// <para>列王守卫</para>
+/// <para><b>Taunt</b><b>Battlecry:</b> Restore #6 Health to your hero.</para>
+/// <para><b>嘲讽</b>，<b>战吼：</b>为你的英雄恢复#6点生命值。</para>
+/// </summary>
+CORE_CS2_088 = 69528,
+/// <summary>
+/// <para>法术 圣骑士 费用：2</para>
+/// <para>Holy Light</para>
+/// <para>圣光术</para>
+/// <para>Restore #8 Health to your hero.</para>
+/// <para>为你的英雄恢复#8点生命值。</para>
+/// </summary>
+CORE_CS2_089 = 69529,
+/// <summary>
+/// <para>法术 圣骑士 费用：4</para>
+/// <para>Blessing of Kings</para>
+/// <para>王者祝福</para>
+/// <para>Give a minion +4/+4. <i>(+4 Attack/+4 Health)</i></para>
+/// <para>使一个随从获得+4/+4。<i>（+4攻击力/+4生命值）</i></para>
+/// </summary>
+CORE_CS2_092 = 69530,
+/// <summary>
+/// <para>法术 圣骑士 费用：4</para>
+/// <para>Consecration</para>
+/// <para>奉献</para>
+/// <para>Deal $2 damage to all enemies.</para>
+/// <para>对所有敌人造成$2点伤害。</para>
+/// </summary>
+CORE_CS2_093 = 69532,
+/// <summary>
+/// <para>武器 圣骑士 费用：4 攻击力：4 耐久度：2</para>
+/// <para>Truesilver Champion</para>
+/// <para>真银圣剑</para>
+/// <para>Whenever your hero attacks, restore #2_Health to it.</para>
+/// <para>每当你的英雄进攻，便为其恢复#2点生命值。</para>
+/// </summary>
+CORE_CS2_097 = 69533,
+/// <summary>
+/// <para>武器 战士 费用：3 攻击力：3 耐久度：2</para>
+/// <para>Fiery War Axe</para>
+/// <para>炽炎战斧</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+CORE_CS2_106 = 69534,
+/// <summary>
+/// <para>法术 战士 费用：2</para>
+/// <para>Execute</para>
+/// <para>斩杀</para>
+/// <para>Destroy a damaged enemy minion.</para>
+/// <para>消灭一个受伤的敌方随从。</para>
+/// </summary>
+CORE_CS2_108 = 69535,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：3</para>
+/// <para>Earthen Ring Farseer</para>
+/// <para>大地之环先知</para>
+/// <para><b>Battlecry:</b> Restore #3_Health.</para>
+/// <para><b>战吼：</b>恢复#3点生命值。</para>
+/// </summary>
+CORE_CS2_117 = 69647,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：3</para>
+/// <para>River Crocolisk</para>
+/// <para>淡水鳄</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+CORE_CS2_120 = 69536,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：3</para>
+/// <para>Raid Leader</para>
+/// <para>团队领袖</para>
+/// <para>Your other minions have +1 Attack.</para>
+/// <para>你的其他随从获得+1攻击力。</para>
+/// </summary>
+CORE_CS2_122 = 69537,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：2</para>
+/// <para>Kobold Geomancer</para>
+/// <para>狗头人地卜师</para>
+/// <para><b>Spell Damage +1</b></para>
+/// <para><b>法术伤害+1</b></para>
+/// </summary>
+CORE_CS2_142 = 69539,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：3 生命值：5</para>
+/// <para>Sen'jin Shieldmasta</para>
+/// <para>森金持盾卫士</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+CORE_CS2_179 = 69542,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：4 生命值：7</para>
+/// <para>Injured Blademaster</para>
+/// <para>负伤剑圣</para>
+/// <para><b>Battlecry:</b> Deal 4 damage to HIMSELF.</para>
+/// <para><b>战吼：</b>对自身造成4点伤害。</para>
+/// </summary>
+CORE_CS2_181 = 69648,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：4 生命值：5</para>
+/// <para>Chillwind Yeti</para>
+/// <para>冰风雪人</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+CORE_CS2_182 = 69543,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Abusive Sergeant</para>
+/// <para>叫嚣的中士</para>
+/// <para><b>Battlecry:</b> Give a minion +2_Attack this turn.</para>
+/// <para><b>战吼：</b>在本回合中，使一个随从获得+2攻击力。</para>
+/// </summary>
+CORE_CS2_188 = 69649,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Elven Archer</para>
+/// <para>精灵弓箭手</para>
+/// <para><b>Battlecry:</b> Deal 1 damage.</para>
+/// <para><b>战吼：</b>造成1点伤害。</para>
+/// </summary>
+CORE_CS2_189 = 69565,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：1</para>
+/// <para>Ironbeak Owl</para>
+/// <para>铁喙猫头鹰</para>
+/// <para><b>Battlecry:</b> <b>Silence</b> a_minion.</para>
+/// <para><b>战吼：</b><b>沉默</b>一个随从。</para>
+/// </summary>
+CORE_CS2_203 = 69650,
+/// <summary>
+/// <para>随从 中立 费用：7 攻击力：7 生命值：7</para>
+/// <para>Stormwind Champion</para>
+/// <para>暴风城勇士</para>
+/// <para>Your other minions have +1/+1.</para>
+/// <para>你的其他随从获得+1/+1。</para>
+/// </summary>
+CORE_CS2_222 = 69544,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：3</para>
+/// <para>Sunreaver Spy</para>
+/// <para>夺日者间谍</para>
+/// <para><b>Battlecry:</b> If you control a <b>Secret</b>, gain +1/+1.</para>
+/// <para><b>战吼：</b>如果你控制一个<b>奥秘</b>，便获得+1/+1。</para>
+/// </summary>
+CORE_DAL_086 = 69712,
+/// <summary>
+/// <para>法术 猎人 费用：1</para>
+/// <para>Tracking</para>
+/// <para>追踪术</para>
+/// <para><b>Discover</b> a card from your deck.</para>
+/// <para>从你的牌库中<b>发现</b>一张牌。</para>
+/// </summary>
+CORE_DS1_184 = 69545,
+/// <summary>
+/// <para>法术 猎人 费用：1</para>
+/// <para>Arcane Shot</para>
+/// <para>奥术射击</para>
+/// <para>Deal $2 damage.</para>
+/// <para>造成$2点伤害。</para>
+/// </summary>
+CORE_DS1_185 = 69546,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Young Priestess</para>
+/// <para>年轻的女祭司</para>
+/// <para>At the end of your turn, give another random friendly minion +1 Health.</para>
+/// <para>在你的回合结束时，随机使另一个友方随从获得+1生命值。</para>
+/// </summary>
+CORE_EX1_004 = 69651,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：4 生命值：2</para>
+/// <para>Big Game Hunter</para>
+/// <para>王牌猎人</para>
+/// <para><b>Battlecry:</b> Destroy a minion with 7 or more Attack.</para>
+/// <para><b>战吼：</b>消灭一个攻击力大于或等于7的随从。</para>
+/// </summary>
+CORE_EX1_005 = 69652,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Argent Squire</para>
+/// <para>银色侍从</para>
+/// <para><b>Divine Shield</b></para>
+/// <para><b>圣盾</b></para>
+/// </summary>
+CORE_EX1_008 = 69653,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Worgen Infiltrator</para>
+/// <para>狼人渗透者</para>
+/// <para><b>Stealth</b></para>
+/// <para><b>潜行</b></para>
+/// </summary>
+CORE_EX1_010 = 69654,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Voodoo Doctor</para>
+/// <para>巫医</para>
+/// <para><b>Battlecry:</b> Restore #2_Health.</para>
+/// <para><b>战吼：</b>恢复#2点生命值。</para>
+/// </summary>
+CORE_EX1_011 = 69547,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：1 生命值：1</para>
+/// <para>Bloodmage Thalnos</para>
+/// <para>血法师萨尔诺斯</para>
+/// <para><b>Spell Damage +1</b><b>Deathrattle:</b> Draw a card.</para>
+/// <para><b>法术伤害+1</b>，<b>亡语：</b>抽一张牌。</para>
+/// </summary>
+CORE_EX1_012 = 69655,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：5 生命值：5</para>
+/// <para>King Mukla</para>
+/// <para>穆克拉</para>
+/// <para><b>Battlecry:</b> Give your opponent 2 Bananas.</para>
+/// <para><b>战吼：</b>使你的对手获得两根香蕉。</para>
+/// </summary>
+CORE_EX1_014 = 69656,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：4 生命值：2</para>
+/// <para>Jungle Panther</para>
+/// <para>丛林猎豹</para>
+/// <para><b>Stealth</b></para>
+/// <para><b>潜行</b></para>
+/// </summary>
+CORE_EX1_017 = 69657,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：5 生命值：5</para>
+/// <para>Stranglethorn Tiger</para>
+/// <para>荆棘谷猛虎</para>
+/// <para><b>Stealth</b></para>
+/// <para><b>潜行</b></para>
+/// </summary>
+CORE_EX1_028 = 69658,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：4 生命值：4</para>
+/// <para>Dark Iron Dwarf</para>
+/// <para>黑铁矮人</para>
+/// <para><b>Battlecry:</b> Give a minion +2_Attack this turn.</para>
+/// <para><b>战吼：</b>在本回合中，使一个随从获得+2攻击力。</para>
+/// </summary>
+CORE_EX1_046 = 69659,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：3 生命值：2</para>
+/// <para>Youthful Brewmaster</para>
+/// <para>年轻的酒仙</para>
+/// <para><b>Battlecry:</b> Return a friendly minion from the battlefield to your hand.</para>
+/// <para><b>战吼：</b>使一个友方随从从战场上移回你的手牌。</para>
+/// </summary>
+CORE_EX1_049 = 69660,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：2</para>
+/// <para>Crazed Alchemist</para>
+/// <para>疯狂的炼金师</para>
+/// <para><b>Battlecry:</b> Swap the Attack and Health of a minion.</para>
+/// <para><b>战吼：</b>使一个随从的攻击力和生命值互换。</para>
+/// </summary>
+CORE_EX1_059 = 69661,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：3 生命值：2</para>
+/// <para>Acidic Swamp Ooze</para>
+/// <para>酸性沼泽软泥怪</para>
+/// <para><b>Battlecry:</b> Destroy your opponent's weapon.</para>
+/// <para><b>战吼：</b>摧毁对手的武器。</para>
+/// </summary>
+CORE_EX1_066 = 69548,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：3 生命值：2</para>
+/// <para>Mad Bomber</para>
+/// <para>疯狂投弹者</para>
+/// <para><b>Battlecry:</b> Deal 3 damage randomly split between all other characters.</para>
+/// <para><b>战吼：</b>造成3点伤害，随机分配到所有其他角色身上。</para>
+/// </summary>
+CORE_EX1_082 = 69662,
+/// <summary>
+/// <para>随从 战士 费用：3 攻击力：2 生命值：3</para>
+/// <para>Warsong Commander</para>
+/// <para>战歌指挥官</para>
+/// <para>After you summon another minion, give it <b>Rush</b>.</para>
+/// <para>在你召唤另一个随从后，使其获得<b>突袭</b>。</para>
+/// </summary>
+CORE_EX1_084 = 69549,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：3 生命值：3</para>
+/// <para>Defender of Argus</para>
+/// <para>阿古斯防御者</para>
+/// <para><b>Battlecry:</b> Give adjacent minions +1/+1 and <b>Taunt</b>.</para>
+/// <para><b>战吼：</b>使相邻的随从获得+1/+1和<b>嘲讽</b>。</para>
+/// </summary>
+CORE_EX1_093 = 69663,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：4 生命值：4</para>
+/// <para>Gadgetzan Auctioneer</para>
+/// <para>加基森拍卖师</para>
+/// <para>Whenever you cast a spell, draw a card.</para>
+/// <para>每当你施放一个法术，抽一张牌。</para>
+/// </summary>
+CORE_EX1_095 = 69664,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：1</para>
+/// <para>Loot Hoarder</para>
+/// <para>战利品贮藏者</para>
+/// <para><b>Deathrattle:</b> Draw a card.</para>
+/// <para><b>亡语：</b>抽一张牌。</para>
+/// </summary>
+CORE_EX1_096 = 69665,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：3</para>
+/// <para>Coldlight Seer</para>
+/// <para>寒光先知</para>
+/// <para><b>Battlecry:</b> Give your other Murlocs +2 Health.</para>
+/// <para><b>战吼：</b>使你的其他鱼人获得+2生命值。</para>
+/// </summary>
+CORE_EX1_103 = 69666,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：5 生命值：5</para>
+/// <para>Cairne Bloodhoof</para>
+/// <para>凯恩·血蹄</para>
+/// <para><b>Deathrattle:</b> Summon a 5/5 Baine Bloodhoof.</para>
+/// <para><b>亡语：</b>召唤一个5/5的贝恩·血蹄。</para>
+/// </summary>
+CORE_EX1_110 = 69667,
+/// <summary>
+/// <para>法术 圣骑士 费用：1</para>
+/// <para>Noble Sacrifice</para>
+/// <para>崇高牺牲</para>
+/// <para><b>Secret:</b> When an enemy attacks, summon a 2/1 Defender as the new target.</para>
+/// <para><b>奥秘：</b>当一个敌人攻击时，召唤一个2/1的防御者，并使其成为攻击的目标。</para>
+/// </summary>
+CORE_EX1_130 = 69610,
+/// <summary>
+/// <para>随从 牧师 费用：3 攻击力：3 生命值：3</para>
+/// <para>SI:7 Agent</para>
+/// <para>军情七处特工</para>
+/// <para><b>Combo:</b> Deal 2 damage.</para>
+/// <para><b>连击：</b>造成2点伤害。</para>
+/// </summary>
+CORE_EX1_134 = 69621,
+/// <summary>
+/// <para>法术 牧师 费用：0</para>
+/// <para>Shadowstep</para>
+/// <para>暗影步</para>
+/// <para>Return a friendly minion to your hand. It_costs (2) less.</para>
+/// <para>将一个友方随从移回你的手牌，它的法力值消耗减少（2）点。</para>
+/// </summary>
+CORE_EX1_144 = 69622,
+/// <summary>
+/// <para>法术 牧师 费用：0</para>
+/// <para>Preparation</para>
+/// <para>伺机待发</para>
+/// <para>The next spell you cast this turn costs (2) less.</para>
+/// <para>在本回合中，你所施放的下一个法术的法力值消耗减少（2）点。</para>
+/// </summary>
+CORE_EX1_145 = 69623,
+/// <summary>
+/// <para>法术 德鲁伊 费用：4</para>
+/// <para>Soul of the Forest</para>
+/// <para>丛林之魂</para>
+/// <para>Give your minions "<b>Deathrattle:</b> Summon a 2/2 Treant."</para>
+/// <para>使你的所有随从获得“<b>亡语：</b>召唤一个2/2的树人”。</para>
+/// </summary>
+CORE_EX1_158 = 69591,
+/// <summary>
+/// <para>法术 德鲁伊 费用：2</para>
+/// <para>Power of the Wild</para>
+/// <para>野性之力</para>
+/// <para><b>Choose One -</b> Give your minions +1/+1; or Summon a 3/2 Panther.</para>
+/// <para><b>抉择：</b>使你的所有随从获得+1/+1；或者召唤一只3/2的猎豹。</para>
+/// </summary>
+CORE_EX1_160 = 69593,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：2</para>
+/// <para>Dire Wolf Alpha</para>
+/// <para>恐狼前锋</para>
+/// <para>Adjacent minions have +1_Attack.</para>
+/// <para>相邻的随从获得+1攻击力。</para>
+/// </summary>
+CORE_EX1_162 = 69668,
+/// <summary>
+/// <para>法术 德鲁伊 费用：6</para>
+/// <para>Nourish</para>
+/// <para>滋养</para>
+/// <para><b>Choose One -</b> Gain 2_Mana Crystals; or Draw 3 cards.</para>
+/// <para><b>抉择：</b>获得两个法力水晶；或者抽三张牌。</para>
+/// </summary>
+CORE_EX1_164 = 69594,
+/// <summary>
+/// <para>随从 德鲁伊 费用：5 攻击力：5 生命值：4</para>
+/// <para>Druid of the Claw</para>
+/// <para>利爪德鲁伊</para>
+/// <para>[x]<b>Choose One -</b> Transforminto a 5/4 with <b>Rush</b>;or a 5/6 with <b>Taunt</b>.</para>
+/// <para><b>抉择：</b>将该随从变形成为5/4并具有<b>突袭</b>；或者将该随从变形成为5/6并具有<b>嘲讽</b>。</para>
+/// </summary>
+CORE_EX1_165 = 69595,
+/// <summary>
+/// <para>法术 德鲁伊 费用：0</para>
+/// <para>Innervate</para>
+/// <para>激活</para>
+/// <para>Gain 1 Mana Crystal this turn only.</para>
+/// <para>在本回合中，获得一个法力水晶。</para>
+/// </summary>
+CORE_EX1_169 = 69550,
+/// <summary>
+/// <para>随从 德鲁伊 费用：7 攻击力：5 生命值：5</para>
+/// <para>Ancient of War</para>
+/// <para>战争古树</para>
+/// <para><b>Choose One -</b>+5 Attack; or +5 Health and <b>Taunt</b>.</para>
+/// <para><b>抉择：</b>+5攻击力；或者+5生命值并具有<b>嘲讽</b>。</para>
+/// </summary>
+CORE_EX1_178 = 69596,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：5 生命值：4</para>
+/// <para>SI:7 Infiltrator</para>
+/// <para>军情七处渗透者</para>
+/// <para><b>Battlecry:</b> Destroy a random enemy <b>Secret</b>.</para>
+/// <para><b>战吼：</b>随机摧毁一个敌方<b>奥秘</b>。</para>
+/// </summary>
+CORE_EX1_186 = 69669,
+/// <summary>
+/// <para>随从 中立 费用：8 攻击力：4 生命值：8</para>
+/// <para>Arcane Devourer</para>
+/// <para>奥术吞噬者</para>
+/// <para>Whenever you cast a spell, gain +2/+2.</para>
+/// <para>每当你施放一个法术，便获得+2/+2。</para>
+/// </summary>
+CORE_EX1_187 = 69670,
+/// <summary>
+/// <para>随从 中立 费用：7 攻击力：5 生命值：5</para>
+/// <para>Barrens Stablehand</para>
+/// <para>贫瘠之地饲养员</para>
+/// <para><b>Battlecry:</b> Summon a random Beast.</para>
+/// <para><b>战吼：</b>随机召唤一只野兽。</para>
+/// </summary>
+CORE_EX1_188 = 69671,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：2</para>
+/// <para>Brightwing</para>
+/// <para>光明之翼</para>
+/// <para><b>Battlecry:</b> Add a random <b>Legendary</b> minion to your_hand.</para>
+/// <para><b>战吼：</b>随机将一张<b>传说</b>随从牌置入你的手牌。</para>
+/// </summary>
+CORE_EX1_189 = 69672,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：5 生命值：7</para>
+/// <para>High Inquisitor Whitemane</para>
+/// <para>大检察官怀特迈恩</para>
+/// <para><b>Battlecry:</b> Summon all friendly minions that died_this turn.</para>
+/// <para><b>战吼：</b>召唤所有在本回合中死亡的友方随从。</para>
+/// </summary>
+CORE_EX1_190 = 69673,
+/// <summary>
+/// <para>随从 潜行者 费用：1 攻击力：1 生命值：1</para>
+/// <para>Psychic Conjurer</para>
+/// <para>心灵咒术师</para>
+/// <para><b>Battlecry:</b> Copy a card in your opponent’s deck and add it to your hand.</para>
+/// <para><b>战吼：</b>复制你对手的牌库中的一张牌，并将其置入你的手牌。</para>
+/// </summary>
+CORE_EX1_193 = 69566,
+/// <summary>
+/// <para>法术 潜行者 费用：4</para>
+/// <para>Power Infusion</para>
+/// <para>能量灌注</para>
+/// <para>Give a minion +2/+6.</para>
+/// <para>使一个随从获得+2/+6。</para>
+/// </summary>
+CORE_EX1_194 = 69567,
+/// <summary>
+/// <para>随从 潜行者 费用：2 攻击力：2 生命值：3</para>
+/// <para>Kul Tiran Chaplain</para>
+/// <para>库尔提拉斯教士</para>
+/// <para><b>Battlecry:</b> Give a friendly minion +2 Health.</para>
+/// <para><b>战吼：</b>使一个友方随从获得+2生命值。</para>
+/// </summary>
+CORE_EX1_195 = 69615,
+/// <summary>
+/// <para>法术 潜行者 费用：4</para>
+/// <para>Shadow Word: Ruin</para>
+/// <para>暗言术：毁</para>
+/// <para>Destroy all minions with 5 or more Attack.</para>
+/// <para>消灭所有攻击力大于或等于5的随从。</para>
+/// </summary>
+CORE_EX1_197 = 69616,
+/// <summary>
+/// <para>随从 潜行者 费用：8 攻击力：8 生命值：1</para>
+/// <para>Natalie Seline</para>
+/// <para>娜塔莉·塞林</para>
+/// <para><b>Battlecry:</b> Destroy a minion and gain its Health.</para>
+/// <para><b>战吼：</b>消灭一个随从并获得其生命值。</para>
+/// </summary>
+CORE_EX1_198 = 69617,
+/// <summary>
+/// <para>法术 萨满祭司 费用：1</para>
+/// <para>Lightning Bolt</para>
+/// <para>闪电箭</para>
+/// <para>Deal $3 damage. <b>Overload:</b> (1)</para>
+/// <para>造成$3点伤害，<b>过载：</b>（1）</para>
+/// </summary>
+CORE_EX1_238 = 69625,
+/// <summary>
+/// <para>法术 萨满祭司 费用：4</para>
+/// <para>Hex</para>
+/// <para>妖术</para>
+/// <para>Transform a minion into a 0/1 Frog with <b>Taunt</b>.</para>
+/// <para>使一个随从变形成为一只0/1并具有<b>嘲讽</b>的青蛙。</para>
+/// </summary>
+CORE_EX1_246 = 69551,
+/// <summary>
+/// <para>法术 萨满祭司 费用：3</para>
+/// <para>Feral Spirit</para>
+/// <para>野性狼魂</para>
+/// <para>Summon two 2/3 Spirit Wolves with <b>Taunt</b>. <b>Overload:</b> (1)</para>
+/// <para>召唤两只2/3并具有<b>嘲讽</b>的幽灵狼。<b>过载：</b>（1）</para>
+/// </summary>
+CORE_EX1_248 = 69626,
+/// <summary>
+/// <para>随从 中立 费用：7 攻击力：7 生命值：7</para>
+/// <para>Baron Geddon</para>
+/// <para>迦顿男爵</para>
+/// <para>At the end of your turn, deal 2 damage to ALL other characters.</para>
+/// <para>在你的回合结束时，对所有其他角色造成2点伤害。</para>
+/// </summary>
+CORE_EX1_249 = 69674,
+/// <summary>
+/// <para>随从 萨满祭司 费用：5 攻击力：7 生命值：8</para>
+/// <para>Earth Elemental</para>
+/// <para>土元素</para>
+/// <para><b>Taunt</b><b><b>Overload</b>:</b> (2)</para>
+/// <para><b>嘲讽</b>，<b>过载：</b>（2）</para>
+/// </summary>
+CORE_EX1_250 = 69627,
+/// <summary>
+/// <para>随从 萨满祭司 费用：3 攻击力：2 生命值：4</para>
+/// <para>Unbound Elemental</para>
+/// <para>无羁元素</para>
+/// <para>Whenever you play a card_with <b>Overload</b>, gain_+1/+1.</para>
+/// <para>每当你使用一张具有<b>过载</b>的牌，便获得+1/+1。</para>
+/// </summary>
+CORE_EX1_258 = 69628,
+/// <summary>
+/// <para>法术 萨满祭司 费用：3</para>
+/// <para>Lightning Storm</para>
+/// <para>闪电风暴</para>
+/// <para>Deal $3 damage to all_enemy minions. <b>Overload:</b> (2)</para>
+/// <para>对所有敌方随从造成$3点伤害，<b>过载：</b>（2）</para>
+/// </summary>
+CORE_EX1_259 = 69629,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Cone of Cold</para>
+/// <para>冰锥术</para>
+/// <para><b>Freeze</b> a minion and the minions next to it, and deal $1 damage to them.</para>
+/// <para><b>冻结</b>一个随从和其相邻的随从，并对它们造成$1点伤害。</para>
+/// </summary>
+CORE_EX1_275 = 69606,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Counterspell</para>
+/// <para>法术反制</para>
+/// <para><b>Secret:</b> When your opponent casts a spell, <b>Counter</b> it.</para>
+/// <para><b>奥秘：</b>当你的对手施放一个法术时，<b>反制</b>该法术。</para>
+/// </summary>
+CORE_EX1_287 = 69607,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Ice Barrier</para>
+/// <para>寒冰护体</para>
+/// <para><b>Secret:</b> When yourhero is attacked,gain 8 Armor.</para>
+/// <para><b>奥秘：</b>当你的英雄受到攻击时，获得8点护甲值。</para>
+/// </summary>
+CORE_EX1_289 = 69608,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Mirror Entity</para>
+/// <para>镜像实体</para>
+/// <para><b>Secret:</b> After your opponent plays a minion, summon a copy of it.</para>
+/// <para><b>奥秘：</b>在你的对手使用一张随从牌后，召唤一个该随从的复制。</para>
+/// </summary>
+CORE_EX1_294 = 69609,
+/// <summary>
+/// <para>法术 术士 费用：1</para>
+/// <para>Mortal Coil</para>
+/// <para>死亡缠绕</para>
+/// <para>Deal $1 damage to a minion. If that kills it, draw a card.</para>
+/// <para>对一个随从造成$1点伤害。如果“死亡缠绕”消灭该随从，抽一张牌。</para>
+/// </summary>
+CORE_EX1_302 = 69553,
+/// <summary>
+/// <para>随从 术士 费用：3 攻击力：3 生命值：4</para>
+/// <para>Void Terror</para>
+/// <para>虚空恐魔</para>
+/// <para>[x]<b>Battlecry:</b> Destroy bothadjacent minions and gain their Attack and Health.</para>
+/// <para><b>战吼：</b>消灭该随从两侧的随从，并获得他们的攻击力和生命值。</para>
+/// </summary>
+CORE_EX1_304 = 69633,
+/// <summary>
+/// <para>法术 术士 费用：5</para>
+/// <para>Siphon Soul</para>
+/// <para>灵魂虹吸</para>
+/// <para>Destroy a minion. Restore #3 Health to_your hero.</para>
+/// <para>消灭一个随从，为你的英雄恢复#3点生命值。</para>
+/// </summary>
+CORE_EX1_309 = 69634,
+/// <summary>
+/// <para>法术 术士 费用：8</para>
+/// <para>Twisting Nether</para>
+/// <para>扭曲虚空</para>
+/// <para>Destroy all minions.</para>
+/// <para>消灭所有随从。</para>
+/// </summary>
+CORE_EX1_312 = 69635,
+/// <summary>
+/// <para>随从 术士 费用：1 攻击力：3 生命值：2</para>
+/// <para>Flame Imp</para>
+/// <para>烈焰小鬼</para>
+/// <para><b>Battlecry:</b> Deal 3 damage to your hero.</para>
+/// <para><b>战吼：</b>对你的英雄造成3点伤害。</para>
+/// </summary>
+CORE_EX1_319 = 69636,
+/// <summary>
+/// <para>随从 潜行者 费用：3 攻击力：0 生命值：4</para>
+/// <para>Lightspawn</para>
+/// <para>光耀之子</para>
+/// <para>This minion's Attack is always equal to its Health.</para>
+/// <para>该随从的攻击力始终等同于其生命值。</para>
+/// </summary>
+CORE_EX1_335 = 69618,
+/// <summary>
+/// <para>随从 圣骑士 费用：2 攻击力：3 生命值：2</para>
+/// <para>Argent Protector</para>
+/// <para>银色保卫者</para>
+/// <para><b>Battlecry:</b> Give a friendly minion <b>Divine Shield</b>.</para>
+/// <para><b>战吼：</b>使一个其他友方随从获得<b>圣盾</b>。</para>
+/// </summary>
+CORE_EX1_362 = 69611,
+/// <summary>
+/// <para>随从 圣骑士 费用：3 攻击力：3 生命值：3</para>
+/// <para>Aldor Peacekeeper</para>
+/// <para>奥尔多卫士</para>
+/// <para><b>Battlecry:</b> Change an_enemy minion's Attack to 1.</para>
+/// <para><b>战吼：</b>使一个敌方随从的攻击力变为1。</para>
+/// </summary>
+CORE_EX1_382 = 69612,
+/// <summary>
+/// <para>随从 圣骑士 费用：8 攻击力：6 生命值：6</para>
+/// <para>Tirion Fordring</para>
+/// <para>提里奥·弗丁</para>
+/// <para><b><b>Divine Shield</b>,</b> <b>Taunt</b> <b>Deathrattle:</b> Equip a 5/3_Ashbringer.</para>
+/// <para><b>圣盾</b>，<b>嘲讽</b>，<b>亡语：</b>装备一把5/3的灰烬使者。</para>
+/// </summary>
+CORE_EX1_383 = 69613,
+/// <summary>
+/// <para>法术 战士 费用：2</para>
+/// <para>Slam</para>
+/// <para>猛击</para>
+/// <para>Deal $2 damage to a minion. If it survives, draw a card.</para>
+/// <para>对一个随从造成$2点伤害，如果它依然存活，则抽一张牌。</para>
+/// </summary>
+CORE_EX1_391 = 69638,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：2 生命值：8</para>
+/// <para>Gurubashi Berserker</para>
+/// <para>古拉巴什狂暴者</para>
+/// <para>Whenever this minion takes damage, gain +3_Attack.</para>
+/// <para>每当该随从受到伤害，便获得+3攻击力。</para>
+/// </summary>
+CORE_EX1_399 = 69554,
+/// <summary>
+/// <para>法术 战士 费用：1</para>
+/// <para>Whirlwind</para>
+/// <para>旋风斩</para>
+/// <para>Deal $1 damage to ALL_minions.</para>
+/// <para>对所有随从造成$1点伤害。</para>
+/// </summary>
+CORE_EX1_400 = 69556,
+/// <summary>
+/// <para>随从 战士 费用：2 攻击力：1 生命值：4</para>
+/// <para>Armorsmith</para>
+/// <para>铸甲师</para>
+/// <para>Whenever a friendly minion_takes damage, gain 1 Armor.</para>
+/// <para>每当一个友方随从受到伤害，便获得1点护甲值。</para>
+/// </summary>
+CORE_EX1_402 = 69639,
+/// <summary>
+/// <para>法术 战士 费用：5</para>
+/// <para>Brawl</para>
+/// <para>绝命乱斗</para>
+/// <para>Destroy all minions except one. <i>(chosen randomly)</i></para>
+/// <para>随机选择一个随从，消灭除了该随从外的所有其他随从。</para>
+/// </summary>
+CORE_EX1_407 = 69640,
+/// <summary>
+/// <para>法术 战士 费用：1</para>
+/// <para>Shield Slam</para>
+/// <para>盾牌猛击</para>
+/// <para>Deal $1 damage to a minion for each Armor you have.</para>
+/// <para>你每有1点护甲值，便对一个随从造成$1点伤害。</para>
+/// </summary>
+CORE_EX1_410 = 69641,
+/// <summary>
+/// <para>武器 战士 费用：7 攻击力：7 耐久度：1</para>
+/// <para>Gorehowl</para>
+/// <para>血吼</para>
+/// <para>Attacking a minion costs 1 Attack instead of 1 Durability.</para>
+/// <para>攻击随从不会消耗耐久度，改为降低1点攻击力。</para>
+/// </summary>
+CORE_EX1_411 = 69642,
+/// <summary>
+/// <para>随从 战士 费用：8 攻击力：4 生命值：9</para>
+/// <para>Grommash Hellscream</para>
+/// <para>格罗玛什·地狱咆哮</para>
+/// <para><b>Charge</b>Has +6 Attack while damaged.</para>
+/// <para><b>冲锋</b>受伤时具有+6攻击力。</para>
+/// </summary>
+CORE_EX1_414 = 69643,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：1</para>
+/// <para>Murloc Tidehunter</para>
+/// <para>鱼人猎潮者</para>
+/// <para><b>Battlecry:</b> Summon a 1/1_Murloc Scout.</para>
+/// <para><b>战吼：</b>召唤一个1/1的鱼人斥候。</para>
+/// </summary>
+CORE_EX1_506 = 69557,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Murloc Scout</para>
+/// <para>鱼人斥候</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+CORE_EX1_506a = 69571,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：2</para>
+/// <para>Murloc Tidecaller</para>
+/// <para>鱼人招潮者</para>
+/// <para>Whenever you summon a Murloc, gain +1 Attack.</para>
+/// <para>每当你召唤一个鱼人，便获得+1攻击力。</para>
+/// </summary>
+CORE_EX1_509 = 69675,
+/// <summary>
+/// <para>随从 牧师 费用：2 攻击力：1 生命值：2</para>
+/// <para>Patient Assassin</para>
+/// <para>耐心的刺客</para>
+/// <para><b>Stealth</b> <b>Poisonous</b></para>
+/// <para><b>潜行</b><b>剧毒</b></para>
+/// </summary>
+CORE_EX1_522 = 69624,
+/// <summary>
+/// <para>随从 猎人 费用：2 攻击力：2 生命值：2</para>
+/// <para>Scavenging Hyena</para>
+/// <para>食腐土狼</para>
+/// <para>Whenever a friendly Beast dies, gain +2/+1.</para>
+/// <para>每当一个友方野兽死亡，便获得+2/+1。</para>
+/// </summary>
+CORE_EX1_531 = 69599,
+/// <summary>
+/// <para>随从 猎人 费用：6 攻击力：6 生命值：5</para>
+/// <para>Savannah Highmane</para>
+/// <para>长鬃草原狮</para>
+/// <para><b>Deathrattle:</b> Summon two 2/2 Hyenas.</para>
+/// <para><b>亡语：</b>召唤两只2/2的土狼。</para>
+/// </summary>
+CORE_EX1_534 = 69600,
+/// <summary>
+/// <para>随从 猎人 费用：9 攻击力：8 生命值：8</para>
+/// <para>King Krush</para>
+/// <para>暴龙王克鲁什</para>
+/// <para><b>Charge</b></para>
+/// <para><b>冲锋</b></para>
+/// </summary>
+CORE_EX1_543 = 69601,
+/// <summary>
+/// <para>法术 猎人 费用：2</para>
+/// <para>Snake Trap</para>
+/// <para>毒蛇陷阱</para>
+/// <para><b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.</para>
+/// <para><b>奥秘：</b>当你的随从受到攻击时，召唤三条1/1的蛇。</para>
+/// </summary>
+CORE_EX1_554 = 69602,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：3 生命值：3</para>
+/// <para>Faceless Manipulator</para>
+/// <para>无面操纵者</para>
+/// <para><b>Battlecry:</b> Choose a minion and become a copy of it.</para>
+/// <para><b>战吼：</b>选择一个随从，成为它的复制。</para>
+/// </summary>
+CORE_EX1_564 = 69676,
+/// <summary>
+/// <para>武器 萨满祭司 费用：5 攻击力：2 耐久度：8</para>
+/// <para>Doomhammer</para>
+/// <para>毁灭之锤</para>
+/// <para><b>Windfury, Overload:</b> (2)</para>
+/// <para><b>风怒，过载：</b>（2）</para>
+/// </summary>
+CORE_EX1_567 = 69630,
+/// <summary>
+/// <para>法术 德鲁伊 费用：5</para>
+/// <para>Force of Nature</para>
+/// <para>自然之力</para>
+/// <para>Summon three 2/2 Treants.</para>
+/// <para>召唤三个2/2的树人。</para>
+/// </summary>
+CORE_EX1_571 = 69597,
+/// <summary>
+/// <para>随从 德鲁伊 费用：8 攻击力：5 生命值：8</para>
+/// <para>Cenarius</para>
+/// <para>塞纳留斯</para>
+/// <para><b>Choose One -</b> Give your other minions +2/+2; or Summon two 2/2 Treants with <b>Taunt</b>.</para>
+/// <para><b>抉择：</b>使你的所有其他随从获得+2/+2；或者召唤两个2/2并具有<b>嘲讽</b>的树人。</para>
+/// </summary>
+CORE_EX1_573 = 69598,
+/// <summary>
+/// <para>随从 萨满祭司 费用：3 攻击力：0 生命值：3</para>
+/// <para>Mana Tide Totem</para>
+/// <para>法力之潮图腾</para>
+/// <para>At the end of your turn, draw a card.</para>
+/// <para>在你的回合结束时，抽一张牌。</para>
+/// </summary>
+CORE_EX1_575 = 69631,
+/// <summary>
+/// <para>随从 战士 费用：2 攻击力：2 生命值：2</para>
+/// <para>Cruel Taskmaster</para>
+/// <para>严酷的监工</para>
+/// <para><b>Battlecry:</b> Deal 1 damage to a minion and give it +2_Attack.</para>
+/// <para><b>战吼：</b>对一个随从造成1点伤害，并使其获得+2攻击力。</para>
+/// </summary>
+CORE_EX1_603 = 69644,
+/// <summary>
+/// <para>随从 战士 费用：3 攻击力：2 生命值：4</para>
+/// <para>Frothing Berserker</para>
+/// <para>暴乱狂战士</para>
+/// <para>Whenever a minion takes damage, gain +1 Attack.</para>
+/// <para>每当一个随从受到伤害，便获得+1攻击力。</para>
+/// </summary>
+CORE_EX1_604 = 69645,
+/// <summary>
+/// <para>法术 猎人 费用：2</para>
+/// <para>Explosive Trap</para>
+/// <para>爆炸陷阱</para>
+/// <para><b>Secret:</b> When your hero is attacked, deal $2 damage to all enemies.</para>
+/// <para><b>奥秘：</b>当你的英雄受到攻击，对所有敌人造成$2点伤害。</para>
+/// </summary>
+CORE_EX1_610 = 69603,
+/// <summary>
+/// <para>法术 猎人 费用：2</para>
+/// <para>Freezing Trap</para>
+/// <para>冰冻陷阱</para>
+/// <para><b>Secret:</b> When an enemy minion attacks, return it to its owner's hand. It costs (2) more.</para>
+/// <para><b>奥秘：</b>当一个敌方随从攻击时，将其移回拥有者的手牌，并且法力值消耗增加（2）点。</para>
+/// </summary>
+CORE_EX1_611 = 69604,
+/// <summary>
+/// <para>法术 猎人 费用：3</para>
+/// <para>Deadly Shot</para>
+/// <para>致命射击</para>
+/// <para>Destroy a random enemy minion.</para>
+/// <para>随机消灭一个敌方随从。</para>
+/// </summary>
+CORE_EX1_617 = 69605,
+/// <summary>
+/// <para>法术 圣骑士 费用：3</para>
+/// <para>Equality</para>
+/// <para>生而平等</para>
+/// <para>Change the Health of ALL minions to 1.</para>
+/// <para>将所有随从的生命值变为1。</para>
+/// </summary>
+CORE_EX1_619 = 69614,
+/// <summary>
+/// <para>法术 潜行者 费用：2</para>
+/// <para>Shadow Word: Death</para>
+/// <para>暗言术：灭</para>
+/// <para>Destroy a minion with 5_or more Attack.</para>
+/// <para>消灭一个攻击力大于或等于5的随从。</para>
+/// </summary>
+CORE_EX1_622 = 69569,
+/// <summary>
+/// <para>随从 潜行者 费用：5 攻击力：5 生命值：6</para>
+/// <para>Temple Enforcer</para>
+/// <para>圣殿执行者</para>
+/// <para><b>Battlecry:</b> Give a friendly minion +3 Health.</para>
+/// <para><b>战吼：</b>使一个友方随从获得+3生命值。</para>
+/// </summary>
+CORE_EX1_623 = 69619,
+/// <summary>
+/// <para>法术 潜行者 费用：2</para>
+/// <para>Shadowform</para>
+/// <para>暗影形态</para>
+/// <para>Your Hero Power becomes 'Deal 2 damage.'</para>
+/// <para>你的英雄技能变为“造成2点伤害”。</para>
+/// </summary>
+CORE_EX1_625 = 69991,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：0 生命值：2</para>
+/// <para>Nerubian Egg</para>
+/// <para>蛛魔之卵</para>
+/// <para><b>Deathrattle:</b> Summon a 4/4 Nerubian.</para>
+/// <para><b>亡语：</b>召唤一个4/4的蛛魔。</para>
+/// </summary>
+CORE_FP1_007 = 69713,
+/// <summary>
+/// <para>随从 猎人 费用：1 攻击力：1 生命值：1</para>
+/// <para>Webspinner</para>
+/// <para>结网蛛</para>
+/// <para><b>Deathrattle:</b> Add a random Beast card to your hand.</para>
+/// <para><b>亡语：</b>随机将一张野兽牌置入你的手牌。</para>
+/// </summary>
+CORE_FP1_011 = 69692,
+/// <summary>
+/// <para>法术 圣骑士 费用：1</para>
+/// <para>Avenge</para>
+/// <para>复仇</para>
+/// <para><b>Secret:</b> When one of your minions dies, give a random friendly minion +3/+2.</para>
+/// <para><b>奥秘：</b>当你的随从死亡时，随机使一个友方随从获得+3/+2。</para>
+/// </summary>
+CORE_FP1_020 = 69704,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：1 生命值：7</para>
+/// <para>Baron Rivendare</para>
+/// <para>瑞文戴尔男爵</para>
+/// <para>Your minions trigger their <b>Deathrattles</b> twice.</para>
+/// <para>你的随从的<b>亡语</b>将触发两次。</para>
+/// </summary>
+CORE_FP1_031 = 69714,
+/// <summary>
+/// <para>法术 术士 费用：4</para>
+/// <para>Fiendish Circle</para>
+/// <para>恶魔法阵</para>
+/// <para>[x]Summon four 1/1 Imps.</para>
+/// <para>召唤四个1/1的小鬼。</para>
+/// </summary>
+CORE_GIL_191 = 69734,
+/// <summary>
+/// <para>随从 术士 费用：1 攻击力：1 生命值：1</para>
+/// <para>Imp</para>
+/// <para>小鬼</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+CORE_GIL_191t = 71812,
+/// <summary>
+/// <para>法术 法师 费用：1</para>
+/// <para>Snap Freeze</para>
+/// <para>急速冷冻</para>
+/// <para><b>Freeze</b> a minion.If it's already <b>Frozen</b>, destroy it.</para>
+/// <para><b>冻结</b>一个随从。如果该随从已被<b>冻结</b>，则将其消灭。</para>
+/// </summary>
+CORE_GIL_801 = 69699,
+/// <summary>
+/// <para>法术 猎人 费用：4</para>
+/// <para>Dire Frenzy</para>
+/// <para>凶猛狂暴</para>
+/// <para>Give a Beast +3/+3. Shuffle 3 copies into your deck with +3/+3.</para>
+/// <para>使一个野兽获得+3/+3。将它的三张复制洗入你的牌库，且这些复制都具有+3/+3。</para>
+/// </summary>
+CORE_GIL_828 = 69693,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：2</para>
+/// <para>Cogmaster</para>
+/// <para>齿轮大师</para>
+/// <para>Has +2 Attack while you have a Mech.</para>
+/// <para>如果你控制任何机械，便获得+2攻击力。</para>
+/// </summary>
+CORE_GVG_013 = 69715,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：4</para>
+/// <para>Spider Tank</para>
+/// <para>蜘蛛坦克</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+CORE_GVG_044 = 69716,
+/// <summary>
+/// <para>随从 战士 费用：6 攻击力：5 生命值：5</para>
+/// <para>Shieldmaiden</para>
+/// <para>盾甲侍女</para>
+/// <para><b>Battlecry:</b> Gain 5 Armor.</para>
+/// <para><b>战吼：</b>获得5点护甲值。</para>
+/// </summary>
+CORE_GVG_053 = 69741,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：1 生命值：1</para>
+/// <para>Explosive Sheep</para>
+/// <para>自爆绵羊</para>
+/// <para><b>Deathrattle:</b> Deal 2 damage to all minions.</para>
+/// <para><b>亡语：</b>对所有随从造成2点伤害。</para>
+/// </summary>
+CORE_GVG_076 = 69717,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：1 生命值：2</para>
+/// <para>Annoy-o-Tron</para>
+/// <para>吵吵机器人</para>
+/// <para><b>Taunt</b><b>Divine Shield</b></para>
+/// <para><b>嘲讽</b><b>圣盾</b></para>
+/// </summary>
+CORE_GVG_085 = 69718,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：1</para>
+/// <para>Mini-Mage</para>
+/// <para>小个子法师</para>
+/// <para><b>Stealth</b><b>Spell Damage +1</b></para>
+/// <para><b>潜行，法术伤害+1</b></para>
+/// </summary>
+CORE_GVG_109 = 69719,
+/// <summary>
+/// <para>随从 中立 费用：12 攻击力：8 生命值：8</para>
+/// <para>Clockwork Giant</para>
+/// <para>发条巨人</para>
+/// <para>Costs (1) less for each card in your opponent's hand.</para>
+/// <para>你的对手每有一张手牌，该牌的法力值消耗便减少（1）点。</para>
+/// </summary>
+CORE_GVG_121 = 69720,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：2 生命值：4</para>
+/// <para>Grim Necromancer</para>
+/// <para>冷酷的死灵法师</para>
+/// <para><b>Battlecry:</b> Summon two 1/1 Skeletons.</para>
+/// <para><b>战吼：</b>召唤两个1/1的骷髅。</para>
+/// </summary>
+CORE_ICC_026 = 69721,
+/// <summary>
+/// <para>随从 圣骑士 费用：1 攻击力：1 生命值：1</para>
+/// <para>Righteous Protector</para>
+/// <para>正义保护者</para>
+/// <para><b>Taunt</b><b>Divine Shield</b></para>
+/// <para><b>嘲讽</b><b>圣盾</b></para>
+/// </summary>
+CORE_ICC_038 = 69705,
+/// <summary>
+/// <para>法术 术士 费用：2</para>
+/// <para>Drain Soul</para>
+/// <para>吸取灵魂</para>
+/// <para><b>Lifesteal</b>Deal $3 damageto a minion.</para>
+/// <para><b>吸血</b>对一个随从造成$3点伤害。</para>
+/// </summary>
+CORE_ICC_055 = 69735,
+/// <summary>
+/// <para>随从 猎人 费用：3 攻击力：4 生命值：3</para>
+/// <para>Bearshark</para>
+/// <para>熊鲨</para>
+/// <para>Can't be targeted by spells or Hero Powers.</para>
+/// <para>无法成为法术或英雄技能的目标。</para>
+/// </summary>
+CORE_ICC_419 = 69694,
+/// <summary>
+/// <para>随从 牧师 费用：3 攻击力：2 生命值：3</para>
+/// <para>Plague Scientist</para>
+/// <para>瘟疫科学家</para>
+/// <para><b>Combo:</b> Give a friendly minion <b>Poisonous</b>.</para>
+/// <para><b>连击：</b>使一个友方随从获得<b>剧毒</b>。</para>
+/// </summary>
+CORE_ICC_809 = 69708,
+/// <summary>
+/// <para>随从 法师 费用：1 攻击力：1 生命值：1</para>
+/// <para>Babbling Book</para>
+/// <para>呓语魔典</para>
+/// <para><b>Battlecry:</b> Add a random Mage spell to your hand.</para>
+/// <para><b>战吼：</b>随机将一张法师法术牌置入你的手牌。</para>
+/// </summary>
+CORE_KAR_009 = 69700,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Arcane Anomaly</para>
+/// <para>奥术畸体</para>
+/// <para>After you cast a spell, give this minion +1 Health.</para>
+/// <para>在你施放一个法术后，该随从便获得+1生命值。</para>
+/// </summary>
+CORE_KAR_036 = 69722,
+/// <summary>
+/// <para>随从 德鲁伊 费用：5 攻击力：4 生命值：4</para>
+/// <para>Menagerie Warden</para>
+/// <para>展览馆守卫</para>
+/// <para><b>Battlecry:</b> Choose a friendly Beast. Summon a_copy of it.</para>
+/// <para><b>战吼：</b>选择一个友方野兽，召唤一个它的复制。</para>
+/// </summary>
+CORE_KAR_065 = 69686,
+/// <summary>
+/// <para>随从 牧师 费用：1 攻击力：1 生命值：1</para>
+/// <para>Swashburglar</para>
+/// <para>吹嘘海盗</para>
+/// <para><b>Battlecry:</b> Add a random card from another class to_your hand.</para>
+/// <para><b>战吼：</b>随机将一张另一职业的卡牌置入你的手牌。</para>
+/// </summary>
+CORE_KAR_069 = 69742,
+/// <summary>
+/// <para>随从 德鲁伊 费用：1 攻击力：2 生命值：2</para>
+/// <para>Enchanted Raven</para>
+/// <para>魔法乌鸦</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+CORE_KAR_300 = 69687,
+/// <summary>
+/// <para>随从 法师 费用：5 攻击力：6 生命值：4</para>
+/// <para>Ethereal Conjurer</para>
+/// <para>虚灵巫师</para>
+/// <para><b>Battlecry: Discover</b> a spell.</para>
+/// <para><b>战吼：发现</b>一张法术牌。</para>
+/// </summary>
+CORE_LOE_003 = 69701,
+/// <summary>
+/// <para>随从 牧师 费用：4 攻击力：5 生命值：4</para>
+/// <para>Tomb Pillager</para>
+/// <para>盗墓匪贼</para>
+/// <para><b>Deathrattle:</b> Add a Coin to your hand.</para>
+/// <para><b>亡语：</b>将一个幸运币置入你的手牌。</para>
+/// </summary>
+CORE_LOE_012 = 69738,
+/// <summary>
+/// <para>随从 中立 费用：0 攻击力：1 生命值：1</para>
+/// <para>Murloc Tinyfin</para>
+/// <para>鱼人宝宝</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+CORE_LOEA10_3 = 69723,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：4</para>
+/// <para>Lone Champion</para>
+/// <para>孤胆英雄</para>
+/// <para><b>Battlecry:</b> If you control no other minions, gain <b>Taunt</b> and <b>Divine Shield</b>.</para>
+/// <para><b>战吼：</b>如果你没有控制其他随从，则获得<b>嘲讽</b>和<b>圣盾</b>。</para>
+/// </summary>
+CORE_LOOT_124 = 69724,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：1 生命值：1</para>
+/// <para>Stoneskin Basilisk</para>
+/// <para>石皮蜥蜴</para>
+/// <para><b>Divine Shield</b> <b>Poisonous</b></para>
+/// <para><b>圣盾</b><b>剧毒</b></para>
+/// </summary>
+CORE_LOOT_125 = 69725,
+/// <summary>
+/// <para>随从 中立 费用：9 攻击力：4 生命值：12</para>
+/// <para>Sleepy Dragon</para>
+/// <para>贪睡巨龙</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+CORE_LOOT_137 = 69726,
+/// <summary>
+/// <para>随从 萨满祭司 费用：8 攻击力：3 生命值：6</para>
+/// <para>Al'Akir the Windlord</para>
+/// <para>风领主奥拉基尔</para>
+/// <para><b>Charge, Divine Shield, Taunt, Windfury</b></para>
+/// <para><b>冲锋，圣盾，嘲讽，风怒</b></para>
+/// </summary>
+CORE_NEW1_010 = 69632,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：3</para>
+/// <para>Bloodsail Raider</para>
+/// <para>血帆袭击者</para>
+/// <para><b>Battlecry:</b> Gain Attack equal to the Attackof your weapon.</para>
+/// <para><b>战吼：</b>获得等同于你的武器攻击力的攻击力。</para>
+/// </summary>
+CORE_NEW1_018 = 69677,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：3 生命值：5</para>
+/// <para>Violet Teacher</para>
+/// <para>紫罗兰教师</para>
+/// <para>Whenever you cast a spell, summon a 1/1 Violet Apprentice.</para>
+/// <para>每当你施放一个法术，召唤一个1/1的紫罗兰学徒。</para>
+/// </summary>
+CORE_NEW1_026 = 69678,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：3</para>
+/// <para>Southsea Captain</para>
+/// <para>南海船长</para>
+/// <para>Your other Pirates have +1/+1.</para>
+/// <para>你的其他海盗获得+1/+1。</para>
+/// </summary>
+CORE_NEW1_027 = 69679,
+/// <summary>
+/// <para>法术 德鲁伊 费用：3</para>
+/// <para>Feral Rage</para>
+/// <para>野性之怒</para>
+/// <para><b>Choose One -</b> Give your hero +4 Attack this turn; or Gain 8 Armor.</para>
+/// <para><b>抉择：</b>使你的英雄在本回合中获得+4攻击力；或者获得8点护甲值。</para>
+/// </summary>
+CORE_OG_047 = 69688,
+/// <summary>
+/// <para>随从 牧师 费用：1 攻击力：1 生命值：2</para>
+/// <para>Bladed Cultist</para>
+/// <para>执刃教徒</para>
+/// <para><b>Combo:</b> Gain +1/+1.</para>
+/// <para><b>连击：</b>获得+1/+1。</para>
+/// </summary>
+CORE_OG_070 = 69743,
+/// <summary>
+/// <para>随从 术士 费用：1 攻击力：1 生命值：1</para>
+/// <para>Possessed Villager</para>
+/// <para>着魔村民</para>
+/// <para><b>Deathrattle:</b> Summon a 1/1 Shadowbeast.</para>
+/// <para><b>亡语：</b>召唤一个1/1的暗影兽。</para>
+/// </summary>
+CORE_OG_241 = 69736,
+/// <summary>
+/// <para>法术 圣骑士 费用：5</para>
+/// <para>Stand Against Darkness</para>
+/// <para>惩黑除恶</para>
+/// <para>Summon five 1/1 Silver Hand Recruits.</para>
+/// <para>召唤五个1/1的白银之手新兵。</para>
+/// </summary>
+CORE_OG_273 = 69706,
+/// <summary>
+/// <para>武器 猎人 费用：2 攻击力：2 耐久度：2</para>
+/// <para>Headhunter's Hatchet</para>
+/// <para>猎头者之斧</para>
+/// <para>[x]<b>Battlecry:</b> If youcontrol a Beast, gain+1 Durability.</para>
+/// <para><b>战吼：</b>如果你控制一个野兽，便获得+1耐久度。</para>
+/// </summary>
+CORE_TRL_111 = 69695,
+/// <summary>
+/// <para>法术 德鲁伊 费用：0</para>
+/// <para>Pounce</para>
+/// <para>飞扑</para>
+/// <para>Give your hero +2_Attack this turn.</para>
+/// <para>在本回合中，使你的英雄获得+2攻击力。</para>
+/// </summary>
+CORE_TRL_243 = 69689,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：3</para>
+/// <para>Flesheating Ghoul</para>
+/// <para>腐肉食尸鬼</para>
+/// <para>Whenever a minion dies, gain +1 Attack.</para>
+/// <para>每当一个随从死亡，便获得+1攻击力。</para>
+/// </summary>
+CORE_tt_004 = 69680,
+/// <summary>
+/// <para>随从 法师 费用：2 攻击力：2 生命值：3</para>
+/// <para>Arcanologist</para>
+/// <para>秘法学家</para>
+/// <para><b>Battlecry:</b> Draw a <b>Secret</b>.</para>
+/// <para><b>战吼：</b>抽一张<b>奥秘</b>牌。</para>
+/// </summary>
+CORE_UNG_020 = 69702,
+/// <summary>
+/// <para>随从 中立 费用：7 攻击力：4 生命值：8</para>
+/// <para>Stormwatcher</para>
+/// <para>风暴看守</para>
+/// <para><b>Windfury</b></para>
+/// <para><b>风怒</b></para>
+/// </summary>
+CORE_UNG_813 = 69727,
+/// <summary>
+/// <para>法术 萨满祭司 费用：4</para>
+/// <para>Tidal Surge</para>
+/// <para>海潮涌动</para>
+/// <para><b>Lifesteal</b>Deal $4 damage to a_minion.</para>
+/// <para><b>吸血</b>对一个随从造成$4点伤害。</para>
+/// </summary>
+CORE_UNG_817 = 69744,
+/// <summary>
+/// <para>随从 术士 费用：4 攻击力：3 生命值：8</para>
+/// <para>Lakkari Felhound</para>
+/// <para>拉卡利地狱犬</para>
+/// <para><b>Taunt</b><b>Battlecry:</b> Discard your two lowest-Cost cards.</para>
+/// <para><b>嘲讽</b>，<b>战吼：</b>弃掉你手牌中法力值消耗最低的两张牌。</para>
+/// </summary>
+CORE_UNG_833 = 69737,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：4 生命值：8</para>
+/// <para>Humongous Razorleaf</para>
+/// <para>巨齿刀叶</para>
+/// <para>Can't attack.</para>
+/// <para>无法攻击。</para>
+/// </summary>
+CORE_UNG_844 = 69728,
 
 
 
