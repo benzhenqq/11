@@ -27,9 +27,10 @@ namespace HREngine.Bots
 						Minion summonedMinion = p.ownMinions[pos];
 						if (summonedMinion.handcard.card.cardIDenum == deckMinion.cardIDenum)
 						{
-							summonedMinion.rush = 1;
+							p.minionGetRush(summonedMinion);
 						}
 					}
+					Helpfunctions.Instance.ErrorLog("我寻思出动物保镖应该能出"+deckMinion.卡名+"吧？");
 					cnt--;
 					if(cnt <= 0)break;
 				}

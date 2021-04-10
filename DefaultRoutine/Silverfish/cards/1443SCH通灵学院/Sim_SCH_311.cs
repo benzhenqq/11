@@ -12,7 +12,7 @@ namespace HREngine.Bots
 		{
 			foreach (Minion m in p.ownMinions)
 			{
-				m.rush = 1;
+				p.minionGetRush(m);
 			}
 		}
 		

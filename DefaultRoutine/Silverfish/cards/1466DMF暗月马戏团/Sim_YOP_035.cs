@@ -8,14 +8,11 @@ namespace HREngine.Bots
 	{
 		//Can only take 1 damage at_a time.
 		//每次只能受到1点伤害。
-		public override void onMinionGotDmgTrigger(Playfield p, Minion m, int anzOwnMinionsGotDmg, int anzEnemyMinionsGotDmg, int anzOwnHeroGotDmg, int anzEnemyHeroGotDmg)
+        // 失去圣盾失去一点生命
+        public override void onMinionLosesDivineShield(Playfield p, Minion m, int num)
         {
-            if (m.anzGotDmg > 0)
-            {
-                int tmp = m.anzGotDmg;
-                m.anzGotDmg = 0;
-                p.minionGetDamageOrHeal(m, tmp - 1, false);
-            }
+            p.minionGetDamageOrHeal(m, 1, false);
+            m.divineshild = true;
         }
 		
 	}

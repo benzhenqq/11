@@ -10,8 +10,8 @@ namespace HREngine.Bots
 		//仅在本回合中，获得两个法力水晶。<b>过载：</b>（2）
 		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
 		{
-			p.mana +=2;
-            p.lockedMana +=2;
+			p.mana = Math.Min(10, p.mana+2);
+			if (ownplay) p.ueberladung+=2;
 		}
 		
 	}
