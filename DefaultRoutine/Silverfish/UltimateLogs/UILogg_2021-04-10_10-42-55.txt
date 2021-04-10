@@ -1,0 +1,2030 @@
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:43:25 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 2/0
+mana 1/1
+emana 1
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+druid 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 25 0 26 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 twilightrunner 5 entity 27 SCH_616 0 0 0
+pos 3 animatedbroomstick 1 entity 12 SCH_311 0 0 0
+pos 4 wildgrowth 3 entity 5 CORE_CS2_013 0 0 0
+pos 5 thecoin 0 entity 68 GAME_005 0 0 0
+pos 6 guardiananimals 8 entity 26 SCH_610 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: BT_021,1;
+od: CORE_EX1_169,2;SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;SCH_616,1;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,2;BAR_538,1;SCH_610,1;BAR_042,2;DMF_163,2;SCH_609,2;
+recalc-check###########
+mana changed 1 -100 1 10 1 10
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 3 dones 0
+cut to len 3
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 30
+missing dmg to lethal 30
+calculated 0.1080072
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 3 dones 0
+cut to len 3
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 17
+calculated 0.1260133
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:43:46 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 4/0
+mana 2/2
+emana 2
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+druid 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 24 0 25 0
+OwnMinions:
+EnemyMinions:
+babblingbook CORE_KAR_009 zp:1 e:84 A:1 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 twilightrunner 5 entity 27 SCH_616 0 0 0
+pos 3 animatedbroomstick 1 entity 12 SCH_311 0 0 0
+pos 4 wildgrowth 3 entity 5 CORE_CS2_013 0 0 0
+pos 5 thecoin 0 entity 68 GAME_005 0 0 0
+pos 6 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 7 strongman 7 entity 17 DMF_078 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: BT_021,2;
+od: CORE_EX1_169,2;SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;SCH_616,1;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,1;BAR_538,1;SCH_610,1;BAR_042,2;DMF_163,2;SCH_609,2;
+recalc-check###########
+mana changed 2 -100 2 10 2 10
+Leathal-check###########
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 5 dones 0
+cut to len 4
+ailoop
+deep 2 len 3 dones 0
+cut to len 2
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 55
+play id 68 pos 1
+
+play id 5 pos 1
+
+missing dmg to lethal 30
+calculated 0.1630115
+no lethal, do something random######
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 6 dones 0
+cut to len 5
+ailoop
+deep 2 len 6 dones 0
+cut to len 3
+ailoop
+deep 3 len 3 dones 0
+cut to len 1
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 62
+play id 68 pos 1
+
+play id 5 pos 1
+
+calculated 0.1900169
+play id 68 pos 1
+
+使用: 幸运币 (68) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:43:50 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 4/1
+mana 3/2
+emana 2
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+druid 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 24 0 25 0
+OwnMinions:
+EnemyMinions:
+babblingbook CORE_KAR_009 zp:1 e:84 A:1 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 twilightrunner 5 entity 27 SCH_616 0 0 0
+pos 3 animatedbroomstick 1 entity 12 SCH_311 0 0 0
+pos 4 wildgrowth 3 entity 5 CORE_CS2_013 0 0 0
+pos 5 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 6 strongman 7 entity 17 DMF_078 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: GAME_005,68;
+etg: 
+og: GAME_005,1;
+eg: BT_021,2;
+od: CORE_EX1_169,2;SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;SCH_616,1;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,1;BAR_538,1;SCH_610,1;BAR_042,2;DMF_163,2;SCH_609,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 5 pos 1
+
+使用: 野性成长 (5) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:43:54 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 4/2
+mana 0/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 2 0 0 1
+ownhero:
+druid 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 24 0 25 0
+OwnMinions:
+EnemyMinions:
+babblingbook CORE_KAR_009 zp:1 e:84 A:1 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 twilightrunner 5 entity 27 SCH_616 0 0 0
+pos 3 animatedbroomstick 1 entity 12 SCH_311 0 0 0
+pos 4 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 5 strongman 7 entity 17 DMF_078 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: CORE_CS2_013,5;GAME_005,68;
+etg: 
+og: CORE_CS2_013,1;GAME_005,1;
+eg: BT_021,2;
+od: CORE_EX1_169,2;SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;SCH_616,1;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,1;BAR_538,1;SCH_610,1;BAR_042,2;DMF_163,2;SCH_609,2;
+recalc-check###########
+mana changed 0 0 3 2 3 3
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 19
+missing dmg to lethal 30
+calculated 0.0520039
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 6
+calculated 0.0310028
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:44:13 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 6/0
+mana 4/4
+emana 4
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+druid 29 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 23 0 24 0
+OwnMinions:
+EnemyMinions:
+babblingbook CORE_KAR_009 zp:1 e:84 A:1 H:1 mH:1 rdy:False ex
+fallenhero CORE_AT_003 zp:2 e:82 A:3 H:2 mH:2 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 twilightrunner 5 entity 27 SCH_616 0 0 0
+pos 3 animatedbroomstick 1 entity 12 SCH_311 0 0 0
+pos 4 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 5 strongman 7 entity 17 DMF_078 0 0 0
+pos 6 druidoftheplains 7 entity 9 BAR_538 0 0 0
+Enemy cards: 4
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_CS2_013,1;GAME_005,1;
+eg: BT_021,2;
+od: CORE_EX1_169,2;SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;SCH_616,1;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,1;SCH_610,1;BAR_042,2;DMF_163,2;SCH_609,2;
+recalc-check###########
+mana changed 4 -100 4 2 4 3
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 2
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -6
+useability 
+
+missing dmg to lethal 30
+calculated 0.1005238
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 4 dones 0
+cut to len 4
+ailoop
+deep 2 len 6 dones 0
+cut to len 2
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -31
+useability 
+
+calculated 0.1280111
+useability 
+
+使用英雄技能: 变形 暂时没有目标
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:44:17 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 6/1
+mana 2/4
+emana 4
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+druid 29 30 1 False False 64 True 0 False 1 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 23 0 24 0
+OwnMinions:
+EnemyMinions:
+babblingbook CORE_KAR_009 zp:1 e:84 A:1 H:1 mH:1 rdy:False ex
+fallenhero CORE_AT_003 zp:2 e:82 A:3 H:2 mH:2 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 twilightrunner 5 entity 27 SCH_616 0 0 0
+pos 3 animatedbroomstick 1 entity 12 SCH_311 0 0 0
+pos 4 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 5 strongman 7 entity 17 DMF_078 0 0 0
+pos 6 druidoftheplains 7 entity 9 BAR_538 0 0 0
+Enemy cards: 4
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_CS2_013,1;GAME_005,1;
+eg: BT_021,2;
+od: CORE_EX1_169,2;SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;SCH_616,1;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,1;SCH_610,1;BAR_042,2;DMF_163,2;SCH_609,2;
+recalc-check###########
+weapon changed True False 0 0 0 0 0 0 False False False False False False
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 2
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -5
+attack with hero, enemy: 66
+
+missing dmg to lethal 29
+calculated 0.1160095
+no lethal, do something random######
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 8 dones 0
+cut to len 8
+ailoop
+deep 2 len 15 dones 0
+cut to len 5
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -25
+attack with hero, enemy: 84
+
+calculated 0.1277058
+attack with hero, enemy: 84
+
+英雄攻击: 玛法里奥·怒风 目标为: 呓语魔典
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:44:24 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 6/2
+mana 2/4
+emana 4
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+druid 29 30 0 False False 64 False 1 False 1 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 23 0 24 0
+OwnMinions:
+EnemyMinions:
+fallenhero CORE_AT_003 zp:1 e:82 A:3 H:2 mH:2 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 twilightrunner 5 entity 27 SCH_616 0 0 0
+pos 3 animatedbroomstick 1 entity 12 SCH_311 0 0 0
+pos 4 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 5 strongman 7 entity 17 DMF_078 0 0 0
+pos 6 druidoftheplains 7 entity 9 BAR_538 0 0 0
+Enemy cards: 4
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_CS2_013,1;GAME_005,1;
+eg: BT_021,2;
+od: CORE_EX1_169,2;SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;SCH_616,1;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,1;SCH_610,1;BAR_042,2;DMF_163,2;SCH_609,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:44:46 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 8/0
+mana 5/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+druid 24 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 22 0 23 0
+OwnMinions:
+EnemyMinions:
+fallenhero CORE_AT_003 zp:1 e:82 A:3 H:2 mH:2 rdy:False ex
+starscryer BT_014 zp:2 e:83 A:3 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 twilightrunner 5 entity 27 SCH_616 0 0 0
+pos 3 animatedbroomstick 1 entity 12 SCH_311 0 0 0
+pos 4 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 5 strongman 7 entity 17 DMF_078 0 0 0
+pos 6 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 7 twilightrunner 5 entity 30 SCH_616 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_CS2_013,1;GAME_005,1;
+eg: BT_021,2;
+od: CORE_EX1_169,2;SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,1;SCH_610,1;BAR_042,2;DMF_163,2;SCH_609,2;
+recalc-check###########
+mana changed 5 -100 5 4 5 4
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 2
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -15
+useability 
+
+missing dmg to lethal 30
+calculated 0.1060064
+no lethal, do something random######
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 4 dones 0
+cut to len 4
+ailoop
+deep 2 len 6 dones 0
+cut to len 2
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -41
+play id 27 pos 1
+
+calculated 0.1120087
+play id 27 pos 1
+
+使用: 夜行虎 (27) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:44:50 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 8/1
+mana 0/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+druid 24 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 22 0 23 0
+OwnMinions:
+twilightrunner SCH_616 zp:1 e:27 A:5 H:4 mH:4 rdy:False natt:0 ex ptt stlth
+EnemyMinions:
+fallenhero CORE_AT_003 zp:1 e:82 A:3 H:2 mH:2 rdy:False ex
+starscryer BT_014 zp:2 e:83 A:3 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 animatedbroomstick 1 entity 12 SCH_311 0 0 0
+pos 3 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 4 strongman 7 entity 17 DMF_078 0 0 0
+pos 5 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 6 twilightrunner 5 entity 30 SCH_616 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_CS2_013,1;GAME_005,1;
+eg: BT_021,2;
+od: CORE_EX1_169,2;SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,1;SCH_610,1;BAR_042,2;DMF_163,2;SCH_609,2;
+recalc-check###########
+ownminions changed
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 7
+missing dmg to lethal 30
+calculated 0.0250003
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -42
+calculated 0.0260012
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:45:12 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 10/0
+mana 6/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+druid 13 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 21 0 22 0
+OwnMinions:
+twilightrunner SCH_616 zp:1 e:27 A:5 H:4 mH:4 rdy:True natt:0 stlth
+EnemyMinions:
+fallenhero CORE_AT_003 zp:1 e:82 A:3 H:2 mH:2 rdy:False ex
+starscryer BT_014 zp:2 e:83 A:3 H:1 mH:1 rdy:False ex
+teacherspet SCH_244 zp:3 e:94 A:4 H:5 mH:5 rdy:False ex tnt
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 animatedbroomstick 1 entity 12 SCH_311 0 0 0
+pos 3 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 4 strongman 7 entity 17 DMF_078 0 0 0
+pos 5 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 6 twilightrunner 5 entity 30 SCH_616 0 0 0
+pos 7 primordialprotector 8 entity 11 BAR_042 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_CS2_013,1;GAME_005,1;
+eg: BT_021,2;BT_291,1;
+od: CORE_EX1_169,2;SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,1;SCH_610,1;BAR_042,1;DMF_163,2;SCH_609,2;
+recalc-check###########
+mana changed 6 -100 6 5 6 5
+Leathal-check###########
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 7 dones 0
+cut to len 6
+ailoop
+deep 2 len 9 dones 0
+cut to len 4
+ailoop
+deep 3 len 2 dones 0
+cut to len 1
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -26
+attacker: 27 enemy: 94
+
+useability 
+
+missing dmg to lethal 30
+calculated 0.207021
+no lethal, do something random######
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 11 dones 0
+cut to len 9
+ailoop
+deep 2 len 20 dones 0
+cut to len 10
+ailoop
+deep 3 len 17 dones 0
+cut to len 9
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -51
+play id 30 pos 2
+
+attacker: 27 enemy: 94
+
+play id 12 pos 2
+
+attacker: 12 enemy: 83
+
+calculated 0.2570193
+play id 30 pos 2
+
+使用: 夜行虎 (30) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:45:17 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 10/1
+mana 1/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+druid 13 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 21 0 22 0
+OwnMinions:
+twilightrunner SCH_616 zp:1 e:27 A:5 H:4 mH:4 rdy:True natt:0 stlth
+twilightrunner SCH_616 zp:2 e:30 A:5 H:4 mH:4 rdy:False natt:0 ex ptt stlth
+EnemyMinions:
+fallenhero CORE_AT_003 zp:1 e:82 A:3 H:2 mH:2 rdy:False ex
+starscryer BT_014 zp:2 e:83 A:3 H:1 mH:1 rdy:False ex
+teacherspet SCH_244 zp:3 e:94 A:4 H:5 mH:5 rdy:False ex tnt
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 animatedbroomstick 1 entity 12 SCH_311 0 0 0
+pos 3 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 4 strongman 7 entity 17 DMF_078 0 0 0
+pos 5 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 6 primordialprotector 8 entity 11 BAR_042 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_CS2_013,1;GAME_005,1;
+eg: BT_021,2;BT_291,1;
+od: CORE_EX1_169,2;SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,1;SCH_610,1;BAR_042,1;DMF_163,2;SCH_609,2;
+recalc-check###########
+ownminions changed
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -4
+attacker: 27 enemy: 94
+
+missing dmg to lethal 30
+calculated 0.0810033
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 3 dones 0
+cut to len 3
+ailoop
+deep 2 len 5 dones 0
+cut to len 3
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -52
+attacker: 27 enemy: 94
+
+play id 12 pos 2
+
+attacker: 12 enemy: 83
+
+calculated 0.1337023
+attacker: 27 enemy: 94
+
+随从攻击: 夜行虎 目标为: 教师的爱宠
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:45:22 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 10/2
+mana 1/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+druid 13 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 19 0 22 0
+OwnMinions:
+twilightrunner SCH_616 zp:1 e:30 A:5 H:4 mH:4 rdy:False natt:0 ex ptt stlth
+EnemyMinions:
+fallenhero CORE_AT_003 zp:1 e:82 A:3 H:2 mH:2 rdy:False ex
+starscryer BT_014 zp:2 e:83 A:3 H:1 mH:1 rdy:False ex
+packkodo BAR_030 zp:3 e:97 A:3 H:3 mH:3 rdy:False ex ptt
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 animatedbroomstick 1 entity 12 SCH_311 0 0 0
+pos 3 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 4 strongman 7 entity 17 DMF_078 0 0 0
+pos 5 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 6 primordialprotector 8 entity 11 BAR_042 0 0 0
+pos 7 innervate 0 entity 28 CORE_EX1_169 0 0 0
+pos 8 innervate 0 entity 25 CORE_EX1_169 0 0 0
+Enemy cards: 5
+ownDiedMinions: SCH_616,27;
+enemyDiedMinions: 
+otg: SCH_616,27;
+etg: 
+og: CORE_CS2_013,1;SCH_616,1;GAME_005,1;
+eg: BT_021,2;BT_291,1;
+od: SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,1;SCH_610,1;BAR_042,1;DMF_163,2;SCH_609,2;
+recalc-check###########
+deck/fatigue changed 19 21 22 22 0 0 0 0
+minions count or hand changed
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 2 dones 0
+cut to len 2
+ailoop
+deep 2 len 2 dones 0
+cut to len 1
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -13
+missing dmg to lethal 30
+calculated 0.1930152
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 7 dones 0
+cut to len 7
+ailoop
+deep 2 len 14 dones 0
+cut to len 6
+ailoop
+deep 3 len 12 dones 0
+cut to len 5
+ailoop
+deep 4 len 9 dones 0
+cut to len 3
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -72
+play id 12 pos 2
+
+calculated 0.3340266
+play id 12 pos 2
+
+使用: 活化扫帚 (12) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:45:26 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 10/3
+mana 0/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+2 2 0 0 1
+ownhero:
+druid 13 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 19 0 22 0
+OwnMinions:
+twilightrunner SCH_616 zp:1 e:30 A:5 H:4 mH:4 rdy:True natt:0 ex ptt stlth
+animatedbroomstick SCH_311 zp:2 e:12 A:1 H:1 mH:1 rdy:True natt:0 ptt
+EnemyMinions:
+fallenhero CORE_AT_003 zp:1 e:82 A:3 H:2 mH:2 rdy:False ex
+starscryer BT_014 zp:2 e:83 A:3 H:1 mH:1 rdy:False ex
+packkodo BAR_030 zp:3 e:97 A:3 H:3 mH:3 rdy:False ex ptt
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 strongman 7 entity 17 DMF_078 0 0 0
+pos 4 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 5 primordialprotector 8 entity 11 BAR_042 0 0 0
+pos 6 innervate 0 entity 28 CORE_EX1_169 0 0 0
+pos 7 innervate 0 entity 25 CORE_EX1_169 0 0 0
+Enemy cards: 5
+ownDiedMinions: SCH_616,27;
+enemyDiedMinions: 
+otg: SCH_616,27;
+etg: 
+og: CORE_CS2_013,1;SCH_616,1;GAME_005,1;
+eg: BT_021,2;BT_291,1;
+od: SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;CS3_024,1;DMF_078,1;SCH_610,1;BAR_042,1;DMF_163,2;SCH_609,2;
+recalc-check###########
+ownminions changed
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 1 dones 0
+cut to len 1
+ailoop
+deep 2 len 1 dones 0
+cut to len 1
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -13
+missing dmg to lethal 30
+calculated 0.1330096
+no lethal, do something random######
+ailoop
+deep 0 len 7 dones 0
+cut to len 7
+ailoop
+deep 1 len 27 dones 0
+cut to len 14
+ailoop
+deep 2 len 34 dones 0
+cut to len 14
+ailoop
+deep 3 len 33 dones 0
+cut to len 13
+ailoop
+deep 4 len 21 dones 0
+cut to len 7
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -58
+attacker: 30 enemy: 82
+
+attacker: 12 enemy: 83
+
+calculated 0.2700206
+attacker: 30 enemy: 82
+
+随从攻击: 夜行虎 目标为: 英雄之魂
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:45:31 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 10/4
+mana 0/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+2 2 0 0 1
+ownhero:
+druid 13 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 17 0 22 0
+OwnMinions:
+twilightrunner SCH_616 zp:1 e:30 A:5 H:1 mH:4 rdy:False natt:1 ex ptt
+animatedbroomstick SCH_311 zp:2 e:12 A:1 H:1 mH:1 rdy:True natt:0 ptt
+EnemyMinions:
+starscryer BT_014 zp:1 e:83 A:3 H:1 mH:1 rdy:False ex
+packkodo BAR_030 zp:2 e:97 A:3 H:3 mH:3 rdy:False ex ptt
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 strongman 7 entity 17 DMF_078 0 0 0
+pos 4 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 5 primordialprotector 8 entity 11 BAR_042 0 0 0
+pos 6 innervate 0 entity 28 CORE_EX1_169 0 0 0
+pos 7 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 8 primordialprotector 8 entity 31 BAR_042 0 0 0
+pos 9 taelanfordring 5 entity 19 CS3_024 0 0 0
+Enemy cards: 5
+ownDiedMinions: SCH_616,27;
+enemyDiedMinions: 
+otg: SCH_616,27;
+etg: 
+og: CORE_CS2_013,1;SCH_616,1;GAME_005,1;
+eg: BT_021,2;BT_291,1;
+od: SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,1;SCH_610,1;DMF_163,2;SCH_609,2;
+recalc-check###########
+deck/fatigue changed 17 19 22 22 0 0 0 0
+minions count or hand changed
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 1 dones 0
+cut to len 1
+ailoop
+deep 2 len 1 dones 0
+cut to len 1
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 20
+missing dmg to lethal 30
+calculated 0.1120089
+no lethal, do something random######
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 5 dones 0
+cut to len 3
+ailoop
+deep 2 len 5 dones 0
+cut to len 3
+ailoop
+deep 3 len 4 dones 0
+cut to len 2
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -45
+attacker: 12 enemy: 83
+
+calculated 0.1830139
+attacker: 12 enemy: 83
+
+随从攻击: 活化扫帚 目标为: 星占师
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:45:37 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 10/5
+mana 0/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+2 2 0 0 1
+ownhero:
+druid 13 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 17 0 21 0
+OwnMinions:
+twilightrunner SCH_616 zp:1 e:30 A:5 H:1 mH:4 rdy:False natt:1 ex ptt
+EnemyMinions:
+packkodo BAR_030 zp:1 e:97 A:3 H:3 mH:3 rdy:False ex ptt
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 strongman 7 entity 17 DMF_078 0 0 0
+pos 4 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 5 primordialprotector 8 entity 11 BAR_042 0 0 0
+pos 6 innervate 0 entity 28 CORE_EX1_169 0 0 0
+pos 7 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 8 primordialprotector 8 entity 31 BAR_042 0 0 0
+pos 9 taelanfordring 5 entity 19 CS3_024 0 0 0
+Enemy cards: 6
+ownDiedMinions: SCH_311,12;SCH_616,27;
+enemyDiedMinions: 
+otg: SCH_311,12;SCH_616,27;
+etg: 
+og: CORE_CS2_013,1;SCH_311,1;SCH_616,1;GAME_005,1;
+eg: BT_021,2;BT_291,1;
+od: SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,1;SCH_610,1;DMF_163,2;SCH_609,2;
+recalc-check###########
+deck/fatigue changed 17 17 21 22 0 0 0 0
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:46:00 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 12/0
+mana 7/7
+emana 7
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+druid 5 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 16 0 20 0
+OwnMinions:
+EnemyMinions:
+packkodo BAR_030 zp:1 e:97 A:3 H:3 mH:3 rdy:False ex
+fleethoofpearltusk DMF_080 zp:2 e:100 A:4 H:4 mH:4 rdy:False
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 strongman 7 entity 17 DMF_078 0 0 0
+pos 4 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 5 primordialprotector 8 entity 11 BAR_042 0 0 0
+pos 6 innervate 0 entity 28 CORE_EX1_169 0 0 0
+pos 7 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 8 primordialprotector 8 entity 31 BAR_042 0 0 0
+pos 9 taelanfordring 5 entity 19 CS3_024 0 0 0
+pos 10 survivalofthefittest 10 entity 16 SCH_609 0 0 0
+Enemy cards: 4
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_CS2_013,1;SCH_311,1;SCH_616,2;GAME_005,1;
+eg: BT_291,2;SCH_509,2;BT_021,2;
+od: SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,1;SCH_610,1;DMF_163,2;SCH_609,1;
+recalc-check###########
+mana changed 7 -100 7 6 7 6
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 5 dones 0
+cut to len 4
+ailoop
+deep 2 len 6 dones 0
+cut to len 4
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -26
+play id 28 pos 1
+
+play id 11 pos 1
+
+missing dmg to lethal 30
+calculated 0.2180147
+no lethal, do something random######
+ailoop
+deep 0 len 5 dones 0
+cut to len 5
+ailoop
+deep 1 len 15 dones 0
+cut to len 14
+ailoop
+deep 2 len 28 dones 0
+cut to len 16
+ailoop
+deep 3 len 22 dones 0
+cut to len 12
+ailoop
+deep 4 len 6 dones 0
+cut to len 2
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -25
+play id 28 pos 1
+
+play id 11 pos 1
+
+play id 17 pos 2
+
+calculated 0.2690224
+play id 28 pos 1
+
+使用: 激活 (28) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:46:05 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 12/1
+mana 8/7
+emana 7
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 1
+ownhero:
+druid 5 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 16 0 20 0
+OwnMinions:
+EnemyMinions:
+packkodo BAR_030 zp:1 e:97 A:3 H:3 mH:3 rdy:False ex
+fleethoofpearltusk DMF_080 zp:2 e:100 A:4 H:4 mH:4 rdy:False
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 strongman 7 entity 17 DMF_078 0 0 0
+pos 4 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 5 primordialprotector 8 entity 11 BAR_042 0 0 0
+pos 6 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 7 primordialprotector 8 entity 31 BAR_042 0 0 0
+pos 8 taelanfordring 5 entity 19 CS3_024 0 0 0
+pos 9 survivalofthefittest 10 entity 16 SCH_609 0 0 0
+Enemy cards: 4
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: CORE_EX1_169,28;
+etg: 
+og: CORE_CS2_013,1;SCH_311,1;SCH_616,2;CORE_EX1_169,1;GAME_005,1;
+eg: BT_291,2;SCH_509,2;BT_021,2;
+od: SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,1;SCH_610,1;DMF_163,2;SCH_609,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 11 pos 1
+
+使用: 始生保护者 (11) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:46:11 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 12/2
+mana 0/7
+emana 7
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 2 0 0 1
+ownhero:
+druid 5 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 15 0 20 0
+OwnMinions:
+primordialprotector BAR_042 zp:1 e:11 A:6 H:6 mH:6 rdy:False natt:0 ex ptt
+darkmoonrabbit DMF_070 zp:2 e:104 A:1 H:1 mH:1 rdy:True natt:0 ptt poi
+EnemyMinions:
+packkodo BAR_030 zp:1 e:97 A:3 H:3 mH:3 rdy:False ex
+fleethoofpearltusk DMF_080 zp:2 e:100 A:4 H:4 mH:4 rdy:False
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 strongman 0 entity 17 DMF_078t 0 0 0
+pos 4 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 5 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 6 primordialprotector 8 entity 31 BAR_042 0 0 0
+pos 7 taelanfordring 5 entity 19 CS3_024 0 0 0
+pos 8 survivalofthefittest 10 entity 16 SCH_609 0 0 0
+pos 9 survivalofthefittest 10 entity 24 SCH_609 0 0 0
+Enemy cards: 4
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: CORE_EX1_169,28;
+etg: 
+og: CORE_CS2_013,1;SCH_311,1;SCH_616,2;CORE_EX1_169,1;GAME_005,1;
+eg: BT_291,2;SCH_509,2;BT_021,2;
+od: SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,2;SCH_610,1;DMF_163,2;
+recalc-check###########
+deck/fatigue changed 15 16 20 20 0 0 0 0
+minions count or hand changed
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -67
+missing dmg to lethal 30
+calculated 0.1090071
+no lethal, do something random######
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 10 dones 0
+cut to len 8
+ailoop
+deep 2 len 10 dones 0
+cut to len 4
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -68
+attacker: 104 enemy: 97
+
+play id 17 pos 2
+
+calculated 0.1784132
+attacker: 104 enemy: 97
+
+随从攻击: 暗月兔子 目标为: 载货科多兽
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:46:17 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 12/3
+mana 0/7
+emana 7
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 2 0 0 1
+ownhero:
+druid 5 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 15 0 20 0
+OwnMinions:
+primordialprotector BAR_042 zp:1 e:11 A:6 H:6 mH:6 rdy:False natt:0 ex ptt
+EnemyMinions:
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 strongman 0 entity 17 DMF_078t 0 0 0
+pos 4 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 5 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 6 primordialprotector 8 entity 31 BAR_042 0 0 0
+pos 7 taelanfordring 5 entity 19 CS3_024 0 0 0
+pos 8 survivalofthefittest 10 entity 16 SCH_609 0 0 0
+pos 9 survivalofthefittest 10 entity 24 SCH_609 0 0 0
+Enemy cards: 4
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: CORE_EX1_169,28;
+etg: 
+og: CORE_CS2_013,1;SCH_311,1;SCH_616,2;CORE_EX1_169,1;GAME_005,1;
+eg: BT_291,2;SCH_509,2;BT_021,2;
+od: SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,2;SCH_610,1;DMF_163,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 17 pos 2
+
+使用: 大力士 (17) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:46:21 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 12/4
+mana 0/7
+emana 7
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+2 3 0 0 1
+ownhero:
+druid 5 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 15 0 20 0
+OwnMinions:
+primordialprotector BAR_042 zp:1 e:11 A:6 H:6 mH:6 rdy:False natt:0 ex ptt
+strongman DMF_078t zp:2 e:17 A:6 H:6 mH:6 rdy:False natt:0 ex tnt ptt
+EnemyMinions:
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 4 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 5 primordialprotector 8 entity 31 BAR_042 0 0 0
+pos 6 taelanfordring 5 entity 19 CS3_024 0 0 0
+pos 7 survivalofthefittest 10 entity 16 SCH_609 0 0 0
+pos 8 survivalofthefittest 10 entity 24 SCH_609 0 0 0
+Enemy cards: 4
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: CORE_EX1_169,28;
+etg: 
+og: CORE_CS2_013,1;SCH_311,1;SCH_616,2;CORE_EX1_169,1;GAME_005,1;
+eg: BT_291,2;SCH_509,2;BT_021,2;
+od: SCH_427,2;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,2;SCH_610,1;DMF_163,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:46:52 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 14/0
+mana 8/8
+emana 8
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+druid 5 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 14 0 17 0
+OwnMinions:
+primordialprotector BAR_042 zp:1 e:11 A:6 H:6 mH:6 rdy:False natt:0 frz
+strongman DMF_078t zp:2 e:17 A:6 H:6 mH:6 rdy:False natt:0 tnt frz
+EnemyMinions:
+vardendawngrasp BAR_748 zp:1 e:80 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 4 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 5 primordialprotector 8 entity 31 BAR_042 0 0 0
+pos 6 taelanfordring 5 entity 19 CS3_024 0 0 0
+pos 7 survivalofthefittest 10 entity 16 SCH_609 0 0 0
+pos 8 survivalofthefittest 10 entity 24 SCH_609 0 0 0
+pos 9 lightningbloom 0 entity 6 SCH_427 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_CS2_013,1;SCH_311,1;SCH_616,2;CORE_EX1_169,1;GAME_005,1;
+eg: BT_291,2;SCH_509,2;BT_021,2;CORE_CS2_023,1;
+od: SCH_427,1;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,2;SCH_610,1;DMF_163,2;
+recalc-check###########
+mana changed 8 -100 8 7 8 7
+Leathal-check###########
+ailoop
+deep 0 len 5 dones 0
+cut to len 5
+ailoop
+deep 1 len 15 dones 0
+cut to len 10
+ailoop
+deep 2 len 18 dones 0
+cut to len 8
+ailoop
+deep 3 len 8 dones 0
+cut to len 3
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 112
+play id 6 pos 1
+
+play id 31 pos 3
+
+useability 
+
+missing dmg to lethal 30
+calculated 0.2300178
+no lethal, do something random######
+ailoop
+deep 0 len 7 dones 0
+cut to len 7
+ailoop
+deep 1 len 26 dones 0
+cut to len 21
+ailoop
+deep 2 len 50 dones 0
+cut to len 22
+ailoop
+deep 3 len 32 dones 0
+cut to len 10
+ailoop
+deep 4 len 5 dones 0
+cut to len 1
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 47
+play id 6 pos 1
+
+useability 
+
+play id 31 pos 3
+
+calculated 0.3050255
+play id 6 pos 1
+
+使用: 雷霆绽放 (6) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:46:56 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 14/1
+mana 10/8
+emana 8
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 1 2 0 1
+ownhero:
+druid 5 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 14 0 17 0
+OwnMinions:
+primordialprotector BAR_042 zp:1 e:11 A:6 H:6 mH:6 rdy:False natt:0 frz
+strongman DMF_078t zp:2 e:17 A:6 H:6 mH:6 rdy:False natt:0 tnt frz
+EnemyMinions:
+vardendawngrasp BAR_748 zp:1 e:80 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 4 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 5 primordialprotector 8 entity 31 BAR_042 0 0 0
+pos 6 taelanfordring 5 entity 19 CS3_024 0 0 0
+pos 7 survivalofthefittest 10 entity 16 SCH_609 0 0 0
+pos 8 survivalofthefittest 10 entity 24 SCH_609 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: SCH_427,6;
+etg: 
+og: CORE_CS2_013,1;SCH_427,1;SCH_311,1;SCH_616,2;CORE_EX1_169,1;GAME_005,1;
+eg: BT_291,2;SCH_509,2;BT_021,2;CORE_CS2_023,1;
+od: SCH_427,1;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,2;SCH_610,1;DMF_163,2;
+recalc-check###########
+stuff changed 1 1 0 0 2 0 0 2 True True 0 0
+Leathal-check###########
+ailoop
+deep 0 len 5 dones 0
+cut to len 5
+ailoop
+deep 1 len 12 dones 0
+cut to len 8
+ailoop
+deep 2 len 8 dones 0
+cut to len 3
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 82
+play id 31 pos 3
+
+useability 
+
+missing dmg to lethal 30
+calculated 0.1710139
+no lethal, do something random######
+ailoop
+deep 0 len 7 dones 0
+cut to len 7
+ailoop
+deep 1 len 21 dones 0
+cut to len 17
+ailoop
+deep 2 len 24 dones 0
+cut to len 9
+ailoop
+deep 3 len 4 dones 0
+cut to len 1
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 47
+play id 31 pos 3
+
+useability 
+
+calculated 0.2230143
+play id 31 pos 3
+
+使用: 始生保护者 (31) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:47:00 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 14/2
+mana 2/8
+emana 8
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 1 2 0 1
+ownhero:
+druid 5 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 14 0 17 0
+OwnMinions:
+primordialprotector BAR_042 zp:1 e:11 A:6 H:6 mH:6 rdy:False natt:0 frz
+strongman DMF_078t zp:2 e:17 A:6 H:6 mH:6 rdy:False natt:0 tnt frz
+primordialprotector BAR_042 zp:3 e:31 A:6 H:6 mH:6 rdy:False natt:0 ptt
+EnemyMinions:
+vardendawngrasp BAR_748 zp:1 e:80 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 4 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 6 taelanfordring 5 entity 19 CS3_024 0 0 0
+pos 7 survivalofthefittest 10 entity 16 SCH_609 0 0 0
+pos 8 survivalofthefittest 10 entity 24 SCH_609 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: SCH_427,6;
+etg: 
+og: CORE_CS2_013,1;SCH_427,1;SCH_311,1;SCH_616,2;CORE_EX1_169,1;GAME_005,1;
+eg: BT_291,2;SCH_509,2;BT_021,2;CORE_CS2_023,1;
+od: SCH_427,1;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,2;SCH_610,1;DMF_163,2;
+recalc-check###########
+stuff changed 1 2 0 1 2 2 0 0 True True 0 0
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 1
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 2
+useability 
+
+missing dmg to lethal 30
+calculated 0.0930048
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 1
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -33
+useability 
+
+calculated 0.0960037
+useability 
+
+使用英雄技能: 变形 暂时没有目标
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:47:05 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 14/3
+mana 2/8
+emana 8
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 2 2 0 1
+ownhero:
+druid 5 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 13 0 17 0
+OwnMinions:
+primordialprotector BAR_042 zp:1 e:11 A:6 H:6 mH:6 rdy:False natt:0 frz
+strongman DMF_078t zp:2 e:17 A:6 H:6 mH:6 rdy:False natt:0 tnt frz
+primordialprotector BAR_042 zp:3 e:31 A:6 H:6 mH:6 rdy:False natt:0 ex ptt
+beastmasterleoroxx BT_214 zp:4 e:114 A:5 H:5 mH:5 rdy:False natt:0 ex ptt
+EnemyMinions:
+vardendawngrasp BAR_748 zp:1 e:80 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 4 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 5 taelanfordring 5 entity 19 CS3_024 0 0 0
+pos 6 survivalofthefittest 10 entity 16 SCH_609 0 0 0
+pos 7 survivalofthefittest 10 entity 24 SCH_609 0 0 0
+pos 8 guardiananimals 8 entity 18 SCH_610 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: SCH_427,6;
+etg: 
+og: CORE_CS2_013,1;SCH_427,1;SCH_311,1;SCH_616,2;CORE_EX1_169,1;GAME_005,1;
+eg: BT_291,2;SCH_509,2;BT_021,2;CORE_CS2_023,1;
+od: SCH_427,1;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,2;DMF_163,2;
+recalc-check###########
+mana changed 2 0 8 8 8 8
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 1
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 37
+useability 
+
+missing dmg to lethal 30
+calculated 0.1190089
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 1
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 2
+useability 
+
+calculated 0.0980052
+useability 
+
+使用英雄技能: 变形 暂时没有目标
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:47:09 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 14/4
+mana 0/8
+emana 8
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 2 2 0 1
+ownhero:
+druid 5 30 1 False False 64 True 0 False 1 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 13 0 17 0
+OwnMinions:
+primordialprotector BAR_042 zp:1 e:11 A:6 H:6 mH:6 rdy:False natt:0 frz
+strongman DMF_078t zp:2 e:17 A:6 H:6 mH:6 rdy:False natt:0 tnt frz
+primordialprotector BAR_042 zp:3 e:31 A:6 H:6 mH:6 rdy:False natt:0 ex ptt
+beastmasterleoroxx BT_214 zp:4 e:114 A:5 H:5 mH:5 rdy:False natt:0 ex ptt
+EnemyMinions:
+vardendawngrasp BAR_748 zp:1 e:80 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 4 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 5 taelanfordring 5 entity 19 CS3_024 0 0 0
+pos 6 survivalofthefittest 10 entity 16 SCH_609 0 0 0
+pos 7 survivalofthefittest 10 entity 24 SCH_609 0 0 0
+pos 8 guardiananimals 8 entity 18 SCH_610 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: SCH_427,6;
+etg: 
+og: CORE_CS2_013,1;SCH_427,1;SCH_311,1;SCH_616,2;CORE_EX1_169,1;GAME_005,1;
+eg: BT_291,2;SCH_509,2;BT_021,2;CORE_CS2_023,1;
+od: SCH_427,1;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,2;DMF_163,2;
+recalc-check###########
+weapon changed True False 0 0 0 0 0 0 False False False False False False
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 1
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 38
+attack with hero, enemy: 66
+
+missing dmg to lethal 29
+calculated 0.1155168
+no lethal, do something random######
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 4 dones 0
+cut to len 2
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 3
+attack with hero, enemy: 66
+
+calculated 0.101
+attack with hero, enemy: 66
+
+英雄攻击: 玛法里奥·怒风 目标为: 吉安娜·普罗德摩尔
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 10:47:14 V117.178 小丑德 7000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 14/5
+mana 0/8
+emana 8
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 2 2 0 1
+ownhero:
+druid 5 30 1 False False 64 False 1 False 1 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_06bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+mage 29 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+fatigue: 13 0 17 0
+OwnMinions:
+primordialprotector BAR_042 zp:1 e:11 A:6 H:6 mH:6 rdy:False natt:0 frz
+strongman DMF_078t zp:2 e:17 A:6 H:6 mH:6 rdy:False natt:0 tnt frz
+primordialprotector BAR_042 zp:3 e:31 A:6 H:6 mH:6 rdy:False natt:0 ex ptt
+beastmasterleoroxx BT_214 zp:4 e:114 A:5 H:5 mH:5 rdy:False natt:0 ex ptt
+EnemyMinions:
+vardendawngrasp BAR_748 zp:1 e:80 A:3 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 druidoftheplains 7 entity 22 BAR_538 0 0 0
+pos 2 guardiananimals 8 entity 26 SCH_610 0 0 0
+pos 3 druidoftheplains 7 entity 9 BAR_538 0 0 0
+pos 4 innervate 0 entity 25 CORE_EX1_169 0 0 0
+pos 5 taelanfordring 5 entity 19 CS3_024 0 0 0
+pos 6 survivalofthefittest 10 entity 16 SCH_609 0 0 0
+pos 7 survivalofthefittest 10 entity 24 SCH_609 0 0 0
+pos 8 guardiananimals 8 entity 18 SCH_610 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: SCH_427,6;
+etg: 
+og: CORE_CS2_013,1;SCH_427,1;SCH_311,1;SCH_616,2;CORE_EX1_169,1;GAME_005,1;
+eg: BT_291,2;SCH_509,2;BT_021,2;CORE_CS2_023,1;
+od: SCH_427,1;SCH_311,1;BAR_074,2;CORE_CS2_013,1;BT_130,2;YOP_035,1;SCH_605,2;DMF_078,2;DMF_163,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------

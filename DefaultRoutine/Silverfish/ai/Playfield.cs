@@ -3462,6 +3462,9 @@
                     break;
                 case CardDB.cardName.drakonidslayer: goto case CardDB.cardName.foereaper4000;
                 case CardDB.cardName.magnatauralpha: goto case CardDB.cardName.foereaper4000;
+                case CardDB.cardName.cavehydra: goto case CardDB.cardName.foereaper4000;
+                case CardDB.cardName.lakethresher: goto case CardDB.cardName.foereaper4000;
+                case CardDB.cardName.darkmoonrabbit: goto case CardDB.cardName.foereaper4000;
                 case CardDB.cardName.foereaper4000:
                     if (!attacker.silenced && !dontcount)
                     {
@@ -4284,6 +4287,7 @@
                     }
                 }
 
+                // 遍历手牌中的腐蚀卡
                 foreach (Handmanager.Handcard ohc in this.owncards)
                 {
                     switch (ohc.card.name)
@@ -4294,6 +4298,20 @@
                         case CardDB.cardName.blubberbaron:
                             ohc.card.sim_card.onCardIsGoingToBePlayed(this, hc, own, ohc);
                             break;
+                    }
+                    // 找到腐蚀卡
+                    if (ohc.card.Corrupt && hc.manacost > ohc.manacost)
+                    {
+                        // 最好输出一下 ohc.card.cardIDenum.ToString() + "t" 看看有没有出错
+                        // Helpfunctions.Instance.ErrorLog(ohc.card.cardIDenum.ToString() + "t");
+                        
+                        // 找到对应的腐蚀后的卡牌
+                        // ohc.card=CardDB.Instance.getCardDataFromID((CardDB.cardIDEnum)ohc.card.Corrupted);
+                        ohc.card=CardDB.Instance.getCardDataFromID( CardDB.Instance.cardIdstringToEnum(ohc.card.cardIDenum.ToString() + "t" ) );
+                        
+                        Helpfunctions.Instance.ErrorLog("如果打出"+hc.card.卡名+"就可腐化"+ohc.card.卡名);
+                        
+                        ohc.manacost = ohc.card.cost;
                     }
                 }
 

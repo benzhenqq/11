@@ -1941,6 +1941,9 @@
         // 特殊Combo
         private int getSpecialCardComboPenalitys(CardDB.Card card, Minion target, Playfield p)
         {
+            int retval = ai.botBase.GetSpecialCardComboPenalty(card, target, p);
+            if (retval != 0) return retval;
+            
             bool lethal = p.isLethalCheck;
             CardDB.cardName name = card.name;
 

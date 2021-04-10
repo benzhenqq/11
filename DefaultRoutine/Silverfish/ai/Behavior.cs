@@ -40,6 +40,15 @@ namespace HREngine.Bots
             return -1;
         }
 
+        public virtual int getDiscoverPriority(Playfield playfield, Handmanager.Handcard handcard)
+        {
+            return 0;
+        }
+		public virtual int GetSpecialCardComboPenalty(CardDB.Card card, Minion target, Playfield p)
+        {
+            return 0;
+        }
+
     }
 
 }

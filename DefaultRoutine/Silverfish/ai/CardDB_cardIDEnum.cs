@@ -83439,6 +83439,3534 @@ CS3_037 = 72248,
 /// </summary>
 CS3_038 = 72250,
 
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：2</para>
+/// <para>Goldshire Footman</para>
+/// <para>闪金镇步兵</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_CS1_042 = 68298,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：3 生命值：6</para>
+/// <para>Fen Creeper</para>
+/// <para>沼泽爬行者</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_CS1_069 = 69745,
+/// <summary>
+/// <para>法术 潜行者 费用：5</para>
+/// <para>Holy Nova</para>
+/// <para>神圣新星</para>
+/// <para>Deal $2 damage to all enemies. Restore #2 Health to all friendly characters.</para>
+/// <para>对所有敌人造成$2点伤害，为所有友方角色恢复#2点生命值。</para>
+/// </summary>
+VAN_CS1_112 = 68299,
+/// <summary>
+/// <para>法术 潜行者 费用：10</para>
+/// <para>Mind Control</para>
+/// <para>精神控制</para>
+/// <para>Take control of an enemy minion.</para>
+/// <para>获得一个敌方随从的控制权。</para>
+/// </summary>
+VAN_CS1_113 = 68300,
+/// <summary>
+/// <para>法术 潜行者 费用：1</para>
+/// <para>Inner Fire</para>
+/// <para>心灵之火</para>
+/// <para>Change a minion's Attack to be equal to its Health.</para>
+/// <para>使一个随从的攻击力等同于其生命值。</para>
+/// </summary>
+VAN_CS1_129 = 69746,
+/// <summary>
+/// <para>法术 潜行者 费用：1</para>
+/// <para>Holy Smite</para>
+/// <para>神圣惩击</para>
+/// <para>Deal $2 damage.</para>
+/// <para>造成$2点伤害。</para>
+/// </summary>
+VAN_CS1_130 = 68301,
+/// <summary>
+/// <para>法术 潜行者 费用：1</para>
+/// <para>Mind Vision</para>
+/// <para>心灵视界</para>
+/// <para>Put a copy of a random card in your opponent's hand into your hand.</para>
+/// <para>随机复制对手手牌中的一张牌，将其置入你的手牌。</para>
+/// </summary>
+VAN_CS2_003 = 68303,
+/// <summary>
+/// <para>法术 潜行者 费用：1</para>
+/// <para>Power Word: Shield</para>
+/// <para>真言术：盾</para>
+/// <para>Give a minion +2_Health.Draw a card.</para>
+/// <para>使一个随从获得+2生命值。抽一张牌。</para>
+/// </summary>
+VAN_CS2_004 = 68304,
+/// <summary>
+/// <para>法术 德鲁伊 费用：1</para>
+/// <para>Claw</para>
+/// <para>爪击</para>
+/// <para>Give your hero +2_Attack this turn. Gain 2 Armor.</para>
+/// <para>使你的英雄获得2点护甲值，并在本回合中获得+2攻击力。</para>
+/// </summary>
+VAN_CS2_005 = 68307,
+/// <summary>
+/// <para>法术 德鲁伊 费用：3</para>
+/// <para>Healing Touch</para>
+/// <para>治疗之触</para>
+/// <para>Restore #8 Health.</para>
+/// <para>恢复#8点生命值。</para>
+/// </summary>
+VAN_CS2_007 = 68309,
+/// <summary>
+/// <para>法术 德鲁伊 费用：0</para>
+/// <para>Moonfire</para>
+/// <para>月火术</para>
+/// <para>Deal $1 damage.</para>
+/// <para>造成$1点伤害。</para>
+/// </summary>
+VAN_CS2_008 = 68310,
+/// <summary>
+/// <para>法术 德鲁伊 费用：2</para>
+/// <para>Mark of the Wild</para>
+/// <para>野性印记</para>
+/// <para>Give a minion <b>Taunt</b> and +2/+2.<i>(+2 Attack/+2 Health)</i></para>
+/// <para>使一个随从获得<b>嘲讽</b>和+2/+2。<i>（+2攻击力/+2生命值）</i></para>
+/// </summary>
+VAN_CS2_009 = 68311,
+/// <summary>
+/// <para>法术 德鲁伊 费用：3</para>
+/// <para>Savage Roar</para>
+/// <para>野蛮咆哮</para>
+/// <para>Give your characters +2_Attack this turn.</para>
+/// <para>在本回合中，使你的所有角色获得+2攻击力。</para>
+/// </summary>
+VAN_CS2_011 = 68313,
+/// <summary>
+/// <para>法术 德鲁伊 费用：4</para>
+/// <para>Swipe</para>
+/// <para>横扫</para>
+/// <para>Deal $4 damage to an enemy and $1 damage to all other enemies.</para>
+/// <para>对一个敌人造成$4点伤害，并对所有其他敌人造成$1点伤害。</para>
+/// </summary>
+VAN_CS2_012 = 68315,
+/// <summary>
+/// <para>法术 德鲁伊 费用：2</para>
+/// <para>Wild Growth</para>
+/// <para>野性成长</para>
+/// <para>Gain an empty Mana Crystal.</para>
+/// <para>获得一个空的法力水晶。</para>
+/// </summary>
+VAN_CS2_013 = 68316,
+/// <summary>
+/// <para>法术 法师 费用：4</para>
+/// <para>Polymorph</para>
+/// <para>变形术</para>
+/// <para>Transform a minioninto a 1/1 Sheep.</para>
+/// <para>使一个随从变形成为1/1的绵羊。</para>
+/// </summary>
+VAN_CS2_022 = 68319,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Arcane Intellect</para>
+/// <para>奥术智慧</para>
+/// <para>Draw 2 cards.</para>
+/// <para>抽两张牌。</para>
+/// </summary>
+VAN_CS2_023 = 68321,
+/// <summary>
+/// <para>法术 法师 费用：2</para>
+/// <para>Frostbolt</para>
+/// <para>寒冰箭</para>
+/// <para>Deal $3 damage to a_character and <b>Freeze</b> it.</para>
+/// <para>对一个角色造成$3点伤害，并使其<b>冻结</b>。</para>
+/// </summary>
+VAN_CS2_024 = 68322,
+/// <summary>
+/// <para>法术 法师 费用：2</para>
+/// <para>Arcane Explosion</para>
+/// <para>魔爆术</para>
+/// <para>Deal $1 damage to all enemy minions.</para>
+/// <para>对所有敌方随从造成$1点伤害。</para>
+/// </summary>
+VAN_CS2_025 = 68323,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Frost Nova</para>
+/// <para>冰霜新星</para>
+/// <para><b>Freeze</b> all enemy minions.</para>
+/// <para><b>冻结</b>所有敌方随从。</para>
+/// </summary>
+VAN_CS2_026 = 68324,
+/// <summary>
+/// <para>法术 法师 费用：1</para>
+/// <para>Mirror Image</para>
+/// <para>镜像</para>
+/// <para>Summon two 0/2 minions with <b>Taunt</b>.</para>
+/// <para>召唤两个0/2，并具有<b>嘲讽</b>的随从。</para>
+/// </summary>
+VAN_CS2_027 = 68325,
+/// <summary>
+/// <para>法术 法师 费用：6</para>
+/// <para>Blizzard</para>
+/// <para>暴风雪</para>
+/// <para>Deal $2 damage to all enemy minions and <b>Freeze</b> them.</para>
+/// <para>对所有敌方随从造成$2点伤害，并使其<b>冻结</b>。</para>
+/// </summary>
+VAN_CS2_028 = 69747,
+/// <summary>
+/// <para>法术 法师 费用：4</para>
+/// <para>Fireball</para>
+/// <para>火球术</para>
+/// <para>Deal $6 damage.</para>
+/// <para>造成$6点伤害。</para>
+/// </summary>
+VAN_CS2_029 = 68326,
+/// <summary>
+/// <para>法术 法师 费用：1</para>
+/// <para>Ice Lance</para>
+/// <para>冰枪术</para>
+/// <para><b>Freeze</b> a character. If it was already <b>Frozen</b>, deal $4 damage instead.</para>
+/// <para><b>冻结</b>一个角色，如果该角色已被<b>冻结</b>，则改为对其造成$4点伤害。</para>
+/// </summary>
+VAN_CS2_031 = 69748,
+/// <summary>
+/// <para>法术 法师 费用：7</para>
+/// <para>Flamestrike</para>
+/// <para>烈焰风暴</para>
+/// <para>Deal $4 damage to all enemy minions.</para>
+/// <para>对所有敌方随从造成$4点伤害。</para>
+/// </summary>
+VAN_CS2_032 = 68327,
+/// <summary>
+/// <para>随从 法师 费用：4 攻击力：3 生命值：6</para>
+/// <para>Water Elemental</para>
+/// <para>水元素</para>
+/// <para><b>Freeze</b> any character damaged by this minion.</para>
+/// <para><b>冻结</b>任何受到该随从伤害的角色。</para>
+/// </summary>
+VAN_CS2_033 = 68328,
+/// <summary>
+/// <para>法术 萨满祭司 费用：1</para>
+/// <para>Frost Shock</para>
+/// <para>冰霜震击</para>
+/// <para>Deal $1 damage to an enemy character and <b>Freeze</b> it.</para>
+/// <para>对一个敌方角色造成$1点伤害，并使其<b>冻结</b>。</para>
+/// </summary>
+VAN_CS2_037 = 68329,
+/// <summary>
+/// <para>法术 萨满祭司 费用：2</para>
+/// <para>Ancestral Spirit</para>
+/// <para>先祖之魂</para>
+/// <para>Choose a minion. When that minion is destroyed, return it to the battlefield.</para>
+/// <para>选择一个随从。当该随从被消灭时，使其返回战场。</para>
+/// </summary>
+VAN_CS2_038 = 69749,
+/// <summary>
+/// <para>法术 萨满祭司 费用：2</para>
+/// <para>Windfury</para>
+/// <para>风怒</para>
+/// <para>Give a minion <b>Windfury</b>.</para>
+/// <para>使一个随从获得<b>风怒</b>。</para>
+/// </summary>
+VAN_CS2_039 = 68330,
+/// <summary>
+/// <para>法术 萨满祭司 费用：0</para>
+/// <para>Ancestral Healing</para>
+/// <para>先祖治疗</para>
+/// <para>Restore a minionto full Health andgive it <b>Taunt</b>.</para>
+/// <para>为一个随从恢复所有生命值并使其获得<b>嘲讽</b>。</para>
+/// </summary>
+VAN_CS2_041 = 68331,
+/// <summary>
+/// <para>随从 萨满祭司 费用：6 攻击力：6 生命值：5</para>
+/// <para>Fire Elemental</para>
+/// <para>火元素</para>
+/// <para><b>Battlecry:</b> Deal 3 damage.</para>
+/// <para><b>战吼：</b>造成3点伤害。</para>
+/// </summary>
+VAN_CS2_042 = 68333,
+/// <summary>
+/// <para>法术 萨满祭司 费用：1</para>
+/// <para>Rockbiter Weapon</para>
+/// <para>石化武器</para>
+/// <para>Give a friendly character +3 Attack this turn.</para>
+/// <para>在本回合中，使一个友方角色获得+3攻击力。</para>
+/// </summary>
+VAN_CS2_045 = 68334,
+/// <summary>
+/// <para>法术 萨满祭司 费用：5</para>
+/// <para>Bloodlust</para>
+/// <para>嗜血</para>
+/// <para>Give your minions +3_Attack this turn.</para>
+/// <para>在本回合中，使你的所有随从获得+3攻击力。</para>
+/// </summary>
+VAN_CS2_046 = 68336,
+/// <summary>
+/// <para>随从 萨满祭司 费用：1 攻击力：1 生命值：1</para>
+/// <para>Searing Totem</para>
+/// <para>灼热图腾</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_050 = 68338,
+/// <summary>
+/// <para>随从 萨满祭司 费用：1 攻击力：0 生命值：2</para>
+/// <para>Stoneclaw Totem</para>
+/// <para>石爪图腾</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_CS2_051 = 68339,
+/// <summary>
+/// <para>随从 萨满祭司 费用：1 攻击力：0 生命值：2</para>
+/// <para>Wrath of Air Totem</para>
+/// <para>空气之怒图腾</para>
+/// <para><b>Spell Damage +1</b></para>
+/// <para><b>法术伤害+1</b></para>
+/// </summary>
+VAN_CS2_052 = 68340,
+/// <summary>
+/// <para>法术 萨满祭司 费用：3</para>
+/// <para>Far Sight</para>
+/// <para>视界术</para>
+/// <para>Draw a card. That card costs (3) less.</para>
+/// <para>抽一张牌，该牌的法力值消耗减少（3）点。</para>
+/// </summary>
+VAN_CS2_053 = 69750,
+/// <summary>
+/// <para>法术 术士 费用：3</para>
+/// <para>Shadow Bolt</para>
+/// <para>暗影箭</para>
+/// <para>Deal $4 damageto a minion.</para>
+/// <para>对一个随从造成$4点伤害。</para>
+/// </summary>
+VAN_CS2_057 = 68341,
+/// <summary>
+/// <para>随从 术士 费用：1 攻击力：0 生命值：1</para>
+/// <para>Blood Imp</para>
+/// <para>鲜血小鬼</para>
+/// <para>[x]  <b>Stealth</b>. At the end of your  turn, give another random friendly minion +1 Health.</para>
+/// <para><b>潜行</b>在你的回合结束时，随机使另一个友方随从获得+1生命值。</para>
+/// </summary>
+VAN_CS2_059 = 69751,
+/// <summary>
+/// <para>法术 术士 费用：3</para>
+/// <para>Drain Life</para>
+/// <para>吸取生命</para>
+/// <para>Deal $2 damage. Restore #2 Health to your hero.</para>
+/// <para>造成$2点伤害，为你的英雄恢复#2点生命值。</para>
+/// </summary>
+VAN_CS2_061 = 68342,
+/// <summary>
+/// <para>法术 术士 费用：4</para>
+/// <para>Hellfire</para>
+/// <para>地狱烈焰</para>
+/// <para>Deal $3 damage to ALL_characters.</para>
+/// <para>对所有角色造成$3点伤害。</para>
+/// </summary>
+VAN_CS2_062 = 68343,
+/// <summary>
+/// <para>法术 术士 费用：1</para>
+/// <para>Corruption</para>
+/// <para>腐蚀</para>
+/// <para>Choose an enemy minion. At the start of your turn, destroy it.</para>
+/// <para>选择一个敌方随从，在你的回合开始时，消灭该随从。</para>
+/// </summary>
+VAN_CS2_063 = 68344,
+/// <summary>
+/// <para>随从 术士 费用：6 攻击力：6 生命值：6</para>
+/// <para>Dread Infernal</para>
+/// <para>恐惧地狱火</para>
+/// <para><b>Battlecry:</b> Deal 1 damage to ALL other characters.</para>
+/// <para><b>战吼：</b>对所有其他角色造成1点伤害。</para>
+/// </summary>
+VAN_CS2_064 = 68346,
+/// <summary>
+/// <para>随从 术士 费用：1 攻击力：1 生命值：3</para>
+/// <para>Voidwalker</para>
+/// <para>虚空行者</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_CS2_065 = 68347,
+/// <summary>
+/// <para>法术 牧师 费用：0</para>
+/// <para>Backstab</para>
+/// <para>背刺</para>
+/// <para>Deal $2 damage to an undamaged minion.</para>
+/// <para>对一个未受伤的随从造成$2点伤害。</para>
+/// </summary>
+VAN_CS2_072 = 68348,
+/// <summary>
+/// <para>法术 牧师 费用：1</para>
+/// <para>Cold Blood</para>
+/// <para>冷血</para>
+/// <para>Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead.</para>
+/// <para>使一个随从获得+2攻击力；<b>连击：</b>改为获得+4攻击力。</para>
+/// </summary>
+VAN_CS2_073 = 69752,
+/// <summary>
+/// <para>法术 牧师 费用：1</para>
+/// <para>Deadly Poison</para>
+/// <para>致命药膏</para>
+/// <para>Give your weapon +2_Attack.</para>
+/// <para>使你的武器获得+2攻击力。</para>
+/// </summary>
+VAN_CS2_074 = 68349,
+/// <summary>
+/// <para>法术 牧师 费用：1</para>
+/// <para>Sinister Strike</para>
+/// <para>影袭</para>
+/// <para>Deal $3 damage to the_enemy hero.</para>
+/// <para>对敌方英雄造成$3点伤害。</para>
+/// </summary>
+VAN_CS2_075 = 68351,
+/// <summary>
+/// <para>法术 牧师 费用：5</para>
+/// <para>Assassinate</para>
+/// <para>刺杀</para>
+/// <para>Destroy an enemy minion.</para>
+/// <para>消灭一个敌方随从。</para>
+/// </summary>
+VAN_CS2_076 = 68352,
+/// <summary>
+/// <para>法术 牧师 费用：7</para>
+/// <para>Sprint</para>
+/// <para>疾跑</para>
+/// <para>Draw 4 cards.</para>
+/// <para>抽四张牌。</para>
+/// </summary>
+VAN_CS2_077 = 68353,
+/// <summary>
+/// <para>武器 牧师 费用：5 攻击力：3 耐久度：4</para>
+/// <para>Assassin's Blade</para>
+/// <para>刺客之刃</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_080 = 68354,
+/// <summary>
+/// <para>武器 牧师 费用：1 攻击力：1 耐久度：2</para>
+/// <para>Wicked Knife</para>
+/// <para>邪恶短刀</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_082 = 68355,
+/// <summary>
+/// <para>法术 猎人 费用：0</para>
+/// <para>Hunter's Mark</para>
+/// <para>猎人印记</para>
+/// <para>Change a minion's Health to 1.</para>
+/// <para>使一个随从的生命值变为1。</para>
+/// </summary>
+VAN_CS2_084 = 68357,
+/// <summary>
+/// <para>法术 圣骑士 费用：1</para>
+/// <para>Blessing of Might</para>
+/// <para>力量祝福</para>
+/// <para>Give a minion +3_Attack.</para>
+/// <para>使一个随从获得+3攻击力。</para>
+/// </summary>
+VAN_CS2_087 = 68359,
+/// <summary>
+/// <para>随从 圣骑士 费用：7 攻击力：5 生命值：6</para>
+/// <para>Guardian of Kings</para>
+/// <para>列王守卫</para>
+/// <para><b>Battlecry:</b> Restore #6 Health to your hero.</para>
+/// <para><b>战吼：</b>为你的英雄恢复#6点生命值。</para>
+/// </summary>
+VAN_CS2_088 = 68361,
+/// <summary>
+/// <para>法术 圣骑士 费用：2</para>
+/// <para>Holy Light</para>
+/// <para>圣光术</para>
+/// <para>Restore #6 Health.</para>
+/// <para>恢复#6点生命值。</para>
+/// </summary>
+VAN_CS2_089 = 68362,
+/// <summary>
+/// <para>武器 圣骑士 费用：1 攻击力：1 耐久度：4</para>
+/// <para>Light's Justice</para>
+/// <para>圣光的正义</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_091 = 68363,
+/// <summary>
+/// <para>法术 圣骑士 费用：4</para>
+/// <para>Blessing of Kings</para>
+/// <para>王者祝福</para>
+/// <para>Give a minion +4/+4. <i>(+4 Attack/+4 Health)</i></para>
+/// <para>使一个随从获得+4/+4。<i>（+4攻击力/+4生命值）</i></para>
+/// </summary>
+VAN_CS2_092 = 68364,
+/// <summary>
+/// <para>法术 圣骑士 费用：4</para>
+/// <para>Consecration</para>
+/// <para>奉献</para>
+/// <para>Deal $2 damage to all enemies.</para>
+/// <para>对所有敌人造成$2点伤害。</para>
+/// </summary>
+VAN_CS2_093 = 68366,
+/// <summary>
+/// <para>法术 圣骑士 费用：4</para>
+/// <para>Hammer of Wrath</para>
+/// <para>愤怒之锤</para>
+/// <para>Deal $3 damage.Draw a card.</para>
+/// <para>造成$3点伤害。抽一张牌。</para>
+/// </summary>
+VAN_CS2_094 = 68367,
+/// <summary>
+/// <para>武器 圣骑士 费用：4 攻击力：4 耐久度：2</para>
+/// <para>Truesilver Champion</para>
+/// <para>真银圣剑</para>
+/// <para>Whenever your hero attacks, restore #2_Health to it.</para>
+/// <para>每当你的英雄进攻，便为其恢复#2点生命值。</para>
+/// </summary>
+VAN_CS2_097 = 68368,
+/// <summary>
+/// <para>随从 圣骑士 费用：1 攻击力：1 生命值：1</para>
+/// <para>Silver Hand Recruit</para>
+/// <para>白银之手新兵</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_101t = 71409,
+/// <summary>
+/// <para>法术 战士 费用：3</para>
+/// <para>Charge</para>
+/// <para>冲锋</para>
+/// <para>Give a friendly minion +2 Attack and <b>Charge</b>.</para>
+/// <para>使一个友方随从获得+2攻击力和<b>冲锋</b>。</para>
+/// </summary>
+VAN_CS2_103 = 68371,
+/// <summary>
+/// <para>法术 战士 费用：2</para>
+/// <para>Rampage</para>
+/// <para>狂暴</para>
+/// <para>Give a damaged minion +3/+3.</para>
+/// <para>使一个受伤的随从获得+3/+3。</para>
+/// </summary>
+VAN_CS2_104 = 69753,
+/// <summary>
+/// <para>法术 战士 费用：2</para>
+/// <para>Heroic Strike</para>
+/// <para>英勇打击</para>
+/// <para>Give your hero +4_Attack this turn.</para>
+/// <para>在本回合中，使你的英雄获得+4攻击力。</para>
+/// </summary>
+VAN_CS2_105 = 68373,
+/// <summary>
+/// <para>武器 战士 费用：2 攻击力：3 耐久度：2</para>
+/// <para>Fiery War Axe</para>
+/// <para>炽炎战斧</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_106 = 68375,
+/// <summary>
+/// <para>法术 战士 费用：1</para>
+/// <para>Execute</para>
+/// <para>斩杀</para>
+/// <para>Destroy a damaged enemy minion.</para>
+/// <para>消灭一个受伤的敌方随从。</para>
+/// </summary>
+VAN_CS2_108 = 68376,
+/// <summary>
+/// <para>武器 战士 费用：5 攻击力：5 耐久度：2</para>
+/// <para>Arcanite Reaper</para>
+/// <para>奥金斧</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_112 = 68377,
+/// <summary>
+/// <para>法术 战士 费用：2</para>
+/// <para>Cleave</para>
+/// <para>顺劈斩</para>
+/// <para>[x]Deal $2 damage totwo random enemyminions.</para>
+/// <para>随机对两个敌方随从造成$2点伤害。</para>
+/// </summary>
+VAN_CS2_114 = 68378,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：3</para>
+/// <para>Earthen Ring Farseer</para>
+/// <para>大地之环先知</para>
+/// <para><b>Battlecry:</b> Restore #3_Health.</para>
+/// <para><b>战吼：</b>恢复#3点生命值。</para>
+/// </summary>
+VAN_CS2_117 = 69754,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：5 生命值：1</para>
+/// <para>Magma Rager</para>
+/// <para>岩浆暴怒者</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_118 = 68379,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：2 生命值：7</para>
+/// <para>Oasis Snapjaw</para>
+/// <para>绿洲钳嘴龟</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_119 = 68380,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：3</para>
+/// <para>River Crocolisk</para>
+/// <para>淡水鳄</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_120 = 68381,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：2</para>
+/// <para>Frostwolf Grunt</para>
+/// <para>霜狼步兵</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_CS2_121 = 68382,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：2</para>
+/// <para>Raid Leader</para>
+/// <para>团队领袖</para>
+/// <para>Your other minions have +1 Attack.</para>
+/// <para>你的其他随从获得+1攻击力。</para>
+/// </summary>
+VAN_CS2_122 = 68383,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：1</para>
+/// <para>Wolfrider</para>
+/// <para>狼骑兵</para>
+/// <para><b>Charge</b></para>
+/// <para><b>冲锋</b></para>
+/// </summary>
+VAN_CS2_124 = 68385,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：3</para>
+/// <para>Ironfur Grizzly</para>
+/// <para>铁鬃灰熊</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_CS2_125 = 68386,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：1 生命值：4</para>
+/// <para>Silverback Patriarch</para>
+/// <para>银背族长</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_CS2_127 = 68387,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：2 生命值：5</para>
+/// <para>Stormwind Knight</para>
+/// <para>暴风城骑士</para>
+/// <para><b>Charge</b></para>
+/// <para><b>冲锋</b></para>
+/// </summary>
+VAN_CS2_131 = 68388,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：2</para>
+/// <para>Ironforge Rifleman</para>
+/// <para>铁炉堡火枪手</para>
+/// <para><b>Battlecry:</b> Deal 1 damage.</para>
+/// <para><b>战吼：</b>造成1点伤害。</para>
+/// </summary>
+VAN_CS2_141 = 68389,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：2</para>
+/// <para>Kobold Geomancer</para>
+/// <para>狗头人地卜师</para>
+/// <para><b>Spell Damage +1</b></para>
+/// <para><b>法术伤害+1</b></para>
+/// </summary>
+VAN_CS2_142 = 68390,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Southsea Deckhand</para>
+/// <para>南海船工</para>
+/// <para>Has <b>Charge</b> while you have a weapon equipped.</para>
+/// <para>如果你装备一把武器，该随从具有<b>冲锋</b>。</para>
+/// </summary>
+VAN_CS2_146 = 69755,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：2 生命值：4</para>
+/// <para>Gnomish Inventor</para>
+/// <para>侏儒发明家</para>
+/// <para><b>Battlecry:</b> Draw a card.</para>
+/// <para><b>战吼：</b>抽一张牌。</para>
+/// </summary>
+VAN_CS2_147 = 68391,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：4 生命值：2</para>
+/// <para>Stormpike Commando</para>
+/// <para>雷矛特种兵</para>
+/// <para><b>Battlecry:</b> Deal 2 damage.</para>
+/// <para><b>战吼：</b>造成2点伤害。</para>
+/// </summary>
+VAN_CS2_150 = 68392,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：4 生命值：4</para>
+/// <para>Silver Hand Knight</para>
+/// <para>白银之手骑士</para>
+/// <para><b>Battlecry:</b> Summon a 2/2_Squire.</para>
+/// <para><b>战吼：</b>召唤一个2/2的侍从。</para>
+/// </summary>
+VAN_CS2_151 = 69756,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：2</para>
+/// <para>Squire</para>
+/// <para>侍从</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_152 = 69757,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：4 生命值：7</para>
+/// <para>Archmage</para>
+/// <para>大法师</para>
+/// <para><b>Spell Damage +1</b></para>
+/// <para><b>法术伤害+1</b></para>
+/// </summary>
+VAN_CS2_155 = 68393,
+/// <summary>
+/// <para>随从 中立 费用：7 攻击力：7 生命值：5</para>
+/// <para>Ravenholdt Assassin</para>
+/// <para>拉文霍德刺客</para>
+/// <para><b>Stealth</b></para>
+/// <para><b>潜行</b></para>
+/// </summary>
+VAN_CS2_161 = 69758,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：6 生命值：5</para>
+/// <para>Lord of the Arena</para>
+/// <para>竞技场主宰</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_CS2_162 = 68394,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Murloc Raider</para>
+/// <para>鱼人袭击者</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_168 = 68395,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Young Dragonhawk</para>
+/// <para>幼龙鹰</para>
+/// <para><b>Windfury</b></para>
+/// <para><b>风怒</b></para>
+/// </summary>
+VAN_CS2_169 = 69759,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Stonetusk Boar</para>
+/// <para>石牙野猪</para>
+/// <para><b>Charge</b></para>
+/// <para><b>冲锋</b></para>
+/// </summary>
+VAN_CS2_171 = 68396,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：3 生命值：2</para>
+/// <para>Bloodfen Raptor</para>
+/// <para>血沼迅猛龙</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_172 = 68397,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：1</para>
+/// <para>Bluegill Warrior</para>
+/// <para>蓝鳃战士</para>
+/// <para><b>Charge</b></para>
+/// <para><b>冲锋</b></para>
+/// </summary>
+VAN_CS2_173 = 68398,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：3 生命值：5</para>
+/// <para>Sen'jin Shieldmasta</para>
+/// <para>森金持盾卫士</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_CS2_179 = 68399,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：4 生命值：7</para>
+/// <para>Injured Blademaster</para>
+/// <para>负伤剑圣</para>
+/// <para><b>Battlecry:</b> Deal 4 damage to HIMSELF.</para>
+/// <para><b>战吼：</b>对自身造成4点伤害。</para>
+/// </summary>
+VAN_CS2_181 = 69760,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：4 生命值：5</para>
+/// <para>Chillwind Yeti</para>
+/// <para>冰风雪人</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_182 = 68400,
+/// <summary>
+/// <para>随从 中立 费用：7 攻击力：7 生命值：7</para>
+/// <para>War Golem</para>
+/// <para>作战傀儡</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_186 = 68401,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：5 生命值：4</para>
+/// <para>Booty Bay Bodyguard</para>
+/// <para>藏宝海湾保镖</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_CS2_187 = 68402,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Abusive Sergeant</para>
+/// <para>叫嚣的中士</para>
+/// <para><b>Battlecry:</b> Give a minion +2_Attack this turn.</para>
+/// <para><b>战吼：</b>在本回合中，使一个随从获得+2攻击力。</para>
+/// </summary>
+VAN_CS2_188 = 69761,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Elven Archer</para>
+/// <para>精灵弓箭手</para>
+/// <para><b>Battlecry:</b> Deal 1 damage.</para>
+/// <para><b>战吼：</b>造成1点伤害。</para>
+/// </summary>
+VAN_CS2_189 = 68403,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：3</para>
+/// <para>Razorfen Hunter</para>
+/// <para>剃刀猎手</para>
+/// <para><b>Battlecry:</b> Summon a 1/1_Boar.</para>
+/// <para><b>战吼：</b>召唤一个1/1的野猪。</para>
+/// </summary>
+VAN_CS2_196 = 68404,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：4 生命值：4</para>
+/// <para>Ogre Magi</para>
+/// <para>食人魔法师</para>
+/// <para><b>Spell Damage +1</b></para>
+/// <para><b>法术伤害+1</b></para>
+/// </summary>
+VAN_CS2_197 = 68405,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：6 生命值：7</para>
+/// <para>Boulderfist Ogre</para>
+/// <para>石拳食人魔</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_200 = 68406,
+/// <summary>
+/// <para>随从 中立 费用：7 攻击力：9 生命值：5</para>
+/// <para>Core Hound</para>
+/// <para>熔火恶犬</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_201 = 68407,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：1</para>
+/// <para>Ironbeak Owl</para>
+/// <para>铁喙猫头鹰</para>
+/// <para><b>Battlecry:</b> <b>Silence</b> a_minion.</para>
+/// <para><b>战吼：</b><b>沉默</b>一个随从。</para>
+/// </summary>
+VAN_CS2_203 = 69762,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：5 生命值：2</para>
+/// <para>Reckless Rocketeer</para>
+/// <para>鲁莽火箭兵</para>
+/// <para><b>Charge</b></para>
+/// <para><b>冲锋</b></para>
+/// </summary>
+VAN_CS2_213 = 68408,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：4 生命值：6</para>
+/// <para>Spiteful Smith</para>
+/// <para>恶毒铁匠</para>
+/// <para><b>Enrage:</b> Your weapon has +2 Attack.</para>
+/// <para><b>激怒：</b>你的武器获得+2攻击力。</para>
+/// </summary>
+VAN_CS2_221 = 69763,
+/// <summary>
+/// <para>随从 中立 费用：7 攻击力：6 生命值：6</para>
+/// <para>Stormwind Champion</para>
+/// <para>暴风城勇士</para>
+/// <para>Your other minions have +1/+1.</para>
+/// <para>你的其他随从获得+1/+1。</para>
+/// </summary>
+VAN_CS2_222 = 68409,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：4 生命值：4</para>
+/// <para>Frostwolf Warlord</para>
+/// <para>霜狼督军</para>
+/// <para><b>Battlecry:</b> Gain +1/+1 for each other friendly minion on the battlefield.</para>
+/// <para><b>战吼：</b>战场上每有一个其他友方随从，便获得+1/+1。</para>
+/// </summary>
+VAN_CS2_226 = 68411,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：7 生命值：6</para>
+/// <para>Venture Co. Mercenary</para>
+/// <para>风险投资公司雇佣兵</para>
+/// <para>Your minions cost (3) more.</para>
+/// <para>你的随从牌的法力值消耗增加（3）点。</para>
+/// </summary>
+VAN_CS2_227 = 69764,
+/// <summary>
+/// <para>随从 中立 费用：0 攻击力：1 生命值：1</para>
+/// <para>Wisp</para>
+/// <para>小精灵</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_231 = 69765,
+/// <summary>
+/// <para>随从 德鲁伊 费用：8 攻击力：8 生命值：8</para>
+/// <para>Ironbark Protector</para>
+/// <para>埃隆巴克保护者</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_CS2_232 = 68413,
+/// <summary>
+/// <para>法术 牧师 费用：2</para>
+/// <para>Blade Flurry</para>
+/// <para>剑刃乱舞</para>
+/// <para>Destroy your weapon and deal its damage to all enemies.</para>
+/// <para>摧毁你的武器，对所有敌人造成等同于其攻击力的伤害。</para>
+/// </summary>
+VAN_CS2_233 = 69766,
+/// <summary>
+/// <para>法术 潜行者 费用：2</para>
+/// <para>Shadow Word: Pain</para>
+/// <para>暗言术：痛</para>
+/// <para>Destroy a minion with 3_or less Attack.</para>
+/// <para>消灭一个攻击力小于或等于3的随从。</para>
+/// </summary>
+VAN_CS2_234 = 68414,
+/// <summary>
+/// <para>随从 潜行者 费用：1 攻击力：1 生命值：3</para>
+/// <para>Northshire Cleric</para>
+/// <para>北郡牧师</para>
+/// <para>Whenever a minion is healed, draw a card.</para>
+/// <para>每当一个随从获得治疗时，抽一张牌。</para>
+/// </summary>
+VAN_CS2_235 = 68535,
+/// <summary>
+/// <para>法术 潜行者 费用：2</para>
+/// <para>Divine Spirit</para>
+/// <para>神圣之灵</para>
+/// <para>Double a minion's Health.</para>
+/// <para>使一个随从的生命值翻倍。</para>
+/// </summary>
+VAN_CS2_236 = 68536,
+/// <summary>
+/// <para>随从 猎人 费用：2 攻击力：2 生命值：1</para>
+/// <para>Starving Buzzard</para>
+/// <para>饥饿的秃鹫</para>
+/// <para>Whenever you summon a Beast, draw a card.</para>
+/// <para>每当你召唤一个野兽，抽一张牌。</para>
+/// </summary>
+VAN_CS2_237 = 68416,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Boar</para>
+/// <para>野猪</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_boar = 68417,
+/// <summary>
+/// <para>随从 法师 费用：0 攻击力：0 生命值：2</para>
+/// <para>Mirror Image</para>
+/// <para>镜像</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_CS2_mirror = 68418,
+/// <summary>
+/// <para>随从 中立 费用：0 攻击力：1 生命值：1</para>
+/// <para>Sheep</para>
+/// <para>绵羊</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_CS2_tk1 = 68419,
+/// <summary>
+/// <para>随从 梦境 费用：3 攻击力：3 生命值：5</para>
+/// <para>Laughing Sister</para>
+/// <para>欢笑的姐妹</para>
+/// <para>Can't be targeted by spells or Hero Powers.</para>
+/// <para>无法成为法术或英雄技能的目标。</para>
+/// </summary>
+VAN_DREAM_01 = 70474,
+/// <summary>
+/// <para>法术 梦境 费用：2</para>
+/// <para>Ysera Awakens</para>
+/// <para>伊瑟拉苏醒</para>
+/// <para>Deal $5 damage to all characters except Ysera.</para>
+/// <para>对除了伊瑟拉之外的所有角色造成$5点伤害。</para>
+/// </summary>
+VAN_DREAM_02 = 70475,
+/// <summary>
+/// <para>随从 梦境 费用：4 攻击力：7 生命值：6</para>
+/// <para>Emerald Drake</para>
+/// <para>翡翠幼龙</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_DREAM_03 = 71422,
+/// <summary>
+/// <para>法术 梦境 费用：0</para>
+/// <para>Dream</para>
+/// <para>梦境</para>
+/// <para>Return a minion to its owner's hand.</para>
+/// <para>将一个随从移回其拥有者的手牌。</para>
+/// </summary>
+VAN_DREAM_04 = 70484,
+/// <summary>
+/// <para>法术 梦境 费用：0</para>
+/// <para>Nightmare</para>
+/// <para>梦魇</para>
+/// <para>Give a minion +5/+5. At the start of your next turn, destroy it.</para>
+/// <para>使一个随从获得+5/+5，在你的下个回合开始时，消灭该随从。</para>
+/// </summary>
+VAN_DREAM_05 = 70485,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：4 生命值：5</para>
+/// <para>Darkscale Healer</para>
+/// <para>暗鳞治愈者</para>
+/// <para><b>Battlecry:</b> Restore #2 Health to all friendly characters.</para>
+/// <para><b>战吼：</b>为所有友方角色恢复#2点生命值。</para>
+/// </summary>
+VAN_DS1_055 = 68425,
+/// <summary>
+/// <para>随从 猎人 费用：4 攻击力：4 生命值：3</para>
+/// <para>Houndmaster</para>
+/// <para>驯兽师</para>
+/// <para><b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.</para>
+/// <para><b>战吼：</b>使一个友方野兽获得+2/+2和<b>嘲讽</b>。</para>
+/// </summary>
+VAN_DS1_070 = 68426,
+/// <summary>
+/// <para>随从 猎人 费用：1 攻击力：1 生命值：1</para>
+/// <para>Timber Wolf</para>
+/// <para>森林狼</para>
+/// <para>Your other Beasts have +1_Attack.</para>
+/// <para>你的其他野兽获得+1攻击力。</para>
+/// </summary>
+VAN_DS1_175 = 68428,
+/// <summary>
+/// <para>随从 猎人 费用：5 攻击力：2 生命值：5</para>
+/// <para>Tundra Rhino</para>
+/// <para>苔原犀牛</para>
+/// <para>Your Beasts have <b>Charge</b>.</para>
+/// <para>你的野兽获得<b>冲锋</b>。</para>
+/// </summary>
+VAN_DS1_178 = 68430,
+/// <summary>
+/// <para>法术 猎人 费用：4</para>
+/// <para>Multi-Shot</para>
+/// <para>多重射击</para>
+/// <para>Deal $3 damage to two random enemy minions.</para>
+/// <para>随机对两个敌方随从造成$3点伤害。</para>
+/// </summary>
+VAN_DS1_183 = 68432,
+/// <summary>
+/// <para>法术 猎人 费用：1</para>
+/// <para>Tracking</para>
+/// <para>追踪术</para>
+/// <para>Look at the top 3 cards of your deck. Draw one and discard the others.</para>
+/// <para>检视你的牌库顶的三张牌，抽其中一张，弃掉其余牌。</para>
+/// </summary>
+VAN_DS1_184 = 68433,
+/// <summary>
+/// <para>法术 猎人 费用：1</para>
+/// <para>Arcane Shot</para>
+/// <para>奥术射击</para>
+/// <para>Deal $2 damage.</para>
+/// <para>造成$2点伤害。</para>
+/// </summary>
+VAN_DS1_185 = 68434,
+/// <summary>
+/// <para>武器 猎人 费用：7 攻击力：5 耐久度：2</para>
+/// <para>Gladiator's Longbow</para>
+/// <para>角斗士的长弓</para>
+/// <para>Your hero is <b>Immune</b> while attacking.</para>
+/// <para>你的英雄在攻击时具有<b>免疫</b>。</para>
+/// </summary>
+VAN_DS1_188 = 69803,
+/// <summary>
+/// <para>法术 潜行者 费用：2</para>
+/// <para>Mind Blast</para>
+/// <para>心灵震爆</para>
+/// <para>Deal $5 damage to the enemy hero.</para>
+/// <para>对敌方英雄造成$5点伤害。</para>
+/// </summary>
+VAN_DS1_233 = 68537,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：2</para>
+/// <para>Lightwarden</para>
+/// <para>圣光护卫者</para>
+/// <para>Whenever a character is healed, gain +2 Attack.</para>
+/// <para>每当一个角色获得治疗，便获得+2攻击力。</para>
+/// </summary>
+VAN_EX1_001 = 69804,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：4 生命值：5</para>
+/// <para>The Black Knight</para>
+/// <para>黑骑士</para>
+/// <para><b>Battlecry:</b> Destroy an enemy minion with <b>Taunt</b>.</para>
+/// <para><b>战吼：</b>消灭一个具有<b>嘲讽</b>的敌方随从。</para>
+/// </summary>
+VAN_EX1_002 = 69805,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Young Priestess</para>
+/// <para>年轻的女祭司</para>
+/// <para>At the end of your turn, give another random friendly minion +1 Health.</para>
+/// <para>在你的回合结束时，随机使另一个友方随从获得+1生命值。</para>
+/// </summary>
+VAN_EX1_004 = 69806,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：4 生命值：2</para>
+/// <para>Big Game Hunter</para>
+/// <para>王牌猎人</para>
+/// <para><b>Battlecry:</b> Destroy a minion with 7 or more Attack.</para>
+/// <para><b>战吼：</b>消灭一个攻击力大于或等于7的随从。</para>
+/// </summary>
+VAN_EX1_005 = 69807,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：0 生命值：3</para>
+/// <para>Alarm-o-Bot</para>
+/// <para>报警机器人</para>
+/// <para>[x]At the start of your turn,swap this minion with a   random one in your hand.</para>
+/// <para>在你的回合开始时，随机将你的手牌中的一张随从牌与该随从交换。</para>
+/// </summary>
+VAN_EX1_006 = 69808,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：1 生命值：3</para>
+/// <para>Acolyte of Pain</para>
+/// <para>苦痛侍僧</para>
+/// <para>Whenever this minion takes damage, draw a_card.</para>
+/// <para>每当该随从受到伤害，抽一张牌。</para>
+/// </summary>
+VAN_EX1_007 = 69809,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Argent Squire</para>
+/// <para>银色侍从</para>
+/// <para><b>Divine Shield</b></para>
+/// <para><b>圣盾</b></para>
+/// </summary>
+VAN_EX1_008 = 69810,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Angry Chicken</para>
+/// <para>愤怒的小鸡</para>
+/// <para><b>Enrage:</b> +5 Attack.</para>
+/// <para><b>激怒：</b>+5攻击力。</para>
+/// </summary>
+VAN_EX1_009 = 69811,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Worgen Infiltrator</para>
+/// <para>狼人渗透者</para>
+/// <para><b>Stealth</b></para>
+/// <para><b>潜行</b></para>
+/// </summary>
+VAN_EX1_010 = 69812,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Voodoo Doctor</para>
+/// <para>巫医</para>
+/// <para><b>Battlecry:</b> Restore #2_Health.</para>
+/// <para><b>战吼：</b>恢复#2点生命值。</para>
+/// </summary>
+VAN_EX1_011 = 68435,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：1 生命值：1</para>
+/// <para>Bloodmage Thalnos</para>
+/// <para>血法师萨尔诺斯</para>
+/// <para><b>Spell Damage +1</b><b>Deathrattle:</b> Draw a card.</para>
+/// <para><b>法术伤害+1</b>，<b>亡语：</b>抽一张牌。</para>
+/// </summary>
+VAN_EX1_012 = 69813,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：5 生命值：5</para>
+/// <para>King Mukla</para>
+/// <para>穆克拉</para>
+/// <para><b>Battlecry:</b> Give your opponent 2 Bananas.</para>
+/// <para><b>战吼：</b>使你的对手获得两根香蕉。</para>
+/// </summary>
+VAN_EX1_014 = 69814,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：1 生命值：1</para>
+/// <para>Novice Engineer</para>
+/// <para>工程师学徒</para>
+/// <para><b>Battlecry:</b> Draw a card.</para>
+/// <para><b>战吼：</b>抽一张牌。</para>
+/// </summary>
+VAN_EX1_015 = 68436,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：5 生命值：5</para>
+/// <para>Sylvanas Windrunner</para>
+/// <para>希尔瓦娜斯·风行者</para>
+/// <para><b>Deathrattle:</b> Takecontrol of a randomenemy minion.</para>
+/// <para><b>亡语：</b>随机获得一个敌方随从的控制权。</para>
+/// </summary>
+VAN_EX1_016 = 69815,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：4 生命值：2</para>
+/// <para>Jungle Panther</para>
+/// <para>丛林猎豹</para>
+/// <para><b>Stealth</b></para>
+/// <para><b>潜行</b></para>
+/// </summary>
+VAN_EX1_017 = 69816,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：2</para>
+/// <para>Shattered Sun Cleric</para>
+/// <para>破碎残阳祭司</para>
+/// <para><b>Battlecry:</b> Give a friendly minion +1/+1.</para>
+/// <para><b>战吼：</b>使一个友方随从获得+1/+1。</para>
+/// </summary>
+VAN_EX1_019 = 68437,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：1</para>
+/// <para>Scarlet Crusader</para>
+/// <para>血色十字军战士</para>
+/// <para><b>Divine Shield</b></para>
+/// <para><b>圣盾</b></para>
+/// </summary>
+VAN_EX1_020 = 69817,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：3</para>
+/// <para>Thrallmar Farseer</para>
+/// <para>萨尔玛先知</para>
+/// <para><b>Windfury</b></para>
+/// <para><b>风怒</b></para>
+/// </summary>
+VAN_EX1_021 = 69818,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：3 生命值：3</para>
+/// <para>Silvermoon Guardian</para>
+/// <para>银月城卫兵</para>
+/// <para><b>Divine Shield</b></para>
+/// <para><b>圣盾</b></para>
+/// </summary>
+VAN_EX1_023 = 69819,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：2 生命值：4</para>
+/// <para>Dragonling Mechanic</para>
+/// <para>机械幼龙技工</para>
+/// <para><b>Battlecry:</b> Summon a 2/1 Mechanical Dragonling.</para>
+/// <para><b>战吼：</b>召唤一个2/1的机械幼龙。</para>
+/// </summary>
+VAN_EX1_025 = 68439,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：5 生命值：5</para>
+/// <para>Stranglethorn Tiger</para>
+/// <para>荆棘谷猛虎</para>
+/// <para><b>Stealth</b></para>
+/// <para><b>潜行</b></para>
+/// </summary>
+VAN_EX1_028 = 69820,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Leper Gnome</para>
+/// <para>麻风侏儒</para>
+/// <para><b>Deathrattle:</b> Deal 2 damage to the enemy_hero.</para>
+/// <para><b>亡语：</b>对敌方英雄造成2点伤害。</para>
+/// </summary>
+VAN_EX1_029 = 69821,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：4 生命值：5</para>
+/// <para>Sunwalker</para>
+/// <para>烈日行者</para>
+/// <para><b>Taunt</b><b>Divine Shield</b></para>
+/// <para><b>嘲讽</b><b>圣盾</b></para>
+/// </summary>
+VAN_EX1_032 = 69822,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：4 生命值：5</para>
+/// <para>Windfury Harpy</para>
+/// <para>风怒鹰身人</para>
+/// <para><b>Windfury</b></para>
+/// <para><b>风怒</b></para>
+/// </summary>
+VAN_EX1_033 = 69823,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：4 生命值：1</para>
+/// <para>Twilight Drake</para>
+/// <para>暮光幼龙</para>
+/// <para><b>Battlecry:</b> Gain +1 Health for each card in your hand.</para>
+/// <para><b>战吼：</b>你每有一张手牌，便获得+1生命值。</para>
+/// </summary>
+VAN_EX1_043 = 69824,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：2</para>
+/// <para>Questing Adventurer</para>
+/// <para>任务达人</para>
+/// <para>Whenever you play a card, gain +1/+1.</para>
+/// <para>每当你使用一张牌时，便获得+1/+1。</para>
+/// </summary>
+VAN_EX1_044 = 69825,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：4 生命值：5</para>
+/// <para>Ancient Watcher</para>
+/// <para>上古看守者</para>
+/// <para>Can't attack.</para>
+/// <para>无法攻击。</para>
+/// </summary>
+VAN_EX1_045 = 69826,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：4 生命值：4</para>
+/// <para>Dark Iron Dwarf</para>
+/// <para>黑铁矮人</para>
+/// <para><b>Battlecry:</b> Give a minion +2_Attack this turn.</para>
+/// <para><b>战吼：</b>在本回合中，使一个随从获得+2攻击力。</para>
+/// </summary>
+VAN_EX1_046 = 69827,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：4 生命值：3</para>
+/// <para>Spellbreaker</para>
+/// <para>破法者</para>
+/// <para><b>Battlecry:</b> <b>Silence</b> a_minion.</para>
+/// <para><b>战吼：</b><b>沉默</b>一个随从。</para>
+/// </summary>
+VAN_EX1_048 = 69828,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：3 生命值：2</para>
+/// <para>Youthful Brewmaster</para>
+/// <para>年轻的酒仙</para>
+/// <para><b>Battlecry:</b> Return a friendly minion from the battlefield to your hand.</para>
+/// <para><b>战吼：</b>使一个友方随从从战场上移回你的手牌。</para>
+/// </summary>
+VAN_EX1_049 = 69829,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：2</para>
+/// <para>Coldlight Oracle</para>
+/// <para>寒光智者</para>
+/// <para><b>Battlecry:</b> Each player draws 2 cards.</para>
+/// <para><b>战吼：</b>每个玩家抽两张牌。</para>
+/// </summary>
+VAN_EX1_050 = 69830,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：1 生命值：3</para>
+/// <para>Mana Addict</para>
+/// <para>魔瘾者</para>
+/// <para>Whenever you cast a spell, gain +2 Attack this turn.</para>
+/// <para>在本回合中，每当你施放一个法术，便获得+2攻击力。</para>
+/// </summary>
+VAN_EX1_055 = 69831,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：5 生命值：4</para>
+/// <para>Ancient Brewmaster</para>
+/// <para>年迈的酒仙</para>
+/// <para><b>Battlecry:</b> Return a friendly minion from the battlefield to your hand.</para>
+/// <para><b>战吼：</b>使一个友方随从从战场上移回你的手牌。</para>
+/// </summary>
+VAN_EX1_057 = 69832,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：3</para>
+/// <para>Sunfury Protector</para>
+/// <para>日怒保卫者</para>
+/// <para><b>Battlecry:</b> Give adjacent minions <b>Taunt</b>.</para>
+/// <para><b>战吼：</b>使相邻的随从获得<b>嘲讽</b>。</para>
+/// </summary>
+VAN_EX1_058 = 69833,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：2</para>
+/// <para>Crazed Alchemist</para>
+/// <para>疯狂的炼金师</para>
+/// <para><b>Battlecry:</b> Swap the Attack and Health of a minion.</para>
+/// <para><b>战吼：</b>使一个随从的攻击力和生命值互换。</para>
+/// </summary>
+VAN_EX1_059 = 69834,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：2 生命值：4</para>
+/// <para>Old Murk-Eye</para>
+/// <para>老瞎眼</para>
+/// <para><b>Charge</b>. Has +1 Attack for each other Murloc on the battlefield.</para>
+/// <para><b>冲锋</b>，在战场上每有一个其他鱼人便获得+1攻击力。</para>
+/// </summary>
+VAN_EX1_062 = 68538,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：3 生命值：2</para>
+/// <para>Acidic Swamp Ooze</para>
+/// <para>酸性沼泽软泥怪</para>
+/// <para><b>Battlecry:</b> Destroy your opponent's weapon.</para>
+/// <para><b>战吼：</b>摧毁对手的武器。</para>
+/// </summary>
+VAN_EX1_066 = 68441,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：4 生命值：2</para>
+/// <para>Argent Commander</para>
+/// <para>银色指挥官</para>
+/// <para><b>Charge</b><b>Divine Shield</b></para>
+/// <para><b>冲锋</b><b>圣盾</b></para>
+/// </summary>
+VAN_EX1_067 = 69835,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：2</para>
+/// <para>Pint-Sized Summoner</para>
+/// <para>小个子召唤师</para>
+/// <para>The first minion you play each turn costs (1) less.</para>
+/// <para>你每个回合使用的第一张随从牌的法力值消耗减少（1）点。</para>
+/// </summary>
+VAN_EX1_076 = 69836,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：2</para>
+/// <para>Secretkeeper</para>
+/// <para>奥秘守护者</para>
+/// <para>Whenever a <b>Secret</b> is played, gain +1/+1.</para>
+/// <para>每当有一张<b>奥秘</b>牌被使用时，便获得+1/+1。</para>
+/// </summary>
+VAN_EX1_080 = 69837,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：3 生命值：2</para>
+/// <para>Mad Bomber</para>
+/// <para>疯狂投弹者</para>
+/// <para><b>Battlecry:</b> Deal 3 damage randomly split between all other characters.</para>
+/// <para><b>战吼：</b>造成3点伤害，随机分配到所有其他角色身上。</para>
+/// </summary>
+VAN_EX1_082 = 69838,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：3</para>
+/// <para>Tinkmaster Overspark</para>
+/// <para>工匠大师欧沃斯巴克</para>
+/// <para>[x]<b>Battlecry:</b> Transformanother random minioninto a 5/5 Devilsaur or a 1/1 Squirrel.</para>
+/// <para><b>战吼：</b>随机使另一个随从变形成为一个5/5的魔暴龙或一个1/1的松鼠。</para>
+/// </summary>
+VAN_EX1_083 = 69839,
+/// <summary>
+/// <para>随从 战士 费用：3 攻击力：2 生命值：3</para>
+/// <para>Warsong Commander</para>
+/// <para>战歌指挥官</para>
+/// <para>Whenever you summon a minion with 3 or less Attack, give it <b>Charge</b>.</para>
+/// <para>每当你召唤一个攻击力小于或等于3的随从，使其获得<b>冲锋</b>。</para>
+/// </summary>
+VAN_EX1_084 = 68442,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：3</para>
+/// <para>Mind Control Tech</para>
+/// <para>精神控制技师</para>
+/// <para>[x]<b>Battlecry:</b> If your opponenthas 4 or more minions, take control of one at random.</para>
+/// <para><b>战吼：</b>如果你的对手拥有4个或者更多随从，随机获得其中一个的控制权。</para>
+/// </summary>
+VAN_EX1_085 = 69840,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：4 生命值：2</para>
+/// <para>Arcane Golem</para>
+/// <para>奥术傀儡</para>
+/// <para><b>Charge</b>. <b>Battlecry:</b> Give your opponent a Mana Crystal.</para>
+/// <para><b>冲锋</b>，<b>战吼：</b>使你的对手获得一个法力水晶。</para>
+/// </summary>
+VAN_EX1_089 = 69841,
+/// <summary>
+/// <para>随从 潜行者 费用：6 攻击力：4 生命值：5</para>
+/// <para>Cabal Shadow Priest</para>
+/// <para>秘教暗影祭司</para>
+/// <para><b>Battlecry:</b> Take control of an enemy minion that has 2 or less Attack.</para>
+/// <para><b>战吼：</b>获得一个攻击力小于或等于2的敌方随从的控制权。</para>
+/// </summary>
+VAN_EX1_091 = 69842,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：2 生命值：3</para>
+/// <para>Defender of Argus</para>
+/// <para>阿古斯防御者</para>
+/// <para><b>Battlecry:</b> Give adjacent minions +1/+1 and <b>Taunt</b>.</para>
+/// <para><b>战吼：</b>使相邻的随从获得+1/+1和<b>嘲讽</b>。</para>
+/// </summary>
+VAN_EX1_093 = 69843,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：4 生命值：4</para>
+/// <para>Gadgetzan Auctioneer</para>
+/// <para>加基森拍卖师</para>
+/// <para>Whenever you cast a spell, draw a card.</para>
+/// <para>每当你施放一个法术，抽一张牌。</para>
+/// </summary>
+VAN_EX1_095 = 69844,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：1</para>
+/// <para>Loot Hoarder</para>
+/// <para>战利品贮藏者</para>
+/// <para><b>Deathrattle:</b> Draw a card.</para>
+/// <para><b>亡语：</b>抽一张牌。</para>
+/// </summary>
+VAN_EX1_096 = 69845,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：4 生命值：4</para>
+/// <para>Abomination</para>
+/// <para>憎恶</para>
+/// <para><b>Taunt</b>. <b>Deathrattle:</b> Deal 2damage to ALL characters.</para>
+/// <para><b>嘲讽，亡语：</b>对所有角色造成2点伤害。</para>
+/// </summary>
+VAN_EX1_097 = 69846,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：0 生命值：4</para>
+/// <para>Lorewalker Cho</para>
+/// <para>游学者周卓</para>
+/// <para>Whenever a player casts a spell, put a copy into the other player’s hand.</para>
+/// <para>每当一个玩家施放一个法术，复制该法术，将其置入另一个玩家的手牌。</para>
+/// </summary>
+VAN_EX1_100 = 69847,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：1 生命值：4</para>
+/// <para>Demolisher</para>
+/// <para>攻城车</para>
+/// <para>At the start of your turn, deal 2 damage to a random enemy.</para>
+/// <para>在你的回合开始时，随机对一个敌人造成2点伤害。</para>
+/// </summary>
+VAN_EX1_102 = 69848,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：3</para>
+/// <para>Coldlight Seer</para>
+/// <para>寒光先知</para>
+/// <para><b>Battlecry:</b> Give ALL other Murlocs +2 Health.</para>
+/// <para><b>战吼：</b>使所有其他鱼人获得+2生命值。</para>
+/// </summary>
+VAN_EX1_103 = 69849,
+/// <summary>
+/// <para>随从 中立 费用：12 攻击力：8 生命值：8</para>
+/// <para>Mountain Giant</para>
+/// <para>山岭巨人</para>
+/// <para>Costs (1) less for each other card in your hand.</para>
+/// <para>你每有一张其他手牌，该牌的法力值消耗便减少（1）点。</para>
+/// </summary>
+VAN_EX1_105 = 69850,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：4 生命值：5</para>
+/// <para>Cairne Bloodhoof</para>
+/// <para>凯恩·血蹄</para>
+/// <para><b>Deathrattle:</b> Summon a 4/5 Baine Bloodhoof.</para>
+/// <para><b>亡语：</b>召唤一个4/5的贝恩·血蹄。</para>
+/// </summary>
+VAN_EX1_110 = 69851,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：4 生命值：5</para>
+/// <para>Baine Bloodhoof</para>
+/// <para>贝恩·血蹄</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_EX1_110t = 70473,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：6 生命值：6</para>
+/// <para>Gelbin Mekkatorque</para>
+/// <para>格尔宾·梅卡托克</para>
+/// <para><b>Battlecry:</b> Summon an AWESOME invention.</para>
+/// <para><b>战吼：</b>召唤一项惊人的发明。</para>
+/// </summary>
+VAN_EX1_112 = 68539,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：6 生命值：2</para>
+/// <para>Leeroy Jenkins</para>
+/// <para>火车王里诺艾</para>
+/// <para><b>Charge</b>. <b>Battlecry:</b> Summon two 1/1 Whelps for your opponent.</para>
+/// <para><b>冲锋，战吼：</b>为你的对手召唤两条1/1的雏龙。</para>
+/// </summary>
+VAN_EX1_116 = 69852,
+/// <summary>
+/// <para>法术 牧师 费用：2</para>
+/// <para>Eviscerate</para>
+/// <para>刺骨</para>
+/// <para>Deal $2 damage. <b>Combo:</b> Deal $4 damage instead.</para>
+/// <para>造成$2点伤害；<b>连击：</b>改为造成$4点伤害。</para>
+/// </summary>
+VAN_EX1_124 = 69853,
+/// <summary>
+/// <para>法术 牧师 费用：2</para>
+/// <para>Betrayal</para>
+/// <para>背叛</para>
+/// <para>Force an enemy minion to deal its damage to the minions next to it.</para>
+/// <para>使一个敌方随从对其相邻的随从造成等同于其攻击力的伤害。</para>
+/// </summary>
+VAN_EX1_126 = 69854,
+/// <summary>
+/// <para>法术 牧师 费用：1</para>
+/// <para>Conceal</para>
+/// <para>隐藏</para>
+/// <para>Give your minions <b>Stealth</b> until your next_turn.</para>
+/// <para>直到你的下个回合，使所有友方随从获得<b>潜行</b>。</para>
+/// </summary>
+VAN_EX1_128 = 69855,
+/// <summary>
+/// <para>法术 牧师 费用：3</para>
+/// <para>Fan of Knives</para>
+/// <para>刀扇</para>
+/// <para>Deal $1 damage to all enemy minions. Draw_a card.</para>
+/// <para>对所有敌方随从造成$1点伤害，抽一张牌。</para>
+/// </summary>
+VAN_EX1_129 = 68444,
+/// <summary>
+/// <para>法术 圣骑士 费用：1</para>
+/// <para>Noble Sacrifice</para>
+/// <para>崇高牺牲</para>
+/// <para><b>Secret:</b> When an enemy attacks, summon a 2/1 Defender as the new target.</para>
+/// <para><b>奥秘：</b>当一个敌人攻击时，召唤一个2/1的防御者，并使其成为攻击的目标。</para>
+/// </summary>
+VAN_EX1_130 = 69856,
+/// <summary>
+/// <para>随从 圣骑士 费用：1 攻击力：2 生命值：1</para>
+/// <para>Defender</para>
+/// <para>防御者</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_EX1_130a = 71411,
+/// <summary>
+/// <para>随从 牧师 费用：2 攻击力：2 生命值：2</para>
+/// <para>Defias Ringleader</para>
+/// <para>迪菲亚头目</para>
+/// <para><b>Combo:</b> Summon a 2/1 Defias Bandit.</para>
+/// <para><b>连击：</b>召唤一个2/1的迪菲亚强盗。</para>
+/// </summary>
+VAN_EX1_131 = 69857,
+/// <summary>
+/// <para>法术 圣骑士 费用：1</para>
+/// <para>Eye for an Eye</para>
+/// <para>以眼还眼</para>
+/// <para><b>Secret:</b> When your hero takes damage, deal_that much damage to the enemy hero.</para>
+/// <para><b>奥秘：</b>当你的英雄受到伤害时，对敌方英雄造成等量伤害。</para>
+/// </summary>
+VAN_EX1_132 = 69858,
+/// <summary>
+/// <para>武器 牧师 费用：3 攻击力：2 耐久度：2</para>
+/// <para>Perdition's Blade</para>
+/// <para>毁灭之刃</para>
+/// <para><b>Battlecry:</b> Deal 1 damage. <b>Combo:</b> Deal 2 instead.</para>
+/// <para><b>战吼：</b>造成1点伤害。<b>连击：</b>改为造成2点伤害。</para>
+/// </summary>
+VAN_EX1_133 = 69859,
+/// <summary>
+/// <para>随从 牧师 费用：3 攻击力：3 生命值：3</para>
+/// <para>SI:7 Agent</para>
+/// <para>军情七处特工</para>
+/// <para><b>Combo:</b> Deal 2 damage.</para>
+/// <para><b>连击：</b>造成2点伤害。</para>
+/// </summary>
+VAN_EX1_134 = 69860,
+/// <summary>
+/// <para>法术 圣骑士 费用：1</para>
+/// <para>Redemption</para>
+/// <para>救赎</para>
+/// <para><b>Secret:</b> When a friendly minion dies, return it to life with 1 Health.</para>
+/// <para><b>奥秘：</b>当一个友方随从死亡时，使其回到战场，并具有1点生命值。</para>
+/// </summary>
+VAN_EX1_136 = 69861,
+/// <summary>
+/// <para>法术 牧师 费用：3</para>
+/// <para>Headcrack</para>
+/// <para>裂颅之击</para>
+/// <para>Deal $2 damage to the enemy hero. <b>Combo:</b> Return this to your hand next turn.</para>
+/// <para>对敌方英雄造成$2点伤害；<b>连击：</b>在下个回合将其移回你的手牌。</para>
+/// </summary>
+VAN_EX1_137 = 69862,
+/// <summary>
+/// <para>法术 牧师 费用：0</para>
+/// <para>Shadowstep</para>
+/// <para>暗影步</para>
+/// <para>Return a friendly minion to your hand. It_costs (2) less.</para>
+/// <para>将一个友方随从移回你的手牌，它的法力值消耗减少（2）点。</para>
+/// </summary>
+VAN_EX1_144 = 69863,
+/// <summary>
+/// <para>法术 牧师 费用：0</para>
+/// <para>Preparation</para>
+/// <para>伺机待发</para>
+/// <para>The next spell you cast this turn costs (3) less.</para>
+/// <para>在本回合中，你所施放的下一个法术的法力值消耗减少（3）点。</para>
+/// </summary>
+VAN_EX1_145 = 69864,
+/// <summary>
+/// <para>法术 德鲁伊 费用：2</para>
+/// <para>Wrath</para>
+/// <para>愤怒</para>
+/// <para><b>Choose One -</b>Deal $3 damage to a minion; or $1 damageand draw a card.</para>
+/// <para><b>抉择：</b>对一个随从造成$3点伤害；或者造成$1点伤害并抽一张牌。</para>
+/// </summary>
+VAN_EX1_154 = 69865,
+/// <summary>
+/// <para>法术 德鲁伊 费用：2</para>
+/// <para>Solar Wrath</para>
+/// <para>阳炎之怒</para>
+/// <para>Deal $3 damage to a minion.</para>
+/// <para>对一个随从造成$3点伤害。</para>
+/// </summary>
+VAN_EX1_154a = 70451,
+/// <summary>
+/// <para>法术 德鲁伊 费用：2</para>
+/// <para>Nature's Wrath</para>
+/// <para>自然之怒</para>
+/// <para>Deal $1 damage to a minion. Draw a card.</para>
+/// <para>对一个随从造成$1点伤害，抽一张牌。</para>
+/// </summary>
+VAN_EX1_154b = 70452,
+/// <summary>
+/// <para>法术 德鲁伊 费用：3</para>
+/// <para>Mark of Nature</para>
+/// <para>自然印记</para>
+/// <para><b>Choose One -</b> Give a minion +4 Attack; or +4 Health and <b>Taunt</b>.</para>
+/// <para><b>抉择：</b>使一个随从获得+4攻击力；或者+4生命值和<b>嘲讽</b>。</para>
+/// </summary>
+VAN_EX1_155 = 69866,
+/// <summary>
+/// <para>法术 德鲁伊 费用：3</para>
+/// <para>Tiger's Fury</para>
+/// <para>猛虎之怒</para>
+/// <para>+4 Attack.</para>
+/// <para>+4攻击力。</para>
+/// </summary>
+VAN_EX1_155a = 71494,
+/// <summary>
+/// <para>法术 德鲁伊 费用：3</para>
+/// <para>Thick Hide</para>
+/// <para>皮糙肉厚</para>
+/// <para>+4 Health and <b>Taunt</b>.</para>
+/// <para>+4生命值并具有<b>嘲讽</b>。</para>
+/// </summary>
+VAN_EX1_155b = 71495,
+/// <summary>
+/// <para>法术 德鲁伊 费用：4</para>
+/// <para>Soul of the Forest</para>
+/// <para>丛林之魂</para>
+/// <para>Give your minions "<b>Deathrattle:</b> Summon a 2/2 Treant."</para>
+/// <para>使你的所有随从获得“<b>亡语：</b>召唤一个2/2的树人”。</para>
+/// </summary>
+VAN_EX1_158 = 69867,
+/// <summary>
+/// <para>法术 德鲁伊 费用：2</para>
+/// <para>Power of the Wild</para>
+/// <para>野性之力</para>
+/// <para><b>Choose One -</b> Give your minions +1/+1; or Summon a 3/2 Panther.</para>
+/// <para><b>抉择：</b>使你的所有随从获得+1/+1；或者召唤一只3/2的猎豹。</para>
+/// </summary>
+VAN_EX1_160 = 69868,
+/// <summary>
+/// <para>法术 德鲁伊 费用：2</para>
+/// <para>Summon a Panther</para>
+/// <para>召唤猎豹</para>
+/// <para>Summon a 3/2 Panther.</para>
+/// <para>召唤一只3/2的猎豹。</para>
+/// </summary>
+VAN_EX1_160a = 71496,
+/// <summary>
+/// <para>法术 德鲁伊 费用：2</para>
+/// <para>Leader of the Pack</para>
+/// <para>兽群领袖</para>
+/// <para>Give your minions +1/+1.</para>
+/// <para>使你的所有随从获得+1/+1。</para>
+/// </summary>
+VAN_EX1_160b = 71497,
+/// <summary>
+/// <para>法术 德鲁伊 费用：1</para>
+/// <para>Naturalize</para>
+/// <para>自然平衡</para>
+/// <para>Destroy a minion.Your opponent draws 2_cards.</para>
+/// <para>消灭一个随从，你的对手抽两张牌。</para>
+/// </summary>
+VAN_EX1_161 = 69869,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：2</para>
+/// <para>Dire Wolf Alpha</para>
+/// <para>恐狼前锋</para>
+/// <para>Adjacent minions have +1_Attack.</para>
+/// <para>相邻的随从获得+1攻击力。</para>
+/// </summary>
+VAN_EX1_162 = 69870,
+/// <summary>
+/// <para>法术 德鲁伊 费用：5</para>
+/// <para>Nourish</para>
+/// <para>滋养</para>
+/// <para><b>Choose One -</b> Gain 2_Mana Crystals; or Draw 3 cards.</para>
+/// <para><b>抉择：</b>获得两个法力水晶；或者抽三张牌。</para>
+/// </summary>
+VAN_EX1_164 = 69871,
+/// <summary>
+/// <para>法术 德鲁伊 费用：5</para>
+/// <para>Rampant Growth</para>
+/// <para>快速生长</para>
+/// <para>Gain 2 Mana Crystals.</para>
+/// <para>获得两个法力水晶。</para>
+/// </summary>
+VAN_EX1_164a = 70414,
+/// <summary>
+/// <para>法术 德鲁伊 费用：5</para>
+/// <para>Enrich</para>
+/// <para>摄取养分</para>
+/// <para>Draw 3 cards.</para>
+/// <para>抽三张牌。</para>
+/// </summary>
+VAN_EX1_164b = 70413,
+/// <summary>
+/// <para>随从 德鲁伊 费用：5 攻击力：4 生命值：4</para>
+/// <para>Druid of the Claw</para>
+/// <para>利爪德鲁伊</para>
+/// <para><b>Choose One -</b> <b>Charge</b>; or +2 Health and <b>Taunt</b>.</para>
+/// <para><b>抉择：</b><b>冲锋</b>；或者获得+2生命值并具有<b>嘲讽</b>。</para>
+/// </summary>
+VAN_EX1_165 = 69872,
+/// <summary>
+/// <para>法术 德鲁伊 费用：0</para>
+/// <para>Cat Form</para>
+/// <para>猎豹形态</para>
+/// <para><b>Charge</b></para>
+/// <para><b>冲锋</b></para>
+/// </summary>
+VAN_EX1_165a = 70463,
+/// <summary>
+/// <para>法术 德鲁伊 费用：0</para>
+/// <para>Bear Form</para>
+/// <para>熊形态</para>
+/// <para>+2 Health and <b>Taunt</b></para>
+/// <para>+2生命值并具有<b>嘲讽</b>。</para>
+/// </summary>
+VAN_EX1_165b = 70465,
+/// <summary>
+/// <para>随从 德鲁伊 费用：5 攻击力：4 生命值：4</para>
+/// <para>Druid of the Claw</para>
+/// <para>利爪德鲁伊</para>
+/// <para><b>Charge</b></para>
+/// <para><b>冲锋</b></para>
+/// </summary>
+VAN_EX1_165t1 = 70464,
+/// <summary>
+/// <para>随从 德鲁伊 费用：5 攻击力：4 生命值：6</para>
+/// <para>Druid of the Claw</para>
+/// <para>利爪德鲁伊</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_EX1_165t2 = 70466,
+/// <summary>
+/// <para>随从 德鲁伊 费用：4 攻击力：2 生命值：4</para>
+/// <para>Keeper of the Grove</para>
+/// <para>丛林守护者</para>
+/// <para><b>Choose One -</b> Deal_2_damage; or <b>Silence</b> a minion.</para>
+/// <para><b>抉择：</b>造成2点伤害；或者<b>沉默</b>一个随从。</para>
+/// </summary>
+VAN_EX1_166 = 69873,
+/// <summary>
+/// <para>法术 德鲁伊 费用：4</para>
+/// <para>Moonfire</para>
+/// <para>月火术</para>
+/// <para>Deal 2 damage.</para>
+/// <para>造成2点伤害。</para>
+/// </summary>
+VAN_EX1_166a = 71499,
+/// <summary>
+/// <para>法术 德鲁伊 费用：4</para>
+/// <para>Dispel</para>
+/// <para>禁魔</para>
+/// <para><b>Silence</b> a minion.</para>
+/// <para><b>沉默</b>一个随从。</para>
+/// </summary>
+VAN_EX1_166b = 71498,
+/// <summary>
+/// <para>法术 德鲁伊 费用：0</para>
+/// <para>Innervate</para>
+/// <para>激活</para>
+/// <para>Gain 2 Mana Crystals this turn only.</para>
+/// <para>在本回合中，获得两个法力水晶。</para>
+/// </summary>
+VAN_EX1_169 = 68445,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：3</para>
+/// <para>Emperor Cobra</para>
+/// <para>帝王眼镜蛇</para>
+/// <para>Destroy any minion damaged by this minion.</para>
+/// <para>消灭任何受到该随从伤害的随从。</para>
+/// </summary>
+VAN_EX1_170 = 69874,
+/// <summary>
+/// <para>法术 德鲁伊 费用：6</para>
+/// <para>Starfire</para>
+/// <para>星火术</para>
+/// <para>Deal $5 damage.Draw a card.</para>
+/// <para>造成$5点伤害。抽一张牌。</para>
+/// </summary>
+VAN_EX1_173 = 68446,
+/// <summary>
+/// <para>随从 德鲁伊 费用：7 攻击力：5 生命值：5</para>
+/// <para>Ancient of War</para>
+/// <para>战争古树</para>
+/// <para><b>Choose One -</b>+5 Attack; or +5 Health and <b>Taunt</b>.</para>
+/// <para><b>抉择：</b>+5攻击力；或者+5生命值并具有<b>嘲讽</b>。</para>
+/// </summary>
+VAN_EX1_178 = 69875,
+/// <summary>
+/// <para>法术 德鲁伊 费用：7</para>
+/// <para>Rooted</para>
+/// <para>扎根</para>
+/// <para>+5 Health and <b>Taunt</b>.</para>
+/// <para>+5生命值并具有<b>嘲讽</b>。</para>
+/// </summary>
+VAN_EX1_178a = 71502,
+/// <summary>
+/// <para>法术 德鲁伊 费用：7</para>
+/// <para>Uproot</para>
+/// <para>拔根</para>
+/// <para>+5 Attack.</para>
+/// <para>+5攻击力。</para>
+/// </summary>
+VAN_EX1_178b = 71501,
+/// <summary>
+/// <para>法术 萨满祭司 费用：1</para>
+/// <para>Lightning Bolt</para>
+/// <para>闪电箭</para>
+/// <para>Deal $3 damage. <b>Overload:</b> (1)</para>
+/// <para>造成$3点伤害，<b>过载：</b>（1）</para>
+/// </summary>
+VAN_EX1_238 = 69892,
+/// <summary>
+/// <para>法术 萨满祭司 费用：3</para>
+/// <para>Lava Burst</para>
+/// <para>熔岩爆裂</para>
+/// <para>Deal $5 damage. <b>Overload:</b> (2)</para>
+/// <para>造成$5点伤害，<b>过载：</b>（2）</para>
+/// </summary>
+VAN_EX1_241 = 69893,
+/// <summary>
+/// <para>随从 萨满祭司 费用：1 攻击力：3 生命值：1</para>
+/// <para>Dust Devil</para>
+/// <para>尘魔</para>
+/// <para><b>Windfury</b>. <b>Overload:</b> (2)</para>
+/// <para><b>风怒</b>，<b>过载：</b>（2）</para>
+/// </summary>
+VAN_EX1_243 = 69894,
+/// <summary>
+/// <para>法术 萨满祭司 费用：0</para>
+/// <para>Totemic Might</para>
+/// <para>图腾之力</para>
+/// <para>Give your Totems +2_Health.</para>
+/// <para>使你的图腾获得+2生命值。</para>
+/// </summary>
+VAN_EX1_244 = 68453,
+/// <summary>
+/// <para>法术 萨满祭司 费用：1</para>
+/// <para>Earth Shock</para>
+/// <para>大地震击</para>
+/// <para><b>Silence</b> a minion, then deal $1 damage to it.</para>
+/// <para><b>沉默</b>一个随从，然后对其造成$1点伤害。</para>
+/// </summary>
+VAN_EX1_245 = 69895,
+/// <summary>
+/// <para>法术 萨满祭司 费用：3</para>
+/// <para>Hex</para>
+/// <para>妖术</para>
+/// <para>Transform a minion into a 0/1 Frog with <b>Taunt</b>.</para>
+/// <para>使一个随从变形成为一只0/1并具有<b>嘲讽</b>的青蛙。</para>
+/// </summary>
+VAN_EX1_246 = 68455,
+/// <summary>
+/// <para>武器 萨满祭司 费用：2 攻击力：2 耐久度：3</para>
+/// <para>Stormforged Axe</para>
+/// <para>雷铸战斧</para>
+/// <para><b>Overload:</b> (1)</para>
+/// <para><b>过载：</b>（1）</para>
+/// </summary>
+VAN_EX1_247 = 69896,
+/// <summary>
+/// <para>法术 萨满祭司 费用：3</para>
+/// <para>Feral Spirit</para>
+/// <para>野性狼魂</para>
+/// <para>Summon two 2/3 Spirit Wolves with <b>Taunt</b>. <b>Overload:</b> (2)</para>
+/// <para>召唤两只2/3并具有<b>嘲讽</b>的幽灵狼。<b>过载：</b>（2）</para>
+/// </summary>
+VAN_EX1_248 = 69897,
+/// <summary>
+/// <para>随从 中立 费用：7 攻击力：7 生命值：5</para>
+/// <para>Baron Geddon</para>
+/// <para>迦顿男爵</para>
+/// <para>At the end of your turn, deal 2 damage to ALL other characters.</para>
+/// <para>在你的回合结束时，对所有其他角色造成2点伤害。</para>
+/// </summary>
+VAN_EX1_249 = 69898,
+/// <summary>
+/// <para>随从 萨满祭司 费用：5 攻击力：7 生命值：8</para>
+/// <para>Earth Elemental</para>
+/// <para>土元素</para>
+/// <para><b>Taunt</b>. <b><b>Overload</b>:</b> (3)</para>
+/// <para><b>嘲讽</b>，<b>过载：</b>（3）</para>
+/// </summary>
+VAN_EX1_250 = 69899,
+/// <summary>
+/// <para>法术 萨满祭司 费用：1</para>
+/// <para>Forked Lightning</para>
+/// <para>叉状闪电</para>
+/// <para>Deal $2 damage to 2_random enemy minions. <b>Overload:</b> (2)</para>
+/// <para>随机对两个敌方随从造成$2点伤害，<b>过载：</b>（2）</para>
+/// </summary>
+VAN_EX1_251 = 69900,
+/// <summary>
+/// <para>随从 萨满祭司 费用：3 攻击力：2 生命值：4</para>
+/// <para>Unbound Elemental</para>
+/// <para>无羁元素</para>
+/// <para>Whenever you play a card_with <b>Overload</b>, gain_+1/+1.</para>
+/// <para>每当你使用一张具有<b>过载</b>的牌，便获得+1/+1。</para>
+/// </summary>
+VAN_EX1_258 = 69901,
+/// <summary>
+/// <para>法术 萨满祭司 费用：3</para>
+/// <para>Lightning Storm</para>
+/// <para>闪电风暴</para>
+/// <para>Deal $2-$3 damage to all enemy minions. <b>Overload:</b> (2)</para>
+/// <para>对所有敌方随从造成$2到$3点伤害，<b>过载：</b>（2）</para>
+/// </summary>
+VAN_EX1_259 = 69902,
+/// <summary>
+/// <para>随从 法师 费用：4 攻击力：3 生命值：3</para>
+/// <para>Ethereal Arcanist</para>
+/// <para>虚灵奥术师</para>
+/// <para>If you control a <b>Secret</b> at_the end of your turn, gain +2/+2.</para>
+/// <para>如果在你的回合结束时，你控制一个<b>奥秘</b>，该随从便获得+2/+2。</para>
+/// </summary>
+VAN_EX1_274 = 69903,
+/// <summary>
+/// <para>法术 法师 费用：4</para>
+/// <para>Cone of Cold</para>
+/// <para>冰锥术</para>
+/// <para><b>Freeze</b> a minion and the minions next to it, and deal $1 damage to them.</para>
+/// <para><b>冻结</b>一个随从和其相邻的随从，并对它们造成$1点伤害。</para>
+/// </summary>
+VAN_EX1_275 = 69904,
+/// <summary>
+/// <para>法术 法师 费用：1</para>
+/// <para>Arcane Missiles</para>
+/// <para>奥术飞弹</para>
+/// <para>Deal $3 damage randomly split among all enemy characters.</para>
+/// <para>造成$3点伤害，随机分配到所有敌方角色身上。</para>
+/// </summary>
+VAN_EX1_277 = 68457,
+/// <summary>
+/// <para>法术 牧师 费用：2</para>
+/// <para>Shiv</para>
+/// <para>毒刃</para>
+/// <para>Deal $1 damage.Draw a card.</para>
+/// <para>造成$1点伤害，抽一张牌。</para>
+/// </summary>
+VAN_EX1_278 = 68458,
+/// <summary>
+/// <para>法术 法师 费用：10</para>
+/// <para>Pyroblast</para>
+/// <para>炎爆术</para>
+/// <para>Deal $10 damage.</para>
+/// <para>造成$10点伤害。</para>
+/// </summary>
+VAN_EX1_279 = 69905,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：5 生命值：5</para>
+/// <para>Frost Elemental</para>
+/// <para>冰霜元素</para>
+/// <para><b>Battlecry:</b> <b>Freeze</b> a_character.</para>
+/// <para><b>战吼：</b><b>冻结</b>一个角色。</para>
+/// </summary>
+VAN_EX1_283 = 69906,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：4 生命值：4</para>
+/// <para>Azure Drake</para>
+/// <para>碧蓝幼龙</para>
+/// <para><b>Spell Damage +1</b><b>Battlecry:</b> Draw a card.</para>
+/// <para><b>法术伤害+1</b>，<b>战吼：</b>抽一张牌。</para>
+/// </summary>
+VAN_EX1_284 = 69907,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Counterspell</para>
+/// <para>法术反制</para>
+/// <para><b>Secret:</b> When your opponent casts a spell, <b>Counter</b> it.</para>
+/// <para><b>奥秘：</b>当你的对手施放一个法术时，<b>反制</b>该法术。</para>
+/// </summary>
+VAN_EX1_287 = 69908,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Ice Barrier</para>
+/// <para>寒冰护体</para>
+/// <para>[x]<b>Secret:</b> As soon as yourhero is attacked, gain8 Armor.</para>
+/// <para><b>奥秘：</b>当你的英雄受到攻击时，获得8点护甲值。</para>
+/// </summary>
+VAN_EX1_289 = 69909,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Mirror Entity</para>
+/// <para>镜像实体</para>
+/// <para>[x]<b>Secret:</b> Whenyour opponent plays aminion, summon a copyof it.</para>
+/// <para><b>奥秘：</b>当你的对手使用一张随从牌时，召唤一个该随从的复制。</para>
+/// </summary>
+VAN_EX1_294 = 69910,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Ice Block</para>
+/// <para>寒冰屏障</para>
+/// <para><b>Secret:</b> When your hero takes fatal damage, prevent it and become <b>Immune</b> this turn.</para>
+/// <para><b>奥秘：</b>当你的英雄将要承受致命伤害时，防止这些伤害，并使其在本回合中获得<b>免疫</b>。</para>
+/// </summary>
+VAN_EX1_295 = 69911,
+/// <summary>
+/// <para>随从 中立 费用：8 攻击力：8 生命值：8</para>
+/// <para>Ragnaros the Firelord</para>
+/// <para>炎魔之王拉格纳罗斯</para>
+/// <para>Can't attack. At the end of your turn, deal 8 damage to a random enemy.</para>
+/// <para>无法攻击。在你的回合结束时，随机对一个敌人造成8点伤害。</para>
+/// </summary>
+VAN_EX1_298 = 69912,
+/// <summary>
+/// <para>随从 术士 费用：3 攻击力：3 生命值：5</para>
+/// <para>Felguard</para>
+/// <para>恶魔卫士</para>
+/// <para><b>Taunt</b><b>Battlecry:</b> Destroy one of your Mana Crystals.</para>
+/// <para><b>嘲讽，战吼：</b>摧毁你的一个法力水晶。</para>
+/// </summary>
+VAN_EX1_301 = 69913,
+/// <summary>
+/// <para>法术 术士 费用：1</para>
+/// <para>Mortal Coil</para>
+/// <para>死亡缠绕</para>
+/// <para>Deal $1 damage to a minion. If that kills it, draw a card.</para>
+/// <para>对一个随从造成$1点伤害。如果“死亡缠绕”消灭该随从，抽一张牌。</para>
+/// </summary>
+VAN_EX1_302 = 68459,
+/// <summary>
+/// <para>法术 术士 费用：4</para>
+/// <para>Shadowflame</para>
+/// <para>暗影烈焰</para>
+/// <para>Destroy a friendly minion and deal its Attack damage to all enemy minions.</para>
+/// <para>消灭一个友方随从，对所有敌方随从造成等同于其攻击力的伤害。</para>
+/// </summary>
+VAN_EX1_303 = 69914,
+/// <summary>
+/// <para>随从 术士 费用：3 攻击力：3 生命值：3</para>
+/// <para>Void Terror</para>
+/// <para>虚空恐魔</para>
+/// <para>[x]<b>Battlecry:</b> Destroy bothadjacent minions and gain their Attack and Health.</para>
+/// <para><b>战吼：</b>消灭该随从两侧的随从，并获得他们的攻击力和生命值。</para>
+/// </summary>
+VAN_EX1_304 = 69915,
+/// <summary>
+/// <para>随从 术士 费用：2 攻击力：4 生命值：3</para>
+/// <para>Felstalker</para>
+/// <para>魔犬</para>
+/// <para><b>Battlecry:</b> Discard a random card.</para>
+/// <para><b>战吼：</b>随机弃一张牌。</para>
+/// </summary>
+VAN_EX1_306 = 68460,
+/// <summary>
+/// <para>法术 术士 费用：0</para>
+/// <para>Soulfire</para>
+/// <para>灵魂之火</para>
+/// <para>[x]Deal $4 damage.Discard a random card.</para>
+/// <para>造成$4点伤害，随机弃一张牌。</para>
+/// </summary>
+VAN_EX1_308 = 68461,
+/// <summary>
+/// <para>法术 术士 费用：6</para>
+/// <para>Siphon Soul</para>
+/// <para>灵魂虹吸</para>
+/// <para>Destroy a minion. Restore #3 Health to_your hero.</para>
+/// <para>消灭一个随从，为你的英雄恢复#3点生命值。</para>
+/// </summary>
+VAN_EX1_309 = 69916,
+/// <summary>
+/// <para>随从 术士 费用：5 攻击力：5 生命值：7</para>
+/// <para>Doomguard</para>
+/// <para>末日守卫</para>
+/// <para><b>Charge</b>. <b>Battlecry:</b> Discard two random cards.</para>
+/// <para><b>冲锋</b>，<b>战吼：</b>随机弃两张牌。</para>
+/// </summary>
+VAN_EX1_310 = 69917,
+/// <summary>
+/// <para>法术 术士 费用：8</para>
+/// <para>Twisting Nether</para>
+/// <para>扭曲虚空</para>
+/// <para>Destroy all minions.</para>
+/// <para>消灭所有随从。</para>
+/// </summary>
+VAN_EX1_312 = 69918,
+/// <summary>
+/// <para>随从 术士 费用：4 攻击力：5 生命值：6</para>
+/// <para>Pit Lord</para>
+/// <para>深渊领主</para>
+/// <para><b>Battlecry:</b> Deal 5 damage to your hero.</para>
+/// <para><b>战吼：</b>对你的英雄造成5点伤害。</para>
+/// </summary>
+VAN_EX1_313 = 69919,
+/// <summary>
+/// <para>随从 术士 费用：4 攻击力：0 生命值：4</para>
+/// <para>Summoning Portal</para>
+/// <para>召唤传送门</para>
+/// <para>Your minions cost (2) less, but not less than (1).</para>
+/// <para>你的随从牌的法力值消耗减少（2）点，但不能少于（1）点。</para>
+/// </summary>
+VAN_EX1_315 = 69920,
+/// <summary>
+/// <para>法术 术士 费用：1</para>
+/// <para>Power Overwhelming</para>
+/// <para>力量的代价</para>
+/// <para>Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.</para>
+/// <para>使一个友方随从获得+4/+4，该随从会在回合结束时死亡。</para>
+/// </summary>
+VAN_EX1_316 = 69921,
+/// <summary>
+/// <para>法术 术士 费用：3</para>
+/// <para>Sense Demons</para>
+/// <para>感知恶魔</para>
+/// <para>Draw 2 Demonsfrom your deck.</para>
+/// <para>从你的牌库中抽两张恶魔牌。</para>
+/// </summary>
+VAN_EX1_317 = 69922,
+/// <summary>
+/// <para>随从 术士 费用：1 攻击力：3 生命值：2</para>
+/// <para>Flame Imp</para>
+/// <para>烈焰小鬼</para>
+/// <para><b>Battlecry:</b> Deal 3 damage to your hero.</para>
+/// <para><b>战吼：</b>对你的英雄造成3点伤害。</para>
+/// </summary>
+VAN_EX1_319 = 69923,
+/// <summary>
+/// <para>法术 术士 费用：5</para>
+/// <para>Bane of Doom</para>
+/// <para>末日灾祸</para>
+/// <para>Deal $2 damage to_a character. If that kills it, summon a random Demon.</para>
+/// <para>对一个角色造成$2点伤害。如果“末日灾祸”消灭该角色，随机召唤一个恶魔。</para>
+/// </summary>
+VAN_EX1_320 = 69924,
+/// <summary>
+/// <para>随从 术士 费用：9 攻击力：3 生命值：15</para>
+/// <para>Lord Jaraxxus</para>
+/// <para>加拉克苏斯大王</para>
+/// <para><b>Battlecry:</b> Destroy your hero and replace it with Lord Jaraxxus.</para>
+/// <para><b>战吼：</b>消灭你的英雄，并用加拉克苏斯大王替换之。</para>
+/// </summary>
+VAN_EX1_323 = 69925,
+/// <summary>
+/// <para>法术 潜行者 费用：0</para>
+/// <para>Silence</para>
+/// <para>沉默寡言</para>
+/// <para><b>Silence</b> a minion.</para>
+/// <para><b>沉默</b>一个随从。</para>
+/// </summary>
+VAN_EX1_332 = 69926,
+/// <summary>
+/// <para>法术 潜行者 费用：4</para>
+/// <para>Shadow Madness</para>
+/// <para>暗影狂乱</para>
+/// <para>Gain control of an enemy minion with 3 or less Attack until end of turn.</para>
+/// <para>直到回合结束，获得一个攻击力小于或等于3的敌方随从的控制权。</para>
+/// </summary>
+VAN_EX1_334 = 69927,
+/// <summary>
+/// <para>随从 潜行者 费用：4 攻击力：0 生命值：5</para>
+/// <para>Lightspawn</para>
+/// <para>光耀之子</para>
+/// <para>This minion's Attack is always equal to its Health.</para>
+/// <para>该随从的攻击力始终等同于其生命值。</para>
+/// </summary>
+VAN_EX1_335 = 69928,
+/// <summary>
+/// <para>法术 潜行者 费用：3</para>
+/// <para>Thoughtsteal</para>
+/// <para>思维窃取</para>
+/// <para>Copy 2 cards in your opponent's deck and add them to your hand.</para>
+/// <para>复制你对手的牌库中的两张牌，并将其置入你的手牌。</para>
+/// </summary>
+VAN_EX1_339 = 69929,
+/// <summary>
+/// <para>随从 潜行者 费用：2 攻击力：0 生命值：5</para>
+/// <para>Lightwell</para>
+/// <para>光明之泉</para>
+/// <para>At the start of your turn, restore #3 Health to a damaged friendly character.</para>
+/// <para>在你的回合开始时，随机为一个受伤的友方角色恢复#3点生命值。</para>
+/// </summary>
+VAN_EX1_341 = 69930,
+/// <summary>
+/// <para>法术 潜行者 费用：4</para>
+/// <para>Mindgames</para>
+/// <para>控心术</para>
+/// <para>Put a copy ofa random minion fromyour opponent's deck into the battlefield.</para>
+/// <para>随机将你对手的牌库中的一张随从牌的复制置入战场。</para>
+/// </summary>
+VAN_EX1_345 = 69931,
+/// <summary>
+/// <para>随从 潜行者 费用：0 攻击力：0 生命值：1</para>
+/// <para>Shadow of Nothing</para>
+/// <para>空无之影</para>
+/// <para>Mindgames whiffed! Your opponent had no minions!</para>
+/// <para>控心术无效！你对手的牌库中没有随从牌了！</para>
+/// </summary>
+VAN_EX1_345t = 70461,
+/// <summary>
+/// <para>法术 圣骑士 费用：3</para>
+/// <para>Divine Favor</para>
+/// <para>神恩术</para>
+/// <para>Draw cards until you have as many in hand as your opponent.</para>
+/// <para>抽若干数量的牌，直到你的手牌数量等同于你对手的手牌数量。</para>
+/// </summary>
+VAN_EX1_349 = 69932,
+/// <summary>
+/// <para>随从 潜行者 费用：7 攻击力：7 生命值：7</para>
+/// <para>Prophet Velen</para>
+/// <para>先知维伦</para>
+/// <para>Double the damage and healing of your spells and Hero Power.</para>
+/// <para>使你的法术和英雄技能的伤害和治疗效果翻倍。</para>
+/// </summary>
+VAN_EX1_350 = 69933,
+/// <summary>
+/// <para>法术 圣骑士 费用：8</para>
+/// <para>Lay on Hands</para>
+/// <para>圣疗术</para>
+/// <para>Restore #8 Health. Draw_3 cards.</para>
+/// <para>恢复#8点生命值，抽三张牌。</para>
+/// </summary>
+VAN_EX1_354 = 69934,
+/// <summary>
+/// <para>法术 圣骑士 费用：5</para>
+/// <para>Blessed Champion</para>
+/// <para>受祝福的勇士</para>
+/// <para>Double a minion's Attack.</para>
+/// <para>使一个随从的攻击力翻倍。</para>
+/// </summary>
+VAN_EX1_355 = 69935,
+/// <summary>
+/// <para>法术 圣骑士 费用：1</para>
+/// <para>Humility</para>
+/// <para>谦逊</para>
+/// <para>Change a minion's Attack to 1.</para>
+/// <para>使一个随从的攻击力变为1。</para>
+/// </summary>
+VAN_EX1_360 = 68462,
+/// <summary>
+/// <para>随从 圣骑士 费用：2 攻击力：2 生命值：2</para>
+/// <para>Argent Protector</para>
+/// <para>银色保卫者</para>
+/// <para><b>Battlecry:</b> Give a friendly minion <b>Divine Shield</b>.</para>
+/// <para><b>战吼：</b>使一个其他友方随从获得<b>圣盾</b>。</para>
+/// </summary>
+VAN_EX1_362 = 69936,
+/// <summary>
+/// <para>法术 圣骑士 费用：1</para>
+/// <para>Blessing of Wisdom</para>
+/// <para>智慧祝福</para>
+/// <para>Choose a minion. Whenever it attacks, draw a card.</para>
+/// <para>选择一个随从，每当其进行攻击，便抽一张牌。</para>
+/// </summary>
+VAN_EX1_363 = 69937,
+/// <summary>
+/// <para>法术 圣骑士 费用：5</para>
+/// <para>Holy Wrath</para>
+/// <para>神圣愤怒</para>
+/// <para>Draw a card and deal_damage equal to_its Cost.</para>
+/// <para>抽一张牌，并造成等同于其法力值消耗的伤害。</para>
+/// </summary>
+VAN_EX1_365 = 69938,
+/// <summary>
+/// <para>武器 圣骑士 费用：3 攻击力：1 耐久度：5</para>
+/// <para>Sword of Justice</para>
+/// <para>公正之剑</para>
+/// <para>After you summon a minion, give it +1/+1 and this loses 1_Durability.</para>
+/// <para>在你召唤一个随从后，使其获得+1/+1，这把武器失去1点耐久度。</para>
+/// </summary>
+VAN_EX1_366 = 69939,
+/// <summary>
+/// <para>法术 圣骑士 费用：1</para>
+/// <para>Hand of Protection</para>
+/// <para>保护之手</para>
+/// <para>Give a minion <b>Divine Shield</b>.</para>
+/// <para>使一个随从获得<b>圣盾</b>。</para>
+/// </summary>
+VAN_EX1_371 = 68464,
+/// <summary>
+/// <para>法术 圣骑士 费用：1</para>
+/// <para>Repentance</para>
+/// <para>忏悔</para>
+/// <para><b>Secret:</b> After your opponent plays a minion, reduce its Health to 1.</para>
+/// <para><b>奥秘：</b>在你的对手使用一张随从牌后，使该随从的生命值降为1。</para>
+/// </summary>
+VAN_EX1_379 = 69940,
+/// <summary>
+/// <para>随从 圣骑士 费用：3 攻击力：3 生命值：3</para>
+/// <para>Aldor Peacekeeper</para>
+/// <para>奥尔多卫士</para>
+/// <para><b>Battlecry:</b> Change an_enemy minion's Attack to 1.</para>
+/// <para><b>战吼：</b>使一个敌方随从的攻击力变为1。</para>
+/// </summary>
+VAN_EX1_382 = 69941,
+/// <summary>
+/// <para>随从 圣骑士 费用：8 攻击力：6 生命值：6</para>
+/// <para>Tirion Fordring</para>
+/// <para>提里奥·弗丁</para>
+/// <para><b><b>Divine Shield</b>,</b> <b>Taunt</b> <b>Deathrattle:</b> Equip a 5/3_Ashbringer.</para>
+/// <para><b>圣盾</b>，<b>嘲讽</b>，<b>亡语：</b>装备一把5/3的灰烬使者。</para>
+/// </summary>
+VAN_EX1_383 = 69942,
+/// <summary>
+/// <para>法术 圣骑士 费用：6</para>
+/// <para>Avenging Wrath</para>
+/// <para>复仇之怒</para>
+/// <para>Deal $8 damage randomly split among all enemy characters.</para>
+/// <para>造成$8点伤害，随机分配到所有敌方角色身上。</para>
+/// </summary>
+VAN_EX1_384 = 69943,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：3</para>
+/// <para>Tauren Warrior</para>
+/// <para>牛头人战士</para>
+/// <para><b>Taunt</b>. <b>Enrage:</b> +3 Attack</para>
+/// <para><b>嘲讽</b>，<b>激怒：</b>+3攻击力。</para>
+/// </summary>
+VAN_EX1_390 = 69944,
+/// <summary>
+/// <para>法术 战士 费用：2</para>
+/// <para>Slam</para>
+/// <para>猛击</para>
+/// <para>Deal $2 damage to a minion. If it survives, draw a card.</para>
+/// <para>对一个随从造成$2点伤害，如果它依然存活，则抽一张牌。</para>
+/// </summary>
+VAN_EX1_391 = 69945,
+/// <summary>
+/// <para>法术 战士 费用：2</para>
+/// <para>Battle Rage</para>
+/// <para>战斗怒火</para>
+/// <para>Draw a card for each damaged friendly character.</para>
+/// <para>每有一个受伤的友方角色，便抽一张牌。</para>
+/// </summary>
+VAN_EX1_392 = 69946,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：3</para>
+/// <para>Amani Berserker</para>
+/// <para>阿曼尼狂战士</para>
+/// <para><b>Enrage:</b> +3 Attack</para>
+/// <para><b>激怒：</b>+3攻击力</para>
+/// </summary>
+VAN_EX1_393 = 69947,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：1 生命值：7</para>
+/// <para>Mogu'shan Warden</para>
+/// <para>魔古山守望者</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_EX1_396 = 69948,
+/// <summary>
+/// <para>随从 战士 费用：4 攻击力：3 生命值：3</para>
+/// <para>Arathi Weaponsmith</para>
+/// <para>阿拉希武器匠</para>
+/// <para><b>Battlecry:</b> Equip a 2/2_weapon.</para>
+/// <para><b>战吼：</b>装备一把2/2的武器。</para>
+/// </summary>
+VAN_EX1_398 = 69949,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：2 生命值：7</para>
+/// <para>Gurubashi Berserker</para>
+/// <para>古拉巴什狂暴者</para>
+/// <para>Whenever this minion takes damage, gain +3_Attack.</para>
+/// <para>每当该随从受到伤害，便获得+3攻击力。</para>
+/// </summary>
+VAN_EX1_399 = 68465,
+/// <summary>
+/// <para>法术 战士 费用：1</para>
+/// <para>Whirlwind</para>
+/// <para>旋风斩</para>
+/// <para>Deal $1 damage to ALL_minions.</para>
+/// <para>对所有随从造成$1点伤害。</para>
+/// </summary>
+VAN_EX1_400 = 68467,
+/// <summary>
+/// <para>随从 战士 费用：2 攻击力：1 生命值：4</para>
+/// <para>Armorsmith</para>
+/// <para>铸甲师</para>
+/// <para>Whenever a friendly minion_takes damage, gain 1 Armor.</para>
+/// <para>每当一个友方随从受到伤害，便获得1点护甲值。</para>
+/// </summary>
+VAN_EX1_402 = 69950,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：0 生命值：4</para>
+/// <para>Shieldbearer</para>
+/// <para>持盾卫士</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_EX1_405 = 69951,
+/// <summary>
+/// <para>法术 战士 费用：5</para>
+/// <para>Brawl</para>
+/// <para>绝命乱斗</para>
+/// <para>Destroy all minions except one. <i>(chosen randomly)</i></para>
+/// <para>随机选择一个随从，消灭除了该随从外的所有其他随从。</para>
+/// </summary>
+VAN_EX1_407 = 69952,
+/// <summary>
+/// <para>法术 战士 费用：4</para>
+/// <para>Mortal Strike</para>
+/// <para>致死打击</para>
+/// <para>Deal $4 damage. If you have 12 or less Health, deal $6 instead.</para>
+/// <para>造成$4点伤害；如果你的生命值小于或等于12点，则改为造成$6点伤害。</para>
+/// </summary>
+VAN_EX1_408 = 69953,
+/// <summary>
+/// <para>法术 战士 费用：1</para>
+/// <para>Upgrade!</para>
+/// <para>升级</para>
+/// <para>If you have a weapon, give it +1/+1. Otherwise equip a 1/3 weapon.</para>
+/// <para>如果你装备一把武器，使它获得+1/+1。否则，装备一把1/3的武器。</para>
+/// </summary>
+VAN_EX1_409 = 69954,
+/// <summary>
+/// <para>法术 战士 费用：1</para>
+/// <para>Shield Slam</para>
+/// <para>盾牌猛击</para>
+/// <para>Deal $1 damage to a minion for each Armor you have.</para>
+/// <para>你每有1点护甲值，便对一个随从造成$1点伤害。</para>
+/// </summary>
+VAN_EX1_410 = 69955,
+/// <summary>
+/// <para>武器 战士 费用：7 攻击力：7 耐久度：1</para>
+/// <para>Gorehowl</para>
+/// <para>血吼</para>
+/// <para>Attacking a minion costs 1 Attack instead of 1 Durability.</para>
+/// <para>攻击随从不会消耗耐久度，改为降低1点攻击力。</para>
+/// </summary>
+VAN_EX1_411 = 69956,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：3</para>
+/// <para>Raging Worgen</para>
+/// <para>暴怒的狼人</para>
+/// <para><b>Enrage:</b> <b>Windfury</b> and +1 Attack</para>
+/// <para><b>激怒：</b>+1攻击力并具有<b>风怒</b></para>
+/// </summary>
+VAN_EX1_412 = 69957,
+/// <summary>
+/// <para>随从 战士 费用：8 攻击力：4 生命值：9</para>
+/// <para>Grommash Hellscream</para>
+/// <para>格罗玛什·地狱咆哮</para>
+/// <para><b>Charge</b><b>Enrage:</b> +6 Attack</para>
+/// <para><b>冲锋</b><b>激怒：</b>+6攻击力</para>
+/// </summary>
+VAN_EX1_414 = 69958,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：1</para>
+/// <para>Murloc Tidehunter</para>
+/// <para>鱼人猎潮者</para>
+/// <para><b>Battlecry:</b> Summon a 1/1_Murloc Scout.</para>
+/// <para><b>战吼：</b>召唤一个1/1的鱼人斥候。</para>
+/// </summary>
+VAN_EX1_506 = 68468,
+/// <summary>
+/// <para>随从 中立 费用：0 攻击力：1 生命值：1</para>
+/// <para>Murloc Scout</para>
+/// <para>鱼人斥候</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_EX1_506a = 68469,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：3</para>
+/// <para>Murloc Warleader</para>
+/// <para>鱼人领军</para>
+/// <para>ALL other murlocs have +2/+1.</para>
+/// <para>所有其他鱼人获得+2/+1。</para>
+/// </summary>
+VAN_EX1_507 = 69959,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Grimscale Oracle</para>
+/// <para>暗鳞先知</para>
+/// <para>ALL other Murlocs have +1 Attack.</para>
+/// <para>所有其他鱼人获得+1攻击力。</para>
+/// </summary>
+VAN_EX1_508 = 68470,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：2</para>
+/// <para>Murloc Tidecaller</para>
+/// <para>鱼人招潮者</para>
+/// <para>Whenever a Murloc is summoned, gain +1 Attack.</para>
+/// <para>每当有玩家召唤一个鱼人，便获得+1攻击力。</para>
+/// </summary>
+VAN_EX1_509 = 69960,
+/// <summary>
+/// <para>随从 牧师 费用：2 攻击力：1 生命值：1</para>
+/// <para>Patient Assassin</para>
+/// <para>耐心的刺客</para>
+/// <para><b>Stealth</b>. Destroy any minion damaged by this minion.</para>
+/// <para><b>潜行</b>。消灭任何受到该随从伤害的随从。</para>
+/// </summary>
+VAN_EX1_522 = 69961,
+/// <summary>
+/// <para>随从 猎人 费用：2 攻击力：2 生命值：2</para>
+/// <para>Scavenging Hyena</para>
+/// <para>食腐土狼</para>
+/// <para>Whenever a friendly Beast dies, gain +2/+1.</para>
+/// <para>每当一个友方野兽死亡，便获得+2/+1。</para>
+/// </summary>
+VAN_EX1_531 = 69962,
+/// <summary>
+/// <para>法术 猎人 费用：2</para>
+/// <para>Misdirection</para>
+/// <para>误导</para>
+/// <para><b>Secret:</b> When an enemy attacks your hero, instead it attacks another random character.</para>
+/// <para><b>奥秘：</b>当一个敌人攻击你的英雄时，改为该敌人随机攻击另一个角色。</para>
+/// </summary>
+VAN_EX1_533 = 69963,
+/// <summary>
+/// <para>随从 猎人 费用：6 攻击力：6 生命值：5</para>
+/// <para>Savannah Highmane</para>
+/// <para>长鬃草原狮</para>
+/// <para><b>Deathrattle:</b> Summon two 2/2 Hyenas.</para>
+/// <para><b>亡语：</b>召唤两只2/2的土狼。</para>
+/// </summary>
+VAN_EX1_534 = 69964,
+/// <summary>
+/// <para>武器 猎人 费用：3 攻击力：3 耐久度：2</para>
+/// <para>Eaglehorn Bow</para>
+/// <para>鹰角弓</para>
+/// <para>Whenever a <b>Secret</b> is revealed, gain +1 Durability.</para>
+/// <para>每当一个<b>奥秘</b>被揭示时，便获得+1耐久度。</para>
+/// </summary>
+VAN_EX1_536 = 69965,
+/// <summary>
+/// <para>法术 猎人 费用：5</para>
+/// <para>Explosive Shot</para>
+/// <para>爆炸射击</para>
+/// <para>Deal $5 damage to a minion and $2 damage to adjacent ones.</para>
+/// <para>对一个随从造成$5点伤害，并对其相邻的随从造成$2点伤害。</para>
+/// </summary>
+VAN_EX1_537 = 69966,
+/// <summary>
+/// <para>法术 猎人 费用：3</para>
+/// <para>Unleash the Hounds</para>
+/// <para>关门放狗</para>
+/// <para>For each enemy minion, summon a 1/1 Hound with <b>Charge</b>.</para>
+/// <para>战场上每有一个敌方随从，便召唤一个1/1并具有<b>冲锋</b>的猎犬。</para>
+/// </summary>
+VAN_EX1_538 = 69967,
+/// <summary>
+/// <para>法术 猎人 费用：3</para>
+/// <para>Kill Command</para>
+/// <para>杀戮命令</para>
+/// <para>Deal $3 damage. If you control a Beast, deal$5 damage instead.</para>
+/// <para>造成$3点伤害。如果你控制一个野兽，则改为造成$5点伤害。</para>
+/// </summary>
+VAN_EX1_539 = 68472,
+/// <summary>
+/// <para>随从 猎人 费用：9 攻击力：8 生命值：8</para>
+/// <para>King Krush</para>
+/// <para>暴龙王克鲁什</para>
+/// <para><b>Charge</b></para>
+/// <para><b>冲锋</b></para>
+/// </summary>
+VAN_EX1_543 = 69968,
+/// <summary>
+/// <para>法术 猎人 费用：1</para>
+/// <para>Flare</para>
+/// <para>照明弹</para>
+/// <para>All minions lose <b>Stealth</b>. Destroy all enemy <b>Secrets</b>. Draw a card.</para>
+/// <para>所有随从失去<b>潜行</b>，摧毁所有敌方<b>奥秘</b>，抽一张牌。</para>
+/// </summary>
+VAN_EX1_544 = 69969,
+/// <summary>
+/// <para>法术 猎人 费用：1</para>
+/// <para>Bestial Wrath</para>
+/// <para>狂野怒火</para>
+/// <para>Give a Beast +2 Attack and <b>Immune</b> this turn.</para>
+/// <para>在本回合中，使一个野兽获得+2攻击力和<b>免疫</b>。</para>
+/// </summary>
+VAN_EX1_549 = 69970,
+/// <summary>
+/// <para>法术 猎人 费用：2</para>
+/// <para>Snake Trap</para>
+/// <para>毒蛇陷阱</para>
+/// <para><b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.</para>
+/// <para><b>奥秘：</b>当你的随从受到攻击时，召唤三条1/1的蛇。</para>
+/// </summary>
+VAN_EX1_554 = 69971,
+/// <summary>
+/// <para>随从 猎人 费用：0 攻击力：1 生命值：1</para>
+/// <para>Snake</para>
+/// <para>蛇</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_EX1_554t = 71306,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：3</para>
+/// <para>Harvest Golem</para>
+/// <para>麦田傀儡</para>
+/// <para><b>Deathrattle:</b> Summon a 2/1 Damaged Golem.</para>
+/// <para><b>亡语：</b>召唤一个2/1的损坏的傀儡。</para>
+/// </summary>
+VAN_EX1_556 = 69972,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：0 生命值：4</para>
+/// <para>Nat Pagle</para>
+/// <para>纳特·帕格</para>
+/// <para>At the start of your turn, you have a 50% chance to draw an extra card.</para>
+/// <para>在你的回合开始时，你有50%的几率额外抽一张牌。</para>
+/// </summary>
+VAN_EX1_557 = 69973,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：5 生命值：4</para>
+/// <para>Harrison Jones</para>
+/// <para>哈里森·琼斯</para>
+/// <para><b>Battlecry:</b> Destroy your opponent's weapon and draw cards equal to its Durability.</para>
+/// <para><b>战吼：</b>摧毁对手的武器，并抽数量等同于其耐久度的牌。</para>
+/// </summary>
+VAN_EX1_558 = 69974,
+/// <summary>
+/// <para>随从 法师 费用：7 攻击力：5 生命值：7</para>
+/// <para>Archmage Antonidas</para>
+/// <para>大法师安东尼达斯</para>
+/// <para>Whenever you cast a spell, add a 'Fireball' spell to_your hand.</para>
+/// <para>每当你施放一个法术，将一张“火球术”法术牌置入你的手牌。</para>
+/// </summary>
+VAN_EX1_559 = 69975,
+/// <summary>
+/// <para>随从 中立 费用：9 攻击力：8 生命值：8</para>
+/// <para>Nozdormu</para>
+/// <para>诺兹多姆</para>
+/// <para>Players only have 15 seconds to take their_turns.</para>
+/// <para>所有玩家只有15秒的时间来进行他们的回合。</para>
+/// </summary>
+VAN_EX1_560 = 69976,
+/// <summary>
+/// <para>随从 中立 费用：9 攻击力：8 生命值：8</para>
+/// <para>Alexstrasza</para>
+/// <para>阿莱克丝塔萨</para>
+/// <para><b>Battlecry:</b> Set a hero's remaining Health to 15.</para>
+/// <para><b>战吼：</b>将一方英雄的剩余生命值变为15。</para>
+/// </summary>
+VAN_EX1_561 = 69977,
+/// <summary>
+/// <para>随从 中立 费用：9 攻击力：8 生命值：8</para>
+/// <para>Onyxia</para>
+/// <para>奥妮克希亚</para>
+/// <para><b>Battlecry:</b> Summon 1/1 Whelps until your side of the battlefield is full.</para>
+/// <para><b>战吼：</b>召唤数条1/1的雏龙，直到你的随从数量达到上限。</para>
+/// </summary>
+VAN_EX1_562 = 69978,
+/// <summary>
+/// <para>随从 中立 费用：9 攻击力：4 生命值：12</para>
+/// <para>Malygos</para>
+/// <para>玛里苟斯</para>
+/// <para><b>Spell Damage +5</b></para>
+/// <para><b>法术伤害+5</b></para>
+/// </summary>
+VAN_EX1_563 = 69979,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：3 生命值：3</para>
+/// <para>Faceless Manipulator</para>
+/// <para>无面操纵者</para>
+/// <para><b>Battlecry:</b> Choose a minion and become a copy of it.</para>
+/// <para><b>战吼：</b>选择一个随从，成为它的复制。</para>
+/// </summary>
+VAN_EX1_564 = 69980,
+/// <summary>
+/// <para>随从 萨满祭司 费用：2 攻击力：0 生命值：3</para>
+/// <para>Flametongue Totem</para>
+/// <para>火舌图腾</para>
+/// <para>Adjacent minions have +2_Attack.</para>
+/// <para>相邻的随从获得+2攻击力。</para>
+/// </summary>
+VAN_EX1_565 = 68473,
+/// <summary>
+/// <para>武器 萨满祭司 费用：5 攻击力：2 耐久度：8</para>
+/// <para>Doomhammer</para>
+/// <para>毁灭之锤</para>
+/// <para><b>Windfury, Overload:</b> (2)</para>
+/// <para><b>风怒，过载：</b>（2）</para>
+/// </summary>
+VAN_EX1_567 = 69981,
+/// <summary>
+/// <para>法术 德鲁伊 费用：4</para>
+/// <para>Bite</para>
+/// <para>撕咬</para>
+/// <para>Give your hero +4_Attack this turn. Gain 4 Armor.</para>
+/// <para>使你的英雄获得4点护甲值，并在本回合中获得+4攻击力。</para>
+/// </summary>
+VAN_EX1_570 = 69982,
+/// <summary>
+/// <para>法术 德鲁伊 费用：6</para>
+/// <para>Force of Nature</para>
+/// <para>自然之力</para>
+/// <para>Summon three 2/2 Treants with<b>Charge</b> that die at the end of the turn.</para>
+/// <para>召唤三个2/2并具有<b>冲锋</b>的树人，在回合结束时，消灭这些树人。</para>
+/// </summary>
+VAN_EX1_571 = 70981,
+/// <summary>
+/// <para>随从 中立 费用：9 攻击力：4 生命值：12</para>
+/// <para>Ysera</para>
+/// <para>伊瑟拉</para>
+/// <para>At the end of your turn, add_a Dream Card to_your hand.</para>
+/// <para>在你的回合结束时，将一张梦境牌置入你的手牌。</para>
+/// </summary>
+VAN_EX1_572 = 70980,
+/// <summary>
+/// <para>随从 德鲁伊 费用：9 攻击力：5 生命值：8</para>
+/// <para>Cenarius</para>
+/// <para>塞纳留斯</para>
+/// <para><b>Choose One -</b> Give your other minions +2/+2; or Summon two 2/2 Treants with <b>Taunt</b>.</para>
+/// <para><b>抉择：</b>使你的所有其他随从获得+2/+2；或者召唤两个2/2并具有<b>嘲讽</b>的树人。</para>
+/// </summary>
+VAN_EX1_573 = 70031,
+/// <summary>
+/// <para>法术 德鲁伊 费用：9</para>
+/// <para>Demigod's Favor</para>
+/// <para>半神的恩赐</para>
+/// <para>Give your other minions +2/+2.</para>
+/// <para>使你的所有其他随从获得+2/+2。</para>
+/// </summary>
+VAN_EX1_573a = 71504,
+/// <summary>
+/// <para>法术 德鲁伊 费用：9</para>
+/// <para>Shan'do's Lesson</para>
+/// <para>恩师的教诲</para>
+/// <para>Summon two 2/2 Treants with <b>Taunt</b>.</para>
+/// <para>召唤两个2/2并具有<b>嘲讽</b>的树人。</para>
+/// </summary>
+VAN_EX1_573b = 71503,
+/// <summary>
+/// <para>随从 萨满祭司 费用：3 攻击力：0 生命值：3</para>
+/// <para>Mana Tide Totem</para>
+/// <para>法力之潮图腾</para>
+/// <para>At the end of your turn, draw a card.</para>
+/// <para>在你的回合结束时，抽一张牌。</para>
+/// </summary>
+VAN_EX1_575 = 70032,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：9 生命值：7</para>
+/// <para>The Beast</para>
+/// <para>比斯巨兽</para>
+/// <para><b>Deathrattle:</b> Summon a 3/3 Finkle Einhorn for your opponent.</para>
+/// <para><b>亡语：</b>为你的对手召唤1个3/3的芬克·恩霍尔。</para>
+/// </summary>
+VAN_EX1_577 = 70033,
+/// <summary>
+/// <para>法术 德鲁伊 费用：1</para>
+/// <para>Savagery</para>
+/// <para>野蛮之击</para>
+/// <para>Deal damage equal to your hero's Attack to a minion.</para>
+/// <para>对一个随从造成等同于你的英雄攻击力的伤害。</para>
+/// </summary>
+VAN_EX1_578 = 70034,
+/// <summary>
+/// <para>法术 牧师 费用：2</para>
+/// <para>Sap</para>
+/// <para>闷棍</para>
+/// <para>Return an enemy minion to your opponent's hand.</para>
+/// <para>将一个敌方随从移回你对手的手牌。</para>
+/// </summary>
+VAN_EX1_581 = 68475,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：1 生命值：4</para>
+/// <para>Dalaran Mage</para>
+/// <para>达拉然法师</para>
+/// <para><b>Spell Damage +1</b></para>
+/// <para><b>法术伤害+1</b></para>
+/// </summary>
+VAN_EX1_582 = 68476,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：5 生命值：4</para>
+/// <para>Priestess of Elune</para>
+/// <para>艾露恩的女祭司</para>
+/// <para><b>Battlecry:</b> Restore #4 Health to your hero.</para>
+/// <para><b>战吼：</b>为你的英雄恢复#4点生命值。</para>
+/// </summary>
+VAN_EX1_583 = 70035,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：2 生命值：5</para>
+/// <para>Ancient Mage</para>
+/// <para>年迈的法师</para>
+/// <para><b>Battlecry:</b> Give adjacent_minions <b>Spell_Damage +1</b>.</para>
+/// <para><b>战吼：</b>使相邻的随从获得<b>法术伤害+1</b>。</para>
+/// </summary>
+VAN_EX1_584 = 70036,
+/// <summary>
+/// <para>随从 中立 费用：10 攻击力：8 生命值：8</para>
+/// <para>Sea Giant</para>
+/// <para>海巨人</para>
+/// <para>Costs (1) less for each other minion on the battlefield.</para>
+/// <para>战场上每有一个其他随从，该牌的法力值消耗便减少（1）点。</para>
+/// </summary>
+VAN_EX1_586 = 70037,
+/// <summary>
+/// <para>随从 萨满祭司 费用：4 攻击力：3 生命值：3</para>
+/// <para>Windspeaker</para>
+/// <para>风语者</para>
+/// <para><b>Battlecry:</b> Give a friendly minion <b>Windfury</b>.</para>
+/// <para><b>战吼：</b>使一个友方随从获得<b>风怒</b>。</para>
+/// </summary>
+VAN_EX1_587 = 68477,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：3</para>
+/// <para>Blood Knight</para>
+/// <para>血骑士</para>
+/// <para><b>Battlecry:</b> All minions lose <b>Divine Shield</b>. Gain +3/+3 for each Shield lost.</para>
+/// <para><b>战吼：</b>所有随从失去<b>圣盾</b>。每有一个随从失去圣盾，便获得+3/+3。</para>
+/// </summary>
+VAN_EX1_590 = 70038,
+/// <summary>
+/// <para>随从 潜行者 费用：4 攻击力：3 生命值：5</para>
+/// <para>Auchenai Soulpriest</para>
+/// <para>奥金尼灵魂祭司</para>
+/// <para>Your cards and powers that restore Health now deal damage instead.</para>
+/// <para>你的恢复生命值的牌和技能改为造成等量的伤害。</para>
+/// </summary>
+VAN_EX1_591 = 70039,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：4 生命值：4</para>
+/// <para>Nightblade</para>
+/// <para>夜刃刺客</para>
+/// <para><b>Battlecry: </b>Deal 3 damage to the enemy hero.</para>
+/// <para><b>战吼：</b>对敌方英雄造成3点伤害。</para>
+/// </summary>
+VAN_EX1_593 = 68478,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Vaporize</para>
+/// <para>蒸发</para>
+/// <para><b>Secret:</b> When a minion attacks your hero, destroy it.</para>
+/// <para><b>奥秘：</b>当一个随从攻击你的英雄，将其消灭。</para>
+/// </summary>
+VAN_EX1_594 = 70040,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：4 生命值：2</para>
+/// <para>Cult Master</para>
+/// <para>诅咒教派领袖</para>
+/// <para>After a friendly minion dies, draw a card.</para>
+/// <para>在一个友方随从死亡后，抽一张牌。</para>
+/// </summary>
+VAN_EX1_595 = 70041,
+/// <summary>
+/// <para>法术 术士 费用：2</para>
+/// <para>Demonfire</para>
+/// <para>恶魔之火</para>
+/// <para>Deal $2 damage to a minion. If it’s a friendly Demon, give it +2/+2 instead.</para>
+/// <para>对一个随从造成$2点伤害，如果该随从是友方恶魔，则改为使其获得+2/+2。</para>
+/// </summary>
+VAN_EX1_596 = 70042,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：1 生命值：5</para>
+/// <para>Imp Master</para>
+/// <para>小鬼召唤师</para>
+/// <para>[x]At the end of your turn, deal1 damage to this minion and summon a 1/1 Imp.</para>
+/// <para>在你的回合结束时，对该随从造成1点伤害，并召唤一个1/1的小鬼。</para>
+/// </summary>
+VAN_EX1_597 = 70043,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Imp</para>
+/// <para>小鬼</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_EX1_598 = 70044,
+/// <summary>
+/// <para>随从 战士 费用：2 攻击力：2 生命值：2</para>
+/// <para>Cruel Taskmaster</para>
+/// <para>严酷的监工</para>
+/// <para><b>Battlecry:</b> Deal 1 damage to a minion and give it +2_Attack.</para>
+/// <para><b>战吼：</b>对一个随从造成1点伤害，并使其获得+2攻击力。</para>
+/// </summary>
+VAN_EX1_603 = 70045,
+/// <summary>
+/// <para>随从 战士 费用：3 攻击力：2 生命值：4</para>
+/// <para>Frothing Berserker</para>
+/// <para>暴乱狂战士</para>
+/// <para>Whenever a minion takes damage, gain +1 Attack.</para>
+/// <para>每当一个随从受到伤害，便获得+1攻击力。</para>
+/// </summary>
+VAN_EX1_604 = 70046,
+/// <summary>
+/// <para>法术 战士 费用：3</para>
+/// <para>Shield Block</para>
+/// <para>盾牌格挡</para>
+/// <para>Gain 5 Armor.Draw a card.</para>
+/// <para>获得5点护甲值。抽一张牌。</para>
+/// </summary>
+VAN_EX1_606 = 68479,
+/// <summary>
+/// <para>法术 战士 费用：0</para>
+/// <para>Inner Rage</para>
+/// <para>怒火中烧</para>
+/// <para>Deal $1 damage to a minion and give it +2_Attack.</para>
+/// <para>对一个随从造成$1点伤害，该随从获得+2攻击力。</para>
+/// </summary>
+VAN_EX1_607 = 70047,
+/// <summary>
+/// <para>随从 法师 费用：2 攻击力：3 生命值：2</para>
+/// <para>Sorcerer's Apprentice</para>
+/// <para>巫师学徒</para>
+/// <para>Your spells cost (1) less.</para>
+/// <para>你的法术的法力值消耗减少（1）点。</para>
+/// </summary>
+VAN_EX1_608 = 70048,
+/// <summary>
+/// <para>法术 猎人 费用：2</para>
+/// <para>Snipe</para>
+/// <para>狙击</para>
+/// <para><b>Secret:</b> After your opponent plays a minion, deal $4 damage to it.</para>
+/// <para><b>奥秘：</b>在你的对手使用一张随从牌后，对该随从造成$4点伤害。</para>
+/// </summary>
+VAN_EX1_609 = 70049,
+/// <summary>
+/// <para>法术 猎人 费用：2</para>
+/// <para>Explosive Trap</para>
+/// <para>爆炸陷阱</para>
+/// <para><b>Secret:</b> When your hero is attacked, deal $2 damage to all enemies.</para>
+/// <para><b>奥秘：</b>当你的英雄受到攻击，对所有敌人造成$2点伤害。</para>
+/// </summary>
+VAN_EX1_610 = 70050,
+/// <summary>
+/// <para>法术 猎人 费用：2</para>
+/// <para>Freezing Trap</para>
+/// <para>冰冻陷阱</para>
+/// <para><b>Secret:</b> When an enemy minion attacks, return it to its owner's hand. It costs (2) more.</para>
+/// <para><b>奥秘：</b>当一个敌方随从攻击时，将其移回拥有者的手牌，并且法力值消耗增加（2）点。</para>
+/// </summary>
+VAN_EX1_611 = 70051,
+/// <summary>
+/// <para>随从 法师 费用：3 攻击力：4 生命值：3</para>
+/// <para>Kirin Tor Mage</para>
+/// <para>肯瑞托法师</para>
+/// <para>[x]<b>Battlecry:</b> The next <b>Secret</b>you play this turn costs (0).</para>
+/// <para><b>战吼：</b>在本回合中，你使用的下一个<b>奥秘</b>的法力值消耗为（0）点。</para>
+/// </summary>
+VAN_EX1_612 = 70052,
+/// <summary>
+/// <para>随从 牧师 费用：3 攻击力：2 生命值：2</para>
+/// <para>Edwin VanCleef</para>
+/// <para>艾德温·范克里夫</para>
+/// <para><b>Combo:</b> Gain +2/+2 for each card played earlier this turn.</para>
+/// <para><b>连击：</b>在本回合中，使用此牌前每使用一张其他牌，便获得+2/+2。</para>
+/// </summary>
+VAN_EX1_613 = 70053,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：7 生命值：5</para>
+/// <para>Illidan Stormrage</para>
+/// <para>伊利丹·怒风</para>
+/// <para>Whenever you play a card, summon a 2/1 Flame of Azzinoth.</para>
+/// <para>每当你使用一张牌时，召唤一个2/1的埃辛诺斯之焰。</para>
+/// </summary>
+VAN_EX1_614 = 70054,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：2</para>
+/// <para>Mana Wraith</para>
+/// <para>法力怨魂</para>
+/// <para>ALL minions cost (1) more.</para>
+/// <para>召唤所有随从的法力值消耗增加（1）点。</para>
+/// </summary>
+VAN_EX1_616 = 70055,
+/// <summary>
+/// <para>法术 猎人 费用：3</para>
+/// <para>Deadly Shot</para>
+/// <para>致命射击</para>
+/// <para>Destroy a random enemy minion.</para>
+/// <para>随机消灭一个敌方随从。</para>
+/// </summary>
+VAN_EX1_617 = 70056,
+/// <summary>
+/// <para>法术 圣骑士 费用：2</para>
+/// <para>Equality</para>
+/// <para>生而平等</para>
+/// <para>Change the Health of ALL minions to 1.</para>
+/// <para>将所有随从的生命值变为1。</para>
+/// </summary>
+VAN_EX1_619 = 70057,
+/// <summary>
+/// <para>随从 中立 费用：20 攻击力：8 生命值：8</para>
+/// <para>Molten Giant</para>
+/// <para>熔核巨人</para>
+/// <para>Costs (1) less for each damage your hero has taken.</para>
+/// <para>你的英雄每受到1点伤害，该牌的法力值消耗便减少（1）点。</para>
+/// </summary>
+VAN_EX1_620 = 70058,
+/// <summary>
+/// <para>法术 潜行者 费用：0</para>
+/// <para>Circle of Healing</para>
+/// <para>治疗之环</para>
+/// <para>Restore #4 Health to ALL_minions.</para>
+/// <para>为所有随从恢复#4点生命值。</para>
+/// </summary>
+VAN_EX1_621 = 70059,
+/// <summary>
+/// <para>法术 潜行者 费用：3</para>
+/// <para>Shadow Word: Death</para>
+/// <para>暗言术：灭</para>
+/// <para>Destroy a minion with 5_or more Attack.</para>
+/// <para>消灭一个攻击力大于或等于5的随从。</para>
+/// </summary>
+VAN_EX1_622 = 68480,
+/// <summary>
+/// <para>随从 潜行者 费用：6 攻击力：6 生命值：6</para>
+/// <para>Temple Enforcer</para>
+/// <para>圣殿执行者</para>
+/// <para><b>Battlecry:</b> Give a friendly minion +3 Health.</para>
+/// <para><b>战吼：</b>使一个友方随从获得+3生命值。</para>
+/// </summary>
+VAN_EX1_623 = 70060,
+/// <summary>
+/// <para>法术 潜行者 费用：6</para>
+/// <para>Holy Fire</para>
+/// <para>神圣之火</para>
+/// <para>Deal $5 damage. Restore #5 Health to your hero.</para>
+/// <para>造成$5点伤害。为你的英雄恢复#5点生命值。</para>
+/// </summary>
+VAN_EX1_624 = 70061,
+/// <summary>
+/// <para>法术 潜行者 费用：3</para>
+/// <para>Shadowform</para>
+/// <para>暗影形态</para>
+/// <para>Your Hero Power becomes 'Deal 2 damage.' If already in Shadowform: 3 damage.</para>
+/// <para>你的英雄技能变为“造成2点伤害”，如果已经处于暗影形态下：改为“造成3点伤害”。</para>
+/// </summary>
+VAN_EX1_625 = 70062,
+/// <summary>
+/// <para>法术 潜行者 费用：4</para>
+/// <para>Mass Dispel</para>
+/// <para>群体驱散</para>
+/// <para><b>Silence</b> all enemy minions. Draw a card.</para>
+/// <para><b>沉默</b>所有敌方随从，抽一张牌。</para>
+/// </summary>
+VAN_EX1_626 = 70063,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：3</para>
+/// <para>Finkle Einhorn</para>
+/// <para>芬克·恩霍尔</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_EX1_finkle = 70064,
+/// <summary>
+/// <para>随从 萨满祭司 费用：2 攻击力：2 生命值：3</para>
+/// <para>Spirit Wolf</para>
+/// <para>幽灵狼</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_EX1_tk11 = 70065,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Squirrel</para>
+/// <para>松鼠</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_EX1_tk28 = 70066,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：5 生命值：5</para>
+/// <para>Devilsaur</para>
+/// <para>魔暴龙</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_EX1_tk29 = 70067,
+/// <summary>
+/// <para>随从 术士 费用：6 攻击力：6 生命值：6</para>
+/// <para>Infernal</para>
+/// <para>地狱火</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_EX1_tk34 = 70070,
+/// <summary>
+/// <para>随从 德鲁伊 费用：1 攻击力：2 生命值：2</para>
+/// <para>Treant</para>
+/// <para>树人</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_EX1_tk9 = 70071,
+/// <summary>
+/// <para>随从 德鲁伊 费用：1 攻击力：2 生命值：2</para>
+/// <para>Treant</para>
+/// <para>树人</para>
+/// <para><b>Charge</b></para>
+/// <para><b>冲锋</b></para>
+/// </summary>
+VAN_EX1_tk9b = 71310,
+/// <summary>
+/// <para>随从 中立 费用：0 攻击力：1 生命值：1</para>
+/// <para>Avatar of the Coin</para>
+/// <para>幸运币化身</para>
+/// <para><i>You lost the coin flip, but gained a friend.</i></para>
+/// <para><i>你失去了先手，但比赛依然掌握在你的手里。</i></para>
+/// </summary>
+VAN_GAME_002 = 68482,
+/// <summary>
+/// <para>法术 术士 费用：0</para>
+/// <para>Sacrificial Pact</para>
+/// <para>牺牲契约</para>
+/// <para>Destroy a Demon. Restore #5 Health to your hero.</para>
+/// <para>消灭一个恶魔，为你的英雄恢复#5点生命值。</para>
+/// </summary>
+VAN_NEW1_003 = 68526,
+/// <summary>
+/// <para>法术 牧师 费用：6</para>
+/// <para>Vanish</para>
+/// <para>消失</para>
+/// <para>Return all minions to their owner's hand.</para>
+/// <para>将所有随从移回其拥有者的手牌。</para>
+/// </summary>
+VAN_NEW1_004 = 68548,
+/// <summary>
+/// <para>随从 牧师 费用：6 攻击力：5 生命值：3</para>
+/// <para>Kidnapper</para>
+/// <para>劫持者</para>
+/// <para><b>Combo:</b> Return a minion to_its owner's hand.</para>
+/// <para><b>连击：</b>将一个随从移回其拥有者的手牌。</para>
+/// </summary>
+VAN_NEW1_005 = 70075,
+/// <summary>
+/// <para>法术 德鲁伊 费用：5</para>
+/// <para>Starfall</para>
+/// <para>星辰坠落</para>
+/// <para><b>Choose One -</b>Deal $5 damage to a minion; or $2 damage to all enemy minions.</para>
+/// <para><b>抉择：</b>对一个随从造成$5点伤害；或者对所有敌方随从造成$2点伤害。</para>
+/// </summary>
+VAN_NEW1_007 = 70076,
+/// <summary>
+/// <para>法术 德鲁伊 费用：5</para>
+/// <para>Stellar Drift</para>
+/// <para>星辰漂流</para>
+/// <para>Deal $2 damage to all enemy minions.</para>
+/// <para>对所有敌方随从造成$2点伤害。</para>
+/// </summary>
+VAN_NEW1_007a = 71367,
+/// <summary>
+/// <para>法术 德鲁伊 费用：5</para>
+/// <para>Starlord</para>
+/// <para>星辰领主</para>
+/// <para>Deal $5 damage to a minion.</para>
+/// <para>对一个随从造成$5点伤害。</para>
+/// </summary>
+VAN_NEW1_007b = 71365,
+/// <summary>
+/// <para>随从 德鲁伊 费用：7 攻击力：5 生命值：5</para>
+/// <para>Ancient of Lore</para>
+/// <para>知识古树</para>
+/// <para><b>Choose One -</b> Draw 2 cards; or Restore #5 Health.</para>
+/// <para><b>抉择：</b>抽两张牌；或者恢复#5点生命值。</para>
+/// </summary>
+VAN_NEW1_008 = 70077,
+/// <summary>
+/// <para>法术 德鲁伊 费用：7</para>
+/// <para>Ancient Teachings</para>
+/// <para>古老的教诲</para>
+/// <para>Draw 2 cards.</para>
+/// <para>抽两张牌。</para>
+/// </summary>
+VAN_NEW1_008a = 70407,
+/// <summary>
+/// <para>法术 德鲁伊 费用：7</para>
+/// <para>Ancient Secrets</para>
+/// <para>古老的秘密</para>
+/// <para>Restore 5 Health.</para>
+/// <para>恢复5点生命值。</para>
+/// </summary>
+VAN_NEW1_008b = 71500,
+/// <summary>
+/// <para>随从 萨满祭司 费用：1 攻击力：0 生命值：2</para>
+/// <para>Healing Totem</para>
+/// <para>治疗图腾</para>
+/// <para>At the end of your turn, restore #1 Health to all friendly minions.</para>
+/// <para>在你的回合结束时，为所有友方随从恢复#1点生命值。</para>
+/// </summary>
+VAN_NEW1_009 = 68527,
+/// <summary>
+/// <para>随从 萨满祭司 费用：8 攻击力：3 生命值：5</para>
+/// <para>Al'Akir the Windlord</para>
+/// <para>风领主奥拉基尔</para>
+/// <para><b>Charge, Divine Shield, Taunt, Windfury</b></para>
+/// <para><b>冲锋，圣盾，嘲讽，风怒</b></para>
+/// </summary>
+VAN_NEW1_010 = 70078,
+/// <summary>
+/// <para>随从 战士 费用：4 攻击力：4 生命值：3</para>
+/// <para>Kor'kron Elite</para>
+/// <para>库卡隆精英卫士</para>
+/// <para><b>Charge</b></para>
+/// <para><b>冲锋</b></para>
+/// </summary>
+VAN_NEW1_011 = 68528,
+/// <summary>
+/// <para>随从 法师 费用：1 攻击力：1 生命值：3</para>
+/// <para>Mana Wyrm</para>
+/// <para>法力浮龙</para>
+/// <para>Whenever you cast a spell, gain +1 Attack.</para>
+/// <para>每当你施放一个法术，便获得+1攻击力。</para>
+/// </summary>
+VAN_NEW1_012 = 70079,
+/// <summary>
+/// <para>随从 牧师 费用：4 攻击力：4 生命值：4</para>
+/// <para>Master of Disguise</para>
+/// <para>伪装大师</para>
+/// <para><b>Battlecry:</b> Give a friendly minion <b>Stealth</b>.</para>
+/// <para><b>战吼：</b>使一个友方随从获得<b>潜行</b>。</para>
+/// </summary>
+VAN_NEW1_014 = 70080,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：1 生命值：1</para>
+/// <para>Captain's Parrot</para>
+/// <para>船长的鹦鹉</para>
+/// <para><b>Battlecry:</b> Draw a Pirate from your deck.</para>
+/// <para><b>战吼：</b>从你的牌库中抽一张海盗牌。</para>
+/// </summary>
+VAN_NEW1_016 = 68549,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：2</para>
+/// <para>Hungry Crab</para>
+/// <para>鱼人杀手蟹</para>
+/// <para><b>Battlecry:</b> Destroy a Murloc and gain +2/+2.</para>
+/// <para><b>战吼：</b>消灭一个鱼人，并获得+2/+2。</para>
+/// </summary>
+VAN_NEW1_017 = 70081,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：2 生命值：3</para>
+/// <para>Bloodsail Raider</para>
+/// <para>血帆袭击者</para>
+/// <para><b>Battlecry:</b> Gain Attack equal to the Attackof your weapon.</para>
+/// <para><b>战吼：</b>获得等同于你的武器攻击力的攻击力。</para>
+/// </summary>
+VAN_NEW1_018 = 70082,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：3 生命值：2</para>
+/// <para>Knife Juggler</para>
+/// <para>飞刀杂耍者</para>
+/// <para>[x]After you summon aminion, deal 1 damageto a random enemy.</para>
+/// <para>在你召唤一个随从后，随机对一个敌人造成1点伤害。</para>
+/// </summary>
+VAN_NEW1_019 = 70083,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：3 生命值：2</para>
+/// <para>Wild Pyromancer</para>
+/// <para>狂野炎术师</para>
+/// <para>After you cast a spell, deal 1 damage to ALL minions.</para>
+/// <para>在你施放一个法术后，对所有随从造成1点伤害。</para>
+/// </summary>
+VAN_NEW1_020 = 70084,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：0 生命值：7</para>
+/// <para>Doomsayer</para>
+/// <para>末日预言者</para>
+/// <para>At the start of your turn, destroy ALL minions.</para>
+/// <para>在你的回合开始时，消灭所有随从。</para>
+/// </summary>
+VAN_NEW1_021 = 70085,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：3 生命值：3</para>
+/// <para>Dread Corsair</para>
+/// <para>恐怖海盗</para>
+/// <para><b>Taunt</b>Costs (1) less per Attack of_your weapon.</para>
+/// <para><b>嘲讽</b>你的武器每有1点攻击力，该牌的法力值消耗便减少（1）点。</para>
+/// </summary>
+VAN_NEW1_022 = 70086,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：3 生命值：2</para>
+/// <para>Faerie Dragon</para>
+/// <para>精灵龙</para>
+/// <para>Can't be targeted by spells or Hero Powers.</para>
+/// <para>无法成为法术或英雄技能的目标。</para>
+/// </summary>
+VAN_NEW1_023 = 70087,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：5 生命值：4</para>
+/// <para>Captain Greenskin</para>
+/// <para>绿皮船长</para>
+/// <para><b>Battlecry:</b> Give your weapon +1/+1.</para>
+/// <para><b>战吼：</b>使你的武器获得+1/+1。</para>
+/// </summary>
+VAN_NEW1_024 = 70088,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：2</para>
+/// <para>Bloodsail Corsair</para>
+/// <para>血帆海盗</para>
+/// <para>[x]<b>Battlecry:</b> Remove1 Durability from youropponent's weapon.</para>
+/// <para><b>战吼：</b>使对手的武器失去1点耐久度。</para>
+/// </summary>
+VAN_NEW1_025 = 70089,
+/// <summary>
+/// <para>随从 中立 费用：4 攻击力：3 生命值：5</para>
+/// <para>Violet Teacher</para>
+/// <para>紫罗兰教师</para>
+/// <para>Whenever you cast a spell, summon a 1/1 Violet Apprentice.</para>
+/// <para>每当你施放一个法术，召唤一个1/1的紫罗兰学徒。</para>
+/// </summary>
+VAN_NEW1_026 = 70090,
+/// <summary>
+/// <para>随从 中立 费用：0 攻击力：1 生命值：1</para>
+/// <para>Violet Apprentice</para>
+/// <para>紫罗兰学徒</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_NEW1_026t = 71308,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：3 生命值：3</para>
+/// <para>Southsea Captain</para>
+/// <para>南海船长</para>
+/// <para>Your other Pirates have +1/+1.</para>
+/// <para>你的其他海盗获得+1/+1。</para>
+/// </summary>
+VAN_NEW1_027 = 70091,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：4 生命值：4</para>
+/// <para>Millhouse Manastorm</para>
+/// <para>米尔豪斯·法力风暴</para>
+/// <para><b>Battlecry:</b> Enemy spells cost (0) next turn.</para>
+/// <para><b>战吼：</b>下个回合敌方法术的法力值消耗为（0）点。</para>
+/// </summary>
+VAN_NEW1_029 = 70092,
+/// <summary>
+/// <para>随从 中立 费用：10 攻击力：12 生命值：12</para>
+/// <para>Deathwing</para>
+/// <para>死亡之翼</para>
+/// <para><b>Battlecry:</b> Destroy all other minions and discard your_hand.</para>
+/// <para><b>战吼：</b>消灭所有其他随从，并弃掉你的手牌。</para>
+/// </summary>
+VAN_NEW1_030 = 70093,
+/// <summary>
+/// <para>法术 猎人 费用：3</para>
+/// <para>Animal Companion</para>
+/// <para>动物伙伴</para>
+/// <para>Summon a random Beast Companion.</para>
+/// <para>随机召唤一个野兽伙伴。</para>
+/// </summary>
+VAN_NEW1_031 = 68529,
+/// <summary>
+/// <para>随从 猎人 费用：3 攻击力：4 生命值：4</para>
+/// <para>Misha</para>
+/// <para>米莎</para>
+/// <para><b>Taunt</b></para>
+/// <para><b>嘲讽</b></para>
+/// </summary>
+VAN_NEW1_032 = 68530,
+/// <summary>
+/// <para>随从 猎人 费用：3 攻击力：2 生命值：4</para>
+/// <para>Leokk</para>
+/// <para>雷欧克</para>
+/// <para>Your other minions have +1 Attack.</para>
+/// <para>你的其他随从获得+1攻击力。</para>
+/// </summary>
+VAN_NEW1_033 = 68531,
+/// <summary>
+/// <para>随从 猎人 费用：3 攻击力：4 生命值：2</para>
+/// <para>Huffer</para>
+/// <para>霍弗</para>
+/// <para><b>Charge</b></para>
+/// <para><b>冲锋</b></para>
+/// </summary>
+VAN_NEW1_034 = 68533,
+/// <summary>
+/// <para>法术 战士 费用：2</para>
+/// <para>Commanding Shout</para>
+/// <para>命令怒吼</para>
+/// <para>Your minions can't be reduced below 1 Health this turn. Draw a card.</para>
+/// <para>在本回合中，你的随从的生命值无法被降到1点以下。抽一张牌。</para>
+/// </summary>
+VAN_NEW1_036 = 70094,
+/// <summary>
+/// <para>随从 中立 费用：2 攻击力：1 生命值：3</para>
+/// <para>Master Swordsmith</para>
+/// <para>铸剑师</para>
+/// <para>At the end of your turn, give another random friendly minion +1 Attack.</para>
+/// <para>在你的回合结束时，随机使另一个友方随从获得+1攻击力。</para>
+/// </summary>
+VAN_NEW1_037 = 70095,
+/// <summary>
+/// <para>随从 中立 费用：8 攻击力：7 生命值：7</para>
+/// <para>Gruul</para>
+/// <para>格鲁尔</para>
+/// <para>At the end of each turn, gain +1/+1 .</para>
+/// <para>在每个回合结束时，获得+1/+1。</para>
+/// </summary>
+VAN_NEW1_038 = 70096,
+/// <summary>
+/// <para>随从 中立 费用：6 攻击力：4 生命值：4</para>
+/// <para>Hogger</para>
+/// <para>霍格</para>
+/// <para>At the end of your turn, summon a 2/2 Gnoll with_<b>Taunt</b>.</para>
+/// <para>在你的回合结束时，召唤一个2/2并具有<b>嘲讽</b>的豺狼人。</para>
+/// </summary>
+VAN_NEW1_040 = 70097,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：3 生命值：5</para>
+/// <para>Stampeding Kodo</para>
+/// <para>狂奔科多兽</para>
+/// <para><b>Battlecry:</b> Destroy a random enemy minion with 2 or less Attack.</para>
+/// <para><b>战吼：</b>随机消灭一个攻击力小于或等于2的敌方随从。</para>
+/// </summary>
+VAN_NEW1_041 = 70098,
+/// <summary>
+/// <para>随从 中立 费用：5 攻击力：5 生命值：5</para>
+/// <para>Elite Tauren Chieftain</para>
+/// <para>精英牛头人酋长</para>
+/// <para><b>Battlecry:</b> Give both players the power to ROCK! (with a Power Chord card)</para>
+/// <para><b>战吼：</b>让两位玩家都具有摇滚的能力！（双方各获得一张强力和弦牌）</para>
+/// </summary>
+VAN_PRO_001 = 68550,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：1 生命值：1</para>
+/// <para>Skeleton</para>
+/// <para>骷髅</para>
+/// <para><b></b></para>
+/// <para><b></b></para>
+/// </summary>
+VAN_skele11 = 68534,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Damaged Golem</para>
+/// <para>损坏的傀儡</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_skele21 = 70099,
+/// <summary>
+/// <para>随从 中立 费用：3 攻击力：2 生命值：3</para>
+/// <para>Flesheating Ghoul</para>
+/// <para>腐肉食尸鬼</para>
+/// <para>Whenever a minion dies, gain +1 Attack.</para>
+/// <para>每当一个随从死亡，便获得+1攻击力。</para>
+/// </summary>
+VAN_tt_004 = 70101,
+/// <summary>
+/// <para>法术 法师 费用：3</para>
+/// <para>Spellbender</para>
+/// <para>扰咒术</para>
+/// <para><b>Secret:</b> When an enemy casts a spell on a minion, summon a 1/3 as the new target.</para>
+/// <para><b>奥秘：</b>当一个敌方法术以一个随从为目标时，召唤一个1/3的随从并使其成为新的目标。</para>
+/// </summary>
+VAN_tt_010 = 70102,
+/// <summary>
+/// <para>随从 法师 费用：0 攻击力：1 生命值：3</para>
+/// <para>Spellbender</para>
+/// <para>扰咒师</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_tt_010a = 71307,
+/// <summary>
+/// <para>随从 中立 费用：1 攻击力：2 生命值：1</para>
+/// <para>Flame of Azzinoth</para>
+/// <para>埃辛诺斯之焰</para>
+/// <para></para>
+/// <para></para>
+/// </summary>
+VAN_TU4e_002t = 70500,
 
 
 

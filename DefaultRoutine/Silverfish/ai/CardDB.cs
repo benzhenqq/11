@@ -258,6 +258,8 @@ namespace HREngine.Bots
             public bool Morph = false;
             public bool Spellpower = false;
             public bool Inspire = false;
+            public bool Corrupt = false;
+            
 
 
 
@@ -285,6 +287,7 @@ namespace HREngine.Bots
             public List<cardtrigers> trigers;
 
             public SimTemplate sim_card;
+            public string 卡名 = "";
 
             public Card()
             {
@@ -1401,6 +1404,35 @@ namespace HREngine.Bots
                                     sb.Replace("’", "");
                                     // 转换到名称
                                     c.name = this.cardNamestringToEnum(sb.ToString().ToLower());
+
+
+                                    while ((index1 = s.IndexOf("<zhCN>")) == -1)
+                                    {
+                                        s = reader.ReadLine();
+                                    }
+                                    index1 += 6;
+                                    index2 = s.IndexOf("</zhCN>", index1);
+                                    temp = s.Substring(index1, index2 - index1);
+                                    sb.Clear();
+                                    sb.Append(temp);
+                                    sb.Replace("&lt;", "");
+                                    sb.Replace("b&gt;", "");
+                                    sb.Replace("/b&gt;", "");
+                                    sb.Replace("'", "");
+                                    sb.Replace(" ", "");
+                                    sb.Replace(":", "");
+                                    sb.Replace(".", "");
+                                    sb.Replace("!", "");
+                                    sb.Replace("?", "");
+                                    sb.Replace("-", "");
+                                    sb.Replace("_", "");
+                                    sb.Replace(",", "");
+                                    sb.Replace("(", "");
+                                    sb.Replace(")", "");
+                                    sb.Replace("/", "");
+                                    sb.Replace("\"", "");
+                                    sb.Replace("’", "");
+                                    c.卡名 = sb.ToString();
                                     // if (c.name == CardDB.cardName.unknown)
                                     // {
                                         // // try chinese
@@ -1473,6 +1505,7 @@ namespace HREngine.Bots
                             case 1085: c.reborn = value == 1; break; //REBORN
                             case 1427: c.Spellburst = value == 1; break;//法术迸发
                             case 1518: c.dormant = value == 1; break; //dormant
+                            case 1524: c.Corrupt= value == 1; break; //腐蚀
                         }
                     }
 

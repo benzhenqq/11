@@ -223,7 +223,34 @@
             return retval;
         }
 
+        private bool debuggerMode = true;
 
+        private void printDebuggerInfo(string cardName, int pen){
+            if(debuggerMode && pen != 0){
+                Helpfunctions.Instance.ErrorLog("此时"+cardName+"受到惩罚值修正："+pen+"");
+            }
+        }
+		
+        public override int GetSpecialCardComboPenalty(CardDB.Card card, Minion target, Playfield p)
+        {
+            // 初始惩罚值
+            int pen = 0;            
+            switch (card.卡名)
+            {
+                case "幸运币":
+                    pen = 60;
+                    foreach (Handmanager.Handcard hc in p.owncards)
+                    {
+                        if(hc.card.cost == p.mana + 1) {
+                            pen = 0;
+                            break;
+                        }
+                    }
+                    break;
+            }
+            printDebuggerInfo(card.卡名, pen);
+            return pen;
+        }
     }
 
 }
