@@ -391,15 +391,6 @@ namespace HREngine.Bots
             { CardDB.cardName.armorup, 2 },
             { CardDB.cardName.steadyshot, 8 }
         };
-
-        private bool debuggerMode = true;
-
-        private void printDebuggerInfo(string cardName, int pen){
-            if(debuggerMode && pen != 0){
-                Helpfunctions.Instance.ErrorLog("此时"+cardName+"受到惩罚值修正："+pen+"");
-            }
-        }
-		
         public override int GetSpecialCardComboPenalty(CardDB.Card card, Minion target, Playfield p)
         {
             // 卡组中最高费
@@ -479,7 +470,6 @@ namespace HREngine.Bots
                     else if( p.ownMaxMana == 9) pen = 300;
                     break;
             }
-            printDebuggerInfo(card.卡名, pen);
             return pen;
         }      
     }

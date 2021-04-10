@@ -171,6 +171,44 @@ namespace HREngine.Bots
             }
         }
 
+        
+        /// <summary>
+        /// 是否打印出牌惩罚.
+        /// </summary>
+        [DefaultValue(false)]
+        public bool UsePrintNextMove
+        {
+            get { return printUtils.printNextMove; }
+            set
+            {
+                if (!value.Equals(printUtils.printNextMove))
+                {
+                    printUtils.printNextMove = value;
+                    NotifyPropertyChanged(() => UsePrintPenalties);
+                }
+                Log.InfoFormat("[默认策略设置] 打印出牌惩罚 = {0}.", printUtils.printNextMove);
+            }
+        }
+
+        /// <summary>
+        /// 是否打印自定义惩罚.
+        /// </summary>
+        [DefaultValue(false)]
+        public bool UsePrintPenalties
+        {
+            get { return printUtils.printPentity; }
+            set
+            {
+                if (!value.Equals(printUtils.printPentity))
+                {
+                    printUtils.printPentity = value;
+                    NotifyPropertyChanged(() => UsePrintPenalties);
+                }
+                Log.InfoFormat("[默认策略设置] 是否打印自定义惩罚 = {0}.", printUtils.printPentity);
+            }
+        }
+
+
         private ObservableCollection<string> _allBehav;
 
         /// <summary>All enum values for this type.</summary>

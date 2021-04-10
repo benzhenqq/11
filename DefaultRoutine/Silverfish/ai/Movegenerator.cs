@@ -90,6 +90,7 @@
                             {
                                 Action a = new Action(actionEnum.playcard, hc, null, bestplace, trgt, cardplayPenality, choice);
                                 ret.Add(a);
+                                printUtils.printDebuggerInfo(hc.card, "将被使用，总计受到惩罚修正", cardplayPenality, 0);
                             }
                         }
                     }
@@ -165,6 +166,7 @@
                             {
                                 Action a = new Action(actionEnum.useHeroPower, p.ownHeroAblility, null, bestplace, trgt, cardplayPenality, choice);
                                 ret.Add(a);
+                                printUtils.printDebuggerInfo(p.ownHeroAblility.card, "将被使用，总计受到惩罚修正", cardplayPenality, 0);
                             }
                         }
                     }

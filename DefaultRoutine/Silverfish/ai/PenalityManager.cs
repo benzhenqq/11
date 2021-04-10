@@ -336,7 +336,11 @@
             retval += getDestroyOwnPenality(name, target, p);
 
             retval += getDestroyPenality(name, target, p);
-            retval += getSpecialCardComboPenalitys(card, target, p);
+            int SpecialCardComboPenality = getSpecialCardComboPenalitys(card, target, p);
+            retval += SpecialCardComboPenality;
+            printUtils.printDebuggerInfo(card, "受到自定义惩罚修正：", SpecialCardComboPenality, 1);
+
+
             retval += getRandomPenaltiy(card, p, target);
             retval += getBuffHandPenalityPlay(name, p);
             if (!p.isLethalCheck)

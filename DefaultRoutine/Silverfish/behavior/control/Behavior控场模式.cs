@@ -390,14 +390,7 @@ namespace HREngine.Bots
             { CardDB.cardName.steadyshot, 8 }
         };
 		
-        private bool debuggerMode = true;
-
-        private void printDebuggerInfo(string cardName, int pen){
-            if(debuggerMode && pen != 0){
-                Helpfunctions.Instance.ErrorLog("此时"+cardName+"受到惩罚值修正："+pen+"");
-            }
-        }
-		
+       
         public override int GetSpecialCardComboPenalty(CardDB.Card card, Minion target, Playfield p)
         {
             // 初始惩罚值
@@ -415,7 +408,6 @@ namespace HREngine.Bots
                     }
                     break;
             }
-            printDebuggerInfo(card.卡名, pen);
             return pen;
         }
     }
