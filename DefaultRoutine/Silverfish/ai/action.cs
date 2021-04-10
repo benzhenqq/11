@@ -11,6 +11,7 @@
 namespace HREngine.Bots
 {
     using System;
+    using System.Text;
 
     public enum actionEnum
     {
@@ -143,6 +144,43 @@ namespace HREngine.Bots
                 {
                     help.logg("on enemy: " + this.target.entitiyID);
                 }
+            }
+            help.logg("");
+
+            // 打印行动说明
+            if (printUtils.printNextMove)
+            {
+                if (this.penalty == 0) return;
+                StringBuilder str = new StringBuilder("", 100);
+                switch (this.actionType)
+                {
+                    case actionEnum.endturn:
+                        str.Append("回合结束");
+                        break;
+                    case actionEnum.playcard:
+                        str.Append("打出");
+                        str.Append(this.card == null ? "无" : this.card.card.卡名);
+                        str.Append("，目标 ");
+                        str.Append(this.target == null ? "无" : this.target.handcard.card.卡名);
+                        break;
+                    case actionEnum.attackWithHero:
+                        str.Append("让英雄攻击 ");
+                        str.Append(this.target == null ? "无" : this.target.handcard.card.卡名);
+                        break;
+                    case actionEnum.useHeroPower:
+                        str.Append("使用英雄技能");
+                        str.Append("，目标 ");
+                        str.Append(this.target == null ? "无" : this.target.handcard.card.卡名);
+                        break;
+                    case actionEnum.attackWithMinion:
+                        str.Append("使用随从 ");
+                        str.Append(this.own == null ? "无" : this.own.handcard.card.卡名);
+                        str.Append(" 攻击 ");
+                        str.Append(this.target == null ? "无" : this.target.handcard.card.卡名);
+                        break;
+                }
+                str.Append("，当前受到 " + this.penalty + " 点惩罚！");
+                Helpfunctions.Instance.ErrorLog(str.ToString());
             }
             help.logg("");
         }

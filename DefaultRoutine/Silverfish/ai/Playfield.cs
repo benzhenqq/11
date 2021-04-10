@@ -4309,7 +4309,7 @@
                         // ohc.card=CardDB.Instance.getCardDataFromID((CardDB.cardIDEnum)ohc.card.Corrupted);
                         ohc.card=CardDB.Instance.getCardDataFromID( CardDB.Instance.cardIdstringToEnum(ohc.card.cardIDenum.ToString() + "t" ) );
                         
-                        Helpfunctions.Instance.ErrorLog("如果打出"+hc.card.卡名+"就可腐化"+ohc.card.卡名);
+                        // Helpfunctions.Instance.ErrorLog("如果打出"+hc.card.卡名+"就可腐化"+ohc.card.卡名);
                         
                         ohc.manacost = ohc.card.cost;
                     }
