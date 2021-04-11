@@ -311,7 +311,7 @@
                         return 20;
                     }
                     // 尽量 buff 螃蟹
-                    if (target.own && target.windfury && !target.cantAttackHeroes)
+                    if (target.own && target.windfury )
                     {
                         return -100;
                     }
@@ -331,7 +331,7 @@
                 case CardDB.cardName.blessingofkings:
                     if (!target.own) return 1000;
                     // 尽量 buff 螃蟹
-                    if (target.own && target.windfury && !target.cantAttackHeroes)
+                    if (target.own && target.windfury)
                     {
                         return -120;
                     }

@@ -3,9 +3,9 @@
 namespace HREngine.Bots
 {
 
-    public class Behavior小丑德 : Behavior
+    public class Behavior奥秘骑 : Behavior
     {
-        public override string BehaviorName() { return "小丑德"; }
+        public override string BehaviorName() { return "奥秘骑"; }
 
 
         PenalityManager penman = PenalityManager.Instance;
@@ -21,8 +21,7 @@ namespace HREngine.Bots
             // 过载惩罚
             retval -= p.ueberladung * 15;
             retval -= p.evaluatePenality;
-            // 手牌价值
-            retval += p.owncards.Count * 15;
+            retval += p.owncards.Count * 5;
             retval += p.ownQuest.questProgress * 10;
 
             retval += p.ownMaxMana;
@@ -263,6 +262,10 @@ namespace HREngine.Bots
                     if (hc.card.Attack + hc.addattack >= 3) bigMobsInHand++;
                     retval += hc.addattack + hc.addHp + hc.elemPoweredUp;
                 }
+                // 如果手上有侏儒就很赚
+                if (hc.card.卡名 == "甩笔侏儒"){
+                    retval += 50;
+                }
             }
 
             if (ownMinionsCount - p.enemyMinions.Count >= 4 && bigMobsInHand >= 1)
@@ -395,102 +398,79 @@ namespace HREngine.Bots
 
         public override int GetSpecialCardComboPenalty(CardDB.Card card, Minion target, Playfield p)
         {
-            // 卡组中最高费
-            int maxCost = 0;
-            // 计数器
-            int cnt = 0;       
             // 初始惩罚值
-            int pen = 0;            
+            int pen = 0;      
+            // 场上能打脸的随从数量
+            int canAttackHeroCount = 0;
+            foreach(Minion m in p.ownMinions)
+            {
+                if(!m.cantAttackHeroes && !m.frozen && !m.cantAttack) {
+                    canAttackHeroCount = canAttackHeroCount + 1;
+                    break;
+                }
+            }      
             switch (card.卡名)
             {
                 case "幸运币":
-                case "激活":
                     pen = 60;
                     foreach (Handmanager.Handcard hc in p.owncards)
                     {
-                        if(hc.card.cost == p.mana + 1 && hc.card.卡名 != "幸运币" && hc.card.卡名 != "激活" && hc.card.卡名 != "雷霆绽放") {
+                        if(hc.card.cost == p.mana + 1 && card.卡名 != "幸运币") {
                             return GetSpecialCardComboPenalty(hc.card, target, p) + 5;
                         }
                     }
                     break;
-                case "雷霆绽放":
-                    pen = 80;
-                    foreach (Handmanager.Handcard hc in p.owncards)
-                    {
-                        if(hc.card.cost == p.mana + 2 && hc.card.卡名 != "幸运币" && hc.card.卡名 != "激活" && hc.card.卡名 != "雷霆绽放") {
-                            return GetSpecialCardComboPenalty(hc.card, target, p) + 5;
-                        }else if(hc.card.cost == p.mana + 1 && hc.card.卡名 != "幸运币" && hc.card.卡名 != "激活" && hc.card.卡名 != "雷霆绽放") {
-                            return GetSpecialCardComboPenalty(hc.card, target, p) + 10;
-                        }
+                case "逝者之剑":
+                    // 已经装备一把了就别挂了
+                    if(p.ownWeapon.Durability > 0){
+                        return 20;
                     }
-                    if(p.mana + 5 < p.ownMaxMana) return 20;
-                    break;
-                case "优胜劣汰":
-                    foreach (Handmanager.Handcard hc in p.owncards)
-                    {
-                        if(hc.card.cardIDenum == CardDB.cardIDEnum.DMF_163) {
-                            return -50;
-                        }
-                    }
-                    break;
-                case "狂欢小丑":
-                    foreach (Handmanager.Handcard hc in p.owncards)
-                    {
-                        if(hc.card.卡名 == "优胜劣汰" && card.cardIDenum == CardDB.cardIDEnum.DMF_163) {
-                            return 50;
-                        }
-                    }
-                    break;
-                case "活化扫帚":
+                    // 脸被冻住了就别挂刀了
+                    if(p.ownHero.frozen) return 10;
+                    // 我就三个奥秘，都挂上了就别浪费法力水晶了
+                    if(p.ownSecretsIDList.Count > 2) return 10;
+                    return  -80;
+                case "正义圣契":
                     pen = 5;
-                    if(p.enemyMinions.Count == 0) {
-                        pen = 50;
-                        break;
-                    }
-                    foreach(Minion m in p.ownMinions)
-                    {
-                        // 当前回合召唤的牌
-                        if(m.playedThisTurn && m.rush != 1 && m.charge != 1){
-                            pen -= m.Angr;
-                        }
+                    foreach (Minion m in p.enemyMinions){
+                        pen -= m.Hp;
                     }
                     pen *= 10;
                     break;
-                case "始生保护者":
-                    foreach(KeyValuePair<CardDB.cardIDEnum, int>kvp in p.prozis.turnDeck )
-                    {
-                        // ID 转卡
-                        CardDB.cardIDEnum deckCard = kvp.Key;
-                        CardDB.Card deckSpell = CardDB.Instance.getCardDataFromID(deckCard);
-                        if(deckSpell.type == CardDB.cardtype.SPELL && deckSpell.cost > maxCost){
-                            maxCost = deckSpell.cost;                    
-                        }
+                case "古神在上":
+                    // 前期一律不出留着
+                    if( p.enemyMaxMana < 4 ) return 100;
+                    // 随从少/对手没牌不用防
+                    if(p.ownMinions.Count < 2 || p.tempanzEnemyCards < 4) return 10;
+                    // 随从越多越需要优先打出
+                    return -20 * (p.ownMinions.Count - 2) - (p.tempanzEnemyCards - 2) * 10;   
+                case "十字路口大嘴巴":
+                    return -10 * p.ownSecretsIDList.Count;
+                case "定罪（等级1）":
+                   if(canAttackHeroCount > 0){
+                        return 1;
                     }
-                    pen = -10 * maxCost;
-                    break;
-                case "动物保镖":
-                    cnt = 2;
-                    // 遍历卡组
-                    foreach(KeyValuePair<CardDB.cardIDEnum, int>kvp in p.prozis.turnDeck )
-                    {
-                        // ID 转卡
-                        CardDB.cardIDEnum deckCard = kvp.Key;
-                        CardDB.Card deckMinion = CardDB.Instance.getCardDataFromID(deckCard);
-                        // 5费以下野兽
-                        if(deckMinion.race == 20 && deckMinion.cost <= 5){
-                            cnt--;
-                            if(cnt <= 0) return -40;
-                        }
+                    return 100;
+                case "定罪（等级2）":
+                    if(canAttackHeroCount > 1){
+                        return -30;
+                    }else if(canAttackHeroCount > 0){
+                        return 1;
                     }
-                    break;
-                case "过度生长":
-                    if(p.ownMaxMana == 3 || p.ownMaxMana == 4) pen = -60;
-                    else if(p.ownMaxMana == 8 || p.ownMaxMana == 9) pen = 300;
-                    break;
-                case "野性成长":
-                    if(p.ownMaxMana <= 3) pen = -40;
-                    else if( p.ownMaxMana == 9) pen = 300;
-                    break;
+                    return 100;
+                case "定罪（等级3）":
+                    if(canAttackHeroCount > 2){
+                        return -100;
+                    }else if(canAttackHeroCount == 2){
+                        return -30;
+                    }else if(canAttackHeroCount > 0){
+                        return 1;
+                    }
+                    return 100;      
+                case "火炮长斯密瑟":
+                    return -20 * p.ownSecretsIDList.Count;  
+                case "纳鲁之锤":
+                    return -40;                                        
             }
             return pen;
         }      

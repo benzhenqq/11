@@ -8,9 +8,18 @@ namespace HREngine.Bots
 	{
 		//[x]After your hero attacks,cast a <b>Secret</b> fromyour deck.
 		//在你的英雄攻击后，从你的牌库中施放一个<b>奥秘</b>。
-		public void attackWithWeapon(Minion hero, Minion target, int penality){
-			
+        CardDB.Card blaine = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.EX1_506);
+		CardDB.Card card = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.BAR_875);
+		public virtual void onHeroattack(Playfield p, Minion own, Minion target)//英雄攻击
+        {
+			p.ownSecretsIDList.Add(CardDB.cardIDEnum.EX1_289);
+			p.callKid(blaine, 0, own.own);
+            return;
+        }
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+			p.equipWeapon(card, ownplay);
 		}
-		
 	}
 }
