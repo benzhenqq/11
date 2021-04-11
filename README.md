@@ -43,9 +43,11 @@
 
 来源：改了一张就是我的原创了！
 
-不能携带的卡：猜重量
+较稳定了。
 
-测试中，强度无法保证
+#####  奥秘骑
+标准套牌：AAECAZ8FBo7UA4XeA4DsA9vuA9D3A+qfBAzKwQPg0QOD3gOR5APM6wPO6wPP6wPj6wOr7AOanwTIoATJoAQA
+测试中，强度一般，橙卡挺菜的，没有可以换别的。
 
 #### 添加自定义策略（惩罚）简易教程
 1. 复制文件夹 Routines\DefaultRoutine\Silverfish\behavior\rush 到同级目录

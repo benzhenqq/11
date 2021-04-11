@@ -2564,6 +2564,7 @@
                     break;
                 // 英勇圣印
                 case CardDB.cardName.sealofchampions:
+                    if (target == null) return 1000;
                     // 剩余卡牌不足，停止抽卡
                     // if (prozis.ownDeckSize < 5) return 10;
                     if (!target.own) return 1000;
@@ -2591,6 +2592,7 @@
                     return 10;
                 // 王者祝福
                 case CardDB.cardName.blessingofkings:
+                    if (target == null) return 1000;
                     if (!target.own) return 1000;
                     // 尽量 buff 螃蟹
                     if (target.own && target.windfury && !target.cantAttackHeroes)
@@ -2611,6 +2613,7 @@
                     return 10;
                 // 阿达尔之手
                 case CardDB.cardName.handofadal:
+                    if (target == null) return 1000;
                     if (!target.own) return 1000;
                     // 剩余卡牌不足，停止抽卡
                     if (prozis.ownDeckSize < 5) return 10;
@@ -2652,6 +2655,7 @@
                     return -6;
                 // 智慧祝福
                 case CardDB.cardName.blessingofwisdom:
+                    if (target == null) return 1000;
                     // 剩余卡牌不足，停止抽卡
                     if (prozis.ownDeckSize < 5) return 10;
                     // 冻结别 buff
