@@ -68,6 +68,8 @@ namespace HREngine.Bots
         public int explorershat = 0;
         public int returnToHand = 0;
         public int infest = 0;
+        public int libramofwisdom = 0;
+        
 
         public int ownBlessingOfWisdom = 0;
         public int enemyBlessingOfWisdom = 0;
@@ -163,6 +165,8 @@ namespace HREngine.Bots
             this.souloftheforest = m.souloftheforest;
             this.stegodon = m.stegodon;
             this.livingspores = m.livingspores;
+            this.libramofwisdom = m.libramofwisdom;
+            
             this.explorershat = m.explorershat;
             this.returnToHand = m.returnToHand;
             this.infest = m.infest;
@@ -253,6 +257,7 @@ namespace HREngine.Bots
             this.stegodon = m.stegodon;
             this.livingspores = m.livingspores;
             this.explorershat = m.explorershat;
+            this.libramofwisdom = m.libramofwisdom;
             this.returnToHand = m.returnToHand;
             this.infest = m.infest;
 
@@ -638,7 +643,8 @@ namespace HREngine.Bots
             enemyBlessingOfWisdom = 0;
             ownPowerWordGlory = 0;
             enemyPowerWordGlory = 0;
-
+            libramofwisdom = 0;
+           
             cantBeTargetedBySpellsOrHeroPowers = false;
             cantAttackHeroes = false;
             cantAttack = false;
@@ -813,6 +819,7 @@ namespace HREngine.Bots
                         
                     case CardDB.cardIDEnum.CS2_038e: this.ancestralspirit++; continue;
                     case CardDB.cardIDEnum.ICC_244e: this.desperatestand++; continue;
+                    case CardDB.cardIDEnum.BT_025e: this.libramofwisdom++; continue;
                     case CardDB.cardIDEnum.EX1_158e: this.souloftheforest++; continue;
                     case CardDB.cardIDEnum.UNG_952e: this.stegodon++; continue;
                     case CardDB.cardIDEnum.UNG_999t2e: this.livingspores++; continue;

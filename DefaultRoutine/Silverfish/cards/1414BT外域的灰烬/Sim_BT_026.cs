@@ -8,6 +8,10 @@ namespace HREngine.Bots
 	{
 		//<b>Taunt</b>. <b>Battlecry:</b> Reduce the Cost of your Librams by (2) this game.
 		//<b>嘲讽，战吼：</b>在本局对战中，你的圣契的法力值消耗减少（2）点。
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.libram += 2;
+		}
 		
 		
 	}

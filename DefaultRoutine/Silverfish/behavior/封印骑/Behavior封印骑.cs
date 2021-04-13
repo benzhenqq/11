@@ -278,8 +278,8 @@
                     
                     // 随从越少越推荐使用
                     if(p.ownMinions.Count < 2) return -150;
-                    else if(p.ownMinions.Count < 3) return -100;
-                    else if(p.ownMinions.Count == 3) return -20;
+                    else if(p.ownMinions.Count < 4) return -100;
+                    else if(p.ownMinions.Count == 4) return -40;
                     return  (p.ownMinions.Count - 4) * 20;
                 // 逝者之剑
                 case CardDB.cardName.swordofthefallen:

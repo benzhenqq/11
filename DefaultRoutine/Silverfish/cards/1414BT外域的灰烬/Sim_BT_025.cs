@@ -8,7 +8,10 @@ namespace HREngine.Bots
 	{
 		//[x]Give a minion +1/+1and "<b>Deathrattle:</b> Adda 'Libram of Wisdom'spell to your hand."
 		//使一个随从获得+1/+1，以及“<b>亡语：</b>将一张‘智慧圣契’置入你的手牌。”
-		
-		
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionGetBuffed(target, 1, 1);
+			target.libramofwisdom++;
+		}	
 	}
 }

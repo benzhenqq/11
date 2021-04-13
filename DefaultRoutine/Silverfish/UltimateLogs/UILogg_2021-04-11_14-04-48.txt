@@ -1,0 +1,1164 @@
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:05:02 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 1/0
+mana 1/1
+emana 1
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 30 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 26 0 26 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 swordofthefallen 2 entity 40 BAR_875 0 0 0
+pos 3 crossroadsgossiper 3 entity 56 BAR_890 0 0 0
+pos 4 northwatchcommander 3 entity 34 BAR_876 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: DMF_236,2;BAR_873,2;CORE_FP1_020,2;BAR_880,2;CORE_EX1_130,1;CORE_ICC_038,2;BAR_550,1;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,2;BAR_876,1;BAR_890,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+mana changed 1 -100 1 6 1 6
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 20
+missing dmg to lethal 30
+calculated 0.0760051
+no lethal, do something random######
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 88
+calculated 0.1312404
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:05:23 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 3/0
+mana 2/2
+emana 2
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 30 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 25 0 25 0
+OwnMinions:
+EnemyMinions:
+farwatchpost BAR_074 zp:1 e:11 A:2 H:4 mH:4 rdy:False ex
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 swordofthefallen 2 entity 40 BAR_875 0 0 0
+pos 3 crossroadsgossiper 3 entity 56 BAR_890 0 0 0
+pos 4 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 5 avenge 2 entity 51 CORE_FP1_020 0 0 0
+Enemy cards: 4
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: GAME_005,1;
+od: DMF_236,2;BAR_873,2;CORE_FP1_020,1;BAR_880,2;CORE_EX1_130,1;CORE_ICC_038,2;BAR_550,1;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,2;BAR_876,1;BAR_890,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+mana changed 2 -100 2 6 2 6
+Leathal-check###########
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 1 dones 0
+cut to len 1
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 108
+play id 40 pos 1
+
+
+attack with hero, enemy: 64
+
+
+missing dmg to lethal 29
+calculated 0.0980031
+no lethal, do something random######
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 2 dones 0
+cut to len 2
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 136.4
+play id 40 pos 1
+
+
+attack with hero, enemy: 64
+
+
+calculated 0.1060054
+play id 40 pos 1
+
+
+使用: 逝者之剑 (40) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:05:27 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 3/1
+mana 0/2
+emana 2
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 2
+ownhero:
+pala 30 30 0 False False 66 True 0 False 1 0 False
+weapon: 1 3 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 30 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 25 0 25 0
+OwnMinions:
+EnemyMinions:
+farwatchpost BAR_074 zp:1 e:11 A:2 H:4 mH:4 rdy:False ex
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 crossroadsgossiper 3 entity 56 BAR_890 0 0 0
+pos 3 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 4 avenge 2 entity 51 CORE_FP1_020 0 0 0
+Enemy cards: 4
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: GAME_005,1;
+od: DMF_236,2;BAR_873,2;CORE_FP1_020,1;BAR_880,2;CORE_EX1_130,1;CORE_ICC_038,2;BAR_550,1;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,2;BAR_876,1;BAR_890,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attack with hero, enemy: 64
+
+
+英雄攻击: 乌瑟尔·光明使者 目标为: 幸存者泽瑞拉
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:05:32 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 3/2
+mana 0/2
+emana 2
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 1 False 1 0 False
+weapon: 1 2 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: CORE_FP1_020 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 29 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 24 0 25 0
+OwnMinions:
+EnemyMinions:
+farwatchpost BAR_074 zp:1 e:11 A:2 H:4 mH:4 rdy:False ex
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 crossroadsgossiper 3 entity 56 BAR_890 0 0 0
+pos 3 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 4 avenge 2 entity 51 CORE_FP1_020 0 0 0
+Enemy cards: 4
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: GAME_005,1;
+od: DMF_236,2;BAR_873,2;BAR_880,2;CORE_EX1_130,1;CORE_ICC_038,2;BAR_550,1;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,2;BAR_876,1;BAR_890,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+deck/fatigue changed 24 25 25 25 0 0 0 0
+secretsCount changed
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -2
+missing dmg to lethal 29
+calculated 0.0250015
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 22.8
+calculated 0.036003
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:05:51 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 5/0
+mana 3/3
+emana 3
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 2
+ownhero:
+pala 30 30 0 False False 66 True 0 False 1 0 False
+weapon: 1 2 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: CORE_FP1_020 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 30 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 23 0 24 0
+OwnMinions:
+EnemyMinions:
+farwatchpost BAR_074 zp:1 e:11 A:2 H:4 mH:4 rdy:False
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 crossroadsgossiper 3 entity 56 BAR_890 0 0 0
+pos 3 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 4 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 5 gallopingsavior 2 entity 42 BAR_550 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: GAME_005,1;
+od: DMF_236,2;BAR_873,2;BAR_880,2;CORE_EX1_130,1;CORE_ICC_038,2;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,2;BAR_876,1;BAR_890,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+mana changed 3 -100 3 2 3 2
+Leathal-check###########
+ailoop
+deep 0 len 5 dones 0
+cut to len 5
+ailoop
+deep 1 len 12 dones 0
+cut to len 7
+ailoop
+deep 2 len 6 dones 0
+cut to len 2
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 57
+attack with hero, enemy: 64
+
+
+play id 56 pos 1
+
+
+missing dmg to lethal 29
+calculated 0.1870116
+no lethal, do something random######
+ailoop
+deep 0 len 7 dones 0
+cut to len 7
+ailoop
+deep 1 len 24 dones 0
+cut to len 16
+ailoop
+deep 2 len 12 dones 0
+cut to len 4
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 91.8
+play id 56 pos 1
+
+
+attack with hero, enemy: 64
+
+
+calculated 0.1723955
+play id 56 pos 1
+
+
+使用: 十字路口大嘴巴 (56) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:05:55 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 5/1
+mana 0/3
+emana 3
+own secretsCount: 1
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 2
+ownhero:
+pala 30 30 0 False False 66 True 0 False 1 0 False
+weapon: 1 2 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: CORE_FP1_020 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 30 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 23 0 24 0
+OwnMinions:
+crossroadsgossiper BAR_890 zp:1 e:56 A:4 H:3 mH:3 rdy:False natt:0 ex ptt
+EnemyMinions:
+farwatchpost BAR_074 zp:1 e:11 A:2 H:4 mH:4 rdy:False
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 3 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 4 gallopingsavior 2 entity 42 BAR_550 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: GAME_005,1;
+od: DMF_236,2;BAR_873,2;BAR_880,2;CORE_EX1_130,1;CORE_ICC_038,2;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,2;BAR_876,1;BAR_890,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attack with hero, enemy: 64
+
+
+英雄攻击: 乌瑟尔·光明使者 目标为: 幸存者泽瑞拉
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:06:00 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 5/2
+mana 0/3
+emana 3
+own secretsCount: 2
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 1 False 1 0 False
+weapon: 1 1 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: CORE_EX1_130 CORE_FP1_020 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 29 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 22 0 24 0
+OwnMinions:
+crossroadsgossiper BAR_890 zp:1 e:56 A:4 H:3 mH:3 rdy:False natt:0 ex ptt
+EnemyMinions:
+farwatchpost BAR_074 zp:1 e:11 A:2 H:4 mH:4 rdy:False
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 3 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 4 gallopingsavior 2 entity 42 BAR_550 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: GAME_005,1;
+od: DMF_236,2;BAR_873,2;BAR_880,2;CORE_ICC_038,2;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,2;BAR_876,1;BAR_890,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+deck/fatigue changed 22 23 24 24 0 0 0 0
+secretsCount changed
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 17
+missing dmg to lethal 29
+calculated 0.0240009
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 41.8
+calculated 0.0310021
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:06:27 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 7/0
+mana 4/4
+emana 4
+own secretsCount: 2
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 2
+ownhero:
+pala 30 30 0 False False 66 True 0 False 1 0 False
+weapon: 1 1 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+osecrets: CORE_EX1_130 CORE_FP1_020 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 29 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 21 0 23 0
+OwnMinions:
+crossroadsgossiper BAR_890 zp:1 e:56 A:4 H:3 mH:3 rdy:True natt:0
+EnemyMinions:
+farwatchpost BAR_074 zp:1 e:11 A:2 H:4 mH:4 rdy:False
+venomousscorpid BAR_065 zp:2 e:7 A:1 H:3 mH:3 rdy:False ex poi
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 3 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 4 gallopingsavior 2 entity 42 BAR_550 0 0 0
+pos 5 handofadal 3 entity 60 BT_292 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: GAME_005,1;
+od: DMF_236,2;BAR_873,2;BAR_880,2;CORE_ICC_038,2;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,1;BAR_876,1;BAR_890,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+mana changed 4 -100 4 3 4 3
+Leathal-check###########
+ailoop
+deep 0 len 5 dones 0
+cut to len 5
+ailoop
+deep 1 len 20 dones 0
+cut to len 10
+ailoop
+deep 2 len 27 dones 0
+cut to len 9
+ailoop
+deep 3 len 12 dones 0
+cut to len 3
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 52
+attack with hero, enemy: 64
+
+
+useability 
+
+attacker: 56 enemy: 64
+
+missing dmg to lethal 24
+calculated 0.2068285
+no lethal, do something random######
+ailoop
+deep 0 len 11 dones 0
+cut to len 11
+ailoop
+deep 1 len 85 dones 0
+cut to len 52
+ailoop
+deep 2 len 243 dones 0
+cut to len 94
+ailoop
+deep 3 len 198 dones 0
+cut to len 57
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 36
+attack with hero, enemy: 64
+
+
+attacker: 56 enemy: 11
+
+play id 60 target 56 pos 1
+
+
+calculated 0.2830192
+attack with hero, enemy: 64
+
+
+英雄攻击: 乌瑟尔·光明使者 目标为: 幸存者泽瑞拉
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:06:33 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 7/1
+mana 4/4
+emana 4
+own secretsCount: 3
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 1 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: CORE_EX1_130 CORE_FP1_020 DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 28 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 20 0 23 0
+OwnMinions:
+crossroadsgossiper BAR_890 zp:1 e:56 A:4 H:3 mH:3 rdy:True natt:0
+EnemyMinions:
+farwatchpost BAR_074 zp:1 e:11 A:2 H:4 mH:4 rdy:False
+venomousscorpid BAR_065 zp:2 e:7 A:1 H:3 mH:3 rdy:False ex poi
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 3 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 4 gallopingsavior 2 entity 42 BAR_550 0 0 0
+pos 5 handofadal 3 entity 60 BT_292 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: BAR_875,40;
+etg: 
+og: BAR_875,1;
+eg: GAME_005,1;
+od: DMF_236,1;BAR_873,2;BAR_880,2;CORE_ICC_038,2;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,1;BAR_876,1;BAR_890,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+deck/fatigue changed 20 21 23 23 0 0 0 0
+secretsCount changed
+Leathal-check###########
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 12 dones 0
+cut to len 6
+ailoop
+deep 2 len 9 dones 0
+cut to len 3
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 12
+useability 
+
+attacker: 56 enemy: 64
+
+missing dmg to lethal 24
+calculated 0.174013
+no lethal, do something random######
+ailoop
+deep 0 len 8 dones 0
+cut to len 8
+ailoop
+deep 1 len 39 dones 0
+cut to len 25
+ailoop
+deep 2 len 51 dones 0
+cut to len 19
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -4
+attacker: 56 enemy: 11
+
+play id 60 target 56 pos 1
+
+
+calculated 0.1710126
+attacker: 56 enemy: 11
+
+随从攻击: 十字路口大嘴巴 目标为: 前沿哨所
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:06:37 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 7/2
+mana 4/4
+emana 4
+own secretsCount: 3
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 1 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: CORE_EX1_130 CORE_FP1_020 DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 28 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 20 0 23 0
+OwnMinions:
+crossroadsgossiper BAR_890 zp:1 e:56 A:4 H:1 mH:3 rdy:False natt:1 ex
+EnemyMinions:
+venomousscorpid BAR_065 zp:1 e:7 A:1 H:3 mH:3 rdy:False ex poi
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 3 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 4 gallopingsavior 2 entity 42 BAR_550 0 0 0
+pos 5 handofadal 3 entity 60 BT_292 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: BAR_074,11;
+otg: BAR_875,40;
+etg: BAR_074,11;
+og: BAR_875,1;
+eg: BAR_074,1;GAME_005,1;
+od: DMF_236,1;BAR_873,2;BAR_880,2;CORE_ICC_038,2;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,1;BAR_876,1;BAR_890,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 60 target 56 pos 1
+
+
+使用: 阿达尔之手 (60) 瞄准: 十字路口大嘴巴 (56) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:06:41 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 7/3
+mana 1/4
+emana 4
+own secretsCount: 3
+enemy secretsCount: 0 ;
+player:
+0 1 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 1 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: CORE_EX1_130 CORE_FP1_020 DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 28 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 19 0 23 0
+OwnMinions:
+crossroadsgossiper BAR_890 zp:1 e:56 A:6 H:3 mH:5 rdy:False natt:1 ex
+EnemyMinions:
+venomousscorpid BAR_065 zp:1 e:7 A:1 H:3 mH:3 rdy:False ex poi
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 3 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 4 gallopingsavior 2 entity 42 BAR_550 0 0 0
+pos 5 righteousprotector 1 entity 63 CORE_ICC_038 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: BAR_074,11;
+otg: BAR_875,40;BT_292,60;
+etg: BAR_074,11;
+og: BAR_875,1;BT_292,1;
+eg: BAR_074,1;GAME_005,1;
+od: DMF_236,1;BAR_873,2;BAR_880,2;CORE_ICC_038,1;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,1;BAR_876,1;BAR_890,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+handcard changed: righteousprotector
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 32
+missing dmg to lethal 28
+calculated 0.053003
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -7.400001
+play id 63 pos 2
+
+
+calculated 0.098007
+play id 63 pos 2
+
+
+使用: 正义保护者 (63) 抉择: 0
+play id 63 pos 2
+
+
+使用: 正义保护者 (63) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:06:48 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 7/5
+mana 0/4
+emana 4
+own secretsCount: 3
+enemy secretsCount: 0 ;
+player:
+1 2 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 1 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: CORE_EX1_130 CORE_FP1_020 DMF_236 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 28 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 19 0 23 0
+OwnMinions:
+crossroadsgossiper BAR_890 zp:1 e:56 A:6 H:3 mH:5 rdy:False natt:1 ex
+righteousprotector CORE_ICC_038 zp:2 e:63 A:1 H:1 mH:1 rdy:False natt:0 ex tnt divshield ptt
+EnemyMinions:
+venomousscorpid BAR_065 zp:1 e:7 A:1 H:3 mH:3 rdy:False ex poi
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 3 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 4 gallopingsavior 2 entity 42 BAR_550 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: BAR_074,11;
+otg: BAR_875,40;BT_292,60;
+etg: BAR_074,11;
+og: BAR_875,1;BT_292,1;
+eg: BAR_074,1;GAME_005,1;
+od: DMF_236,1;BAR_873,2;BAR_880,2;CORE_ICC_038,1;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,1;BAR_876,1;BAR_890,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:07:27 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 9/0
+mana 5/5
+emana 5
+own secretsCount: 2
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+osecrets: CORE_EX1_130 CORE_FP1_020 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 30 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 18 0 20 0
+OwnMinions:
+crossroadsgossiper BAR_890 zp:1 e:56 A:8 H:5 mH:7 rdy:True natt:0
+righteousprotector CORE_ICC_038 zp:2 e:63 A:1 H:1 mH:1 rdy:True natt:0 tnt divshield
+EnemyMinions:
+venomousscorpid BAR_065 zp:1 e:7 A:1 H:3 mH:3 rdy:False poi
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 3 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 4 gallopingsavior 2 entity 42 BAR_550 0 0 0
+pos 5 crossroadsgossiper 3 entity 41 BAR_890 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_875,1;DMF_236,1;BT_292,1;
+eg: DMF_113,1;BAR_074,1;BT_252,1;GAME_005,1;
+od: DMF_236,1;BAR_873,2;BAR_880,2;CORE_ICC_038,1;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,1;BAR_876,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+mana changed 5 -100 5 4 5 4
+Leathal-check###########
+ailoop
+deep 0 len 6 dones 0
+cut to len 6
+ailoop
+deep 1 len 30 dones 0
+cut to len 20
+ailoop
+deep 2 len 65 dones 0
+cut to len 24
+ailoop
+deep 3 len 41 dones 0
+cut to len 11
+ailoop
+deep 4 len 5 dones 0
+cut to len 1
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 103
+play id 41 pos 3
+
+
+useability 
+
+attacker: 56 enemy: 64
+
+attacker: 63 enemy: 64
+
+missing dmg to lethal 21
+calculated 0.2780224
+no lethal, do something random######
+ailoop
+deep 0 len 9 dones 0
+cut to len 9
+ailoop
+deep 1 len 65 dones 0
+cut to len 47
+ailoop
+deep 2 len 228 dones 0
+cut to len 89
+ailoop
+deep 3 len 217 dones 0
+cut to len 64
+ailoop
+deep 4 len 19 dones 0
+cut to len 4
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 50.6
+useability 
+
+attacker: 56 enemy: 64
+
+play id 41 pos 1
+
+
+attacker: 63 enemy: 64
+
+calculated 0.3260249
+useability 
+
+使用英雄技能: 援军 暂时没有目标
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:07:32 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 9/1
+mana 3/5
+emana 5
+own secretsCount: 2
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_04bp
+osecrets: CORE_EX1_130 CORE_FP1_020 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 30 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 18 0 20 0
+OwnMinions:
+crossroadsgossiper BAR_890 zp:1 e:56 A:8 H:5 mH:7 rdy:True natt:0
+righteousprotector CORE_ICC_038 zp:2 e:63 A:1 H:1 mH:1 rdy:True natt:0 tnt divshield
+silverhandrecruit CS2_101t zp:3 e:100 A:1 H:1 mH:1 rdy:False natt:0 ex ptt
+EnemyMinions:
+venomousscorpid BAR_065 zp:1 e:7 A:1 H:3 mH:3 rdy:False poi
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 3 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 4 gallopingsavior 2 entity 42 BAR_550 0 0 0
+pos 5 crossroadsgossiper 3 entity 41 BAR_890 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_875,1;DMF_236,1;BT_292,1;
+eg: DMF_113,1;BAR_074,1;BT_252,1;GAME_005,1;
+od: DMF_236,1;BAR_873,2;BAR_880,2;CORE_ICC_038,1;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,1;BAR_876,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+entityupdate! 1000 to 100
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 56 enemy: 64
+
+随从攻击: 十字路口大嘴巴 目标为: 幸存者泽瑞拉
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:07:36 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 9/2
+mana 3/5
+emana 5
+own secretsCount: 2
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_04bp
+osecrets: CORE_EX1_130 CORE_FP1_020 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 22 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 18 0 20 0
+OwnMinions:
+crossroadsgossiper BAR_890 zp:1 e:56 A:8 H:5 mH:7 rdy:False natt:1 ex
+righteousprotector CORE_ICC_038 zp:2 e:63 A:1 H:1 mH:1 rdy:True natt:0 tnt divshield
+silverhandrecruit CS2_101t zp:3 e:100 A:1 H:1 mH:1 rdy:False natt:0 ex ptt
+EnemyMinions:
+venomousscorpid BAR_065 zp:1 e:7 A:1 H:3 mH:3 rdy:False poi
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 3 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 4 gallopingsavior 2 entity 42 BAR_550 0 0 0
+pos 5 crossroadsgossiper 3 entity 41 BAR_890 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_875,1;DMF_236,1;BT_292,1;
+eg: DMF_113,1;BAR_074,1;BT_252,1;GAME_005,1;
+od: DMF_236,1;BAR_873,2;BAR_880,2;CORE_ICC_038,1;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,1;BAR_876,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 41 pos 1
+
+
+使用: 十字路口大嘴巴 (41) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:07:39 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 9/3
+mana 0/5
+emana 5
+own secretsCount: 2
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_04bp
+osecrets: CORE_EX1_130 CORE_FP1_020 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 22 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 18 0 20 0
+OwnMinions:
+crossroadsgossiper BAR_890 zp:1 e:41 A:4 H:3 mH:3 rdy:False natt:0 ex ptt
+crossroadsgossiper BAR_890 zp:2 e:56 A:8 H:5 mH:7 rdy:False natt:1 ex
+righteousprotector CORE_ICC_038 zp:3 e:63 A:1 H:1 mH:1 rdy:True natt:0 tnt divshield
+silverhandrecruit CS2_101t zp:4 e:100 A:1 H:1 mH:1 rdy:False natt:0 ex ptt
+EnemyMinions:
+venomousscorpid BAR_065 zp:1 e:7 A:1 H:3 mH:3 rdy:False poi
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 3 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 4 gallopingsavior 2 entity 42 BAR_550 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_875,1;DMF_236,1;BT_292,1;
+eg: DMF_113,1;BAR_074,1;BT_252,1;GAME_005,1;
+od: DMF_236,1;BAR_873,2;BAR_880,2;CORE_ICC_038,1;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,1;BAR_876,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 63 enemy: 64
+
+随从攻击: 正义保护者 目标为: 幸存者泽瑞拉
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 14:07:43 V117.178 奥秘骑 7000 face 15 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 9/4
+mana 0/5
+emana 5
+own secretsCount: 2
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 2
+ownhero:
+pala 30 30 0 False False 66 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: False HERO_04bp
+osecrets: CORE_EX1_130 CORE_FP1_020 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+unknown 21 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_09dbp
+fatigue: 18 0 20 0
+OwnMinions:
+crossroadsgossiper BAR_890 zp:1 e:41 A:4 H:3 mH:3 rdy:False natt:0 ex ptt
+crossroadsgossiper BAR_890 zp:2 e:56 A:8 H:5 mH:7 rdy:False natt:1 ex
+righteousprotector CORE_ICC_038 zp:3 e:63 A:1 H:1 mH:1 rdy:False natt:1 ex tnt divshield
+silverhandrecruit CS2_101t zp:4 e:100 A:1 H:1 mH:1 rdy:False natt:0 ex ptt
+EnemyMinions:
+venomousscorpid BAR_065 zp:1 e:7 A:1 H:3 mH:3 rdy:False poi
+Own Handcards: 
+pos 1 reckoning 1 entity 47 CS3_016 0 0 0
+pos 2 northwatchcommander 3 entity 34 BAR_876 0 0 0
+pos 3 avenge 2 entity 51 CORE_FP1_020 0 0 0
+pos 4 gallopingsavior 2 entity 42 BAR_550 0 0 0
+Enemy cards: 6
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: BAR_875,1;DMF_236,1;BT_292,1;
+eg: DMF_113,1;BAR_074,1;BT_252,1;GAME_005,1;
+od: DMF_236,1;BAR_873,2;BAR_880,2;CORE_ICC_038,1;YOP_031,2;BAR_875,1;SCH_149,2;BT_292,1;BAR_876,1;CORE_CS2_092,2;BAR_879,1;SCH_710,1;DMF_238,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------

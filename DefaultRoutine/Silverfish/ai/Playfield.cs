@@ -315,7 +315,8 @@
 
         public int shadowmadnessed = 0; //minions has switched controllers this turn.
         
-
+        // 圣契减费
+		public int libram = 0;
 
         private void addMinionsReal(List<Minion> source, List<Minion> trgt)
         {
@@ -536,6 +537,7 @@
             this.spellpowerStarted = 0;
             this.enemyspellpower = 0;
             this.enemyspellpowerStarted = 0;
+            this.libram = 0;
 
             this.startedWithDamagedMinions = false;
 
@@ -1085,6 +1087,8 @@
             this.anzOwnMurlocWarleader = p.anzOwnMurlocWarleader;
             this.anzEnemyMurlocWarleader = p.anzEnemyMurlocWarleader;
             this.anzAcidmaw = p.anzAcidmaw;
+            this.libram = p.libram;
+
             this.anzOwnGrimscaleOracle = p.anzOwnGrimscaleOracle;
             this.anzEnemyGrimscaleOracle = p.anzEnemyGrimscaleOracle;
             this.anzOwnShadowfiend = p.anzOwnShadowfiend;

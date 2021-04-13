@@ -41,13 +41,11 @@
 #####  小丑德
 标准套牌：AAECAZICApXkA6iKBA7ougOVzQO60AO80AOT0QPe0QPw1AP+2wPm4QP36AO+7APe7AOJnwSunwQA
 
-来源：改了一张就是我的原创了！
-
-较稳定了。
-
-#####  奥秘骑
-标准套牌：AAECAZ8FBo7UA4XeA4DsA9vuA9D3A+qfBAzKwQPg0QOD3gOR5APM6wPO6wPP6wPj6wOr7AOanwTIoATJoAQA
-测试中，强度一般，橙卡挺菜的，没有可以换别的。
+#####  奥秘/圣契/快攻骑
+策略选择：圣契骑
+快攻：AAECAZ8FBITBA8DRA6iKBMigBA3KuAP9uAPquQPruQPsuQPKwQOezQOfzQOD3gPM6wPO6wPP6wPb7gMA
+圣契：AAECAZ8FBo7UA4XeA4DsA9vuA5qfBOqfBAzKwQOezQPg0QOD3gOR5APM6wPO6wPP6wPj6wOr7APIoATJoAQA
+奥秘：AAECAYsWBo7UA4XeA4DsA9vuA+fwA+qfBAzKwQOezQPg0QOD3gOR5APM6wPO6wPP6wPj6wOr7APIoATJoAQA
 
 #### 添加自定义策略（惩罚）简易教程
 1. 复制文件夹 Routines\DefaultRoutine\Silverfish\behavior\rush 到同级目录
