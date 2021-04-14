@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              mc:Ignorable="d" 
-             d:DesignHeight="440" d:DesignWidth="627">
+             d:DesignHeight="627" d:DesignWidth="627">
     <Grid x:Name="Root">
         <ScrollViewer VerticalScrollBarVisibility="Auto">
         	<StackPanel>
@@ -37,7 +37,7 @@
                     <Label Grid.Row="0" Grid.Column="0" Content="策略模式切换: "  Margin="3,5,3,1" ToolTipService.ToolTip="模式选择."/>
                     <ComboBox x:Name="defaultBehaviorComboBox1" Grid.Row="0" Grid.Column="1" Margin="3" IsEditable="False" />
                 </Grid>
-                <Grid>
+                <Grid Visibility="Collapsed">
         			<Grid.RowDefinitions>
         				<RowDefinition Height="Auto" />
         				<RowDefinition Height="Auto" />
@@ -51,12 +51,66 @@
         				<ColumnDefinition Width="Auto" />
         			</Grid.ColumnDefinitions>
 
-        			<Label Grid.Row="0" Grid.Column="0" Content="打印自定义惩罚值: "  Margin="3,5,3,1" ToolTipService.ToolTip="如果勾选此选项将会打印出AI计算过程中每张牌受到的惩罚值（0不显示）."/>
-					<CheckBox x:Name="PrintPenaltiesCheckBox" Grid.Row="0" Grid.Column="1" Margin="3,5,3,1"/>
+        			<Label Grid.Row="0" Grid.Column="0" Content="竞技场优先种族1: "  Margin="3,5,3,1" ToolTipService.ToolTip="第一优先种族."/>
+        			<ComboBox x:Name="ArenaPreferredClass1ComboBox" Grid.Row="0" Grid.Column="1" Margin="3" IsEditable="False" />
 
-					<Label Grid.Row="1" Grid.Column="0" Content="打印出牌惩罚值: "  Margin="3,5,3,1" ToolTipService.ToolTip="如果勾选此选项将会打印出AI将出的牌的受到的惩罚值（0不显示）."/>
-					<CheckBox x:Name="PrintNextMoveCheckBox" Grid.Row="1" Grid.Column="1" Margin="3,5,3,1"/>
+        			<Label Grid.Row="1" Grid.Column="0" Content="竞技场优先种族2: "  Margin="3,5,3,1" ToolTipService.ToolTip="第二优先种族."/>
+        			<ComboBox x:Name="ArenaPreferredClass2ComboBox" Grid.Row="1" Grid.Column="1" Margin="3" IsEditable="False" />
+
+        			<Label Grid.Row="2" Grid.Column="0" Content="竞技场优先种族3: "  Margin="3,5,3,1" ToolTipService.ToolTip="第三优先种族."/>
+        			<ComboBox x:Name="ArenaPreferredClass3ComboBox" Grid.Row="2" Grid.Column="1" Margin="3" IsEditable="False" />
+
+        			<Label Grid.Row="3" Grid.Column="0" Content="竞技场优先种族4: "  Margin="3,5,3,1" ToolTipService.ToolTip="第四优先种族."/>
+        			<ComboBox x:Name="ArenaPreferredClass4ComboBox" Grid.Row="3" Grid.Column="1" Margin="3" IsEditable="False" />
+
+        			<Label Grid.Row="4" Grid.Column="0" Content="竞技场优先种族5: "  Margin="3,5,3,1" ToolTipService.ToolTip="第五优先种族."/>
+        			<ComboBox x:Name="ArenaPreferredClass5ComboBox" Grid.Row="4" Grid.Column="1" Margin="3" IsEditable="False" />
         		</Grid>
+
+				<TabControl>
+					<TabItem Header="设置" IsSelected="True">
+						<Grid>
+        					<Grid.RowDefinitions>
+        						<RowDefinition Height="Auto" />
+        						<RowDefinition Height="Auto" />
+        						<RowDefinition Height="Auto" />
+        						<RowDefinition Height="Auto" />
+        						<RowDefinition Height="Auto" />
+								<RowDefinition Height="Auto" />
+								<RowDefinition Height="Auto" />
+								<RowDefinition Height="Auto" />
+        					</Grid.RowDefinitions>
+
+        					<Grid.ColumnDefinitions>
+        						<ColumnDefinition Width="Auto" />
+        						<ColumnDefinition Width="Auto" />
+        					</Grid.ColumnDefinitions>
+
+        					<Label Grid.Row="0" Grid.Column="0" Content="AI值: "  Margin="3,5,3,1" ToolTipService.ToolTip="数值越大,计算时长越大.默认为3000."/>
+        					<TextBox Name="MaxWideTextBox" Grid.Row="0" Grid.Column="1" Margin="3,5,3,1"/>
+
+							<Label Grid.Row="1" Grid.Column="0" Content="防奥秘: "  Margin="3,5,3,1" ToolTipService.ToolTip="防奥秘.勾选后开启."/>
+        					<CheckBox x:Name="UseSecretsPlayAroundCheckBox" Grid.Row="1" Grid.Column="1" Margin="3,5,3,1"/>
+
+							<Label Grid.Row="2" Grid.Column="0" Content="下回合斩杀本回合打脸: "  Margin="3,5,3,1" ToolTipService.ToolTip="如果当前场面全部打脸,下一回合就可以斩杀,这一回合就会全部打脸.勾选后开启."/>
+        					<CheckBox x:Name="BerserkIfCanFinishNextTourCheckBox" Grid.Row="2" Grid.Column="1" Margin="3,5,3,1"/>
+        				
+							<Label Grid.Row="3" Grid.Column="0" Content="打印自定义惩罚值: "  Margin="3,5,3,1" ToolTipService.ToolTip="如果勾选此选项将会打印出AI计算过程中每张牌受到的惩罚值（0不显示）."/>
+        					<CheckBox x:Name="PrintPenaltiesCheckBox" Grid.Row="3" Grid.Column="1" Margin="3,5,3,1"/>
+
+							<Label Grid.Row="4" Grid.Column="0" Content="打印出牌惩罚值: "  Margin="3,5,3,1" ToolTipService.ToolTip="如果勾选此选项将会打印出AI将出的牌的受到的惩罚值（0不显示）."/>
+        					<CheckBox x:Name="PrintNextMoveCheckBox" Grid.Row="4" Grid.Column="1" Margin="3,5,3,1"/>
+
+							<Label Grid.Row="5" Grid.Column="0" Content="抢脸阈值: "  Margin="3,5,3,1" ToolTipService.ToolTip="敌方生命低于该血量时开始抢脸."/>
+        					<TextBox Name="EnfacehpTextBox" Grid.Row="5" Grid.Column="1" Margin="3,5,3,1"/>
+							
+							<Button Content="重置" Name="ResetButton" Grid.Row="6" Grid.Column="0" Margin="3"/>
+
+							
+						</Grid>
+					</TabItem>
+				</TabControl>
+
         	</StackPanel>
         </ScrollViewer>
     </Grid>

@@ -278,8 +278,8 @@
                     
                     // 随从越少越推荐使用
                     if(p.ownMinions.Count < 2) return -150;
-                    else if(p.ownMinions.Count < 4) return -100;
-                    else if(p.ownMinions.Count == 4) return -40;
+                    else if(p.ownMinions.Count < 3) return -100;
+                    else if(p.ownMinions.Count == 3) return -20;
                     return  (p.ownMinions.Count - 4) * 20;
                 // 逝者之剑
                 case CardDB.cardName.swordofthefallen:
@@ -287,8 +287,7 @@
                     if(p.ownMaxMana <=2 ){
                         foreach(Handmanager.Handcard hc in p.owncards)
                         {
-                            CardDB.Card m = hc.card;
-                            if(m.cost == 2) return 0;
+                            if(hc.card.type == CardDB.cardtype.MOB) return 0;
                         }
                     }
                     // 已经装备一把了就别挂了
@@ -302,7 +301,6 @@
                     return  -80;
                 // 英勇圣印
                 case CardDB.cardName.sealofchampions:
-                    if (target == null) return 1000;
                     // 剩余卡牌不足，停止抽卡
                     // if (p.prozis.ownDeckSize < 5) return 10;
                     if (!target.own) return 1000;
@@ -312,7 +310,7 @@
                         return 20;
                     }
                     // 尽量 buff 螃蟹
-                    if (target.own && target.windfury )
+                    if (target.own && target.windfury && !target.cantAttackHeroes)
                     {
                         return -100;
                     }
@@ -330,10 +328,9 @@
                     return 10;
                 // 王者祝福
                 case CardDB.cardName.blessingofkings:
-                    if (target == null) return 1000;
                     if (!target.own) return 1000;
                     // 尽量 buff 螃蟹
-                    if (target.own && target.windfury)
+                    if (target.own && target.windfury && !target.cantAttackHeroes)
                     {
                         return -120;
                     }
@@ -351,7 +348,6 @@
                     return 10;
                 // 阿达尔之手
                 case CardDB.cardName.handofadal:
-                    if (target == null) return 1000;
                     if (!target.own) return 1000;
                     // 剩余卡牌不足，停止抽卡
                     if (p.prozis.ownDeckSize < 5) return 10;
@@ -393,7 +389,6 @@
                     return -6;
                 // 智慧祝福
                 case CardDB.cardName.blessingofwisdom:
-                    if (target == null) return 1000;
                     // 剩余卡牌不足，停止抽卡
                     if (p.prozis.ownDeckSize < 5) return 10;
                     // 冻结别 buff

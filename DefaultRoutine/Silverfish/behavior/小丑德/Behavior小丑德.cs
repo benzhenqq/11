@@ -393,6 +393,22 @@ namespace HREngine.Bots
             { CardDB.cardName.steadyshot, 8 }
         };
 
+        public override int getAttackWithMininonPenality(Minion m, Playfield p, Minion target)
+        {
+            // 鼓励拥有智慧圣契的随从送死
+            if(m.libramofwisdom > 0 && !target.isHero  && p.ownMinions.Count > 1){
+                if(target.Angr >= m.Hp) return - m.libramofwisdom * 10;
+                return - m.libramofwisdom * 5;
+            }
+            switch (m.handcard.card.卡名)
+            {
+                case "月牙": 
+                    if(target.Angr >= m.Hp) return -100;
+                    break;
+            }
+            return 0;
+        }
+
         public override int GetSpecialCardComboPenalty(CardDB.Card card, Minion target, Playfield p)
         {
             // 卡组中最高费
@@ -405,6 +421,7 @@ namespace HREngine.Bots
             {
                 case "幸运币":
                 case "激活":
+                    if(p.ownMaxMana <= 1) return 20;
                     pen = 60;
                     foreach (Handmanager.Handcard hc in p.owncards)
                     {
@@ -414,21 +431,19 @@ namespace HREngine.Bots
                     }
                     break;
                 case "雷霆绽放":
-                    pen = 80;
+                    pen = 100;
                     foreach (Handmanager.Handcard hc in p.owncards)
                     {
-                        if(hc.card.cost == p.mana + 2 && hc.card.卡名 != "幸运币" && hc.card.卡名 != "激活" && hc.card.卡名 != "雷霆绽放") {
-                            return GetSpecialCardComboPenalty(hc.card, target, p) + 5;
-                        }else if(hc.card.cost == p.mana + 1 && hc.card.卡名 != "幸运币" && hc.card.卡名 != "激活" && hc.card.卡名 != "雷霆绽放") {
-                            return GetSpecialCardComboPenalty(hc.card, target, p) + 10;
+                        if(p.mana == p.ownMaxMana && hc.card.cost == p.mana + 2 && hc.card.卡名 != "幸运币" && hc.card.卡名 != "激活" && hc.card.卡名 != "雷霆绽放" 
+                        && hc.card.卡名 != "优胜劣汰" && hc.card.卡名 != "大力士" && hc.card.卡名 != "前沿哨所") {
+                            return GetSpecialCardComboPenalty(hc.card, target, p) + 15;
                         }
                     }
-                    if(p.mana + 5 < p.ownMaxMana) return 20;
                     break;
                 case "优胜劣汰":
                     foreach (Handmanager.Handcard hc in p.owncards)
                     {
-                        if(hc.card.cardIDenum == CardDB.cardIDEnum.DMF_163) {
+                        if(hc.card.cardIDenum == CardDB.cardIDEnum.DMF_163 && hc.card.cost < card.cost ) {
                             return -50;
                         }
                     }
@@ -436,25 +451,31 @@ namespace HREngine.Bots
                 case "狂欢小丑":
                     foreach (Handmanager.Handcard hc in p.owncards)
                     {
-                        if(hc.card.卡名 == "优胜劣汰" && card.cardIDenum == CardDB.cardIDEnum.DMF_163) {
+                        if(hc.card.cost > card.cost && card.cardIDenum == CardDB.cardIDEnum.DMF_163) {
                             return 50;
                         }
                     }
                     break;
+                case "月牙":
+                    return -10;
                 case "活化扫帚":
-                    pen = 5;
+                    pen = 50;
                     if(p.enemyMinions.Count == 0) {
                         pen = 50;
                         break;
                     }
+                    int tmpAtk = 0, tmpHp = 0;
                     foreach(Minion m in p.ownMinions)
                     {
-                        // 当前回合召唤的牌
                         if(m.playedThisTurn && m.rush != 1 && m.charge != 1){
-                            pen -= m.Angr;
+                            tmpAtk += m.Angr;
                         }
                     }
-                    pen *= 10;
+                    foreach(Minion m in p.enemyMinions)
+                    {
+                        tmpHp += m.Hp;
+                    }
+                    pen += - (tmpAtk > tmpHp ? tmpHp : tmpAtk) * 10;
                     break;
                 case "始生保护者":
                     foreach(KeyValuePair<CardDB.cardIDEnum, int>kvp in p.prozis.turnDeck )
@@ -491,6 +512,12 @@ namespace HREngine.Bots
                     if(p.ownMaxMana <= 3) pen = -40;
                     else if( p.ownMaxMana == 9) pen = 300;
                     break;
+                case "前沿哨所":
+                    if(p.ownMaxMana <= 2) pen = -20;
+                    break;   
+                case "泰兰·佛丁":
+                    return -30;
+                    break;                              
             }
             return pen;
         }      

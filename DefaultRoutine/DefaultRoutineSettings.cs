@@ -56,7 +56,7 @@ namespace HREngine.Bots
                     NotifyPropertyChanged(() => ArenaPreferredClass1);
   
                 }
-                // Log.InfoFormat("[默认策略设置] 竞技场优先种族1 = {0}.", _arenaPreferredClass1);
+                //Log.InfoFormat("[默认策略设置] 竞技场优先种族1 = {0}.", _arenaPreferredClass1);
             }
         }
 
@@ -74,7 +74,7 @@ namespace HREngine.Bots
                     _arenaPreferredClass2 = value;
                     NotifyPropertyChanged(() => ArenaPreferredClass2);
                 }
-                // Log.InfoFormat("[默认策略设置] 竞技场优先种族2 = {0}.", _arenaPreferredClass2);
+                //Log.InfoFormat("[默认策略设置] 竞技场优先种族2 = {0}.", _arenaPreferredClass2);
             }
         }
 
@@ -92,7 +92,7 @@ namespace HREngine.Bots
                     _arenaPreferredClass3 = value;
                     NotifyPropertyChanged(() => ArenaPreferredClass3);
                 }
-                // Log.InfoFormat("[默认策略设置] 竞技场优先种族3 = {0}.", _arenaPreferredClass3);
+                //Log.InfoFormat("[默认策略设置] 竞技场优先种族3 = {0}.", _arenaPreferredClass3);
             }
         }
 
@@ -110,7 +110,7 @@ namespace HREngine.Bots
                     _arenaPreferredClass4 = value;
                     NotifyPropertyChanged(() => ArenaPreferredClass4);
                 }
-                // Log.InfoFormat("[默认策略设置] 竞技场优先种族4 = {0}.", _arenaPreferredClass4);
+                //Log.InfoFormat("[默认策略设置] 竞技场优先种族4 = {0}.", _arenaPreferredClass4);
             }
         }
 
@@ -128,7 +128,7 @@ namespace HREngine.Bots
                     _arenaPreferredClass5 = value;
                     NotifyPropertyChanged(() => ArenaPreferredClass5);
                 }
-                // Log.InfoFormat("[默认策略设置] 竞技场优先种族5 = {0}.", _arenaPreferredClass5);
+                //Log.InfoFormat("[默认策略设置] 竞技场优先种族5 = {0}.", _arenaPreferredClass5);
             }
         }
 
@@ -167,11 +167,73 @@ namespace HREngine.Bots
                     _defaultBehavior = value;
                     NotifyPropertyChanged(() => DefaultBehavior);
                 }
-                // Log.InfoFormat("[默认策略设置] 默认战斗模式 = {0}.", _defaultBehavior);
+                Log.InfoFormat("[默认策略设置] 默认战斗模式 = {0}.", _defaultBehavior);
             }
         }
 
-        
+        private ObservableCollection<string> _allBehav;
+
+        /// <summary>All enum values for this type.</summary>
+        [JsonIgnore]
+        public ObservableCollection<string> AllBehav
+        {
+            get
+            {
+                return _allBehav ?? (_allBehav = new ObservableCollection<string>(Silverfish.Instance.BehaviorDB.Keys));
+            }
+        }
+		
+	    private readonly List<int> _questIdsToCancel = new List<int>();
+
+		[JsonIgnore]
+	    public List<int> QuestIdsToCancel
+	    {
+		    get { return _questIdsToCancel; }
+	    }
+
+        private int _maxWide;
+
+        /// <summary>
+        /// AI值.
+        /// </summary>
+        [DefaultValue(3000)]
+        public int MaxWide
+        {
+            get { return _maxWide; }
+            set
+            {
+                if (!value.Equals(_maxWide))
+                {
+                    _maxWide = value;
+                    NotifyPropertyChanged(() => MaxWide);
+  
+                }
+                Log.InfoFormat("[默认策略设置] AI值 = {0}.", _maxWide);
+            }
+        }
+
+        private bool _useSecretsPlayAround;
+
+        /// <summary>
+        /// 是否开启防奥秘.
+        /// </summary>
+        [DefaultValue(false)]
+        public bool UseSecretsPlayAround
+        {
+            get { return _useSecretsPlayAround; }
+            set
+            {
+                if (!value.Equals(_useSecretsPlayAround))
+                {
+                    _useSecretsPlayAround = value;
+                    NotifyPropertyChanged(() => UseSecretsPlayAround);
+  
+                }
+                Log.InfoFormat("[默认策略设置] 防奥秘 = {0}.", _useSecretsPlayAround);
+            }
+        }
+
+
         /// <summary>
         /// 是否打印出牌惩罚.
         /// </summary>
@@ -209,24 +271,48 @@ namespace HREngine.Bots
         }
 
 
-        private ObservableCollection<string> _allBehav;
+        private bool _berserkIfCanFinishNextTour;
 
-        /// <summary>All enum values for this type.</summary>
-        [JsonIgnore]
-        public ObservableCollection<string> AllBehav
+        /// <summary>
+        /// 是否开启下回合斩杀本回合打脸.
+        /// </summary>
+        [DefaultValue(false)]
+        public bool BerserkIfCanFinishNextTour
         {
-            get
+            get { return _berserkIfCanFinishNextTour; }
+            set
             {
-                return _allBehav ?? (_allBehav = new ObservableCollection<string>(Silverfish.Instance.BehaviorDB.Keys));
+                if (!value.Equals(_berserkIfCanFinishNextTour))
+                {
+                    _berserkIfCanFinishNextTour = value;
+                    NotifyPropertyChanged(() => BerserkIfCanFinishNextTour);
+  
+                }
+                Log.InfoFormat("[默认策略设置] 下回合斩杀本回合打脸 = {0}.", _berserkIfCanFinishNextTour);
             }
         }
-		
-	    private readonly List<int> _questIdsToCancel = new List<int>();
 
-		[JsonIgnore]
-	    public List<int> QuestIdsToCancel
-	    {
-		    get { return _questIdsToCancel; }
-	    }
+
+        private int _enfacehp;
+        /// <summary>
+        /// 打脸阈值.
+        /// </summary>
+        [DefaultValue(27)]
+        public int Enfacehp
+        {
+            get { return _enfacehp; }
+            set
+            {
+                if (!value.Equals(_enfacehp))
+                {
+                    _enfacehp = value;
+                    NotifyPropertyChanged(() => Enfacehp);
+  
+                }
+                Log.InfoFormat("[默认策略设置] 打脸阈值 = {0}.", _enfacehp);
+            }
+        }
+
+
     }
 }

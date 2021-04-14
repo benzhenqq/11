@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -26,6 +27,7 @@ using Triton.Game.Data;
 using Triton.Game.Mapping;
 using Triton.Bot.Logic.Bots.DefaultBot;
 using Logger = Triton.Common.LogUtilities.Logger;
+using System.Reflection;
 
 namespace HREngine.Bots
 {
@@ -56,15 +58,35 @@ namespace HREngine.Bots
         //uncomment the desired option, or leave it as is to select via the interface
         Behavior behave = new BehaviorControl();
         //Behavior behave = new BehaviorRush();
-
+        /*
+        public void ChooseOneClick(int dirty)
+        {
+            if (dirty >= 0)
+            {
+                switch (dirtychoice)
+                {
+                    case 0: TritonHs.ChooseOneClickMiddle(); break;
+                    case 1: TritonHs.ChooseOneClickLeft(); break;
+                    default:
+                        {
+                            List<Card> friendlyCards = ChoiceCardMgr.Get().GetFriendlyCards();
+                            if (friendlyCards.Count > dirty)
+                                Client.LeftClickAt(Client.CardInteractPoint(friendlyCards[dirty]));
+                            else
+                                TritonHs.ChooseOneClickRight();//抉择
+                            break;
+                        }
+                }
+            }
+        }*/
 
         public DefaultRoutine()
         {
             // Global rules. Never keep a 4+ minion, unless it's Bolvar Fordragon (paladin).
-            _mulliganRules.Add(new Tuple<string, string>("True", "card.Entity.Cost >= 4 and card.Entity.Id != \"GVG_063\""));
+            // _mulliganRules.Add(new Tuple<string, string>("True", "card.Entity.Cost >= 4 and card.Entity.Id != \"GVG_063\""));
 
             // Never keep Tracking.
-            // _mulliganRules.Add(new Tuple<string, string>("mulliganData.UserClass == TAG_CLASS.HUNTER", "card.Entity.Id == \"DS1_184\""));
+            //_mulliganRules.Add(new Tuple<string, string>("mulliganData.UserClass == TAG_CLASS.HUNTER", "card.Entity.Id == \"DS1_184\""));
 
             // Example rule for self.
             //_mulliganRules.Add(new Tuple<string, string>("mulliganData.UserClass == TAG_CLASS.MAGE", "card.Cost >= 5"));
@@ -146,25 +168,25 @@ def Execute():
         /// <summary> The name of the routine. </summary>
         public string Name
         {
-            get { return "策略"; }
+            get { return "自定义策略"; }
         }
 
         /// <summary> The description of the routine. </summary>
         public string Description
         {
-            get { return "默认策略."; }
+            get { return "贴吧分享版策略."; }
         }
 
         /// <summary>The author of this routine.</summary>
         public string Author
         {
-            get { return "Bossland GmbH"; }
+            get { return "百度炉石兄弟贴吧"; }
         }
 
         /// <summary>The version of this routine.</summary>
         public string Version
         {
-            get { return "0.0.1.1"; }
+            get { return "0.0.0.0"; }
         }
 
         #endregion
@@ -261,6 +283,101 @@ def Execute():
 
                     // Your settings binding here.
 
+                    // ArenaPreferredClass1
+                    if (
+                        !Wpf.SetupComboBoxItemsBinding(root, "ArenaPreferredClass1ComboBox", "AllClasses",
+                            BindingMode.OneWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat(
+                            "[SettingsControl] SetupComboBoxItemsBinding failed for 'ArenaPreferredClass1ComboBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    if (
+                        !Wpf.SetupComboBoxSelectedItemBinding(root, "ArenaPreferredClass1ComboBox",
+                            "ArenaPreferredClass1", BindingMode.TwoWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat(
+                            "[SettingsControl] SetupComboBoxSelectedItemBinding failed for 'ArenaPreferredClass1ComboBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    // ArenaPreferredClass2
+                    if (
+                        !Wpf.SetupComboBoxItemsBinding(root, "ArenaPreferredClass2ComboBox", "AllClasses",
+                            BindingMode.OneWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat(
+                            "[SettingsControl] SetupComboBoxItemsBinding failed for 'ArenaPreferredClass2ComboBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    if (
+                        !Wpf.SetupComboBoxSelectedItemBinding(root, "ArenaPreferredClass2ComboBox",
+                            "ArenaPreferredClass2", BindingMode.TwoWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat(
+                            "[SettingsControl] SetupComboBoxSelectedItemBinding failed for 'ArenaPreferredClass2ComboBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    // ArenaPreferredClass3
+                    if (
+                        !Wpf.SetupComboBoxItemsBinding(root, "ArenaPreferredClass3ComboBox", "AllClasses",
+                            BindingMode.OneWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat(
+                            "[SettingsControl] SetupComboBoxItemsBinding failed for 'ArenaPreferredClass3ComboBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    if (
+                        !Wpf.SetupComboBoxSelectedItemBinding(root, "ArenaPreferredClass3ComboBox",
+                            "ArenaPreferredClass3", BindingMode.TwoWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat(
+                            "[SettingsControl] SetupComboBoxSelectedItemBinding failed for 'ArenaPreferredClass3ComboBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    // ArenaPreferredClass4
+                    if (
+                        !Wpf.SetupComboBoxItemsBinding(root, "ArenaPreferredClass4ComboBox", "AllClasses",
+                            BindingMode.OneWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat(
+                            "[SettingsControl] SetupComboBoxItemsBinding failed for 'ArenaPreferredClass4ComboBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    if (
+                        !Wpf.SetupComboBoxSelectedItemBinding(root, "ArenaPreferredClass4ComboBox",
+                            "ArenaPreferredClass4", BindingMode.TwoWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat(
+                            "[SettingsControl] SetupComboBoxSelectedItemBinding failed for 'ArenaPreferredClass4ComboBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    // ArenaPreferredClass5
+                    if (
+                        !Wpf.SetupComboBoxItemsBinding(root, "ArenaPreferredClass5ComboBox", "AllClasses",
+                            BindingMode.OneWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat(
+                            "[SettingsControl] SetupComboBoxItemsBinding failed for 'ArenaPreferredClass5ComboBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    if (
+                        !Wpf.SetupComboBoxSelectedItemBinding(root, "ArenaPreferredClass5ComboBox",
+                            "ArenaPreferredClass5", BindingMode.TwoWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat(
+                            "[SettingsControl] SetupComboBoxSelectedItemBinding failed for 'ArenaPreferredClass5ComboBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+                    
                     // defaultBehaviorComboBox1
                     if (
                         !Wpf.SetupComboBoxItemsBinding(root, "defaultBehaviorComboBox1", "AllBehav",
@@ -281,7 +398,26 @@ def Execute():
                     }
                     // Your settings event handlers here.
 
-                    
+                    // MaxWide
+                    if (
+                        !Wpf.SetupTextBoxBinding(root, "MaxWideTextBox", "MaxWide",
+                        BindingMode.TwoWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat("[SettingsControl] SetupTextBoxBinding failed for 'MaxWideTextBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    // UseSecretsPlayAround
+                    if (
+                        !Wpf.SetupCheckBoxBinding(root, "UseSecretsPlayAroundCheckBox",
+                            "UseSecretsPlayAround",
+                            BindingMode.TwoWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat(
+                            "[SettingsControl] SetupCheckBoxBinding failed for 'UseSecretsPlayAroundCheckBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
                     // 打印自定义惩罚值
                     if (
                         !Wpf.SetupCheckBoxBinding(root, "PrintPenaltiesCheckBox",
@@ -306,11 +442,53 @@ def Execute():
 
                     
 
+                    // BerserkIfCanFinishNextTour
+                    if (
+                        !Wpf.SetupCheckBoxBinding(root, "BerserkIfCanFinishNextTourCheckBox",
+                            "BerserkIfCanFinishNextTour",
+                            BindingMode.TwoWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat(
+                            "[SettingsControl] SetupCheckBoxBinding failed for 'BerserkIfCanFinishNextTourCheckBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    // 打脸阈值
+                    if (
+                        !Wpf.SetupTextBoxBinding(root, "EnfacehpTextBox", "Enfacehp",
+                        BindingMode.TwoWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat("[SettingsControl] SetupTextBoxBinding failed for 'EnfacehpTextBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    var resetButton = Wpf.FindControlByName<Button>(root, "ResetButton");
+                    resetButton.Click += ResetButtonOnClick;
+
                     return root;
                 }
             }
         }
 
+        private void ResetButtonOnClick(object sender, RoutedEventArgs routedEventArgs)
+        {
+            DefaultRoutineSettings.Instance.MaxWide = -1;
+            HREngine.Bots.Settings.Instance.setSettings(DefaultRoutineSettings.Instance.DefaultBehavior);
+            DefaultRoutineSettings.Instance.MaxWide = HREngine.Bots.Settings.Instance.maxwide;
+            DefaultRoutineSettings.Instance.UseSecretsPlayAround = HREngine.Bots.Settings.Instance.useSecretsPlayAround;
+            DefaultRoutineSettings.Instance.BerserkIfCanFinishNextTour = (HREngine.Bots.Settings.Instance.berserkIfCanFinishNextTour == 1);
+        }
+
+        public static void updateSettings()
+        {
+            if (DefaultRoutineSettings.Instance.MaxWide != -1)
+            {
+                HREngine.Bots.Settings.Instance.maxwide = DefaultRoutineSettings.Instance.MaxWide;
+                HREngine.Bots.Settings.Instance.useSecretsPlayAround = DefaultRoutineSettings.Instance.UseSecretsPlayAround;
+                HREngine.Bots.Settings.Instance.berserkIfCanFinishNextTour = DefaultRoutineSettings.Instance.BerserkIfCanFinishNextTour ? 1 : 0;
+            }
+        }
+        
         /// <summary>The settings object. This will be registered in the current configuration.</summary>
         public JsonSettings Settings
         {
@@ -555,8 +733,8 @@ def Execute():
         #endregion
 
         #region Turn
-
-	    public async Task OurTurnCombatLogic()
+        
+        public async Task OurTurnCombatLogic()
 	    {
             Log.InfoFormat("[我方回合]");
             await Coroutine.Sleep(555 + makeChoice());
@@ -572,8 +750,7 @@ def Execute():
             Silverfish.Instance.lastpf = null;
             return;
 		}
-
-	    public async Task OpponentTurnCombatLogic()
+        public async Task OpponentTurnCombatLogic()
 	    {
 		    Log.Info("[对手回合]");
 	    }
@@ -731,7 +908,7 @@ def Execute():
                     return;
                 }
             }
-            Helpfunctions.Instance.ErrorLog("开始行动");
+            // Helpfunctions.Instance.ErrorLog("开始行动");
             if (moveTodo == null)
             {
                 Helpfunctions.Instance.ErrorLog("实在支不出招啦. 结束当前回合");
@@ -965,12 +1142,12 @@ def Execute():
                         var sourceCard = entity.GetCard();
                         if (sourceCard != null)
                         {
-                            if (sourceCard.GetEntity().HasReferencedTag(GAME_TAG.DISCOVER))
+                            if (sourceCard.GetEntity().HasTag(GAME_TAG.DISCOVER))
                             {
                                 choiceMode = GAME_TAG.DISCOVER;
                                 dirtychoice = -1;
                             }
-                            else if (sourceCard.GetEntity().HasReferencedTag(GAME_TAG.ADAPT))
+                            else if (sourceCard.GetEntity().HasTag(GAME_TAG.ADAPT))
                             {
                                 choiceMode = GAME_TAG.ADAPT;
                                 dirtychoice = -1;
@@ -1025,6 +1202,7 @@ def Execute():
                                     switch (ai.bestmove.card.card.name)
                                     {
                                         case CardDB.cardName.eternalservitude:
+                                        case CardDB.cardName.grandfinale:
                                         case CardDB.cardName.freefromamber:
                                             Minion m = tmpPlf.createNewMinion(discoverCards[i], tmpPlf.ownMinions.Count, true);
                                             tmpPlf.ownMinions[tmpPlf.ownMinions.Count - 1] = m;
@@ -1088,6 +1266,7 @@ def Execute():
             }
             return 0;
         }
+     
 
         /// <summary>
         /// Under construction.
