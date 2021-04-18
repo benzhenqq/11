@@ -304,6 +304,7 @@ namespace HREngine.Bots
                 switch(m.handcard.card.卡名){
                     case "甩笔侏儒":
                     case "科卡尔驯犬者":
+                    case "巡游领队":
                     case "螃蟹骑士":
                         retval -= 10;
                         break;                    
@@ -498,6 +499,13 @@ namespace HREngine.Bots
                         pen -= m.Hp;
                     }
                     pen *= 10;
+                    break;
+                case "银色自大狂":
+                    foreach (Handmanager.Handcard hc in p.owncards){
+                        if(hc.card.卡名 == "威能祝福"){
+                            return 30;
+                        }
+                    }
                     break;
                 case "威能祝福":
                 case "阿达尔之手":
