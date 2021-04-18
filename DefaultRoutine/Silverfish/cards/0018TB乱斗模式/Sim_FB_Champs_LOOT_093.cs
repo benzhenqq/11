@@ -18,7 +18,6 @@ namespace HREngine.Bots
 				// ID 转卡
 				CardDB.cardIDEnum deckCard = kvp.Key;
 				CardDB.Card deckMinion = CardDB.Instance.getCardDataFromID(deckCard);
-				// 5费以下野兽
 				if( deckMinion.cost <= 2 ){
 					int pos = p.ownMinions.Count ;
 					p.callKid(deckMinion, pos, ownplay);

@@ -105,7 +105,11 @@ namespace HREngine.Bots
             {
                 retval += 5;
                 retval += m.Hp * 2;
-                retval += m.Angr * 2;
+                if(!m.cantAttack || !m.Ready){
+                    retval += m.Angr * 2;
+                }else {
+                    retval += m.Angr / 2;
+                }
                 retval += m.handcard.card.rarity;
 
                 // 智慧圣契掉落
@@ -265,7 +269,8 @@ namespace HREngine.Bots
                         break;
                 }
             }
-            //if (usecoin && p.mana >= 1) retval -= 20;
+            // if (usecoin && p.mana >= 1) retval -= 20;
+            retval -= p.mana;
 
             int mobsInHand = 0;
             int bigMobsInHand = 0;
@@ -294,6 +299,15 @@ namespace HREngine.Bots
             {
                 retval -= this.getEnemyMinionValue(m, p);
                 //hasTank = hasTank || m.taunt;
+                // 优先需要处理的敌方随从
+                if(m.silenced) continue;
+                switch(m.handcard.card.卡名){
+                    case "甩笔侏儒":
+                    case "科卡尔驯犬者":
+                    case "螃蟹骑士":
+                        retval -= 10;
+                        break;                    
+                }
             }
             retval -= p.enemyMinions.Count * 2;
             /*foreach (SecretItem si in p.enemySecretList)
@@ -418,6 +432,17 @@ namespace HREngine.Bots
                 if(target.Angr >= m.Hp) return - m.libramofwisdom * 10;
                 return - m.libramofwisdom * 5;
             }
+            // 鼓励圣盾攻击
+            if(m.divineshild && !target.isHero && target.Angr > 2){
+                return -10;
+            }
+            switch (m.handcard.card.卡名)
+            {
+                case "螃蟹骑士":
+                    if(target.isHero) return -20;
+                    return 20;
+            }
+
             return 0;
         }
 
@@ -429,24 +454,36 @@ namespace HREngine.Bots
             int canAttackHeroCount = 0;
             foreach(Minion m in p.ownMinions)
             {
-                if(!m.cantAttackHeroes && !m.frozen && !m.cantAttack) {
+                if(m.Ready && !m.cantAttackHeroes && !m.frozen && !m.cantAttack ) {
                     canAttackHeroCount = canAttackHeroCount + 1;
                     break;
                 }
             }      
             switch (card.卡名)
             {
-                case "幸运币":
-                    pen = 60;
-                    foreach (Handmanager.Handcard hc in p.owncards)
-                    {
-                        if(hc.card.cost == p.mana + 1 && card.卡名 != "幸运币") {
-                            return GetSpecialCardComboPenalty(hc.card, target, p) + 5;
-                        }
+                case "幽光鱼竿":
+                    if(p.ownWeapon.Durability > 0){
+                        return 20;
                     }
-                    break;
+                    return -30;
+                case "幸运币":
+                    return 20;
+                case "新生入学":
+                    return -50;
+                case "圣礼骑士":
+                    return -10;
                 case "夺日者间谍":
                     return p.ownSecretsIDList.Count > 0 ? -20 : 1;
+                case "异教低阶牧师":
+                    if(p.enemyHeroStartClass == TAG_CLASS.MAGE || p.enemyHeroStartClass == TAG_CLASS.PRIEST ) return -20;
+                    return 0;
+                case "螃蟹骑士":
+                    return 0;
+                case "银色保卫者":
+                    if(target != null && !target.divineshild) {
+                        return -2 * target.Angr;
+                    }
+                    return 0;
                 case "逝者之剑":
                     // 已经装备一把了就别挂了
                     if(p.ownWeapon.Durability > 0 && p.ownWeapon.card.卡名 == "逝者之剑"){
@@ -467,10 +504,10 @@ namespace HREngine.Bots
                 case "王者祝福":
                 case "智慧圣契":
                     if (target.handcard.card.卡名 == "甩笔侏儒" && !target.silenced) return 1000;
-                    if (target.own && target.windfury && !target.cantAttackHeroes) return -120;
+                    if (target.own && target.windfury ) return -50;
                     if (target.own && target.frozen)  return 20; 
                     if (target.own && target.cantAttack && p.enemyHeroStartClass != TAG_CLASS.MAGE)  return 20;
-                    break;
+                    return -20;
                 case "前沿哨所":
                     // 前两个回合优先下，赌对面解不掉
                     if( p.ownMaxMana <= 2 ) return -100;
@@ -481,6 +518,7 @@ namespace HREngine.Bots
                     if ( p.enemyHeroStartClass == TAG_CLASS.MAGE || p.enemyHeroStartClass == TAG_CLASS.PRIEST )
                         return -30;   
                     return 0;
+                case "曼科里克":
                 case "莫戈尔·莫戈尔格":
                     return -10;
                 case "终极莫戈尔格":
@@ -497,15 +535,15 @@ namespace HREngine.Bots
                 case "十字路口大嘴巴":
                     return -10 * p.ownSecretsIDList.Count;
                 case "定罪（等级1）":
-                   if(canAttackHeroCount > 0){
-                        return 1;
+                    if(canAttackHeroCount > 0){
+                        return 10;
                     }
                     return 100;
                 case "定罪（等级2）":
                     if(canAttackHeroCount > 1){
                         return -30;
                     }else if(canAttackHeroCount > 0){
-                        return 1;
+                        return 10;
                     }
                     return 100;
                 case "定罪（等级3）":
@@ -514,7 +552,7 @@ namespace HREngine.Bots
                     }else if(canAttackHeroCount == 2){
                         return -30;
                     }else if(canAttackHeroCount > 0){
-                        return 1;
+                        return 10;
                     }
                     return 100;      
                 case "火炮长斯密瑟":
@@ -526,10 +564,17 @@ namespace HREngine.Bots
                 case "复仇":
                     return -1;            
                 case "食人魔巫术师":
-                    if(p.enemyHeroStartClass == TAG_CLASS.PRIEST || p.enemyHeroStartClass == TAG_CLASS.MAGE || p.enemyHeroStartClass == TAG_CLASS.ROGUE ){
-                        return -20;
-                    }    
-                    break;
+                    // TODO 敌方的法术数量大于随从数量则优先
+                    return -30;
+                case "援军":
+                    bool findMinion = false;
+                    foreach(Handmanager.Handcard hc in p.owncards)
+                    {
+                        if(hc.card.type == CardDB.cardtype.MOB && hc.card.cost <= card.cost 
+                        && hc.card.卡名 != "银色自大狂" && hc.card.卡名 != "银色保卫者") findMinion = true;
+                    }
+                    if(!findMinion) return -3;
+                    return 1;
             }
             return pen;
         }      

@@ -1,0 +1,177 @@
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:22:54 V117.178 奥秘法 3000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 1/0
+mana 1/1
+emana 1
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 2
+ownhero:
+firemagejaina 30 30 0 False False 66 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+thief 30 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_083b_H1
+fatigue: 26 0 26 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 madscientist 2 entity 62 FP1_004 0 0 0
+pos 2 arcaneflakmage 2 entity 46 ULD_240 0 0 0
+pos 3 cloudprince 5 entity 51 ULD_293 0 0 0
+pos 4 kabalcrystalrunner 6 entity 38 CFM_760 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: CFM_066,1;ULD_240,1;FP1_004,1;UNG_020,2;ULD_726,2;KAR_092,2;EX1_295,1;ULD_239,1;LOOT_101,2;BAR_812,1;EX1_612,2;BT_003,2;DMF_107,2;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,1;
+recalc-check###########
+mana changed 1 8 1 8 1 8
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 60
+missing dmg to lethal 30
+calculated 0.0620067
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 58
+calculated 0.0299982
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:23:23 V117.178 奥秘法 3000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 3/0
+mana 2/2
+emana 2
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 2
+ownhero:
+firemagejaina 30 30 0 False False 66 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+thief 30 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_083b_H1
+fatigue: 25 0 25 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 madscientist 2 entity 62 FP1_004 0 0 0
+pos 2 arcaneflakmage 2 entity 46 ULD_240 0 0 0
+pos 3 cloudprince 5 entity 51 ULD_293 0 0 0
+pos 4 kabalcrystalrunner 6 entity 38 CFM_760 0 0 0
+pos 5 kaballackey 1 entity 37 CFM_066 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: UNG_856,1;
+od: ULD_240,1;FP1_004,1;UNG_020,2;ULD_726,2;KAR_092,2;EX1_295,1;ULD_239,1;LOOT_101,2;BAR_812,1;EX1_612,2;BT_003,2;DMF_107,2;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,1;
+recalc-check###########
+mana changed 2 -100 2 8 2 8
+Leathal-check###########
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 259
+play id 62 pos 1
+
+
+missing dmg to lethal 30
+calculated 0.0820037
+no lethal, do something random######
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 267
+play id 62 pos 1
+
+
+calculated 0.071003
+play id 62 pos 1
+
+
+使用: 疯狂的科学家 (62) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:23:27 V117.178 奥秘法 3000 face 15 ets 40 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 3/1
+mana 0/2
+emana 2
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 2
+ownhero:
+firemagejaina 30 30 0 False False 66 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_08bp
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+thief 30 30 0 False False 64 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_083b_H1
+fatigue: 25 0 25 0
+OwnMinions:
+madscientist FP1_004 zp:1 e:62 A:2 H:2 mH:2 rdy:False natt:0 ex ptt
+EnemyMinions:
+Own Handcards: 
+pos 1 arcaneflakmage 2 entity 46 ULD_240 0 0 0
+pos 2 cloudprince 5 entity 51 ULD_293 0 0 0
+pos 3 kabalcrystalrunner 6 entity 38 CFM_760 0 0 0
+pos 4 kaballackey 1 entity 37 CFM_066 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: UNG_856,1;
+od: ULD_240,1;FP1_004,1;UNG_020,2;ULD_726,2;KAR_092,2;EX1_295,1;ULD_239,1;LOOT_101,2;BAR_812,1;EX1_612,2;BT_003,2;DMF_107,2;CS2_029,2;DMF_106,1;ULD_293,1;DMF_109,1;CFM_760,1;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------

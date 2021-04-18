@@ -421,25 +421,9 @@ namespace HREngine.Bots
             {
                 case "幸运币":
                 case "激活":
-                    if(p.ownMaxMana <= 1) return 20;
-                    pen = 60;
-                    foreach (Handmanager.Handcard hc in p.owncards)
-                    {
-                        if(hc.card.cost == p.mana + 1 && hc.card.卡名 != "幸运币" && hc.card.卡名 != "激活" && hc.card.卡名 != "雷霆绽放") {
-                            return GetSpecialCardComboPenalty(hc.card, target, p) + 5;
-                        }
-                    }
-                    break;
+                    return 20;
                 case "雷霆绽放":
-                    pen = 100;
-                    foreach (Handmanager.Handcard hc in p.owncards)
-                    {
-                        if(p.mana == p.ownMaxMana && hc.card.cost == p.mana + 2 && hc.card.卡名 != "幸运币" && hc.card.卡名 != "激活" && hc.card.卡名 != "雷霆绽放" 
-                        && hc.card.卡名 != "优胜劣汰" && hc.card.卡名 != "大力士" && hc.card.卡名 != "前沿哨所") {
-                            return GetSpecialCardComboPenalty(hc.card, target, p) + 15;
-                        }
-                    }
-                    break;
+                    return 50;
                 case "优胜劣汰":
                     foreach (Handmanager.Handcard hc in p.owncards)
                     {

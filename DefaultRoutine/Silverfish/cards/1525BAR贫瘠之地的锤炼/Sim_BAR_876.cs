@@ -8,7 +8,7 @@ namespace HREngine.Bots
 	{
 		//<b>Battlecry:</b> If you control a <b>Secret</b>, draw a minion.
 		//<b>战吼：</b>如果你控制一个<b>奥秘</b>，抽一张随从牌。
-		public virtual void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
         {
 			if(p.ownSecretsIDList.Count>=1)
             {

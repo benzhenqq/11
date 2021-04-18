@@ -12,7 +12,7 @@ namespace HREngine.Bots
 		{
 			foreach (Minion m in p.ownMinions)
 			{
-				if(!m.cantAttack){
+				if(!m.cantAttack && m.handcard.card.卡名 != "前沿哨所"){
 					p.minionGetRush(m);
 				}				
 			}

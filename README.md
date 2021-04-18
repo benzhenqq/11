@@ -25,16 +25,10 @@
 
 来源：https://www.iyingdi.com/web/tools/hearthstone/userdecks/deckdetail/6144457?btypes=home
 
-包含的需要替换的核心卡： 法术反制
-
 #####  封印骑
 狂野套牌：AAEBAZ8FBKcF3QqOmgPj6wMNjAGIDuoPnRX40gLZ/gLKwQOD3gOR5AP36APO6wOanwTJoAQA
 
 来源：https://hsreplay.net/decks/3qZldXDg3OuWN3WBPO58Pb/
-
-包含的需要替换的核心卡： 正义保护者、王者祝福
-
-可以替换的卡牌：复仇、责难
 
 #####  偶数萨（未测试）
 
@@ -43,6 +37,7 @@
 
 #####  奥秘/圣契/快攻骑
 策略选择：圣契骑
+新的快攻骑：AAECAYsWBPy4A47UA+fwA5qfBA37uAPKwQOezQO/0QPK0QPg0QOL1QOF3gOR5APM6wPj6wPrnwTJoAQA
 快攻：AAECAZ8FBITBA8DRA6iKBMigBA3KuAP9uAPquQPruQPsuQPKwQOezQOfzQOD3gPM6wPO6wPP6wPb7gMA
 圣契：AAECAZ8FBo7UA4XeA4DsA9vuA5qfBOqfBAzKwQOezQPg0QOD3gOR5APM6wPO6wPP6wPj6wOr7APIoATJoAQA
 奥秘：AAECAYsWBo7UA4XeA4DsA9vuA+fwA+qfBAzKwQOezQPg0QOD3gOR5APM6wPO6wPP6wPj6wOr7APIoATJoAQA

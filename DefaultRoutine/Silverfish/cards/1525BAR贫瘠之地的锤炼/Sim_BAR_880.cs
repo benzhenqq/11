@@ -13,21 +13,25 @@ namespace HREngine.Bots
 		{
 			if(ownplay){
 				int cnt = 1;
+				String str = "定罪buff将加给";
 				// 优先加给不会攻击的吧
 				foreach(Minion m in p.ownMinions)
 				{
-					if(m.cantAttackHeroes || m.cantAttack){
+					if(m.cantAttackHeroes || m.cantAttack || !m.Ready){
 						cnt = cnt - 1;
 						p.minionGetBuffed(m, 3, 0);
+						str += m.handcard.card.卡名 + ",";
 						if(cnt <= 0) break;
 					}
 				}
 				foreach(Minion m in p.ownMinions)
 				{
-					cnt = cnt - 1;
-					p.minionGetBuffed(m, 3, 0);
 					if(cnt <= 0) break;
+					cnt = cnt - 1;
+					str += m.handcard.card.卡名;
+					p.minionGetBuffed(m, 3, 0);
 				}
+				// Helpfunctions.Instance.ErrorLog(str); 
 			}
 		}
 		
