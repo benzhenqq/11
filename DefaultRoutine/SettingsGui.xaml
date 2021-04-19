@@ -104,7 +104,10 @@
 							<Label Grid.Row="5" Grid.Column="0" Content="抢脸阈值: "  Margin="3,5,3,1" ToolTipService.ToolTip="敌方生命低于该血量时开始抢脸."/>
         					<TextBox Name="EnfacehpTextBox" Grid.Row="5" Grid.Column="1" Margin="3,5,3,1"/>
 							
-							<Button Content="重置" Name="ResetButton" Grid.Row="6" Grid.Column="0" Margin="3"/>
+							<Label Grid.Row="6" Grid.Column="0" Content="打脸奖励: "  Margin="3,5,3,1" ToolTipService.ToolTip="鼓励兄弟打脸的程度，越高兄弟越倾向于打脸，可以设置负数鼓励兄弟解场."/>
+        					<TextBox Name="EnfaceRewardTextBox" Grid.Row="6" Grid.Column="1" Margin="3,5,3,1"/>
+							
+							<Button Content="重置" Name="ResetButton" Grid.Row="7" Grid.Column="0" Margin="3"/>
 
 							
 						</Grid>

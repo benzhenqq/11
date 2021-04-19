@@ -1,0 +1,1494 @@
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:14:49 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 1/0
+mana 1/1
+emana 1
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+0 0 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 26 0 26 0
+OwnMinions:
+EnemyMinions:
+Own Handcards: 
+pos 1 righteousprotector 1 entity 4 CORE_ICC_038 0 0 0
+pos 2 argentbraggart 2 entity 11 SCH_149 0 0 0
+pos 3 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 4 mankrik 3 entity 28 BAR_721 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;BT_019,1;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,2;SCH_532,2;BT_018,2;SCH_138,2;SCH_710,1;DMF_238,2;
+recalc-check###########
+mana changed 1 -100 1 0 1 0
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 19
+missing dmg to lethal 30
+calculated 0.188014
+no lethal, do something random######
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -61.8
+play id 4 pos 1
+
+
+calculated 0.1650103
+play id 4 pos 1
+
+
+使用: 正义保护者 (4) 抉择: 0
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:14:53 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 1/1
+mana 0/1
+emana 1
+own secretsCount: 0
+enemy secretsCount: 0 ;
+player:
+1 1 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 26 0 26 0
+OwnMinions:
+righteousprotector CORE_ICC_038 zp:1 e:4 A:1 H:1 mH:1 rdy:False natt:0 ex tnt divshield ptt
+EnemyMinions:
+Own Handcards: 
+pos 1 argentbraggart 2 entity 11 SCH_149 0 0 0
+pos 2 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 3 mankrik 3 entity 28 BAR_721 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;BT_019,1;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,2;SCH_532,2;BT_018,2;SCH_138,2;SCH_710,1;DMF_238,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+detect secret with id55
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:15:10 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 3/0
+mana 2/2
+emana 2
+own secretsCount: 0
+enemy secretsCount: 1 ;55.0000000000000000111111,
+player:
+0 0 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 30 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 25 0 25 0
+OwnMinions:
+righteousprotector CORE_ICC_038 zp:1 e:4 A:1 H:1 mH:1 rdy:True natt:0 tnt divshield
+EnemyMinions:
+Own Handcards: 
+pos 1 argentbraggart 2 entity 11 SCH_149 0 0 0
+pos 2 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 3 mankrik 3 entity 28 BAR_721 0 0 0
+pos 4 handofadal 2 entity 8 BT_292 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;BT_019,1;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,2;BT_018,2;SCH_138,2;SCH_710,1;DMF_238,2;
+recalc-check###########
+enemy secrets changed 
+Leathal-check###########
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 2 dones 0
+cut to len 1
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 144
+attacker: 4 enemy: 66
+
+useability 
+
+
+missing dmg to lethal 30
+calculated 0.0960092
+no lethal, do something random######
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 6 dones 0
+cut to len 4
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 99.6
+attacker: 4 enemy: 66
+
+play id 11 pos 2
+
+calculated 0.1260092
+attacker: 4 enemy: 66
+
+随从攻击: 正义保护者 目标为: 乌瑟尔·光明使者
+detect secret with id55
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:15:13 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 3/1
+mana 2/2
+emana 2
+own secretsCount: 0
+enemy secretsCount: 1 ;55.0000000000000000001111,
+player:
+0 0 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 29 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 25 0 25 0
+OwnMinions:
+righteousprotector CORE_ICC_038 zp:1 e:4 A:1 H:1 mH:1 rdy:False natt:1 ex tnt divshield
+EnemyMinions:
+Own Handcards: 
+pos 1 argentbraggart 2 entity 11 SCH_149 0 0 0
+pos 2 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 3 mankrik 3 entity 28 BAR_721 0 0 0
+pos 4 handofadal 2 entity 8 BT_292 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;BT_019,1;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,2;BT_018,2;SCH_138,2;SCH_710,1;DMF_238,2;
+recalc-check###########
+enemyhero changed 29 30 0 0 0 0 0 0 False False False False False False False False
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 58
+useability 
+
+
+missing dmg to lethal 29
+calculated 0.1390189
+no lethal, do something random######
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 17.2
+play id 11 pos 2
+
+calculated 0.1245273
+play id 11 pos 2
+
+使用: 银色自大狂 (11) 抉择: 0
+detect secret with id55
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:15:17 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 3/2
+mana 0/2
+emana 2
+own secretsCount: 0
+enemy secretsCount: 1 ;55.0000000000000000001011,
+player:
+1 1 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 29 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 25 0 25 0
+OwnMinions:
+righteousprotector CORE_ICC_038 zp:1 e:4 A:1 H:1 mH:1 rdy:False natt:1 ex tnt divshield
+argentbraggart SCH_149 zp:2 e:11 A:1 H:1 mH:1 rdy:False natt:0 ex ptt
+EnemyMinions:
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 mankrik 3 entity 28 BAR_721 0 0 0
+pos 3 handofadal 2 entity 8 BT_292 0 0 0
+Enemy cards: 5
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: 
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;BT_019,1;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,2;BT_018,2;SCH_138,2;SCH_710,1;DMF_238,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+detect secret with id34
+detect secret with id45
+detect secret with id55
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:15:43 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 5/0
+mana 3/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 3 ;34.0000000000000000111111,45.0000000000000000111111,55.0000000000000000001011,
+player:
+0 0 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 28 30 0 False False 66 False
+weapon: 1 1 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+fatigue: 24 0 23 0
+OwnMinions:
+righteousprotector CORE_ICC_038 zp:1 e:4 A:1 H:1 mH:1 rdy:True natt:0 tnt
+argentbraggart SCH_149 zp:2 e:11 A:1 H:1 mH:1 rdy:True natt:0
+EnemyMinions:
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 mankrik 3 entity 28 BAR_721 0 0 0
+pos 3 handofadal 2 entity 8 BT_292 0 0 0
+pos 4 murgurmurgurgle 2 entity 24 BT_019 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,2;BT_018,2;SCH_138,2;SCH_710,1;DMF_238,2;
+recalc-check###########
+enemy secrets changed 
+Leathal-check###########
+ailoop
+deep 0 len 5 dones 0
+cut to len 5
+ailoop
+deep 1 len 14 dones 0
+cut to len 12
+ailoop
+deep 2 len 16 dones 0
+cut to len 10
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 267
+attacker: 11 enemy: 66
+
+attacker: 4 enemy: 66
+
+
+play id 24 pos 2
+
+
+missing dmg to lethal 27
+calculated 0.1630105
+no lethal, do something random######
+ailoop
+deep 0 len 7 dones 0
+cut to len 7
+ailoop
+deep 1 len 22 dones 0
+cut to len 17
+ailoop
+deep 2 len 39 dones 0
+cut to len 25
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 199.2
+attacker: 11 enemy: 66
+
+attacker: 4 enemy: 66
+
+
+play id 24 pos 2
+
+
+calculated 0.1630137
+attacker: 11 enemy: 66
+
+随从攻击: 银色自大狂 目标为: 乌瑟尔·光明使者
+detect secret with id34
+detect secret with id45
+detect secret with id55
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:15:47 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 5/1
+mana 3/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 3 ;34.0000000000000000001111,45.0000000000000000001111,55.0000000000000000001011,
+player:
+0 0 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 27 30 0 False False 66 False
+weapon: 1 1 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+fatigue: 24 0 23 0
+OwnMinions:
+righteousprotector CORE_ICC_038 zp:1 e:4 A:1 H:1 mH:1 rdy:True natt:0 tnt
+argentbraggart SCH_149 zp:2 e:11 A:1 H:1 mH:1 rdy:False natt:1 ex
+EnemyMinions:
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 mankrik 3 entity 28 BAR_721 0 0 0
+pos 3 handofadal 2 entity 8 BT_292 0 0 0
+pos 4 murgurmurgurgle 2 entity 24 BT_019 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,2;BT_018,2;SCH_138,2;SCH_710,1;DMF_238,2;
+recalc-check###########
+enemyhero changed 27 28 1 1 0 0 1 1 False False False False False False False False
+Leathal-check###########
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 6 dones 0
+cut to len 5
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 155
+play id 24 pos 3
+
+
+attacker: 4 enemy: 66
+
+missing dmg to lethal 26
+calculated 0.1130083
+no lethal, do something random######
+ailoop
+deep 0 len 6 dones 0
+cut to len 6
+ailoop
+deep 1 len 10 dones 0
+cut to len 8
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 46.6
+play id 24 pos 1
+
+
+attacker: 4 enemy: 66
+
+calculated 0.1120069
+play id 24 pos 1
+
+
+使用: 莫戈尔·莫戈尔格 (24) 抉择: 0
+detect secret with id34
+detect secret with id45
+detect secret with id55
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:15:52 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 5/2
+mana 1/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 3 ;34.0000000000000000001011,45.0000000000000000001011,55.0000000000000000001011,
+player:
+1 1 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 27 30 0 False False 66 False
+weapon: 1 1 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+fatigue: 24 0 23 0
+OwnMinions:
+murgurmurgurgle BT_019 zp:1 e:24 A:2 H:1 mH:1 rdy:False natt:0 ex divshield ptt
+righteousprotector CORE_ICC_038 zp:2 e:4 A:1 H:1 mH:1 rdy:True natt:0 tnt
+argentbraggart SCH_149 zp:3 e:11 A:1 H:1 mH:1 rdy:False natt:1 ex
+EnemyMinions:
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 mankrik 3 entity 28 BAR_721 0 0 0
+pos 3 handofadal 2 entity 8 BT_292 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,2;BT_018,2;SCH_138,2;SCH_710,1;DMF_238,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 4 enemy: 66
+
+随从攻击: 正义保护者 目标为: 乌瑟尔·光明使者
+detect secret with id34
+detect secret with id45
+detect secret with id55
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:15:55 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 5/3
+mana 1/3
+emana 3
+own secretsCount: 0
+enemy secretsCount: 3 ;34.0000000000000000001011,45.0000000000000000001011,55.0000000000000000001011,
+player:
+1 1 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 26 30 0 False False 66 False
+weapon: 1 1 swordofthefallen BAR_875 0 0
+ability: True HERO_04bp
+fatigue: 24 0 23 0
+OwnMinions:
+murgurmurgurgle BT_019 zp:1 e:24 A:2 H:1 mH:1 rdy:False natt:0 ex divshield ptt
+righteousprotector CORE_ICC_038 zp:2 e:4 A:1 H:1 mH:1 rdy:False natt:1 ex tnt
+argentbraggart SCH_149 zp:3 e:11 A:1 H:1 mH:1 rdy:False natt:1 ex
+EnemyMinions:
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 mankrik 3 entity 28 BAR_721 0 0 0
+pos 3 handofadal 2 entity 8 BT_292 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: 
+eg: DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,2;BT_018,2;SCH_138,2;SCH_710,1;DMF_238,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+detect secret with id34
+detect secret with id45
+detect secret with id55
+detect secret with id63
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:16:22 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 7/0
+mana 4/4
+emana 4
+own secretsCount: 0
+enemy secretsCount: 4 ;34.0000000000000000001011,45.0000000000000000001011,55.0000000000000000001011,63.0000000000000000111111,
+player:
+0 0 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 25 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 23 0 21 0
+OwnMinions:
+murgurmurgurgle BT_019 zp:1 e:24 A:2 H:1 mH:1 rdy:True natt:0 divshield
+argentbraggart SCH_149 zp:2 e:11 A:1 H:1 mH:1 rdy:True natt:0
+EnemyMinions:
+crossroadsgossiper BAR_890 zp:1 e:36 A:4 H:3 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 mankrik 3 entity 28 BAR_721 0 0 0
+pos 3 handofadal 2 entity 8 BT_292 0 0 0
+pos 4 blessingofauthority 5 entity 16 SCH_138 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_ICC_038,1;
+eg: BAR_875,1;DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,2;BT_018,2;SCH_138,1;SCH_710,1;DMF_238,2;
+recalc-check###########
+enemy secrets changed 
+Leathal-check###########
+ailoop
+deep 0 len 6 dones 0
+cut to len 6
+ailoop
+deep 1 len 16 dones 0
+cut to len 12
+ailoop
+deep 2 len 14 dones 0
+cut to len 10
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 248
+attacker: 24 enemy: 66
+
+
+play id 28 pos 3
+
+
+attacker: 11 enemy: 66
+
+missing dmg to lethal 24
+calculated 0.2140143
+no lethal, do something random######
+ailoop
+deep 0 len 10 dones 0
+cut to len 10
+ailoop
+deep 1 len 60 dones 0
+cut to len 38
+ailoop
+deep 2 len 142 dones 0
+cut to len 76
+ailoop
+deep 3 len 62 dones 0
+cut to len 30
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 114.6
+attacker: 24 enemy: 36
+
+
+attacker: 11 enemy: 66
+
+play id 28 pos 2
+
+
+calculated 0.2680197
+attacker: 24 enemy: 36
+
+
+随从攻击: 莫戈尔·莫戈尔格 目标为: 十字路口大嘴巴
+detect secret with id34
+detect secret with id45
+detect secret with id55
+detect secret with id63
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:16:27 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 7/1
+mana 4/4
+emana 4
+own secretsCount: 0
+enemy secretsCount: 4 ;34.0000000000000000001011,45.0000000000000000001011,55.0000000000000000001011,63.0000000000000000101111,
+player:
+0 0 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 25 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 23 0 21 0
+OwnMinions:
+murgurmurgurgle BT_019 zp:1 e:24 A:2 H:1 mH:1 rdy:False natt:1 ex
+argentbraggart SCH_149 zp:2 e:11 A:1 H:1 mH:1 rdy:True natt:0
+EnemyMinions:
+crossroadsgossiper BAR_890 zp:1 e:36 A:4 H:1 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 mankrik 3 entity 28 BAR_721 0 0 0
+pos 3 handofadal 2 entity 8 BT_292 0 0 0
+pos 4 blessingofauthority 5 entity 16 SCH_138 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_ICC_038,1;
+eg: BAR_875,1;DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,2;BT_018,2;SCH_138,1;SCH_710,1;DMF_238,2;
+recalc-check###########
+minions count or hand changed
+Leathal-check###########
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 5 dones 0
+cut to len 4
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 166
+play id 28 pos 3
+
+
+attacker: 11 enemy: 66
+
+missing dmg to lethal 24
+calculated 0.1300104
+no lethal, do something random######
+ailoop
+deep 0 len 8 dones 0
+cut to len 8
+ailoop
+deep 1 len 26 dones 0
+cut to len 17
+ailoop
+deep 2 len 12 dones 0
+cut to len 5
+ailoop
+deep 3 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 33.8
+play id 28 pos 2
+
+
+attacker: 11 enemy: 66
+
+calculated 0.1650105
+play id 28 pos 2
+
+
+使用: 曼科里克 (28) 抉择: 0
+detect secret with id34
+detect secret with id45
+detect secret with id55
+detect secret with id63
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:16:33 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 7/2
+mana 1/4
+emana 4
+own secretsCount: 0
+enemy secretsCount: 4 ;34.0000000000000000001011,45.0000000000000000001011,55.0000000000000000001011,63.0000000000000000101011,
+player:
+1 1 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 25 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 23 0 21 0
+OwnMinions:
+murgurmurgurgle BT_019 zp:1 e:24 A:2 H:1 mH:1 rdy:False natt:1 ex
+mankrik BAR_721 zp:2 e:28 A:3 H:4 mH:4 rdy:False natt:0 ex ptt
+argentbraggart SCH_149 zp:3 e:11 A:1 H:1 mH:1 rdy:True natt:0
+EnemyMinions:
+crossroadsgossiper BAR_890 zp:1 e:36 A:4 H:1 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 handofadal 2 entity 8 BT_292 0 0 0
+pos 3 blessingofauthority 5 entity 16 SCH_138 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_ICC_038,1;
+eg: BAR_875,1;DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,2;BT_018,2;SCH_138,1;SCH_710,1;DMF_238,2;
+recalc-check###########
+ownminions changed
+Leathal-check###########
+ailoop
+deep 0 len 1 dones 0
+cut to len 1
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 122
+attacker: 11 enemy: 66
+
+missing dmg to lethal 24
+calculated 0.0910163
+no lethal, do something random######
+ailoop
+deep 0 len 2 dones 0
+cut to len 2
+ailoop
+deep 1 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -20.2
+attacker: 11 enemy: 66
+
+calculated 0.1040082
+attacker: 11 enemy: 66
+
+随从攻击: 银色自大狂 目标为: 乌瑟尔·光明使者
+detect secret with id34
+detect secret with id45
+detect secret with id55
+detect secret with id63
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:16:37 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 7/3
+mana 1/4
+emana 4
+own secretsCount: 0
+enemy secretsCount: 4 ;34.0000000000000000001011,45.0000000000000000001011,55.0000000000000000001011,63.0000000000000000001011,
+player:
+1 1 0 0 1
+ownhero:
+pala 30 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 24 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 23 0 21 0
+OwnMinions:
+murgurmurgurgle BT_019 zp:1 e:24 A:2 H:1 mH:1 rdy:False natt:1 ex
+mankrik BAR_721 zp:2 e:28 A:3 H:4 mH:4 rdy:False natt:0 ex ptt
+argentbraggart SCH_149 zp:3 e:11 A:1 H:1 mH:1 rdy:False natt:1 ex
+EnemyMinions:
+crossroadsgossiper BAR_890 zp:1 e:36 A:4 H:1 mH:3 rdy:False ex
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 handofadal 2 entity 8 BT_292 0 0 0
+pos 3 blessingofauthority 5 entity 16 SCH_138 0 0 0
+Enemy cards: 3
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_ICC_038,1;
+eg: BAR_875,1;DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;CORE_ICC_038,1;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,2;BT_018,2;SCH_138,1;SCH_710,1;DMF_238,2;
+recalc-check###########
+ownhero changed 30 29 0 0 0 0 False False False False False False
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 73
+missing dmg to lethal 24
+calculated 0.0290021
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -69.2
+calculated 0.072007
+detect secret with id34
+detect secret with id45
+detect secret with id55
+detect secret with id63
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:17:02 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 9/0
+mana 5/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 4 ;34.0000000000000000001011,45.0000000000000000001011,55.0000000000000000001011,63.0000000000000000001011,
+player:
+0 0 0 0 1
+ownhero:
+pala 24 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 24 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 22 0 19 0
+OwnMinions:
+murgurmurgurgle BT_019 zp:1 e:24 A:2 H:1 mH:1 rdy:True natt:0
+mankrik BAR_721 zp:2 e:28 A:3 H:4 mH:4 rdy:True natt:0
+argentbraggart SCH_149 zp:3 e:11 A:1 H:1 mH:1 rdy:True natt:0
+EnemyMinions:
+crossroadsgossiper BAR_890 zp:1 e:36 A:6 H:3 mH:5 rdy:False ex
+righteousprotector CORE_ICC_038 zp:2 e:57 A:1 H:1 mH:1 rdy:False ex tnt divshield
+righteousprotector CORE_ICC_038 zp:3 e:39 A:1 H:1 mH:1 rdy:False ex tnt divshield
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 handofadal 2 entity 8 BT_292 0 0 0
+pos 3 blessingofauthority 5 entity 16 SCH_138 0 0 0
+pos 4 goodytwoshields 3 entity 27 SCH_532 0 0 0
+Enemy cards: 2
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_ICC_038,1;
+eg: BAR_875,1;BT_292,1;DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;SCH_532,1;BT_018,2;SCH_138,1;SCH_710,1;DMF_238,2;
+recalc-check###########
+mana changed 5 -100 5 4 5 4
+Leathal-check###########
+ailoop
+deep 0 len 11 dones 0
+cut to len 11
+ailoop
+deep 1 len 80 dones 0
+cut to len 47
+ailoop
+deep 2 len 219 dones 0
+cut to len 85
+ailoop
+deep 3 len 238 dones 0
+cut to len 69
+ailoop
+deep 4 len 78 dones 0
+cut to len 18
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 75
+attacker: 28 enemy: 57
+
+attacker: 11 enemy: 57
+
+useability 
+
+
+play id 27 pos 3
+
+
+missing dmg to lethal 24
+calculated 0.3230193
+no lethal, do something random######
+ailoop
+deep 0 len 14 dones 0
+cut to len 14
+ailoop
+deep 1 len 86 dones 0
+cut to len 53
+ailoop
+deep 2 len 278 dones 0
+cut to len 122
+ailoop
+deep 3 len 405 dones 0
+cut to len 134
+ailoop
+deep 4 len 190 dones 0
+cut to len 64
+ailoop
+deep 5 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board 17.4
+attacker: 28 enemy: 57
+
+attacker: 11 enemy: 39
+
+play id 8 target 24 pos 1
+
+
+play id 27 pos 2
+
+
+attacker: 24 enemy: 57
+
+calculated 0.5030383
+attacker: 28 enemy: 57
+
+随从攻击: 曼科里克 目标为: 正义保护者
+detect secret with id34
+detect secret with id45
+detect secret with id55
+detect secret with id63
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:17:07 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 9/1
+mana 5/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 4 ;34.0000000000000000001011,45.0000000000000000001011,55.0000000000000000001011,63.0000000000000000001011,
+player:
+0 0 0 0 1
+ownhero:
+pala 24 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 24 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 22 0 19 0
+OwnMinions:
+murgurmurgurgle BT_019 zp:1 e:24 A:2 H:1 mH:1 rdy:True natt:0
+mankrik BAR_721 zp:2 e:28 A:3 H:3 mH:4 rdy:False natt:1 ex
+argentbraggart SCH_149 zp:3 e:11 A:1 H:1 mH:1 rdy:True natt:0
+EnemyMinions:
+crossroadsgossiper BAR_890 zp:1 e:36 A:6 H:3 mH:5 rdy:False ex
+righteousprotector CORE_ICC_038 zp:2 e:57 A:1 H:1 mH:1 rdy:False ex tnt
+righteousprotector CORE_ICC_038 zp:3 e:39 A:1 H:1 mH:1 rdy:False ex tnt divshield
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 handofadal 2 entity 8 BT_292 0 0 0
+pos 3 blessingofauthority 5 entity 16 SCH_138 0 0 0
+pos 4 goodytwoshields 3 entity 27 SCH_532 0 0 0
+Enemy cards: 2
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_ICC_038,1;
+eg: BAR_875,1;BT_292,1;DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;SCH_532,1;BT_018,2;SCH_138,1;SCH_710,1;DMF_238,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 11 enemy: 39
+
+随从攻击: 银色自大狂 目标为: 正义保护者
+detect secret with id34
+detect secret with id45
+detect secret with id55
+detect secret with id63
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:17:11 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 9/2
+mana 5/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 4 ;34.0000000000000000001011,45.0000000000000000001011,55.0000000000000000001011,63.0000000000000000001011,
+player:
+0 0 0 0 1
+ownhero:
+pala 24 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 24 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 22 0 19 0
+OwnMinions:
+murgurmurgurgle BT_019 zp:1 e:24 A:2 H:1 mH:1 rdy:True natt:0
+mankrik BAR_721 zp:2 e:28 A:3 H:3 mH:4 rdy:False natt:1 ex
+EnemyMinions:
+crossroadsgossiper BAR_890 zp:1 e:36 A:6 H:3 mH:5 rdy:False ex
+righteousprotector CORE_ICC_038 zp:2 e:57 A:1 H:1 mH:1 rdy:False ex tnt
+righteousprotector CORE_ICC_038 zp:3 e:39 A:1 H:1 mH:1 rdy:False ex tnt
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 handofadal 2 entity 8 BT_292 0 0 0
+pos 3 blessingofauthority 5 entity 16 SCH_138 0 0 0
+pos 4 goodytwoshields 3 entity 27 SCH_532 0 0 0
+Enemy cards: 2
+ownDiedMinions: SCH_149,11;
+enemyDiedMinions: 
+otg: SCH_149,11;
+etg: 
+og: CORE_ICC_038,1;SCH_149,1;
+eg: BAR_875,1;BT_292,1;DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;SCH_532,1;BT_018,2;SCH_138,1;SCH_710,1;DMF_238,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+play id 8 target 24 pos 1
+
+
+使用: 阿达尔之手 (8) 瞄准: 莫戈尔·莫戈尔格 (24) 抉择: 0
+detect secret with id34
+detect secret with id55
+detect secret with id63
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:17:25 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 9/3
+mana 3/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 3 ;34.0000000000000000001011,55.0000000000000000001011,63.0000000000000000001011,
+player:
+0 1 0 0 1
+ownhero:
+pala 24 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 24 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 22 0 19 0
+OwnMinions:
+murgurmurgurgle BT_019 zp:1 e:24 A:2 H:1 mH:1 rdy:True natt:0
+mankrik BAR_721 zp:2 e:28 A:3 H:3 mH:4 rdy:False natt:1 ex
+EnemyMinions:
+crossroadsgossiper BAR_890 zp:1 e:36 A:8 H:5 mH:7 rdy:False ex
+righteousprotector CORE_ICC_038 zp:2 e:57 A:1 H:1 mH:1 rdy:False ex tnt
+righteousprotector CORE_ICC_038 zp:3 e:39 A:1 H:1 mH:1 rdy:False ex tnt
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 blessingofauthority 5 entity 16 SCH_138 0 0 0
+pos 3 goodytwoshields 3 entity 27 SCH_532 0 0 0
+Enemy cards: 2
+ownDiedMinions: SCH_149,11;
+enemyDiedMinions: 
+otg: DMF_090,8;SCH_149,11;
+etg: DMF_236,45;
+og: CORE_ICC_038,1;DMF_090,1;SCH_149,1;
+eg: BAR_875,1;DMF_236,1;BT_292,1;DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,1;BT_018,2;SCH_138,1;SCH_710,1;DMF_238,2;
+recalc-check###########
+enemy secrets changed 
+Leathal-check###########
+ailoop
+deep 0 len 4 dones 0
+cut to len 4
+ailoop
+deep 1 len 8 dones 0
+cut to len 6
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -22
+play id 27 pos 3
+
+
+attacker: 24 enemy: 57
+
+missing dmg to lethal 24
+calculated 0.1030076
+no lethal, do something random######
+ailoop
+deep 0 len 3 dones 0
+cut to len 3
+ailoop
+deep 1 len 4 dones 0
+cut to len 3
+ailoop
+deep 2 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -171.2
+play id 27 pos 2
+
+
+attacker: 24 enemy: 57
+
+calculated 0.1110066
+play id 27 pos 2
+
+
+使用: 双盾优等生 (27) 抉择: 0
+detect secret with id34
+detect secret with id55
+detect secret with id63
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:17:29 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 9/4
+mana 0/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 3 ;34.0000000000000000001011,55.0000000000000000001011,63.0000000000000000001011,
+player:
+1 2 0 0 1
+ownhero:
+pala 24 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 24 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 22 0 19 0
+OwnMinions:
+murgurmurgurgle BT_019 zp:1 e:24 A:2 H:1 mH:1 rdy:True natt:0
+goodytwoshields SCH_532 zp:2 e:27 A:4 H:2 mH:2 rdy:False natt:0 ex divshield ptt
+mankrik BAR_721 zp:3 e:28 A:3 H:3 mH:4 rdy:False natt:1 ex
+EnemyMinions:
+crossroadsgossiper BAR_890 zp:1 e:36 A:8 H:5 mH:7 rdy:False ex
+righteousprotector CORE_ICC_038 zp:2 e:57 A:1 H:1 mH:1 rdy:False ex tnt
+righteousprotector CORE_ICC_038 zp:3 e:39 A:1 H:1 mH:1 rdy:False ex tnt
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 blessingofauthority 5 entity 16 SCH_138 0 0 0
+Enemy cards: 2
+ownDiedMinions: SCH_149,11;
+enemyDiedMinions: 
+otg: DMF_090,8;SCH_149,11;
+etg: DMF_236,45;
+og: CORE_ICC_038,1;DMF_090,1;SCH_149,1;
+eg: BAR_875,1;DMF_236,1;BT_292,1;DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,1;BT_018,2;SCH_138,1;SCH_710,1;DMF_238,2;
+recalc-check###########
+noRecalcNeeded!!!-----------------------------------
+nmgsim-
+nmgsime-
+attacker: 24 enemy: 57
+
+随从攻击: 莫戈尔·莫戈尔格 目标为: 正义保护者
+detect secret with id55
+detect secret with id63
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:17:43 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 9/5
+mana 0/5
+emana 5
+own secretsCount: 0
+enemy secretsCount: 2 ;55.0000000000000000000001,63.0000000000000000000001,
+player:
+1 2 0 0 1
+ownhero:
+pala 24 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 24 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 22 0 19 0
+OwnMinions:
+goodytwoshields SCH_532 zp:1 e:27 A:4 H:2 mH:2 rdy:False natt:0 ex divshield ptt
+mankrik BAR_721 zp:2 e:28 A:3 H:3 mH:4 rdy:False natt:1 ex
+EnemyMinions:
+crossroadsgossiper BAR_890 zp:1 e:36 A:13 H:9 mH:11 rdy:False ex
+righteousprotector CORE_ICC_038 zp:2 e:39 A:1 H:1 mH:1 rdy:False ex tnt
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 blessingofauthority 5 entity 16 SCH_138 0 0 0
+Enemy cards: 2
+ownDiedMinions: SCH_149,11;BT_019,24;
+enemyDiedMinions: CORE_ICC_038,57;
+otg: DMF_090,8;SCH_149,11;BT_019,24;
+etg: CORE_FP1_020,34;DMF_236,45;CORE_ICC_038,57;
+og: CORE_ICC_038,1;DMF_090,1;SCH_149,1;BT_019,1;
+eg: CORE_FP1_020,1;BAR_875,1;DMF_236,1;BT_292,1;CORE_ICC_038,1;DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,1;BT_018,2;SCH_138,1;SCH_710,1;DMF_238,2;
+recalc-check###########
+enemy secrets changed 
+Leathal-check###########
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -71
+missing dmg to lethal 24
+calculated 0.0500046
+no lethal, do something random######
+ailoop
+deep 0 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -299
+calculated 0.0409981
+detect secret with id55
+detect secret with id63
+#######################################################################
+#######################################################################
+开始计算, 已花费时间: 20:18:08 V117.178 圣契骑 3000 face 20 twoturnsim 1 ntss 10 20 200 ets 40 ets2 230 secret weight 80 iC 1 aA 0
+#######################################################################
+turn 11/0
+mana 6/6
+emana 6
+own secretsCount: 0
+enemy secretsCount: 2 ;55.0000000000000000000001,63.0000000000000000000001,
+player:
+0 0 0 0 1
+ownhero:
+pala 4 30 0 False False 64 False 0 False 0 0 False
+weapon: 0 0 unknown None 0 0
+ability: True CS2_101_H1
+osecrets: 
+cthunbonus: 0 0 0
+jadegolems: 0 0
+elementals: 0 0 0
+quests: None 0 1000 None 0 1000
+advanced: 0 0
+enemyhero:
+pala 24 30 0 False False 66 False
+weapon: 0 0 unknown None 0 0
+ability: True HERO_04bp
+fatigue: 21 0 18 0
+OwnMinions:
+goodytwoshields SCH_532 zp:1 e:27 A:4 H:2 mH:2 rdy:True natt:0 divshield
+mankrik BAR_721 zp:2 e:28 A:3 H:3 mH:4 rdy:True natt:0
+EnemyMinions:
+crossroadsgossiper BAR_890 zp:1 e:36 A:16 H:9 mH:11 rdy:False ex
+righteousprotector CORE_ICC_038 zp:2 e:39 A:4 H:1 mH:1 rdy:False ex tnt
+silverhandrecruit CS2_101t zp:3 e:103 A:1 H:1 mH:1 rdy:False ex
+Own Handcards: 
+pos 1 blessingofkings 4 entity 26 CORE_CS2_092 0 0 0
+pos 2 blessingofauthority 5 entity 16 SCH_138 0 0 0
+pos 3 convictionrank2 1 entity 15 BAR_880t 0 0 0
+Enemy cards: 2
+ownDiedMinions: 
+enemyDiedMinions: 
+otg: 
+etg: 
+og: CORE_ICC_038,1;DMF_090,1;SCH_149,1;BT_019,1;
+eg: CORE_FP1_020,1;BAR_875,1;BAR_880t,1;DMF_236,1;BT_292,1;CORE_ICC_038,1;DMF_COIN2,1;
+od: SCH_247,2;BAR_873,2;BAR_880,2;SCH_713,2;YOP_031,2;CORE_EX1_362,2;SCH_149,1;BT_292,1;SCH_532,1;BT_018,2;SCH_138,1;SCH_710,1;DMF_238,2;
+recalc-check###########
+enemy secrets changed 
+Leathal-check###########
+ailoop
+deep 0 len 6 dones 0
+cut to len 6
+ailoop
+deep 1 len 26 dones 0
+cut to len 15
+ailoop
+deep 2 len 38 dones 0
+cut to len 19
+ailoop
+deep 3 len 23 dones 0
+cut to len 13
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -172
+attacker: 27 enemy: 39
+
+
+useability 
+
+
+play id 26 target 28 pos 1
+
+
+attacker: 28 enemy: 66
+
+missing dmg to lethal 21
+calculated 0.2720212
+no lethal, do something random######
+ailoop
+deep 0 len 8 dones 0
+cut to len 8
+ailoop
+deep 1 len 42 dones 0
+cut to len 24
+ailoop
+deep 2 len 99 dones 0
+cut to len 47
+ailoop
+deep 3 len 112 dones 0
+cut to len 50
+ailoop
+deep 4 len 0 dones 0
+cut to len 0
+-------------------------------------
+value of best board -10000
+calculated 0.2719429
+投降... 败局已定###############################################

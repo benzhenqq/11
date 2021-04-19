@@ -28,7 +28,7 @@ namespace HREngine.Bots
 				p.minionSetLifetoX(own, hp);
 				p.evaluatePenality += 30-atk/2-hp;
 
-				if(hp >= 8) p.evaluatePenality -= 50;
+				if(hp >= 6) p.evaluatePenality -= 50;
 			}
 		}
 	}

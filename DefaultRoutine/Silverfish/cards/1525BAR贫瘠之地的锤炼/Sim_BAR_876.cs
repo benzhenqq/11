@@ -13,6 +13,7 @@ namespace HREngine.Bots
 			if(p.ownSecretsIDList.Count>=1)
             {
 				p.drawACard(CardDB.cardIDEnum.None, own.own);	
+				p.evaluatePenality -= 10;
             } 	
         }
 	}

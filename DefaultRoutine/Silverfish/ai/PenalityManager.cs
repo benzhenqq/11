@@ -177,6 +177,10 @@
                 if (m.divineshild || m.immune) {}
                 else if (target.poisonous || target.Angr >= m.Hp) retval += m.justBuffed;
             }
+            // 打脸模式
+            if( target.isHero ) {
+                retval -= printUtils.enfaceReward;
+            }
             return retval;
         }
         // 英雄攻击惩罚值

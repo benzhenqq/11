@@ -174,7 +174,7 @@ def Execute():
         /// <summary> The description of the routine. </summary>
         public string Description
         {
-            get { return "贴吧分享版策略."; }
+            get { return "贴吧大佬的策略."; }
         }
 
         /// <summary>The author of this routine.</summary>
@@ -459,6 +459,15 @@ def Execute():
                         BindingMode.TwoWay, DefaultRoutineSettings.Instance))
                     {
                         Log.DebugFormat("[SettingsControl] SetupTextBoxBinding failed for 'EnfacehpTextBox'.");
+                        throw new Exception("The SettingsControl could not be created.");
+                    }
+
+                    // 打脸奖励
+                    if (
+                        !Wpf.SetupTextBoxBinding(root, "EnfaceRewardTextBox", "EnfaceReward",
+                        BindingMode.TwoWay, DefaultRoutineSettings.Instance))
+                    {
+                        Log.DebugFormat("[SettingsControl] SetupTextBoxBinding failed for 'EnfaceRewardTextBox'.");
                         throw new Exception("The SettingsControl could not be created.");
                     }
 

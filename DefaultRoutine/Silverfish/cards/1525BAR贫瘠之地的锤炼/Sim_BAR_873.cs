@@ -8,7 +8,10 @@ namespace HREngine.Bots
 	{
 		//<b>Battlecry:</b> Draw aHoly spell.
 		//<b>战吼：</b>抽一张神圣法术牌。
-		
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+        {
+            p.drawACard(CardDB.cardIDEnum.BT_025, own.own, true);			
+        }
 		
 	}
 }

@@ -443,7 +443,10 @@ namespace HREngine.Bots
                     if(target.isHero) return -20;
                     return 20;
             }
-
+            // 不要主动解亡语怪
+            if(target.handcard.card.deathrattle){
+                return 20;
+            }
             return 0;
         }
 
@@ -469,9 +472,14 @@ namespace HREngine.Bots
                     return -30;
                 case "幸运币":
                     return 20;
+                case "双盾优等生":
+                case "曼科里克":
+                case "莫戈尔·莫戈尔格":
+                    return -10;
                 case "新生入学":
                     return -50;
                 case "圣礼骑士":
+                    if(p.ownMaxMana > 5 && p.mana == p.ownMaxMana) return -40;
                     return -10;
                 case "夺日者间谍":
                     return p.ownSecretsIDList.Count > 0 ? -20 : 1;
@@ -482,7 +490,7 @@ namespace HREngine.Bots
                     return 0;
                 case "银色保卫者":
                     if(target != null && !target.divineshild) {
-                        return -2 * target.Angr;
+                        return -2 * (target.Angr > 6 ? 6 : target.Angr);
                     }
                     return 0;
                 case "逝者之剑":
@@ -508,6 +516,8 @@ namespace HREngine.Bots
                     }
                     break;
                 case "威能祝福":
+                    if(target.own) return -40;
+                    break;
                 case "阿达尔之手":
                 case "王者祝福":
                 case "智慧圣契":
@@ -515,7 +525,7 @@ namespace HREngine.Bots
                     if (target.own && target.windfury ) return -50;
                     if (target.own && target.frozen)  return 20; 
                     if (target.own && target.cantAttack && p.enemyHeroStartClass != TAG_CLASS.MAGE)  return 20;
-                    return -20;
+                    return -10;
                 case "前沿哨所":
                     // 前两个回合优先下，赌对面解不掉
                     if( p.ownMaxMana <= 2 ) return -100;
@@ -526,9 +536,6 @@ namespace HREngine.Bots
                     if ( p.enemyHeroStartClass == TAG_CLASS.MAGE || p.enemyHeroStartClass == TAG_CLASS.PRIEST )
                         return -30;   
                     return 0;
-                case "曼科里克":
-                case "莫戈尔·莫戈尔格":
-                    return -10;
                 case "终极莫戈尔格":
                     return -50;
                 case "古神在上":
@@ -572,6 +579,8 @@ namespace HREngine.Bots
                 case "复仇":
                     return -1;            
                 case "食人魔巫术师":
+                    if(p.enemyMinions.Count == 0 && p.ownMinions.Count < 4)
+                        return -100;
                     // TODO 敌方的法术数量大于随从数量则优先
                     return -30;
                 case "援军":

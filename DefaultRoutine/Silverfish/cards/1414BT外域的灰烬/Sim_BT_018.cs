@@ -13,6 +13,6 @@ namespace HREngine.Bots
 		{
 			p.equipWeapon(card, ownplay);
 		}
-		
+
 	}
 }

@@ -196,7 +196,7 @@ namespace HREngine.Bots
         /// <summary>
         /// AI值.
         /// </summary>
-        [DefaultValue(3000)]
+        [DefaultValue(-1)]
         public int MaxWide
         {
             get { return _maxWide; }
@@ -310,6 +310,26 @@ namespace HREngine.Bots
   
                 }
                 Log.InfoFormat("[默认策略设置] 打脸阈值 = {0}.", _enfacehp);
+            }
+        }
+
+
+        /// <summary>
+        /// 打脸奖励.
+        /// </summary>
+        [DefaultValue(0)]
+        public int EnfaceReward
+        {
+            get { return printUtils.enfaceReward; }
+            set
+            {
+                if (!value.Equals(printUtils.enfaceReward))
+                {
+                    printUtils.enfaceReward = value;
+                    NotifyPropertyChanged(() => Enfacehp);
+  
+                }
+                Log.InfoFormat("[默认策略设置] 打脸奖励 = {0}.", printUtils.enfaceReward);
             }
         }
 
