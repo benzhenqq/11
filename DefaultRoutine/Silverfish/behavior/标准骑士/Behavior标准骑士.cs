@@ -3,9 +3,9 @@
 namespace HREngine.Bots
 {
 
-    public class Behavior圣契骑 : Behavior
+    public class Behavior标准骑士 : Behavior
     {
-        public override string BehaviorName() { return "圣契骑"; }
+        public override string BehaviorName() { return "标准骑士"; }
 
 
         PenalityManager penman = PenalityManager.Instance;
@@ -301,12 +301,23 @@ namespace HREngine.Bots
                 //hasTank = hasTank || m.taunt;
                 // 优先需要处理的敌方随从
                 if(m.silenced) continue;
+                if(m.spellpower>0) retval -= m.spellpower * 5;
                 switch(m.handcard.card.卡名){
                     case "甩笔侏儒":
                     case "科卡尔驯犬者":
                     case "巡游领队":
                     case "螃蟹骑士":
-                        retval -= 10;
+                    case "团队核心":
+                    case "聒噪怪":
+                    case "前沿哨所":
+                    case "莫尔杉哨所":
+                    case "塔姆辛·罗姆":
+                    case "导师火心":
+                    case "伊纳拉·碎雷":
+                    case "暗影珠宝师汉纳尔":
+                    case "伦萨克大王":
+                    case "精英牛头人酋长，金属之神":
+                        retval -= 30;
                         break;                    
                 }
             }
