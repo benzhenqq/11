@@ -4,11 +4,16 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_KAR_036 : SimTemplate //* 奥术畸体 Arcane Anomaly
+	class Sim_CORE_KAR_036 : SimTemplate //* Arcane Anomaly
 	{
-		//After you cast a spell, give this minion +1 Health.
-		//在你施放一个法术后，该随从便获得+1生命值。
+		//Whenever you cast a spell, give this minion +1 Health.
 		
-		
+        public override void onCardIsGoingToBePlayed(Playfield p, Handmanager.Handcard hc, bool wasOwnCard, Minion triggerEffectMinion)
+        {
+            if (triggerEffectMinion.own == wasOwnCard && hc.card.type == CardDB.cardtype.SPELL)
+            {
+				p.minionGetBuffed(triggerEffectMinion, 0, 1);
+            }
+        }
 	}
 }

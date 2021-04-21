@@ -4,11 +4,14 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_CS2_039 : SimTemplate //* 风怒 Windfury
+	class Sim_CORE_CS2_039 : SimTemplate //windfury
 	{
-		//Give a minion <b>Windfury</b>.
-		//使一个随从获得<b>风怒</b>。
-		
-		
+
+//    verleiht einem diener windzorn/.
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionGetWindfurry(target);
+		}
+
 	}
 }

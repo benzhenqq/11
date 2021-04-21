@@ -4,11 +4,18 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_EX1_410 : SimTemplate //* 盾牌猛击 Shield Slam
+	class Sim_CORE_EX1_410 : SimTemplate //shieldslam
 	{
-		//Deal $1 damage to a minion for each Armor you have.
-		//你每有1点护甲值，便对一个随从造成$1点伤害。
-		
-		
+
+//    fügt einem diener für jeden eurer rüstungspunkte 1 schaden zu.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+
+
+            int dmg = (ownplay) ? p.getSpellDamageDamage(p.ownHero.armor) : p.getEnemySpellDamageDamage(p.enemyHero.armor);
+            p.minionGetDamageOrHeal(target, dmg);
+		}
+
 	}
 }

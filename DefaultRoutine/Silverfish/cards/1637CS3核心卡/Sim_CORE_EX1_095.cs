@@ -4,11 +4,19 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_EX1_095 : SimTemplate //* 加基森拍卖师 Gadgetzan Auctioneer
+	class Sim_CORE_EX1_095 : SimTemplate //gadgetzanauctioneer
 	{
-		//Whenever you cast a spell, draw a card.
-		//每当你施放一个法术，抽一张牌。
-		
-		
+
+//    zieht jedes mal eine karte, wenn ihr einen zauber wirkt.
+
+        public override void onCardIsGoingToBePlayed(Playfield p, Handmanager.Handcard hc, bool wasOwnCard, Minion triggerEffectMinion)
+        {
+            if (hc.card.type == CardDB.cardtype.SPELL && wasOwnCard == triggerEffectMinion.own)
+            {
+                p.drawACard(CardDB.cardIDEnum.None, wasOwnCard);
+            }
+
+        }
+
 	}
 }

@@ -4,11 +4,13 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_FP1_011 : SimTemplate //* 结网蛛 Webspinner
+	class Sim_CORE_FP1_011 : SimTemplate //* webspinner
 	{
-		//<b>Deathrattle:</b> Add a random Beast card to your hand.
-		//<b>亡语：</b>随机将一张野兽牌置入你的手牌。
-		
-		
+
+//    todesröcheln:/ fügt eurer hand ein zufälliges wildtier hinzu.
+        public override void onDeathrattle(Playfield p, Minion m)
+        {
+            p.drawACard(CardDB.cardName.rivercrocolisk, m.own, true);
+        }
 	}
 }

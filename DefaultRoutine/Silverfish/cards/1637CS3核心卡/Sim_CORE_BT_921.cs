@@ -8,7 +8,10 @@ namespace HREngine.Bots
 	{
 		//<b>Lifesteal</b>
 		//<b>吸血</b>
-		
-		
+		CardDB.Card weapon = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.GIL_672);
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+			p.equipWeapon(weapon, ownplay);
+		}
 	}
 }

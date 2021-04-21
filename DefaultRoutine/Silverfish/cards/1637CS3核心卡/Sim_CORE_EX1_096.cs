@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_EX1_096 : SimTemplate //* 战利品贮藏者 Loot Hoarder
+	class Sim_CORE_EX1_096 : SimTemplate //* loothoarder
 	{
-		//<b>Deathrattle:</b> Draw a card.
-		//<b>亡语：</b>抽一张牌。
-		
-		
+
+//    todesröcheln:/ zieht eine karte.
+
+        public override void onDeathrattle(Playfield p, Minion m)
+        {
+            p.drawACard(CardDB.cardIDEnum.None, m.own);
+        }
+
 	}
 }

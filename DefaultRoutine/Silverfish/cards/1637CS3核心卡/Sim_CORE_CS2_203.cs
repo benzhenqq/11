@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_CS2_203 : SimTemplate //* 铁喙猫头鹰 Ironbeak Owl
+	class Sim_CORE_CS2_203 : SimTemplate //ironbeakowl
 	{
-		//<b>Battlecry:</b> <b>Silence</b> a_minion.
-		//<b>战吼：</b><b>沉默</b>一个随从。
-		
-		
+
+//    kampfschrei:/ bringt einen diener zum schweigen/.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            if (target != null) p.minionGetSilenced(target);
+		}
+
+
 	}
 }

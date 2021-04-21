@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_CS2_188 : SimTemplate //* 叫嚣的中士 Abusive Sergeant
+	class Sim_CORE_CS2_188 : SimTemplate //abusivesergeant
 	{
-		//<b>Battlecry:</b> Give a minion +2_Attack this turn.
-		//<b>战吼：</b>在本回合中，使一个随从获得+2攻击力。
-		
-		
+
+//    kampfschrei:/ verleiht einem diener +2 angriff in diesem zug.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            if (target != null) p.minionGetTempBuff(target, 2, 0);
+		}
+
+
 	}
 }

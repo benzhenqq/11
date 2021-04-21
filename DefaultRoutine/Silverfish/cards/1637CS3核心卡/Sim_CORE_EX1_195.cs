@@ -8,7 +8,9 @@ namespace HREngine.Bots
 	{
 		//<b>Battlecry:</b> Give a friendly minion +2 Health.
 		//<b>战吼：</b>使一个友方随从获得+2生命值。
-		
-		
+		public override void getBattlecryEffect(Playfield p, Minion m, Minion target, int choice)
+		{
+			if (target != null) p.minionGetBuffed(target, 0, 2);
+		}
 	}
 }

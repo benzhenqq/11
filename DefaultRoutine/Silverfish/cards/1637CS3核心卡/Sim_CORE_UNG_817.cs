@@ -4,11 +4,17 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_UNG_817 : SimTemplate //* 海潮涌动 Tidal Surge
+	class Sim_CORE_UNG_817 : SimTemplate //* Tidal Surge
 	{
-		//<b>Lifesteal</b>Deal $4 damage to a_minion.
-		//<b>吸血</b>对一个随从造成$4点伤害。
-		
-		
-	}
+		//Deal $4 damage to a minion. Restore #4 Health to your hero.
+
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            int dmg = (ownplay) ? p.getSpellDamageDamage(4) : p.getEnemySpellDamageDamage(4);
+            int heal = (ownplay) ? p.getSpellHeal(4) : p.getEnemySpellHeal(4);
+			
+            if (target != null) p.minionGetDamageOrHeal(target, dmg);
+            p.minionGetDamageOrHeal(ownplay ? p.ownHero : p.enemyHero, -heal);
+        }
+    }
 }

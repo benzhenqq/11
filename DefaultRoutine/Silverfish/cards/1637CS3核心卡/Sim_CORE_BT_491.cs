@@ -8,7 +8,12 @@ namespace HREngine.Bots
 	{
 		//[x]Draw a card.<b>Outcast:</b> Draw another.
 		//抽一张牌。<b>流放：</b>再抽一张。
-		
-		
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice, bool outcast)
+		{
+			p.drawACard(CardDB.cardName.unknown, ownplay);
+			if (outcast) p.drawACard(CardDB.cardName.unknown, ownplay);
+			else p.evaluatePenality += 3;
+		}
 	}
 }

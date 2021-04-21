@@ -8,6 +8,10 @@ namespace HREngine.Bots
 	{
 		//After your hero attacks, gain +1 Attack.
 		//在你的英雄攻击后，获得+1攻击力。
+		public override void onHeroattack(Playfield p, Minion own, Minion target)
+        {
+            p.minionGetBuffed(own, 1, 0);
+        }
 		
 		
 	}

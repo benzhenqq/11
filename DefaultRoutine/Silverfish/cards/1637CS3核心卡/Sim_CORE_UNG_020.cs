@@ -4,11 +4,14 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_UNG_020 : SimTemplate //* 秘法学家 Arcanologist
+	class Sim_CORE_UNG_020 : SimTemplate //* Arcanologist
 	{
-		//<b>Battlecry:</b> Draw a <b>Secret</b>.
-		//<b>战吼：</b>抽一张<b>奥秘</b>牌。
-		
-		
+		//Battlecry: Draw a Secret from your deck.
+
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+
+			p.drawACard(CardDB.cardIDEnum.EX1_594, own.own);
+		}
 	}
 }

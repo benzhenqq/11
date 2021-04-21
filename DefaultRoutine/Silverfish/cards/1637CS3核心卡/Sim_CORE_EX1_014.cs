@@ -4,11 +4,24 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_EX1_014 : SimTemplate //* 穆克拉 King Mukla
+	class Sim_CORE_EX1_014 : SimTemplate //kingmukla
 	{
-		//<b>Battlecry:</b> Give your opponent 2 Bananas.
-		//<b>战吼：</b>使你的对手获得两根香蕉。
-		
-		
+
+//    kampfschrei:/ gebt eurem gegner 2 bananen.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.drawACard(CardDB.cardName.bananas, !own.own, true);
+            if (own.own)
+            {
+                p.enemycarddraw -= 1;
+            }
+            p.drawACard(CardDB.cardName.bananas, !own.own, true);
+            if (own.own)
+            {
+                p.enemycarddraw -= 1;
+            }
+		}
+
+
 	}
 }

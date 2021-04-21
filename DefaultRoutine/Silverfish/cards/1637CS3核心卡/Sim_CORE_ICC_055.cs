@@ -4,11 +4,17 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_ICC_055 : SimTemplate //* 吸取灵魂 Drain Soul
-	{
-		//<b>Lifesteal</b>Deal $3 damageto a minion.
-		//<b>吸血</b>对一个随从造成$3点伤害。
-		
-		
-	}
+    class Sim_CORE_ICC_055	: SimTemplate //* Drain Soul
+    {
+        // Lifesteal. Deal 2 damage to a minion.
+
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            int dmg = (ownplay) ? p.getSpellDamageDamage(2) : p.getEnemySpellDamageDamage(2);
+
+            int oldHp = target.Hp;
+            p.minionGetDamageOrHeal(target, dmg);
+            if (oldHp > target.Hp) p.applySpellLifesteal(oldHp-target.Hp, ownplay);
+        }
+    }
 }

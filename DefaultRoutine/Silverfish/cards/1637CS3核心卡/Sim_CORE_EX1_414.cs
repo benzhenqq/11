@@ -4,11 +4,19 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_EX1_414 : SimTemplate //* 格罗玛什·地狱咆哮 Grommash Hellscream
+	class Sim_CORE_EX1_414 : SimTemplate //grommashhellscream
 	{
-		//<b>Charge</b>Has +6 Attack while damaged.
-		//<b>冲锋</b>受伤时具有+6攻击力。
-		
-		
+
+//    ansturm/, wutanfall:/ +6 angriff
+        public override void onEnrageStart(Playfield p, Minion m)
+        {
+            m.Angr+=6;
+        }
+
+        public override void onEnrageStop(Playfield p, Minion m)
+        {
+            m.Angr-=6;
+        }
+
 	}
 }

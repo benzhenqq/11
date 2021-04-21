@@ -4,11 +4,45 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_EX1_084 : SimTemplate //* 战歌指挥官 Warsong Commander
-	{
-		//After you summon another minion, give it <b>Rush</b>.
-		//在你召唤另一个随从后，使其获得<b>突袭</b>。
-		
-		
+    class Sim_CORE_EX1_084 : SimTemplate //* Warsong Commander
+    {
+		//Your Charge minions have +1 Attack.
+
+        public override void onAuraStarts(Playfield p, Minion own)
+		{
+            if (own.own)
+            {
+                foreach (Minion m in p.ownMinions)
+                {
+                    if (m.charge > 0) p.minionGetBuffed(m, 1, 0);
+                }
+            }
+            else
+            {
+                foreach (Minion m in p.enemyMinions)
+                {
+                    if (m.charge > 0) p.minionGetBuffed(m, 1, 0);
+                }
+            }
+            
+		}
+
+        public override void onAuraEnds(Playfield p, Minion own)
+        {
+            if (own.own)
+            {
+                foreach (Minion m in p.ownMinions)
+                {
+                    if (m.charge > 0) p.minionGetBuffed(m, -1, 0);
+                }
+            }
+            else
+            {
+                foreach (Minion m in p.enemyMinions)
+                {
+                    if (m.charge > 0) p.minionGetBuffed(m, -1, 0);
+                }
+            }
+        }
 	}
 }

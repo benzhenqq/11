@@ -4,11 +4,27 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_FP1_031 : SimTemplate //* 瑞文戴尔男爵 Baron Rivendare
+	class Sim_CORE_FP1_031 : SimTemplate //baronrivendare
 	{
-		//Your minions trigger their <b>Deathrattles</b> twice.
-		//你的随从的<b>亡语</b>将触发两次。
-		
-		
+
+//    die todesröcheln/-effekte eurer diener werden 2-mal ausgelöst.
+        public override void onAuraStarts(Playfield p, Minion own)
+		{
+            if (own.own) p.ownBaronRivendare++;
+            else p.enemyBaronRivendare++;
+		}
+
+        public override void onAuraEnds(Playfield p, Minion m)
+        {
+            if (m.own)
+            {
+                p.ownBaronRivendare--;
+            }
+            else
+            {
+                p.enemyBaronRivendare--;
+            }
+        }
+
 	}
 }

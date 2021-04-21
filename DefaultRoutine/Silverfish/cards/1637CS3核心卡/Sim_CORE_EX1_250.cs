@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_EX1_250 : SimTemplate //* 土元素 Earth Elemental
+	class Sim_CORE_EX1_250 : SimTemplate //earthelemental
 	{
-		//<b>Taunt</b><b><b>Overload</b>:</b> (2)
-		//<b>嘲讽</b>，<b>过载：</b>（2）
-		
-		
+
+//    spott/, überladung:/ (3)
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            if (own.own) p.ueberladung += 3;
+		}
+
+
 	}
 }

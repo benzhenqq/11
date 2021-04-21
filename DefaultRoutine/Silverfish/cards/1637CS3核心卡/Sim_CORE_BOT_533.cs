@@ -4,11 +4,13 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_BOT_533 : SimTemplate //* 凶恶的雨云 Menacing Nimbus
+	class Sim_CORE_BOT_533 : SimTemplate //* Menacing Nimbus
 	{
-		//<b>Battlecry:</b> Add a random Elemental to your hand.
-		//<b>战吼：</b>随机将一张元素牌置入你的手牌。
+		//Battlecry: Add a random Elemental to your hand.
 		
-		
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.drawACard(CardDB.cardName.unknown, own.own, true);
+		}
 	}
 }

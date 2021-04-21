@@ -4,11 +4,13 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_KAR_069 : SimTemplate //* 吹嘘海盗 Swashburglar
+	class Sim_CORE_KAR_069 : SimTemplate //* Swashburglar
 	{
-		//<b>Battlecry:</b> Add a random card from another class to_your hand.
-		//<b>战吼：</b>随机将一张另一职业的卡牌置入你的手牌。
+		//Battlecry: Add a random class card to your hand (from your opponent's class).
 		
-		
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.drawACard(CardDB.cardIDEnum.None, own.own, true);
+		}
 	}
 }

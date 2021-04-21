@@ -4,11 +4,14 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_EX1_362 : SimTemplate //* 银色保卫者 Argent Protector
+	class Sim_CORE_EX1_362 : SimTemplate //argentprotector
 	{
-		//<b>Battlecry:</b> Give a friendly minion <b>Divine Shield</b>.
-		//<b>战吼：</b>使一个其他友方随从获得<b>圣盾</b>。
-		
-		
+
+//    kampfschrei:/ verleiht einem befreundeten diener gottesschild/.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            if (target != null) target.divineshild = true;
+		}
+
 	}
 }

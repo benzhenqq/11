@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_CS2_089 : SimTemplate //* 圣光术 Holy Light
+	class Sim_CORE_CS2_089 : SimTemplate //holylight
 	{
-		//Restore #8 Health to your hero.
-		//为你的英雄恢复#8点生命值。
-		
-		
+
+//    stellt #6 leben wieder her.
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            int heal = (ownplay) ? p.getSpellHeal(6) : p.getEnemySpellHeal(6);
+            p.minionGetDamageOrHeal(target, -heal);
+		}
+
 	}
 }

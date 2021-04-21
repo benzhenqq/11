@@ -4,11 +4,17 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_DS1_184 : SimTemplate //* 追踪术 Tracking
+	class Sim_CORE_DS1_184 : SimTemplate //tracking
 	{
-		//<b>Discover</b> a card from your deck.
-		//从你的牌库中<b>发现</b>一张牌。
-		
-		
+
+//    schaut euch die drei obersten karten eures decks an. zieht eine davon und werft die anderen beiden ab.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            //TODO NOT SUPPORTED YET
+            p.drawACard(CardDB.cardIDEnum.None, ownplay);
+            //p.evaluatePenality += 100;
+		}
+
 	}
 }

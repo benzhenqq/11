@@ -4,11 +4,14 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_EX1_622 : SimTemplate //* 暗言术：灭 Shadow Word: Death
+	class Sim_CORE_EX1_622 : SimTemplate //shadowworddeath
 	{
-		//Destroy a minion with 5_or more Attack.
-		//消灭一个攻击力大于或等于5的随从。
-		
-		
+
+//    vernichtet einen diener mit mind. 5 angriff.
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionGetDestroyed(target);
+		}
+
 	}
 }

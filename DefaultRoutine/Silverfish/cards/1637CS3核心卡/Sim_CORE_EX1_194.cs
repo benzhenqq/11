@@ -8,7 +8,9 @@ namespace HREngine.Bots
 	{
 		//Give a minion +2/+6.
 		//使一个随从获得+2/+6。
-		
-		
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+			p.minionGetBuffed(target, 2, 6);
+		}
 	}
 }

@@ -4,11 +4,51 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_UNG_833 : SimTemplate //* 拉卡利地狱犬 Lakkari Felhound
+	class Sim_CORE_UNG_833 : SimTemplate //* Lakkari Felhound
 	{
-		//<b>Taunt</b><b>Battlecry:</b> Discard your two lowest-Cost cards.
-		//<b>嘲讽</b>，<b>战吼：</b>弃掉你手牌中法力值消耗最低的两张牌。
-		
-		
-	}
+		//Taunt. Battlecry: Discard two random cards.
+
+        public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+        {
+            int minCost = 10;
+			Handmanager.Handcard hcc = null;
+			bool found = false;
+			foreach (Handmanager.Handcard hc in p.owncards)
+			{
+				if (!found && hc.card.卡名 == "拉卡利地狱犬" )
+                {
+					found = true;
+                    continue;
+                }
+				if(hc.card.cost < minCost){
+					hcc = hc;
+					minCost = hc.card.cost;
+				}
+			}
+			if(hcc != null){
+				Helpfunctions.Instance.ErrorLog("拉卡利地狱犬将弃掉1" + hcc.card.卡名);
+				p.removeCard(hcc);
+			}
+
+            minCost = 10;
+			hcc = null;
+			found = false;
+			foreach (Handmanager.Handcard hc in p.owncards)
+			{
+				if (!found && hc.card.卡名 == "拉卡利地狱犬" )
+                {
+					found = true;
+                    continue;
+                }
+				if(hc.card.cost < minCost){
+					hcc = hc;
+					minCost = hc.card.cost;
+				}
+			}
+			if(hcc != null){
+				Helpfunctions.Instance.ErrorLog("拉卡利地狱犬将弃掉2" + hcc.card.卡名);
+				p.removeCard(hcc);
+			}
+        }
+    }
 }

@@ -1,14 +1,22 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_CS2_009 : SimTemplate //* 野性印记 Mark of the Wild
-	{
-		//Give a minion <b>Taunt</b> and +2/+3.<i>(+2 Attack/+3 Health)</i>
-		//使一个随从获得<b>嘲讽</b>和+2/+3。<i>（+2攻击力/+3生命值）</i>
-		
-		
-	}
+    class Sim_CORE_CS2_009 : SimTemplate //* Mark of the Wild
+    {
+        //Give a minion Taunt and +2/+2. (+2 Attack/+2 Health)
+
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            p.minionGetBuffed(target, 2, 2);
+            if (!target.taunt)
+            {
+                target.taunt = true;
+                if (target.own) p.anzOwnTaunt++;
+                else p.anzEnemyTaunt++;
+            }
+        }
+    }
 }

@@ -4,11 +4,23 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_GVG_053 : SimTemplate //* 盾甲侍女 Shieldmaiden
-	{
-		//<b>Battlecry:</b> Gain 5 Armor.
-		//<b>战吼：</b>获得5点护甲值。
-		
-		
-	}
+    class Sim_CORE_GVG_053 : SimTemplate //Shieldmaiden
+    {
+
+        //   Battlecry:&lt;/b&gt; Gain 5 Armor.
+
+        public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+        {
+            if (own.own)
+            {
+                p.minionGetArmor(p.ownHero, 5);
+            }
+            else
+            {
+                p.minionGetArmor(p.enemyHero, 5);
+            }
+        }
+
+    }
+
 }

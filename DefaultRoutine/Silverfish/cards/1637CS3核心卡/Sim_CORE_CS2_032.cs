@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_CS2_032 : SimTemplate //* 烈焰风暴 Flamestrike
+	class Sim_CORE_CS2_032 : SimTemplate //flamestrike
 	{
-		//Deal $5 damage to all enemy minions.
-		//对所有敌方随从造成$5点伤害。
-		
-		
+
+//    fügt allen feindlichen dienern $4 schaden zu.
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            int dmg = (ownplay) ? p.getSpellDamageDamage(5) : p.getEnemySpellDamageDamage(5);
+            p.allMinionOfASideGetDamage(!ownplay, dmg);
+		}
+
 	}
 }

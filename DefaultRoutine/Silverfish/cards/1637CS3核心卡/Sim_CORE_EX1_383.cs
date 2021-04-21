@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_EX1_383 : SimTemplate //* 提里奥·弗丁 Tirion Fordring
+	class Sim_CORE_EX1_383 : SimTemplate //tirionfordring
 	{
-		//<b><b>Divine Shield</b>,</b> <b>Taunt</b> <b>Deathrattle:</b> Equip a 5/3_Ashbringer.
-		//<b>圣盾</b>，<b>嘲讽</b>，<b>亡语：</b>装备一把5/3的灰烬使者。
-		
-		
+        CardDB.Card card = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.EX1_383t);
+//    gottesschild/. spott/. todesröcheln:/ legt einen aschenbringer (5/3) an.
+
+        public override void onDeathrattle(Playfield p, Minion m)
+        {
+            p.equipWeapon(card,m.own);
+        }
+
 	}
 }

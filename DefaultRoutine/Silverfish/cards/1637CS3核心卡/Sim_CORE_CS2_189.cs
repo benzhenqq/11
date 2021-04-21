@@ -4,11 +4,16 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_CS2_189 : SimTemplate //* 精灵弓箭手 Elven Archer
+	class Sim_CORE_CS2_189 : SimTemplate //elvenarcher
 	{
-		//<b>Battlecry:</b> Deal 1 damage.
-		//<b>战吼：</b>造成1点伤害。
-		
-		
+
+//    kampfschrei:/ verursacht 1 schaden.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            int dmg = 1;
+            p.minionGetDamageOrHeal(target, dmg);
+		}
+
+
 	}
 }

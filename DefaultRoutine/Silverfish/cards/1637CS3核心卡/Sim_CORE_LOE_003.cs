@@ -4,11 +4,13 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_LOE_003 : SimTemplate //* 虚灵巫师 Ethereal Conjurer
+	class Sim_CORE_LOE_003 : SimTemplate //* Ethereal Conjurer
 	{
-		//<b>Battlecry: Discover</b> a spell.
-		//<b>战吼：发现</b>一张法术牌。
+		//Battlecry: Discover a spell.
 		
-		
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.drawACard(CardDB.cardName.thecoin, own.own, true);
+		}
 	}
 }

@@ -4,11 +4,13 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_LOE_012 : SimTemplate //* 盗墓匪贼 Tomb Pillager
+	class Sim_CORE_LOE_012 : SimTemplate //* Tomb Pillager
 	{
-		//<b>Deathrattle:</b> Add a Coin to your hand.
-		//<b>亡语：</b>将一个幸运币置入你的手牌。
+		//Deathrattle: Put a Coin into your hand.
 		
-		
-	}
+        public override void onDeathrattle(Playfield p, Minion m)
+        {
+            p.drawACard(CardDB.cardName.thecoin, m.own);
+        }
+    }
 }

@@ -4,11 +4,14 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_EX1_144 : SimTemplate //* 暗影步 Shadowstep
+	class Sim_CORE_EX1_144 : SimTemplate //* shadowstep
 	{
-		//Return a friendly minion to your hand. It_costs (2) less.
-		//将一个友方随从移回你的手牌，它的法力值消耗减少（2）点。
-		
-		
+        //Return a friendly minion to your hand. It costs (2) less.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionReturnToHand(target, ownplay, -2);
+		}
+
 	}
 }

@@ -4,11 +4,13 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_CORE_KAR_009 : SimTemplate //* 呓语魔典 Babbling Book
+	class Sim_CORE_KAR_009 : SimTemplate //* Babbling Book
 	{
-		//<b>Battlecry:</b> Add a random Mage spell to your hand.
-		//<b>战吼：</b>随机将一张法师法术牌置入你的手牌。
+		//Battlecry: Add a random Mage spell to your hand.
 		
-		
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.drawACard(CardDB.cardName.frostbolt, own.own, true);
+		}
 	}
 }
