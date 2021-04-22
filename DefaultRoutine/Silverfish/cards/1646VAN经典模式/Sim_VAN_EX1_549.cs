@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_549 : SimTemplate //* 狂野怒火 Bestial Wrath
+	class Sim_VAN_EX1_549 : SimTemplate //bestialwrath
 	{
-		//Give a Beast +2 Attack and <b>Immune</b> this turn.
-		//在本回合中，使一个野兽获得+2攻击力和<b>免疫</b>。
-		
-		
+
+//    verleiht einem wildtier +2 angriff und immunität/ in diesem zug.
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionGetTempBuff(target, 2, 0);
+            target.immune = true;
+		}
+
 	}
 }

@@ -4,11 +4,20 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_390 : SimTemplate //* 牛头人战士 Tauren Warrior
+	class Sim_VAN_EX1_390 : SimTemplate //taurenwarrior
 	{
-		//<b>Taunt</b>. <b>Enrage:</b> +3 Attack
-		//<b>嘲讽</b>，<b>激怒：</b>+3攻击力。
-		
-		
+
+//    spott/, wutanfall:/ +3 angriff
+
+        public override void onEnrageStart(Playfield p, Minion m)
+        {
+            m.Angr += 3;
+        }
+
+        public override void onEnrageStop(Playfield p, Minion m)
+        {
+            m.Angr -= 3;
+        }
+
 	}
 }

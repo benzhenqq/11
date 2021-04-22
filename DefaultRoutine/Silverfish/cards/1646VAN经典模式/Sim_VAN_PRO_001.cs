@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_PRO_001 : SimTemplate //* 精英牛头人酋长 Elite Tauren Chieftain
+	class Sim_VAN_PRO_001 : SimTemplate //elitetaurenchieftain
 	{
-		//<b>Battlecry:</b> Give both players the power to ROCK! (with a Power Chord card)
-		//<b>战吼：</b>让两位玩家都具有摇滚的能力！（双方各获得一张强力和弦牌）
-		
-		
+
+//    kampfschrei:/ verleiht beiden spielern die macht des rock! (durch eine powerakkordkarte)
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.drawACard(CardDB.cardName.roguesdoit, true, true);
+            p.drawACard(CardDB.cardName.roguesdoit, false, true);
+		}
+
 	}
 }

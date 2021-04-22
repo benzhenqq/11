@@ -4,11 +4,16 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_279 : SimTemplate //* 炎爆术 Pyroblast
+	class Sim_VAN_EX1_279 : SimTemplate //pyroblast
 	{
-		//Deal $10 damage.
-		//造成$10点伤害。
-		
-		
+
+//    verursacht $10 schaden.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            int dmg = (ownplay) ? p.getSpellDamageDamage(10) : p.getEnemySpellDamageDamage(10);
+            p.minionGetDamageOrHeal(target, dmg);
+		}
+
 	}
 }

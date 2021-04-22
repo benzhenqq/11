@@ -4,11 +4,19 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_009 : SimTemplate //* 愤怒的小鸡 Angry Chicken
+	class Sim_VAN_EX1_009 : SimTemplate //angrychicken
 	{
-		//<b>Enrage:</b> +5 Attack.
-		//<b>激怒：</b>+5攻击力。
-		
-		
+
+//    wutanfall:/ +5 angriff.
+        public override void onEnrageStart(Playfield p, Minion m)
+        {
+            p.minionGetBuffed(m, 5, 0);
+        }
+
+        public override void  onEnrageStop(Playfield p, Minion m)
+        {
+            p.minionGetBuffed(m, -5, 0);
+        }
+
 	}
 }

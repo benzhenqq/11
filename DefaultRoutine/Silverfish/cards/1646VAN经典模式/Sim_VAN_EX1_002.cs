@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_002 : SimTemplate //* 黑骑士 The Black Knight
+	class Sim_VAN_EX1_002 : SimTemplate //theblackknight
 	{
-		//<b>Battlecry:</b> Destroy an enemy minion with <b>Taunt</b>.
-		//<b>战吼：</b>消灭一个具有<b>嘲讽</b>的敌方随从。
-		
-		
+
+//    kampfschrei:/ vernichtet einen feindlichen diener mit spott/.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            if(target!= null) p.minionGetDestroyed(target);
+		}
+
+
 	}
 }

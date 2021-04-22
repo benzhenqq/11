@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_165b : SimTemplate //* 熊形态 Bear Form
+	class Sim_VAN_EX1_165b : SimTemplate //bearform
 	{
-		//+2 Health and <b>Taunt</b>
-		//+2生命值并具有<b>嘲讽</b>。
-		
-		
+
+//    +2 leben und spott/.
+        CardDB.Card bear = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.EX1_165t2);
+
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            p.minionTransform(target, bear);
+        }
 	}
 }

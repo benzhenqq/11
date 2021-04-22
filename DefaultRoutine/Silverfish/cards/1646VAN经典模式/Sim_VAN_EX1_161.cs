@@ -4,11 +4,17 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_161 : SimTemplate //* 自然平衡 Naturalize
+	class Sim_VAN_EX1_161 : SimTemplate //naturalize
 	{
-		//Destroy a minion.Your opponent draws 2_cards.
-		//消灭一个随从，你的对手抽两张牌。
-		
-		
+
+//    vernichtet einen diener. euer gegner zieht 2 karten.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionGetDestroyed(target);
+            p.drawACard(CardDB.cardIDEnum.None, !ownplay);
+            p.drawACard(CardDB.cardIDEnum.None, !ownplay);
+		}
+
 	}
 }

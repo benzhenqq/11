@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_048 : SimTemplate //* 破法者 Spellbreaker
+	class Sim_VAN_EX1_048 : SimTemplate //spellbreaker
 	{
-		//<b>Battlecry:</b> <b>Silence</b> a_minion.
-		//<b>战吼：</b><b>沉默</b>一个随从。
-		
-		
+
+//    kampfschrei:/ bringt einen diener zum schweigen/.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            if (target != null) p.minionGetSilenced(target);
+		}
+
+
 	}
 }

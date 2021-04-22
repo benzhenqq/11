@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_057 : SimTemplate //* 暗影箭 Shadow Bolt
+	class Sim_VAN_CS2_057 : SimTemplate //shadowbolt
 	{
-		//Deal $4 damageto a minion.
-		//对一个随从造成$4点伤害。
-		
-		
+
+//    fügt einem diener $4 schaden zu.
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            int dmg = (ownplay) ? p.getSpellDamageDamage(4) : p.getEnemySpellDamageDamage(4);
+            p.minionGetDamageOrHeal(target, dmg);
+		}
+
 	}
 }

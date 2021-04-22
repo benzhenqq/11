@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_066 : SimTemplate //* 酸性沼泽软泥怪 Acidic Swamp Ooze
+	class Sim_VAN_EX1_066 : SimTemplate //acidicswampooze
 	{
-		//<b>Battlecry:</b> Destroy your opponent's weapon.
-		//<b>战吼：</b>摧毁对手的武器。
-		
-		
+
+//    kampfschrei:/ zerstört die waffe eures gegners.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.lowerWeaponDurability(1000, !own.own);
+		}
+
+
 	}
 }

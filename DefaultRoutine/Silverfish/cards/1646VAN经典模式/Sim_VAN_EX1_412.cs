@@ -4,11 +4,23 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_412 : SimTemplate //* 暴怒的狼人 Raging Worgen
+	class Sim_VAN_EX1_412 : SimTemplate //ragingworgen
 	{
-		//<b>Enrage:</b> <b>Windfury</b> and +1 Attack
-		//<b>激怒：</b>+1攻击力并具有<b>风怒</b>
-		
-		
+
+//    wutanfall:/ windzorn/ und +1 angriff
+        public override void onEnrageStart(Playfield p, Minion m)
+        {
+            m.Angr++;
+            p.minionGetWindfurry(m);
+        }
+
+        public override void onEnrageStop(Playfield p, Minion m)
+        {
+            m.Angr--;
+            m.windfury = false;
+            if (m.numAttacksThisTurn == 1) m.Ready = false;
+        }
+
+
 	}
 }

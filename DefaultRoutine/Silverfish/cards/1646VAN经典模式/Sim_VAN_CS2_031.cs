@@ -4,11 +4,22 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_031 : SimTemplate //* 冰枪术 Ice Lance
+    class Sim_VAN_CS2_031 : SimTemplate //* Ice Lance
 	{
-		//<b>Freeze</b> a character. If it was already <b>Frozen</b>, deal $4 damage instead.
-		//<b>冻结</b>一个角色，如果该角色已被<b>冻结</b>，则改为对其造成$4点伤害。
-		
-		
+        //Freeze a character. If it was already Frozen, deal $4 damage instead.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            int dmg = (ownplay) ? p.getSpellDamageDamage(4) : p.getEnemySpellDamageDamage(4);
+            
+            if (target.frozen)
+            {
+                p.minionGetDamageOrHeal(target, dmg);
+            }
+            else
+            {
+                p.minionGetFrozen(target);
+            }
+		}
 	}
 }

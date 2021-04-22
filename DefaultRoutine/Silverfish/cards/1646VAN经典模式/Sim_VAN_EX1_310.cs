@@ -4,11 +4,13 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_310 : SimTemplate //* 末日守卫 Doomguard
+    class Sim_VAN_EX1_310 : SimTemplate //* Doomguard
 	{
-		//<b>Charge</b>. <b>Battlecry:</b> Discard two random cards.
-		//<b>冲锋</b>，<b>战吼：</b>随机弃两张牌。
-		
-		
+        // Charge. Battlecry: Discard two random cards.
+
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+        {
+            p.discardCards(2, own.own);
+		}
 	}
 }

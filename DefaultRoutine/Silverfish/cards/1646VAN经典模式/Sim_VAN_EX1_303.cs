@@ -4,11 +4,19 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_303 : SimTemplate //* 暗影烈焰 Shadowflame
+	class Sim_VAN_EX1_303 : SimTemplate //shadowflame
 	{
-		//Destroy a friendly minion and deal its Attack damage to all enemy minions.
-		//消灭一个友方随从，对所有敌方随从造成等同于其攻击力的伤害。
-		
-		
+
+//    vernichtet einen befreundeten diener und fügt allen feindlichen dienern schaden zu, der seinem angriff entspricht.
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            int damage1 = (ownplay) ? p.getSpellDamageDamage(target.Angr) : p.getEnemySpellDamageDamage(target.Angr);
+
+            p.minionGetDestroyed(target);
+
+            p.allMinionOfASideGetDamage(!ownplay, damage1);
+
+		}
+
 	}
 }

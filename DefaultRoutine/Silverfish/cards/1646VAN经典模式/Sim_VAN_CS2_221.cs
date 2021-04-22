@@ -4,11 +4,50 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_221 : SimTemplate //* 恶毒铁匠 Spiteful Smith
+	class Sim_VAN_CS2_221 : SimTemplate //spitefulsmith
 	{
-		//<b>Enrage:</b> Your weapon has +2 Attack.
-		//<b>激怒：</b>你的武器获得+2攻击力。
-		
-		
+
+//    wutanfall:/ eure waffe hat +2 angriff.
+        public override void onEnrageStart(Playfield p, Minion m)
+        {
+            if (m.own)
+            {
+                if (p.ownWeapon.Durability >= 1)
+                {
+                    p.minionGetBuffed(p.ownHero, 2, 0);
+                    p.ownWeapon.Angr += 2;
+                }
+            }
+            else 
+            {
+                if (p.enemyWeapon.Durability >= 1)
+                {
+                    p.enemyWeapon.Angr += 2;
+                    p.minionGetBuffed(p.enemyHero, 2, 0);
+                }
+            }
+        }
+
+        public override void onEnrageStop(Playfield p, Minion m)
+        {
+            if (m.own)
+            {
+                if (p.ownWeapon.Durability >= 1)
+                {
+                    p.minionGetBuffed(p.ownHero, -2, 0);
+                    p.ownWeapon.Angr -= 2;
+                }
+            }
+            else
+            {
+                if (p.enemyWeapon.Durability >= 1)
+                {
+                    p.enemyWeapon.Angr -= 2;
+                    p.minionGetBuffed(p.enemyHero, -2, 0);
+                }
+            }
+        }
+
 	}
+
 }

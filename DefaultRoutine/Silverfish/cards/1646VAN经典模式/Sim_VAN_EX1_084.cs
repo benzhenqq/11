@@ -4,11 +4,45 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_084 : SimTemplate //* 战歌指挥官 Warsong Commander
-	{
-		//Whenever you summon a minion with 3 or less Attack, give it <b>Charge</b>.
-		//每当你召唤一个攻击力小于或等于3的随从，使其获得<b>冲锋</b>。
-		
-		
+    class Sim_VAN_EX1_084 : SimTemplate //* Warsong Commander
+    {
+		//Your Charge minions have +1 Attack.
+
+        public override void onAuraStarts(Playfield p, Minion own)
+		{
+            if (own.own)
+            {
+                foreach (Minion m in p.ownMinions)
+                {
+                    if (m.charge > 0) p.minionGetBuffed(m, 1, 0);
+                }
+            }
+            else
+            {
+                foreach (Minion m in p.enemyMinions)
+                {
+                    if (m.charge > 0) p.minionGetBuffed(m, 1, 0);
+                }
+            }
+            
+		}
+
+        public override void onAuraEnds(Playfield p, Minion own)
+        {
+            if (own.own)
+            {
+                foreach (Minion m in p.ownMinions)
+                {
+                    if (m.charge > 0) p.minionGetBuffed(m, -1, 0);
+                }
+            }
+            else
+            {
+                foreach (Minion m in p.enemyMinions)
+                {
+                    if (m.charge > 0) p.minionGetBuffed(m, -1, 0);
+                }
+            }
+        }
 	}
 }

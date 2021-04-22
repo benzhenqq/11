@@ -4,11 +4,13 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_NEW1_008a : SimTemplate //* 古老的教诲 Ancient Teachings
+    class Sim_VAN_NEW1_008a : SimTemplate //* Ancient Teachings
 	{
-		//Draw 2 cards.
-		//抽两张牌。
-		
-		
-	}
+        //Draw a card.
+
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            p.drawACard(CardDB.cardIDEnum.None, ownplay);
+        }
+    }
 }

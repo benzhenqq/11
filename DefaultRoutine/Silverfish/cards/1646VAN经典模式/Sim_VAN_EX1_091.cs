@@ -4,11 +4,25 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_091 : SimTemplate //* 秘教暗影祭司 Cabal Shadow Priest
+    class Sim_VAN_EX1_091 : SimTemplate //* Cabal Shadow Priest
 	{
-		//<b>Battlecry:</b> Take control of an enemy minion that has 2 or less Attack.
-		//<b>战吼：</b>获得一个攻击力小于或等于2的敌方随从的控制权。
-		
-		
+        //Battlecry: Take control of an enemy minion that has 2 or less Attack.
+
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+        {
+            if (target != null)
+            {
+                List<Minion> temp = (own.own) ? p.ownMinions : p.enemyMinions;
+                int num = temp.Count;
+                p.minionGetControlled(target, own.own, false, true);
+                if (num < 7)
+                {
+                    foreach (Minion m in temp)
+                    {
+                        if (m.name == CardDB.cardName.knifejuggler && !m.silenced) m.handcard.card.sim_card.onMinionWasSummoned(p, m, temp[num]);
+                    }
+                }
+            }
+		}
 	}
 }

@@ -4,11 +4,16 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_080 : SimTemplate //* 刺客之刃 Assassin's Blade
+	class Sim_VAN_CS2_080 : SimTemplate //assassinsblade
 	{
-		//
-		//
-		
-		
+
+//
+        CardDB.Card w = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.CS2_080);
+
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            p.equipWeapon(w, ownplay);
+        }
+
 	}
 }

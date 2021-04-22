@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_594 : SimTemplate //* 蒸发 Vaporize
+	class Sim_VAN_EX1_594 : SimTemplate //vaporize
 	{
-		//<b>Secret:</b> When a minion attacks your hero, destroy it.
-		//<b>奥秘：</b>当一个随从攻击你的英雄，将其消灭。
-		
-		
+        //todo secret
+//    geheimnis:/ wenn ein diener euren helden angreift, wird er vernichtet.
+        public override void onSecretPlay(Playfield p, bool ownplay, Minion target, int number)
+        {
+            p.minionGetDestroyed(target);
+        }
+
 	}
+
 }

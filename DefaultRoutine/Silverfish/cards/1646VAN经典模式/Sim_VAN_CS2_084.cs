@@ -4,11 +4,14 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_084 : SimTemplate //* 猎人印记 Hunter's Mark
+	class Sim_VAN_CS2_084 : SimTemplate //* huntersmark
 	{
-		//Change a minion's Health to 1.
-		//使一个随从的生命值变为1。
-		
-		
+        //Change a minion's Health to 1.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionSetLifetoX(target, 1);
+		}
+
 	}
 }

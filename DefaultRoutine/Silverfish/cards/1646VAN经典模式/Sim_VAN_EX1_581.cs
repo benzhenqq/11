@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_581 : SimTemplate //* 闷棍 Sap
+	class Sim_VAN_EX1_581 : SimTemplate //sap
 	{
-		//Return an enemy minion to your opponent's hand.
-		//将一个敌方随从移回你对手的手牌。
-		
-		
+
+//    lasst einen feindlichen diener auf die hand eures gegners zurückkehren.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionReturnToHand(target, !ownplay, 0);
+		}
+
 	}
 }

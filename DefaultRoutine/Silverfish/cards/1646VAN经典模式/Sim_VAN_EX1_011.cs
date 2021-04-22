@@ -4,11 +4,16 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_011 : SimTemplate //* 巫医 Voodoo Doctor
+	class Sim_VAN_EX1_011 : SimTemplate //voodoodoctor
 	{
-		//<b>Battlecry:</b> Restore #2_Health.
-		//<b>战吼：</b>恢复#2点生命值。
-		
-		
+
+//    kampfschrei:/ stellt 2 leben wieder her.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            int heal = (own.own) ? p.getMinionHeal(2) : p.getEnemyMinionHeal(2);
+            p.minionGetDamageOrHeal(target, -heal);
+		}
+
+
 	}
 }

@@ -4,11 +4,17 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_238 : SimTemplate //* 闪电箭 Lightning Bolt
+	class Sim_VAN_EX1_238 : SimTemplate //lightningbolt
 	{
-		//Deal $3 damage. <b>Overload:</b> (1)
-		//造成$3点伤害，<b>过载：</b>（1）
-		
-		
+
+//    verursacht $3 schaden. überladung:/ (1)
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            int dmg = (ownplay) ? p.getSpellDamageDamage(3) : p.getEnemySpellDamageDamage(3);
+            p.minionGetDamageOrHeal(target, dmg);
+            if (ownplay) p.ueberladung++;
+		}
+
 	}
 }

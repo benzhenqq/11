@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_561 : SimTemplate //* 阿莱克丝塔萨 Alexstrasza
+	class Sim_VAN_EX1_561 : SimTemplate //alexstrasza
 	{
-		//<b>Battlecry:</b> Set a hero's remaining Health to 15.
-		//<b>战吼：</b>将一方英雄的剩余生命值变为15。
-		
-		
+
+//    kampfschrei:/ setzt das verbleibende leben eines helden auf 15.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            target.Hp = 15;
+		}
+
+
 	}
 }

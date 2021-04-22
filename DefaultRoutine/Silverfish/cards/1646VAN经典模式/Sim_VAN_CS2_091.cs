@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_091 : SimTemplate //* 圣光的正义 Light's Justice
+	class Sim_VAN_CS2_091 : SimTemplate //lightsjustice
 	{
-		//
-		//
-		
-		
+
+//
+        CardDB.Card w = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.CS2_091);
+
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            p.equipWeapon(w, ownplay);
+        }
 	}
 }

@@ -4,11 +4,14 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_196 : SimTemplate //* 剃刀猎手 Razorfen Hunter
+	class Sim_VAN_CS2_196 : SimTemplate //* razorfenhunter
 	{
-		//<b>Battlecry:</b> Summon a 1/1_Boar.
-		//<b>战吼：</b>召唤一个1/1的野猪。
-		
-		
+        //Battlecry: Summon a 1/1 Boar.
+        CardDB.Card kid = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.CS2_boar); //boar
+
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.callKid(kid, own.zonepos, own.own);
+		}
 	}
 }

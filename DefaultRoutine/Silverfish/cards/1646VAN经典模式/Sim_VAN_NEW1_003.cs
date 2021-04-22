@@ -4,11 +4,16 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_NEW1_003 : SimTemplate //* 牺牲契约 Sacrificial Pact
-	{
-		//Destroy a Demon. Restore #5 Health to your hero.
-		//消灭一个恶魔，为你的英雄恢复#5点生命值。
-		
-		
-	}
+    class Sim_VAN_NEW1_003 : SimTemplate //sacrificialpact
+    {
+
+        //    vernichtet einen dämon. stellt bei eurem helden #5 leben wieder her.
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            p.minionGetDestroyed(target);
+            int heal = (ownplay) ? p.getSpellHeal(5) : p.getEnemySpellHeal(5);
+            p.minionGetDamageOrHeal(ownplay ? p.ownHero : p.enemyHero, -heal);
+        }
+
+    }
 }

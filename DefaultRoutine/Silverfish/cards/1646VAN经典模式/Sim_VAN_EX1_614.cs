@@ -4,11 +4,19 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_614 : SimTemplate //* 伊利丹·怒风 Illidan Stormrage
+	class Sim_VAN_EX1_614 : SimTemplate //illidanstormrage
 	{
-		//Whenever you play a card, summon a 2/1 Flame of Azzinoth.
-		//每当你使用一张牌时，召唤一个2/1的埃辛诺斯之焰。
-		
-		
+        CardDB.Card d = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.EX1_614t);//flameofazzinoth
+//    beschwört jedes mal eine flamme von azzinoth (2/1), wenn ihr eine karte ausspielt.
+
+        public override void onCardIsGoingToBePlayed(Playfield p, Handmanager.Handcard hc, bool wasOwnCard, Minion triggerEffectMinion)
+        {
+            if (wasOwnCard == triggerEffectMinion.own)
+            {
+                    p.callKid(d, triggerEffectMinion.zonepos, triggerEffectMinion.own);
+
+            }
+        }
+
 	}
 }

@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_112 : SimTemplate //* 格尔宾·梅卡托克 Gelbin Mekkatorque
+	class Sim_VAN_EX1_112 : SimTemplate //gelbinmekkatorque
 	{
-		//<b>Battlecry:</b> Summon an AWESOME invention.
-		//<b>战吼：</b>召唤一项惊人的发明。
-		
-		
+        CardDB.Card kid = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.Mekka1);//homingchicken
+//    kampfschrei:/ konstruiert eine fantastische erfindung.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.callKid(kid, own.zonepos, own.own);
+		}
+
+
 	}
 }

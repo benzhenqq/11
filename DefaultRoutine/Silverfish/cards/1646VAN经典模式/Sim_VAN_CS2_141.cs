@@ -4,11 +4,16 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_141 : SimTemplate //* 铁炉堡火枪手 Ironforge Rifleman
+	class Sim_VAN_CS2_141 : SimTemplate //ironforgerifleman
 	{
-		//<b>Battlecry:</b> Deal 1 damage.
-		//<b>战吼：</b>造成1点伤害。
-		
-		
+
+//    kampfschrei:/ verursacht 1 schaden.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            int dmg = 1;
+            p.minionGetDamageOrHeal(target, dmg);
+		}
+
+
 	}
 }

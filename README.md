@@ -36,18 +36,36 @@
 标准套牌：AAECAZICApXkA6iKBA7ougOVzQO60AO80AOT0QPe0QPw1AP+2wPm4QP36AO+7APe7AOJnwSunwQA
 
 #####  标准模式骑士
-策略选择：标准骑士
+策略选择：骑士
+改版快攻（推荐）：AAECAYsWBvy4A+DRA47UA5HsA+fwA5qfBAz7uAPKwQOezQO/0QPK0QOL1QOF3gOR5APM6wPj6wPrnwTJoAQA
 新的快攻骑：AAECAYsWBPy4A47UA+fwA5qfBA37uAPKwQOezQO/0QPK0QPg0QOL1QOF3gOR5APM6wPj6wPrnwTJoAQA
 快攻：AAECAZ8FBITBA8DRA6iKBMigBA3KuAP9uAPquQPruQPsuQPKwQOezQOfzQOD3gPM6wPO6wPP6wPb7gMA
 圣契：AAECAZ8FBo7UA4XeA4DsA9vuA5qfBOqfBAzKwQOezQPg0QOD3gOR5APM6wPO6wPP6wPj6wOr7APIoATJoAQA
 奥秘：AAECAYsWBo7UA4XeA4DsA9vuA+fwA+qfBAzKwQOezQPg0QOD3gOR5APM6wPO6wPP6wPj6wOr7APIoATJoAQA
+请按需要调整卡组构筑，魔像师卡扎库斯暂不支持
+
+##### 动物园
+经典套牌：AAEDAf0GAA/7lQTVlgTrlgTtlgSBoQSuoQSyoQS9oQTDoQTToQTuoQSdogSjogTUogTDowQA
+
+##### T7猎
+经典套牌：AAEDAR8CoZYE3KEEDtGWBNKWBPiWBLGXBIGhBLKhBLShBL2hBNGhBMuiBM2iBM+iBKKjBMOjBAA=
 
 #### 添加自定义策略（惩罚）简易教程
 1. 复制文件夹 Routines\DefaultRoutine\Silverfish\behavior\rush 到同级目录
 2. 修改 Behavior怼脸模式.cs 文件中 BehaviorRush 和 "怼脸模式" 为任意其他名称，比如想要组建鱼人萨的策略就可以把 BehaviorRush 替换为 Behavior鱼人萨，同时可以顺便把文件中 "怼脸模式" 修改为 "鱼人萨"
-3. 在 GetSpecialCardComboPenalty 函数中修改你的惩罚
+3. 在 GetSpecialCardComboPenalty 函数中修改你的惩罚，具体写法参考其他 Behavior
 4. 配置 _mulligan.txt，设置留牌策略
 5. 打开兄弟，在 配置->策略->策略模式切换 中选择你新加入的策略
 - 如有文件配置不理解，各级目录说明参考 http://blog.wjhwjhn.com/archives/16/
 - GetSpecialCardComboPenalty 函数中返回值为负数表示鼓励兄弟出这张卡，正数表示不推荐出这张卡，值越大程度越高，经典惩罚配置例子参考 https://www.cnblogs.com/dch0319/p/13353571.html
 - 卡基本上都有（指自动生成的空卡），配置惩罚的时候直接在 case "这里写需要加惩罚的卡牌的中文名称": 里面写就行
+
+#### 参考资料
+兄弟目录介绍，非常详细：http://blog.wjhwjhn.com/archives/16/
+炉石传说卡牌数据库：https://hs.fbigame.com/
+炉石大数据： https://hsreplay.net/
+留牌策略转文字：http://ls.varc.cn/
+大佬的博客：
+https://www.cnblogs.com/varc/
+https://www.cnblogs.com/chucklu/category/1519356.html
+https://www.cnblogs.com/dch0319/

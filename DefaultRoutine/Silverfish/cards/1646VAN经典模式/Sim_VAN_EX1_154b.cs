@@ -4,11 +4,19 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_154b : SimTemplate //* 自然之怒 Nature's Wrath
+	class Sim_VAN_EX1_154b : SimTemplate //wrath
 	{
-		//Deal $1 damage to a minion. Draw a card.
-		//对一个随从造成$1点伤害，抽一张牌。
-		
-		
+
+//    fügt einem diener $1 schaden zu. zieht eine karte.
+
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            int damage = (ownplay) ? p.getSpellDamageDamage(1) : p.getEnemySpellDamageDamage(1);
+            //this.owncarddraw++;
+
+            p.minionGetDamageOrHeal(target, damage);
+            p.drawACard(CardDB.cardIDEnum.None, ownplay);
+        }
+
 	}
 }

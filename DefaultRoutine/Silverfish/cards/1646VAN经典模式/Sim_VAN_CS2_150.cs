@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_150 : SimTemplate //* 雷矛特种兵 Stormpike Commando
+	class Sim_VAN_CS2_150 : SimTemplate //stormpikecommando
 	{
-		//<b>Battlecry:</b> Deal 2 damage.
-		//<b>战吼：</b>造成2点伤害。
-		
-		
+
+//    kampfschrei:/ verursacht 2 schaden.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.minionGetDamageOrHeal(target, 2);
+		}
+
+
 	}
 }

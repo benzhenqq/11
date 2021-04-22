@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_049 : SimTemplate //* 年轻的酒仙 Youthful Brewmaster
+	class Sim_VAN_EX1_049 : SimTemplate //youthfulbrewmaster
 	{
-		//<b>Battlecry:</b> Return a friendly minion from the battlefield to your hand.
-		//<b>战吼：</b>使一个友方随从从战场上移回你的手牌。
-		
-		
+
+//    kampfschrei:/ lasst einen befreundeten diener vom schlachtfeld auf eure hand zurückkehren.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            if(target != null) p.minionReturnToHand(target, target.own, 0);
+		}
+
+
 	}
 }

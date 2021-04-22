@@ -1,0 +1,6 @@
+//先使用优胜劣汰下回合再使用小丑，构成一套Combo
+SCH_609,10;DMF_163,20;mana:19;nxttrn;bonus:300;
+//先使用优胜劣汰再使用小丑，构成一套Combo
+SCH_609,0;DMF_078,20;mana:10;bonus:100;
+//先使用始生保护者再使用小丑，构成一套Combo
+BAR_042,0;DMF_078,20;mana:8;bonus:100;

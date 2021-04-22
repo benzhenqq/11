@@ -4,11 +4,17 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_278 : SimTemplate //* 毒刃 Shiv
+	class Sim_VAN_EX1_278 : SimTemplate //shiv
 	{
-		//Deal $1 damage.Draw a card.
-		//造成$1点伤害，抽一张牌。
-		
-		
+
+//    verursacht $1 schaden. zieht eine karte.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            int dmg = (ownplay) ? p.getSpellDamageDamage(1) : p.getEnemySpellDamageDamage(1);
+            p.minionGetDamageOrHeal(target, dmg);
+           p.drawACard(CardDB.cardIDEnum.None, ownplay);
+		}
+
 	}
 }

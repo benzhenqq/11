@@ -4,11 +4,16 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_334 : SimTemplate //* 暗影狂乱 Shadow Madness
+	class Sim_VAN_EX1_334 : SimTemplate //shadowmadness
 	{
-		//Gain control of an enemy minion with 3 or less Attack until end of turn.
-		//直到回合结束，获得一个攻击力小于或等于3的敌方随从的控制权。
-		
-		
+
+//    übernehmt bis zum ende des zuges die kontrolle über einen feindlichen diener mit max. 3 angriff.
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            target.shadowmadnessed = true;
+            p.shadowmadnessed++;
+            p.minionGetControlled(target, ownplay, true);
+		}
+
 	}
 }

@@ -4,11 +4,14 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_382 : SimTemplate //* 奥尔多卫士 Aldor Peacekeeper
+    class Sim_VAN_EX1_382 : SimTemplate //* Aldor Peacekeeper
 	{
-		//<b>Battlecry:</b> Change an_enemy minion's Attack to 1.
-		//<b>战吼：</b>使一个敌方随从的攻击力变为1。
-		
-		
+        //Battlecry: Change an enemy minion's Attack to 1.
+
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            if(target != null) p.minionSetAngrToX(target, 1);
+		}
+
 	}
 }

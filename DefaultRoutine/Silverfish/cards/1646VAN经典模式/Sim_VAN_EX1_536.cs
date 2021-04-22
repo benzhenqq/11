@@ -4,11 +4,17 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_536 : SimTemplate //* 鹰角弓 Eaglehorn Bow
+	class Sim_VAN_EX1_536 : SimTemplate //eaglehornbow
 	{
-		//Whenever a <b>Secret</b> is revealed, gain +1 Durability.
-		//每当一个<b>奥秘</b>被揭示时，便获得+1耐久度。
-		
-		
+
+//    erhält jedes mal +1 haltbarkeit, wenn ein eigenes geheimnis/ aufgedeckt wird.
+
+        CardDB.Card weapon = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.EX1_536);
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.equipWeapon(weapon, ownplay);
+		}
+
 	}
 }

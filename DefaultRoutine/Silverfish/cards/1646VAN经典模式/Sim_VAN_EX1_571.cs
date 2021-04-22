@@ -4,11 +4,19 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_571 : SimTemplate //* 自然之力 Force of Nature
+    class Sim_VAN_EX1_571 : SimTemplate //* Force of Nature
 	{
-		//Summon three 2/2 Treants with<b>Charge</b> that die at the end of the turn.
-		//召唤三个2/2并具有<b>冲锋</b>的树人，在回合结束时，消灭这些树人。
-		
-		
+        //Summon three 2/2 Treants.
+
+        CardDB.Card kid = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.EX1_158t);//Treant
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            int pos =(ownplay) ? p.ownMinions.Count : p.enemyMinions.Count;
+
+            p.callKid(kid, pos, ownplay, false);
+            p.callKid(kid, pos, ownplay);
+            p.callKid(kid, pos, ownplay);
+		}
 	}
 }

@@ -4,11 +4,14 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_108 : SimTemplate //* 斩杀 Execute
+	class Sim_VAN_CS2_108 : SimTemplate //execute
 	{
-		//Destroy a damaged enemy minion.
-		//消灭一个受伤的敌方随从。
-		
-		
+
+//    vernichtet einen verletzten feindlichen diener.
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionGetDestroyed(target);
+		}
+
 	}
 }

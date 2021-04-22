@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_NEW1_016 : SimTemplate //* 船长的鹦鹉 Captain's Parrot
+	class Sim_VAN_NEW1_016 : SimTemplate //captainsparrot
 	{
-		//<b>Battlecry:</b> Draw a Pirate from your deck.
-		//<b>战吼：</b>从你的牌库中抽一张海盗牌。
-		
-		
+
+//    kampfschrei:/ fügt eurer hand einen zufälligen piraten aus eurem deck hinzu.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.drawACard(CardDB.cardIDEnum.None, true, true);
+		}
+
+
 	}
 }

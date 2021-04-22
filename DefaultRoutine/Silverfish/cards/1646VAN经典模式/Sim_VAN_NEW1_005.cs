@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_NEW1_005 : SimTemplate //* 劫持者 Kidnapper
+	class Sim_VAN_NEW1_005 : SimTemplate //kidnapper
 	{
-		//<b>Combo:</b> Return a minion to_its owner's hand.
-		//<b>连击：</b>将一个随从移回其拥有者的手牌。
-		
-		
+
+//    combo:/ lasst einen diener auf die hand seines besitzers zurückkehren.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            if (p.cardsPlayedThisTurn >= 1) p.minionReturnToHand(target,target.own, 0);
+		}
+
+
 	}
 }

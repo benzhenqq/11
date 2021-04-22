@@ -4,11 +4,13 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_178b : SimTemplate //* 拔根 Uproot
+    class Sim_VAN_EX1_178b : SimTemplate //* Uproot
 	{
-		//+5 Attack.
-		//+5攻击力。
-		
-		
+        //+5 Attack.
+
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            p.minionGetBuffed(target, 5, 0);
+        }
 	}
 }

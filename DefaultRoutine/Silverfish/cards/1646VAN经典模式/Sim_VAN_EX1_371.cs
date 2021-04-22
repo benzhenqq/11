@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_371 : SimTemplate //* 保护之手 Hand of Protection
+	class Sim_VAN_EX1_371 : SimTemplate //handofprotection
 	{
-		//Give a minion <b>Divine Shield</b>.
-		//使一个随从获得<b>圣盾</b>。
-		
-		
+
+//    verleiht einem diener gottesschild/.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            target.divineshild = true;
+		}
+
 	}
 }

@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_015 : SimTemplate //* 工程师学徒 Novice Engineer
+	class Sim_VAN_EX1_015 : SimTemplate //noviceengineer
 	{
-		//<b>Battlecry:</b> Draw a card.
-		//<b>战吼：</b>抽一张牌。
-		
-		
+
+//    kampfschrei:/ zieht eine karte.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.drawACard(CardDB.cardIDEnum.None, own.own);
+		}
+
+
 	}
 }

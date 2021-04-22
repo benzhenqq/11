@@ -4,11 +4,17 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_007 : SimTemplate //* 治疗之触 Healing Touch
+	class Sim_VAN_CS2_007 : SimTemplate //healingtouch
 	{
-		//Restore #8 Health.
-		//恢复#8点生命值。
-		
-		
+
+//    stellt #8 leben wieder her.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            int heal = (ownplay) ? p.getSpellHeal(8) : p.getEnemySpellHeal(8);
+            p.minionGetDamageOrHeal(target, -heal);
+            
+		}
+
 	}
 }

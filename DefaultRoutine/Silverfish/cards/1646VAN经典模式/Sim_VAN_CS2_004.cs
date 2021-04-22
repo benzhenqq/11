@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_004 : SimTemplate //* 真言术：盾 Power Word: Shield
+	class Sim_VAN_CS2_004 : SimTemplate //powerwordshield
 	{
-		//Give a minion +2_Health.Draw a card.
-		//使一个随从获得+2生命值。抽一张牌。
-		
-		
+
+//    verleiht einem diener +2 leben.\nzieht eine karte.
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionGetBuffed(target, 0, 2);
+            p.drawACard(CardDB.cardIDEnum.None, ownplay);
+		}
+
 	}
 }

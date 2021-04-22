@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_165a : SimTemplate //* 猎豹形态 Cat Form
+    class Sim_VAN_EX1_165a : SimTemplate //* Cat Form
 	{
-		//<b>Charge</b>
-		//<b>冲锋</b>
-		
-		
+        //Charge
+
+        CardDB.Card cat = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.EX1_165t1);
+
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            p.minionTransform(target, cat);
+        }
 	}
 }

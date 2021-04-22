@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_093 : SimTemplate //* 奉献 Consecration
+	class Sim_VAN_CS2_093 : SimTemplate //consecration
 	{
-		//Deal $2 damage to all enemies.
-		//对所有敌人造成$2点伤害。
-		
-		
+
+//    fügt allen feinden $2 schaden zu.
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            int dmg = (ownplay) ? p.getSpellDamageDamage(2) : p.getEnemySpellDamageDamage(2);
+            p.allCharsOfASideGetDamage(!ownplay, dmg);
+		}
+
 	}
 }

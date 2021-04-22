@@ -4,11 +4,13 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_169 : SimTemplate //* 激活 Innervate
+    class Sim_VAN_EX1_169 : SimTemplate //* Innervate
 	{
-		//Gain 2 Mana Crystals this turn only.
-		//在本回合中，获得两个法力水晶。
-		
-		
+        //Gain 1 Mana Crystal this turn only.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.mana = Math.Min(p.mana + 2, 10);
+		}
 	}
 }

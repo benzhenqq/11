@@ -4,11 +4,14 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_151 : SimTemplate //* 白银之手骑士 Silver Hand Knight
+	class Sim_VAN_CS2_151 : SimTemplate //silverhandknight
 	{
-		//<b>Battlecry:</b> Summon a 2/2_Squire.
-		//<b>战吼：</b>召唤一个2/2的侍从。
-		
-		
+        CardDB.Card kid = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.CS2_152);//squire
+//    kampfschrei:/ ruft einen knappen (2/2) herbei.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            p.callKid(kid, own.zonepos, own.own);
+		}
+
 	}
 }

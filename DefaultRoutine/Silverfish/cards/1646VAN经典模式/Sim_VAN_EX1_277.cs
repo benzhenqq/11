@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_277 : SimTemplate //* 奥术飞弹 Arcane Missiles
-	{
-		//Deal $3 damage randomly split among all enemy characters.
-		//造成$3点伤害，随机分配到所有敌方角色身上。
-		
-		
-	}
+    class Sim_VAN_EX1_277 : SimTemplate //* Arcane Missiles
+    {
+        
+        //Deal $3 damage randomly split among all enemies.
+
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            int times = (ownplay) ? p.getSpellDamageDamage(3) : p.getEnemySpellDamageDamage(3);
+            p.allCharsOfASideGetRandomDamage(!ownplay, times);
+        }
+    }
 }

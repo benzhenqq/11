@@ -4,11 +4,14 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_104 : SimTemplate //* 狂暴 Rampage
+	class Sim_VAN_CS2_104 : SimTemplate //rampage
 	{
-		//Give a damaged minion +3/+3.
-		//使一个受伤的随从获得+3/+3。
-		
-		
+
+//    verleiht einem verletzten diener +3/+3.
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionGetBuffed(target, 3, 3);
+		}
+
 	}
 }

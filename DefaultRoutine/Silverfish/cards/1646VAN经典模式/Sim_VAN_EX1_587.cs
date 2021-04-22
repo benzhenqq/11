@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_587 : SimTemplate //* 风语者 Windspeaker
+	class Sim_VAN_EX1_587 : SimTemplate //windspeaker
 	{
-		//<b>Battlecry:</b> Give a friendly minion <b>Windfury</b>.
-		//<b>战吼：</b>使一个友方随从获得<b>风怒</b>。
-		
-		
+
+//    kampfschrei:/ verleiht einem befreundeten diener windzorn/.
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            if (target != null) p.minionGetWindfurry(target);
+		}
+
+
 	}
 }

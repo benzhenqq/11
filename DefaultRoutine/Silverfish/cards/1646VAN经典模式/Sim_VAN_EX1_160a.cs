@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_160a : SimTemplate //* 召唤猎豹 Summon a Panther
+	class Sim_VAN_EX1_160a : SimTemplate //* summonapanther
 	{
-		//Summon a 3/2 Panther.
-		//召唤一只3/2的猎豹。
-		
-		
+        //Summon a 3/2 Panther.
+        CardDB.Card kid = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.EX1_160t);//panther
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            int pos = (ownplay) ? p.ownMinions.Count : p.enemyMinions.Count;
+            p.callKid(kid, pos, ownplay, false);
+		}
 	}
 }

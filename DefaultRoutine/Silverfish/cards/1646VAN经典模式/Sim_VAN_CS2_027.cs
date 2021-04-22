@@ -4,11 +4,17 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_027 : SimTemplate //* 镜像 Mirror Image
+	class Sim_VAN_CS2_027 : SimTemplate //* mirrorimage
 	{
-		//Summon two 0/2 minions with <b>Taunt</b>.
-		//召唤两个0/2，并具有<b>嘲讽</b>的随从。
+        //Summon two 0/2 minions with Taunt.
 		
+        CardDB.Card kid = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.CS2_mirror);
 		
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            int pos = (ownplay) ? p.ownMinions.Count : p.enemyMinions.Count;            
+            p.callKid(kid, pos, ownplay, false);
+            p.callKid(kid, pos, ownplay);
+		}
 	}
 }

@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_335 : SimTemplate //* 光耀之子 Lightspawn
+	class Sim_VAN_EX1_335 : SimTemplate //lightspawn
 	{
-		//This minion's Attack is always equal to its Health.
-		//该随从的攻击力始终等同于其生命值。
-		
-		
+
+//    der angriff dieses dieners entspricht immer seinem leben.
+        //todo dont buff this!
+		public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+		{
+            own.Angr = own.Hp;
+		}
+
 	}
 }

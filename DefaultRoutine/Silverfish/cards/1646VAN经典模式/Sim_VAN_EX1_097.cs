@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_097 : SimTemplate //* 憎恶 Abomination
+	class Sim_VAN_EX1_097 : SimTemplate //abomination
 	{
-		//<b>Taunt</b>. <b>Deathrattle:</b> Deal 2damage to ALL characters.
-		//<b>嘲讽，亡语：</b>对所有角色造成2点伤害。
-		
-		
+
+//    spott/. todesröcheln:/ fügt allen charakteren 2 schaden zu.
+
+        public override void onDeathrattle(Playfield p, Minion m)
+        {
+            p.allCharsGetDamage(2);
+        }
+
 	}
 }

@@ -19,5 +19,24 @@ namespace HREngine.Bots
                 Helpfunctions.Instance.ErrorLog(card.卡名 + content + pen+"");
             }
         }
+
+        public static void printNowVal(){
+            Playfield p = new Playfield(); 
+            // 输出当前场面价值判定
+            String enemyVal = "敌方场面：";
+            String myVal = "我方场面（以敌方视角论）：";
+            foreach (Minion m in p.enemyMinions)
+            {
+                enemyVal += m.handcard.card.卡名 + "威胁: " + Ai.Instance.botBase.getEnemyMinionValue(m, p) + "; ";
+                //hasTank = hasTank || m.taunt;
+            }
+            foreach (Minion m in p.ownMinions)
+            {
+                myVal += m.handcard.card.卡名 + "威胁: " + Ai.Instance.botBase.getEnemyMinionValue(m, p) + "; ";
+                //hasTank = hasTank || m.taunt;
+            }
+            Helpfunctions.Instance.ErrorLog(enemyVal);
+            Helpfunctions.Instance.ErrorLog(myVal);
+        }
     }
 }

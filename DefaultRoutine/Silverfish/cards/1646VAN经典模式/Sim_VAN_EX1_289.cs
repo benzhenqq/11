@@ -4,11 +4,17 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_289 : SimTemplate //* 寒冰护体 Ice Barrier
+	class Sim_VAN_EX1_289 : SimTemplate //icebarrier
 	{
-		//[x]<b>Secret:</b> As soon as yourhero is attacked, gain8 Armor.
-		//<b>奥秘：</b>当你的英雄受到攻击时，获得8点护甲值。
-		
-		
+
+        //todo secret
+//    geheimnis:/ wenn euer held angegriffen wird, erhält er 8 rüstung.
+        public override void onSecretPlay(Playfield p, bool ownplay, Minion target, int number)
+        {
+            
+            p.minionGetArmor(target, 8);
+        }
+
 	}
+
 }

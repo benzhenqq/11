@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_246 : SimTemplate //* 妖术 Hex
+	class Sim_VAN_EX1_246 : SimTemplate //hex
 	{
-		//Transform a minion into a 0/1 Frog with <b>Taunt</b>.
-		//使一个随从变形成为一只0/1并具有<b>嘲讽</b>的青蛙。
-		
-		
+        CardDB.Card card = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.hexfrog);
+//    verwandelt einen diener in einen frosch (0/1) mit spott/.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionTransform(target, card);
+		}
+
 	}
 }

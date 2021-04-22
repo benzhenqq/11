@@ -4,11 +4,16 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_023 : SimTemplate //* 奥术智慧 Arcane Intellect
+	class Sim_VAN_CS2_023 : SimTemplate //arcaneintellect
 	{
-		//Draw 2 cards.
-		//抽两张牌。
-		
-		
+
+//    zieht 2 karten.
+
+		public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.drawACard(CardDB.cardIDEnum.None, ownplay);
+            p.drawACard(CardDB.cardIDEnum.None, ownplay);
+		}
+
 	}
 }

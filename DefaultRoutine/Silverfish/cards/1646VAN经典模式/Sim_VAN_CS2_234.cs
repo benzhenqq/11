@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_CS2_234 : SimTemplate //* 暗言术：痛 Shadow Word: Pain
+	class Sim_VAN_CS2_234 : SimTemplate //shadowwordpain
 	{
-		//Destroy a minion with 3_or less Attack.
-		//消灭一个攻击力小于或等于3的随从。
-		
-		
+
+//    vernichtet einen diener mit max. 3 angriff.
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+		{
+            p.minionGetDestroyed(target);
+		}
+
+
 	}
 }

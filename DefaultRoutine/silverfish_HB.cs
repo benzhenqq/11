@@ -367,7 +367,9 @@ namespace HREngine.Bots
             }
 
             p = new Playfield(); 
-            
+
+            printUtils.printNowVal();            
+
             Helpfunctions.Instance.ErrorLog("AI计算中，请稍候... " + DateTime.Now.ToString("HH:mm:ss.ffff"));
             
             

@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_019 : SimTemplate //* 破碎残阳祭司 Shattered Sun Cleric
-	{
-		//<b>Battlecry:</b> Give a friendly minion +1/+1.
-		//<b>战吼：</b>使一个友方随从获得+1/+1。
-		
-		
-	}
+    class Sim_VAN_EX1_019 : SimTemplate //shatteredsuncleric
+    {
+
+        //    kampfschrei:/ verleiht einem befreundeten diener +1/+1.
+        public override void getBattlecryEffect(Playfield p, Minion own, Minion target, int choice)
+        {
+            if (target != null) p.minionGetBuffed(target, 1, 1);
+        }
+
+
+    }
 }

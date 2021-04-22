@@ -4,11 +4,15 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_577 : SimTemplate //* 比斯巨兽 The Beast
+	class Sim_VAN_EX1_577 : SimTemplate //* thebeast
 	{
-		//<b>Deathrattle:</b> Summon a 3/3 Finkle Einhorn for your opponent.
-		//<b>亡语：</b>为你的对手召唤1个3/3的芬克·恩霍尔。
-		
-		
+        //Deathrattle: Summon a 3/3 Finkle Einhorn for your opponent.
+
+        CardDB.Card c = CardDB.Instance.getCardDataFromID(CardDB.cardIDEnum.EX1_finkle);//finkleeinhorn
+        public override void onDeathrattle(Playfield p, Minion m)
+        {
+            int pos = (m.own) ? p.enemyMinions.Count : p.ownMinions.Count;
+            p.callKid(c, pos, !m.own);
+        }
 	}
 }

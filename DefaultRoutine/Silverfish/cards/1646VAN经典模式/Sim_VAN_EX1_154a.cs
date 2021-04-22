@@ -4,11 +4,18 @@ using System.Text;
 
 namespace HREngine.Bots
 {
-	class Sim_VAN_EX1_154a : SimTemplate //* 阳炎之怒 Solar Wrath
+	class Sim_VAN_EX1_154a : SimTemplate //wrath
 	{
-		//Deal $3 damage to a minion.
-		//对一个随从造成$3点伤害。
-		
-		
+
+//    fügt einem diener $3 schaden zu.
+
+        public override void onCardPlay(Playfield p, bool ownplay, Minion target, int choice)
+        {
+            int damage = 0;
+            damage = (ownplay) ? p.getSpellDamageDamage(3) : p.getEnemySpellDamageDamage(3);
+
+            p.minionGetDamageOrHeal(target, damage);
+        }
+
 	}
 }
