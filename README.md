@@ -47,8 +47,6 @@
 ##### 动物园
 经典套牌：AAEDAf0GAA/7lQTVlgTrlgTtlgSBoQSuoQSyoQS9oQTDoQTToQTuoQSdogSjogTUogTDowQA
 
-##### T7猎
-经典套牌：AAEDAR8CoZYE3KEEDtGWBNKWBPiWBLGXBIGhBLKhBLShBL2hBNGhBMuiBM2iBM+iBKKjBMOjBAA=
 
 #### 添加自定义策略（惩罚）简易教程
 1. 复制文件夹 Routines\DefaultRoutine\Silverfish\behavior\rush 到同级目录
