@@ -875,6 +875,8 @@ namespace HREngine.Bots
                     case CardDB.cardIDEnum.TU4c_008e: this.tempAttack += 8; continue;
                     case CardDB.cardIDEnum.CS2_045e: this.tempAttack += 3; continue;
                     case CardDB.cardIDEnum.CS2_188o: this.tempAttack += 2; continue;
+                    case CardDB.cardIDEnum.VAN_CS2_188: this.tempAttack += 2; continue;
+                    case CardDB.cardIDEnum.VAN_EX1_046: this.tempAttack += 2; continue;
                     case CardDB.cardIDEnum.CS2_017o: this.tempAttack += 1; continue;
 
 

@@ -10,7 +10,7 @@ namespace HREngine.Bots
         //    benachbarte diener haben +1 angriff.
         // note buff and debuff is handled by playfield (faster)
         // Handled in updateBoards()
-        /*
+        
         public override void onAuraStarts(Playfield p, Minion own)
         {
             if (own.own)
@@ -59,7 +59,7 @@ namespace HREngine.Bots
                     }
                 }
             }
-        }*/
+        }
 
 	}
 }
