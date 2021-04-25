@@ -11,7 +11,7 @@ enfacehp = 20;  // hp of enemy when your hero is allowed to attack the enemy fac
 weaponOnlyAttackMobsUntilEnfacehp = 3;
 
 maxwide = 1000;   // number of boards which are taken to the next deep-lvl
-playaround = true;  // play around some enemys aoe-spells
+playaround = false;  // play around some enemys aoe-spells
 // these two parameters are value between 0 and 100 (0 <= Your_Value <= 100)
 playaroundprob = 50;    // probability where the enemy NOT plays the aoe-spell: 100 - enemy never plays aoe-spell, 0 - always uses
 playaroundprob2 = 80;   // probability where the enemy plays the aoe-spell, and your minions will survive: 100 - always survive, 0 - never(survival depends on their real HP)

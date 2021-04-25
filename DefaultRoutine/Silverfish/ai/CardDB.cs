@@ -1214,7 +1214,8 @@ namespace HREngine.Bots
                         int costBonusM = 0;
                         foreach (Minion m in p.ownMinions)
                         {
-                            if ((TAG_RACE)m.handcard.card.race == TAG_RACE.MURLOC) costBonusM++;
+                            // 考虑融合怪
+                            if ((TAG_RACE)m.handcard.card.race == TAG_RACE.MURLOC || m.handcard.card.race == 26) costBonusM++;
                         }
                         retval = retval + offset - costBonusM + p.anzOwnMurlocStarted;
                         break;

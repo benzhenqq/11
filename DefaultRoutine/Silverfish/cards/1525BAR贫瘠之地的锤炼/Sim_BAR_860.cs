@@ -15,6 +15,7 @@ namespace HREngine.Bots
 				// 我方打出鱼人
 				if (triggerEffectMinion.own && hc.card.race == 14)
 				{
+					p.evaluatePenality -= 2;
 					p.allMinionOfASideGetDamage(!wasOwnCard, 1);        
 				}
 				// 敌方出牌，默认全是鱼人

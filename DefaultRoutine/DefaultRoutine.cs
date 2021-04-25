@@ -906,7 +906,6 @@ def Execute():
                 if (doEndTurn)
                 {
                     Helpfunctions.Instance.ErrorLog("回合结束");
-                    printUtils.printNowVal();
                     await TritonHs.EndTurn();
                     return;
                 }

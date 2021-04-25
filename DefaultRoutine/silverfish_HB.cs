@@ -368,9 +368,8 @@ namespace HREngine.Bots
 
             p = new Playfield(); 
 
-            printUtils.printNowVal();            
-
-            Helpfunctions.Instance.ErrorLog("AI计算中，请稍候... " + DateTime.Now.ToString("HH:mm:ss.ffff"));
+            printUtils.printNowVal();
+            // Helpfunctions.Instance.ErrorLog("AI计算中，请稍候... " + DateTime.Now.ToString("HH:mm:ss.ffff"));
             
             
             using (TritonHs.Memory.ReleaseFrame(true))
@@ -379,7 +378,7 @@ namespace HREngine.Bots
                 Ai.Instance.dosomethingclever(botbase);    
             }
 
-            Helpfunctions.Instance.ErrorLog("计算完成! " + DateTime.Now.ToString("HH:mm:ss.ffff"));
+            // Helpfunctions.Instance.ErrorLog("计算完成! " + DateTime.Now.ToString("HH:mm:ss.ffff"));
             if (sttngs.printRules > 0)
             {
                 String[] rulesStr = Ai.Instance.bestplay.rulesUsed.Split('@');

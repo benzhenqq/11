@@ -8,7 +8,14 @@ namespace HREngine.Bots
 	{
 		//After you summon a Murloc, give it +1 Attack and <b>Rush</b>.
 		//在你召唤一个鱼人后，使其获得+1攻击力和<b>突袭</b>。
-		
-		
+		public override void onMinionWasSummoned(Playfield p, Minion m, Minion summonedMinion)
+		{
+			if((TAG_RACE)summonedMinion.handcard.card.race == TAG_RACE.MURLOC && summonedMinion.playedFromHand && summonedMinion.own == m.own )
+			{
+				// Helpfunctions.Instance.ErrorLog("斥候buff"+summonedMinion.handcard.card.卡名);
+           		p.minionGetBuffed(summonedMinion, 1, 0);
+				p.minionGetRush(summonedMinion);
+			}
+		}
 	}
 }

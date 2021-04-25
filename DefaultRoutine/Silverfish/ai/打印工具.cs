@@ -21,6 +21,9 @@ namespace HREngine.Bots
         }
 
         public static void printNowVal(){
+            if(!printNextMove){
+                return;
+            }
             Playfield p = new Playfield(); 
             // 输出当前场面价值判定
             String enemyVal = "[敌方场面] ";

@@ -550,7 +550,10 @@
                 this.spellpowerStarted += m.handcard.card.spellpowervalue;
                 this.spellpower = this.spellpowerStarted;
                 if (m.taunt) anzOwnTaunt++;
-
+                
+                // 计算鱼人恩典
+                if (m.handcard.card.race == 14 || m.handcard.card.race == 26) this.anzOwnMurlocStarted++;
+               
                 switch (m.name)
                 {
                     case CardDB.cardName.blackwaterpirate:
@@ -735,7 +738,7 @@
 
                 if (m.name == CardDB.cardName.dragonconsort && anzOwnDragonConsort > 0) this.anzOwnDragonConsortStarted++;
                 if (m.handcard.card.race == 23) this.anzOwnPiratesStarted++;
-                if (m.handcard.card.race == 14) this.anzOwnMurlocStarted++;
+                // if (m.handcard.card.race == 14) this.anzOwnMurlocStarted++;
 
             }
 

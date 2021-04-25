@@ -3,9 +3,9 @@ using System;
 
 namespace HREngine.Bots
 {
-    public class Behavior动物园 : Behavior
+    public class Behavior狂野鱼人萨 : Behavior
     {
-        public override string BehaviorName() { return "动物园"; }
+        public override string BehaviorName() { return "狂野鱼人萨"; }
         PenalityManager penman = PenalityManager.Instance;
         // 核心，场面值
         public override float getPlayfieldValue(Playfield p)
@@ -89,11 +89,11 @@ namespace HREngine.Bots
             }
             if (p.ownMaxMana < 4)
             {
-                retval += p.owncarddraw * 5;
+                retval += p.owncarddraw * 2;
             }
             else
             {
-                retval += p.owncarddraw * 8;
+                retval += p.owncarddraw * 5;
             }
             // 卡差
             // if (p.owncarddraw + 1 >= p.enemycarddraw) retval -= p.enemycarddraw * 7;
@@ -125,7 +125,7 @@ namespace HREngine.Bots
             // 使用硬币
             int usecoin = 0;
             //soulfire etc
-            int deletecardsAtLast = 0;
+            // int deletecardsAtLast = 0;
             int wasCombo = 0;
             bool firstSpellToEnHero = false;
             // 出牌序列数量
@@ -157,10 +157,10 @@ namespace HREngine.Bots
                 if(i == 0) {
                     switch(a.card.card.卡名){
                         // 排序优先
-                        case "生命分流":
-                            retval ++;
-                            break;
-                        case "飞刀杂耍者":
+                        case "甜水鱼人斥候":
+                        case "鱼人招潮者":
+                        case "下水道渔人":
+                        case "火焰术士弗洛格尔":
                             retval ++;
                             break;
                     }
@@ -210,7 +210,7 @@ namespace HREngine.Bots
                 if (p.manaTurnEnd + usecoin > 10) retval -= 5 * usecoin;
             }
             // 法力水晶还剩下 2 个并且还能用英雄技能
-            if (p.manaTurnEnd >= 2 && !useAbili && p.ownAbilityReady)
+            if (p.manaTurnEnd >= p.ownHeroAblility.manacost && !useAbili && p.ownAbilityReady)
             {
                 switch (p.ownHeroAblility.card.name)
                 {
@@ -259,10 +259,10 @@ namespace HREngine.Bots
             }
             // if (usecoin && p.mana >= 1) retval -= 20;
             // 尽量耗尽法力
-            retval -= p.manaTurnEnd;
-            if(p.manaTurnEnd == 1){
-                retval -= 10;
-            }
+            // retval -= p.manaTurnEnd;
+            // if(p.manaTurnEnd == 1 && !useAbili && p.ownAbilityReady){
+            //     retval -= 10;
+            // }
             // 手里的随从
             int mobsInHand = 0;
             int bigMobsInHand = 0;
@@ -342,13 +342,12 @@ namespace HREngine.Bots
         {
             int retval = 5;
             retval += m.Hp * 2;
-            retval +=  m.Angr * m.Hp / 8;
             if (!m.frozen && !(m.cantAttack && m.name != CardDB.cardName.argentwatchman))
             {
                 retval += m.Angr * 2;
                 if (m.windfury) retval += m.Angr * 2;
                 if (m.Angr > 4) retval += 20;
-                if (m.Angr > 7) retval += 40;                
+                if (m.Angr > 7) retval += 20;                
             }
 
             if (!m.handcard.card.isSpecialMinion)
@@ -379,59 +378,78 @@ namespace HREngine.Bots
 
             switch(m.handcard.card.卡名){
                 // 解不掉游戏结束
-                case "加基森拍卖师":
-                case "任务达人":
-                case "苔原犀牛":
+                case "巫师学徒":
+                case "塔姆辛·罗姆":
+                case "导师火心":
+                case "伊纳拉·碎雷":
+                case "暗影珠宝师汉纳尔":
+                case "伦萨克大王":
+                case "洛卡拉":
+                case "火焰术士弗洛格尔":
+                case "布莱恩·铜须":
+                case "观星者露娜":
+                case "大法师瓦格斯":
+                case "火妖":
+                case "下水道渔人":
+                case "对空奥术法师":
+                case "空中炮艇":
+                case "船载火炮":
                     retval += 100;
                     break;
-                // 解不掉大劣势
-                case "飞刀杂耍者":
-                case "迦顿男爵":
-                case "大法师安东尼达斯":
-                case "巫师学徒":
-                case "火舌图腾":
-                case "法力之潮图腾":
-                    retval += 20;
+                // 不解巨大劣势
+                case "甩笔侏儒":
+                case "聒噪怪":
+                case "精英牛头人酋长，金属之神":
+                case "科卡尔驯犬者":
+                case "巡游领队":
+                case "团队核心":
+                case "螃蟹骑士":
+                case "前沿哨所":
+                case "莫尔杉哨所":
+                case "凯瑞尔·罗姆":
+                case "鱼人领军":
+                case "南海船长":
+                case "末日预言者":
+                case "坎雷萨德·埃伯洛克":
+                case "人偶大师多里安":
+                case "甜水鱼人斥候":
+                case "暗鳞先知":
+                case "灭龙弩炮":
+                case "神秘女猎手":
+                case "鲨鳍后援":
+                case "怪盗图腾":
+                case "矮人神射手":
+                case "任务达人":
+                case "贪婪的书虫":
+                case "战马训练师":
+                case "相位追猎者":
+                case "鱼人宝宝车队":
+                case "科多兽骑手":
+                case "奥秘守护者":
+                    retval += 30;
                     break;
-                // 我劝你最好解了
-                case "北郡牧师":
-                case "狂野炎术士":
-                case "奥金尼灵魂祭司":
-                case "暴风城勇士":
-                case "法力浮龙":
-                case "雷欧克":
-                case "森林狼":
-                case "饥饿的秃鹫":
-                case "恐狼前锋":
-                case "食腐土狼":
-                case "先知维纶":
-                case "炎魔之王拉格纳罗斯":
-                case "铸甲师":
+                // 算有点用
+                case "战斗邪犬":
+                case "低阶侍从":
+
                     retval += 10;
                     break;
                 // 带点异能随手解一下吧
-                case "末日预言者":
-                case "年轻的女祭司":
+                case "锈水海盗":
                     retval += 3;
                     break;
-                // 大哥，求别解
-                case "希尔瓦娜斯":
-                    retval -= 10;
-                    break;                
             }
-            // 先减半。
-            retval = retval * 3 / 4;
             return retval;
         }
 
         public override int getMyMinionValue(Minion m, Playfield p)
         {
-            int retval = 5;
+            int retval = 2;
             retval += m.Hp * 2;
             if(!m.cantAttack || !m.Ready || !m.frozen){
-                retval += m.Angr * 2;
+                retval += m.Angr ;
             }else {
-                retval += m.Angr / 2;
+                retval += m.Angr / 4;
             }
             // 风怒价值
             if ((!m.playedThisTurn || m.rush == 1 || m.charge == 1 )  && m.windfury) retval += m.Angr;
@@ -443,12 +461,8 @@ namespace HREngine.Bots
             if (m.lifesteal) retval += m.Angr / 3 + 1;
             // 圣盾嘲讽
             if (m.divineshild && m.taunt) retval += 4;
-            retval += m.synergy;
-            switch(m.handcard.card.卡名){
-                case "飞刀杂耍者":
-                    retval += 5;
-                    break;
-            }
+            // retval += m.synergy;
+            // retval += getSpeicalCardVal(m.handcard.card);
             return retval;
         }
 
@@ -478,6 +492,7 @@ namespace HREngine.Bots
             { CardDB.cardName.fireblast, 7 },
             { CardDB.cardName.totemiccall, 1 },
             { CardDB.cardName.lifetap, 9 },
+            { CardDB.cardName.demonclaws, 10 },
             { CardDB.cardName.daggermastery, 5 },
             { CardDB.cardName.reinforce, 4 },
             { CardDB.cardName.armorup, 2 },
@@ -487,7 +502,7 @@ namespace HREngine.Bots
         public override int getAttackWithMininonPenality(Minion m, Playfield p, Minion target)
         {
             // 鼓励拥有智慧圣契的随从送死
-            // if(m.libramofwisdom > 0 && !target.isHero  && p.ownMinions.Count > 1){
+            // if(m.libramofwisdom > 0 && !target.isH
             //     if(target.Angr >= m.Hp) return - m.libramofwisdom * 10;
             //     return - m.libramofwisdom * 5;
             // }
@@ -499,9 +514,11 @@ namespace HREngine.Bots
             int pen = 0;
             switch (m.handcard.card.卡名)
             {
-                case "年轻的女祭司":
-                case "飞刀杂耍者":
-                case "恐狼前锋":
+                case "甜水鱼人斥候":
+                case "火焰术士弗洛格尔":
+                case "鱼人领军":
+                case "暗鳞先知":
+                case "下水道渔人":
                     if(!target.isHero) pen += 10;
                     break;
             }
@@ -509,90 +526,103 @@ namespace HREngine.Bots
             if(target.handcard.card.deathrattle){
                 pen += 10;
             }
+            // 剧毒
+            if( m.poisonous && m.handcard.card.卡名 != "火焰术士弗洛格尔" && !target.isHero ){
+                pen -= target.Angr * target.Hp;
+            }
             // 嫖一个圣盾
             if(target.divineshild && target.Angr == 1){
                 pen -= 5;
             }
             // 能击杀
-            if(!target.divineshild && (target.Hp == m.Angr || target.Hp == m.Angr - 1) ){
-                if(target.Hp == m.Angr - 1) pen += 5;
-                int targetVal = this.getEnemyMinionValue(target, p);
-                int myVal = this.getEnemyMinionValue(m, p);
-                if(m.divineshild){
-                    pen -= targetVal;
-                }
-                else if(m.Hp > target.Angr){
-                    pen -= targetVal / 2;
-                }
-                else if(m.Hp < 3){
-                    pen = pen + myVal - targetVal + 1;
+            if(!target.divineshild && target.Hp == m.Angr && target.Hp > 3){
+                if(m.divineshild || m.Hp > target.Angr || (m.Hp < 3 && target.Angr > 3)){
+                    pen -= target.Hp * 3;
                 }
             }
             return pen;
+        }
+
+        public int getSpeicalCardVal(CardDB.Card card){
+            switch (card.卡名)
+            {
+                case "甜水鱼人斥候":
+                case "火焰术士弗洛格尔":
+                case "鱼人领军":
+                case "暗鳞先知":
+                case "下水道渔人":
+                    return 20;
+            }
+            return 0;
         }
 
         public override int GetSpecialCardComboPenalty(CardDB.Card card, Minion target, Playfield p)
         {
             // 初始惩罚值
             int pen = 0;      
-            bool found = false;
-            // 飞刀在场上优先下怪
-            foreach (Minion m in p.ownMinions){
-                if( m.handcard.card.卡名 == "飞刀杂耍者" && card.type == CardDB.cardtype.MOB){
-                    pen --;
-                }
-            }
+            // pen += getSpeicalCardVal(card);
             switch (card.卡名)
             {
+                case "下水道渔人":
+                    if(p.enemyMinions.Count == 0) pen -= 10;
+                    pen -= 2;
+                    break;
+                case "火焰术士弗洛格尔":
+                    pen -= 2;
+                    break;
                 case "幸运币":
-                    return 5;
-                //-----------------------------超模补正-----------------------------------
-                // case "烈焰小鬼":
-                //     return -5;
-                // 亡语补正
-                case "麦田傀儡":
+                    if(p.ownMaxMana > 1) break;
+                    int cost1 = 0;
+                    int cost2 = 0;
+                    foreach(Handmanager.Handcard hc in p.owncards){
+                        if(hc.card.cost == 1) cost1 ++;
+                        else if(hc.card.cost == 2) cost2 ++;
+                    }
+                    if(cost2 == 0 || ( cost1 == 2 || cost1 == 3 )  ) pen += 20;
+                    if(cost2 == 1 && cost1 < 2) pen += 20;
+                    break;
+                case "石塘猎人":
+                    if(target == null) pen += 2;
+                    break;
+                case "冰钓术":
+                    if(p.owncards.Count > 3) pen += 20;
+                    break;
+                case "南海岸酋长":
+                    if(p.ownMinions.Count == 0) pen += 5;
+                    break;
+                case "寒光先知":
+                case "鱼人领军":
+                case "暗鳞先知":
+                    if(p.ownMinions.Count == 0) pen += 20;
+                    if(p.ownMinions.Count < 3) pen += 10;
+                    pen -= p.ownMinions.Count * 2;
+                    break;
+                case "鱼人招潮者":
                     pen -= 5;
                     break;
-                case "灵魂缠绕":
-                    if(target.Hp > 1)
-                        pen += 5;
-                    break;                        
-                //-----------------------------武器-----------------------------------
-                
-                //-----------------------------针对卡---------------------------------
-                //-----------------------------配合-----------------------------------
-                case "年轻的女祭司":
-                    if( p.enemyMinions.Count == 0 && p.ownMinions.Count > 0 ) pen -= 10;
-                    if( p.ownMinions.Count < 1 && p.ownMaxMana < 2) pen += 5;
+                case "毒鳍鱼人":
+                    if(target != null && target.handcard.card.卡名 == "火焰术士弗洛格尔") pen -= 30;
+                    else pen += 10;
                     break;
-                case "飞刀杂耍者":   
-                    if( p.ownMaxMana < 3 && p.enemyMinions.Count == 0 ) pen -= 20;
-                    // 白送
-                    else if(p.ownMinions.Count == 0 && p.enemyMinions.Count > 0 && p.mana == 2) pen += 10;
-                    break; 
-                case "末日守卫":  
-                    if(p.owncards.Count == 1) pen -= 20;
-                    else if(p.owncards.Count == 2) pen -= 10;
-                    else pen += 5;
-                    break; 
-                case "灵魂之火":   
-                    if( p.owncards.Count <= 1 ) pen -= 10;
-                    else pen += 15;
-                    break; 
-                //-----------------------------buff-----------------------------------
-                case "阿古斯防御者":
-                    if( p.ownMinions.Count > 1) pen -= 5;
+                case "鱼人恩典":
+                    if(p.ownMinions.Count >=4) pen -= 10 * p.ownMinions.Count;
                     break;
-                case "黑铁矮人":
-                    pen -= 3;
+                case "甜水鱼人斥候":
+                    pen -=10;
                     break;
-                
-                //-----------------------------英雄技能-----------------------------------
-                case "生命分流":
-                    pen -= 1;
+                case "鱼勇可贾":
+                    if(p.ownMinions.Count == 0) pen += 100;
+                    if(p.ownMinions.Count < 3) pen += 10;
+                    pen -= 2 * p.ownMinions.Count;
+                    break;
+                case "图腾召唤":
+                    pen += 1;
                     break;
             }
+            if(TAG_RACE.MURLOC == (TAG_RACE)card.race) pen -=1;
             return pen;
         }           
     }
 }
+
+
