@@ -1,6 +1,8 @@
 //奥秘法***********
 //暗金教侍从
 CFM_066;mage;None;Hold:1;/
+//疯狂的科学家
+FP1_004;mage;None;Hold:1;/
 //变形术野猪
 AT_005;mage;None;Discard:2;/
 //镜像实体
@@ -25,6 +27,7 @@ ULD_239;mage;thief;Hold:1;/
 ULD_239;mage;warlock;Hold:1;/
 ULD_239;mage;druid;Discard:2;/
 //变形药水
+CFM_620;mage;None;Hold:1;CFM_066/EX1_612/
 CFM_620;mage;None;Discard:2;/
 //复制
 FP1_018;mage;None;Discard:2;/
@@ -34,7 +37,7 @@ ULD_726;mage;None;Discard:2;/
 KAR_092;mage;None;Discard:2;/
 //老旧的火把
 LOE_002;mage;None;Discard:2;/
-//对空奥术法师
+//对空奥术法
 ULD_240;mage;None;Discard:2;/
 //艾露尼斯
 LOOT_108;mage;None;Hold:1;/
@@ -46,6 +49,3 @@ BT_003;mage;None;Discard:2;/
 //绿洲盟军
 BAR_812;mage;None;Hold:1;/CFM_066/EX1_612
 BAR_812;mage;None;Discard:2;/
-// 非公平游戏
-DMF_107;mage;None;Discard:2;/
-DMF_107;mage;None;Hold:1;/CFM_066/EX1_612

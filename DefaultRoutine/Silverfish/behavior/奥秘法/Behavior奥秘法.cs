@@ -19,7 +19,7 @@ namespace HREngine.Bots
             int aggroboarder = 11;
 
             retval -= p.evaluatePenality;
-            
+
             retval += p.ownQuest.questProgress * 10;
 
             retval += p.ownMaxMana;
@@ -29,7 +29,7 @@ namespace HREngine.Bots
             retval += (p.enemyHeroAblility.manacost - p.ownHeroAblility.manacost) * 4;
             if (p.ownHeroPowerAllowedQuantity != p.enemyHeroPowerAllowedQuantity)
             {
-                if(p.ownHeroPowerAllowedQuantity > p.enemyHeroPowerAllowedQuantity) retval += 3;
+                if (p.ownHeroPowerAllowedQuantity > p.enemyHeroPowerAllowedQuantity) retval += 3;
                 else retval -= 3;
             }
 
@@ -113,7 +113,7 @@ namespace HREngine.Bots
                 }
                 //if (!m.taunt && m.stealth && penman.specialMinions.ContainsKey(m.name)) retval += 20;
                 //if (m.poisonous) retval += 1;
-                if (m.lifesteal) retval += m.Angr/2;
+                if (m.lifesteal) retval += m.Angr / 2;
                 if (m.divineshild && m.taunt) retval += 4;
                 //if (m.taunt && m.handcard.card.name == CardDB.cardName.frog) owntaunt++;
                 //if (m.handcard.card.isToken && m.Angr <= 2 && m.Hp <= 2) retval -= 5;
@@ -213,15 +213,15 @@ namespace HREngine.Bots
                         {
                             foreach (Minion m in p.ownMinions)
                             {
-                                if (m.wounded) { wereTarget = true; break;}
+                                if (m.wounded) { wereTarget = true; break; }
                             }
                         }
                         if (wereTarget && !(p.anzOwnAuchenaiSoulpriest > 0 || p.embracetheshadow > 0)) retval -= 10;
                         break;
                     case CardDB.cardName.poisoneddaggers: goto case CardDB.cardName.daggermastery;
                     case CardDB.cardName.daggermastery:
-                         if (!(p.ownWeapon.Durability > 1 || p.ownWeapon.Angr > 1)) retval -= 10;
-                         break;
+                        if (!(p.ownWeapon.Durability > 1 || p.ownWeapon.Angr > 1)) retval -= 10;
+                        break;
                     case CardDB.cardName.totemicslam: goto case CardDB.cardName.totemiccall;
                     case CardDB.cardName.totemiccall:
                         if (p.ownMinions.Count < 7) retval -= 10;
@@ -233,14 +233,14 @@ namespace HREngine.Bots
                         if (p.ownMinions.Count < 7) retval -= 10;
                         else retval -= 3;
                         break;
-                    case CardDB.cardName.soultap: 
+                    case CardDB.cardName.soultap:
                         if (p.owncards.Count < 10 && p.ownDeckSize > 0) retval -= 10;
                         break;
-                    case CardDB.cardName.lifetap: 
+                    case CardDB.cardName.lifetap:
                         if (p.owncards.Count < 10 && p.ownDeckSize > 0)
                         {
                             retval -= 10;
-                            if (p.ownHero.immune) retval-= 5;
+                            if (p.ownHero.immune) retval -= 5;
                         }
                         break;
                     default:
@@ -335,7 +335,7 @@ namespace HREngine.Bots
                 else if (m.Angr <= 2 && m.Hp <= 2 && !m.divineshild) retval -= 5;
             }
             else retval += m.handcard.card.rarity;
-			
+
             if (m.taunt) retval += 5;
             if (m.divineshild) retval += m.Angr;
             if (m.divineshild && m.taunt) retval += 5;
@@ -360,7 +360,7 @@ namespace HREngine.Bots
 
         public override int getSirFinleyPriority(List<Handmanager.Handcard> discoverCards)
         {
-            
+
             return -1; //comment out or remove this to set manual priority
             int sirFinleyChoice = -1;
             int tmp = int.MinValue;
@@ -379,7 +379,7 @@ namespace HREngine.Bots
         private Dictionary<CardDB.cardName, int> SirFinleyPriorityList = new Dictionary<CardDB.cardName, int>
         {
             //{HeroPowerName, Priority}, where 0-9 = manual priority
-            { CardDB.cardName.lesserheal, 0 }, 
+            { CardDB.cardName.lesserheal, 0 },
             { CardDB.cardName.shapeshift, 6 },
             { CardDB.cardName.fireblast, 0 },
             { CardDB.cardName.totemiccall, 1 },
@@ -397,7 +397,8 @@ namespace HREngine.Bots
             int SecretAmount = 0;
             int KillCount = 0;
             bool zeroSecret = false;
-            int pen = 0;            
+            int pen = 0;
+            bool hasSecret = false;
             switch (card.卡名)
             {
                 case "暗金教水晶侍女":
@@ -418,15 +419,25 @@ namespace HREngine.Bots
                         return -7;
                 case "寒冰护体":
                 case "绿洲盟军":
+                    if (p.enemyMinions.Count >= 1 && p.ownMinions.Count >= 1) return -10;
+                    if (p.ownMinions.Count >= 1) return -6;
+                    return -5;
                 case "镜像实体":
                     return -5;
                 case "法术反制":
+                    if (p.enemyHeroName == HeroEnum.priest && p.enemyMaxMana >= 4) return -10;
+                    if (p.enemyHeroName == HeroEnum.warlock && p.enemyMaxMana >= 4) return -10;
+                    if (p.enemyMaxMana >= 7) return -10;
                     if (p.ownMinions.Count >= 2) return -7;
                     return -5;
                 case "火焰结界":
+                    foreach (Minion mi in p.enemyMinions)
+                    {
+                        if (mi.Hp <= 3 && p.enemyMinions.Count >= 2) return -25;
+                    }
                     if (p.enemyMinions.Count == 2) return -15;
-                    if (p.enemyMinions.Count >= 3) return -20;
-                    break;
+                    if (p.enemyMinions.Count >= 3) return -25;
+                    return -5;
                 case "爆炸符文":
                     if (p.enemyHero.Hp < 10) return -20;
                     else return -6;
@@ -544,7 +555,7 @@ namespace HREngine.Bots
                     if (zeroSecret) return 600;
                     break;
                 case "肯瑞托法师":
-                     zeroSecret = false;
+                    zeroSecret = false;
                     foreach (Handmanager.Handcard hc in p.owncards)
                     {
                         if (hc.card.Secret && hc.getManaCost(p) > 0 && hc.canplayCard(p, true)) return -60;
@@ -553,6 +564,15 @@ namespace HREngine.Bots
                     if (zeroSecret) return 500;
                     break;
                 case "远古谜团":
+                    zeroSecret = false;
+                    hasSecret = false;
+                    foreach (Handmanager.Handcard hc in p.owncards)
+                    {
+                        if (hc.card.Secret) hasSecret = true;
+                        if (hc.card.Secret && hc.getManaCost(p) == 0) zeroSecret = true;
+                    }
+                    if (!hasSecret) return -15;
+                    if (zeroSecret) return 10;
                     return -10;
                 case "疯狂的科学家":
                     return -10;
@@ -560,15 +580,23 @@ namespace HREngine.Bots
                     if (p.ownSecretsIDList.Count < 1) return 30;
                     return -10;
                 case "火焰冲击":
-                    if(target.Hp == 1) return -10;
+                    if (target.Hp == 1) return -10;
                     break;
                 case "火球":
                     if (p.ownMaxMana <= 4 && SecretAmount >= 1 && p.enemyMinions.Count < 1) return 29;
-                    if (target.isHero) return -1;
-                    if (p.enemyHero.Hp < 16) return 0;
-                    else return 6;              
+                    if (target.isHero && !target.own && p.enemyHero.Hp <= 12) return -13;
+                    if (target.isHero && !target.own) return -5;
+                    // if (p.enemyHero.Hp < 16) return 0;
+                    // else return 6;
+                    return 3;
                 case "云雾王子":
                     if (p.ownSecretsIDList.Count < 1) return 80;
+                    if (p.ownSecretsIDList.Count >= 1)
+                    {
+                        if (target.isHero && !target.own && p.enemyHero.Hp <= 12) return -20;
+                        if (target.isHero && !target.own) return -5;
+                        return 0;
+                    }
                     return -10;
                 case "隐秘咒术师":
                     if (p.ownSecretsIDList.Count < 1) return 30;
@@ -576,15 +604,16 @@ namespace HREngine.Bots
                 case "艾露尼斯":
                     if (p.owncards.Count > 6) return 500;
                     if (p.ownDeckSize < 6) return -15 * (p.ownDeckSize - 6);
-                    return -20 * (7 - p.owncards.Count);    
+                    return -20 * (7 - p.owncards.Count);
                 case "厄运信天翁":
                     if (p.enemyHero.Hp < 20) return -10;
                     break;
                 case "秘法学家":
-                    return -5;
+                    if (p.ownMaxMana >= 2 && p.ownMaxMana <= 6) return -8;
+                    return -10;
             }
             return pen;
-        }      
+        }
     }
 
 }
